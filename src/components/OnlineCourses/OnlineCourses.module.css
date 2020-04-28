@@ -1,0 +1,174 @@
+.OnlineCourses{
+    height : 170vh;
+    background-color: black;
+    font-family: 'Roboto';
+    display : flex;
+    flex-direction: column;
+}
+
+.descText{
+    width: 100%;
+    height : 38vh;
+    color : white;
+    text-align: center;
+    display : flex;
+    align-items : center;
+    justify-content: center;
+}
+.descText span{
+
+    /* transform: translateY(50%); */
+    font-size: 3.5rem;
+    font-weight: 300;
+}
+
+.Cards{
+    height : 70vh;
+    background-color: black;
+    width : 100%;
+    display : flex;
+    justify-content: space-evenly;
+    align-items : center;
+    font-family: 'Roboto';
+}
+.Cards div{
+    width : 21%;
+    background-color: black;
+    border : solid 2px black;
+    padding : 1%;
+    display : flex;
+    height : 90%;
+    border-radius : 8px;
+    justify-content: center;
+    align-items : center;
+    flex-direction: column;
+    color : white;
+}
+.Cards div .item1img{
+    width : 100%;
+    height : 40%;
+    background-color: black;
+    border: none;
+}
+.Cards div .item2img{
+    width : 100%;
+    height : 40%;
+    background-color: black;
+    border: none;
+}
+.Cards div .item3img{
+    width : 100%;
+    height : 40%;
+    background-color: black;
+    border: none;
+}
+.Cards div .item4img{
+    width : 100%;
+    height : 40%;
+    background-color: black;
+    border: none;
+}
+
+.Cards div .item1img img{
+    height : 100%;
+}
+.Cards div .item2img img{
+    height : 100%;
+}
+.Cards div .item3img img{
+    height : 100%;
+}
+.Cards div .item4img img{
+    height : 100%;
+}
+
+
+
+.Cards div .item1Content {
+    width : 100%;
+    display :flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    border: none;
+}
+.Cards div .item2Content {
+    width : 100%;
+    display :flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    border: none;
+}
+.Cards div .item3Content {
+    width : 100%;
+    display :flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    border: none;
+}
+.Cards div .item4Content {
+    width : 100%;
+    display :flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    border: none;
+}
+
+.Cards div .item1Content h2{
+    margin-top: 4%;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+.Cards div .item1Content p{
+    font-weight: 300;
+    font-size: 1rem;
+}
+.Cards div .item2Content h2{
+    margin-top: 4%;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+.Cards div .item2Content p{
+    font-weight: 300;
+    font-size: 1rem;
+}
+.Cards div .item3Content h2{
+    margin-top: 4%;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+.Cards div .item3Content p{
+    font-weight: 300;
+    font-size: 1rem;
+}
+.Cards div .item4Content h2{
+    margin-top: 4%;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+.Cards div .item4Content p{
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.Cards div:hover {
+    cursor : pointer;
+}
+
+.OnlineCourses .together{
+    color : white;
+    height : 62vh;
+    background-color: black;
+    display : flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.OnlineCourses .together span{
+    color : white;
+    font-size: 4rem;
+    font-weight: 100;
+}

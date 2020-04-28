@@ -1,0 +1,95 @@
+.Navbar {
+    position : fixed;
+    display : flex;
+    width : 100%;
+    height : 12vh;
+    background-color: white;
+    box-shadow: 0px 1px 8px rgb(224, 224, 224);
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    z-index : 100;
+}
+
+.Navbar .imageDiv {
+    height : 60%;
+    flex : 1;
+    text-align: center;
+}
+
+.Navbar .imageDiv img {
+    height : 100%;
+}
+.Navbar .imageDiv img:hover {
+    cursor : pointer;
+    height : 105%;
+}
+
+.Navbar ul {
+    flex : 4;
+    display : flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+    font-size: 0.8rem;
+    color : #B7ACAC;
+}
+
+.Navbar ul li{
+    display: inline;
+    text-decoration: none;
+    list-style: none;
+    padding : 5px;
+    text-align : center
+}
+.Navbar ul li:hover{
+    cursor : pointer;
+    color : black;
+}
+
+.Navbar .btnDiv {
+    flex : 4;
+    display: flex;
+    justify-content: right;
+    height : 100%;
+    align-items: center;
+}
+
+.btnApply {
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 1.1rem;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius : 5px;
+    color : black;
+    padding: 5px;
+    width : 20%;
+    
+}
+.btnApply:hover {
+    background-color: black;
+    color : white;
+    cursor : pointer;
+}
+
+.btnHire {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 1rem;
+    background-color: black;
+    border-radius: 5px;
+    border: none;
+    color : white;
+    padding: 8px;
+    width : 30%;
+    margin : 0 4%;
+    height : 40;
+    display : flex;
+    align-items : center;
+    justify-content: center;
+}
+.btnHire:hover{
+    background-color: white;
+    color : black;
+    cursor : pointer;
+    border : 2px solid black;
+}

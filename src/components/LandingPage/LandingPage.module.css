@@ -1,0 +1,102 @@
+.LandingMargin {
+    height : 12vh;
+    background-color: orange;
+}
+
+.LandingPage{
+    height : 80vh;
+    background-color: white;
+    display : flex;
+    background-color: blue;
+    font-family: 'Roboto';
+}
+
+.divWelcome {
+    background-color: white;
+    flex : 2;
+    display : flex;
+    padding-left : 15%;
+    justify-content : center;
+    flex-direction: column;
+    align-items : flex-start;
+}
+
+
+.welcomeTo {
+    font-weight: 400;
+    font-size : 2.3rem;
+}
+
+.codeAsylums{
+    font-weight: 700;
+    font-size : 4.1rem;
+}
+
+.detail1 {
+    color : #8E8E8E;
+    margin-top : 3%;
+    font-size : 1.2rem;
+}
+.detail2 {
+    color : #8E8E8E;
+    margin-top : 2%;
+    font-size: 0.9rem;
+}
+.detail3 {
+    color : #8E8E8E;
+    font-size: 0.9rem;
+}
+
+.btnGetStarted {
+    background-color: white;
+    border : solid 2px black;
+    color : black;
+    border-radius: 5px;
+    width : 30%;
+    height : 7%;
+    margin-top : 4%;
+    transition : background-color 230ms ease-in;
+    transition : color 230ms ease-in;
+}
+.btnGetStarted:hover{
+    background-color: black;
+    color : white;
+    cursor: pointer;
+}
+
+.divImage {
+    display : flex;
+    background-color: white;
+    flex : 4;
+    justify-content: center;
+    align-items : flex-start;
+}
+
+.divImage img{
+    width: 100%;
+    height : auto;
+    margin-top : 10%;
+}
+
+.Arrow {
+    height : 8vh;
+    text-align: center;
+}
+.Arrow img{
+    height : 60%;
+    transform: rotate(90deg);
+    transition : margin-top 230ms ease-in;
+}
+.Arrow img:hover{
+    margin-top: 0.6%;
+    animation : hoverAnimation 1s;
+}
+
+@keyframes hoverAnimation {
+    from {
+        transform : rotate(90deg);
+    }
+    to {
+        transform : rotate(450deg)
+    }
+}
