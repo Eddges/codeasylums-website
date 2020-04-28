@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,UAAU,CAAC;EACP,MAAM,EAAG,IAAI;EACb,KAAK,EAAG,IAAI;EACZ,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;CAK1B;;AATD,AAKI,UALM,CAKN,MAAM,CAAA;EACF,KAAK,EAAG,GAAG;EACX,gBAAgB,EAAE,OAAO;CAC5B",
+    "sources": [
+        "Placements.module.scss"
+    ],
+    "names": [],
+    "file": "Placements.module.css"
+}

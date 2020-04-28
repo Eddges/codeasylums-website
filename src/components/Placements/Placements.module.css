@@ -1,0 +1,16 @@
+.divImages {
+  height: auto;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.divImages .divBG {
+  width: 85%;
+  background-color: #EEEEEE;
+}
+/*# sourceMappingURL=Placements.module.css.map */

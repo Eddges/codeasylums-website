@@ -1,0 +1,51 @@
+.container{
+    width : 100%;
+    height : auto;
+    display: flex;
+    justify-content: center;
+    margin-top : 10%;
+}
+
+.bg{
+    width : 85%;
+    height : 100%;
+    background-color: black;
+    font-family : 'Roboto';
+    text-align: center;
+    padding : 0px 0px 200px 0px;
+    .advantage{
+        width : 100%;
+        color : white;
+        font-size: 4rem;
+        font-weight: 200;
+        margin-top: 10%;
+        text-align: center;
+    }
+    .left{
+        font-family: 'Raleway';
+        margin-top: 10%;
+        display : flex;
+        justify-content: center;
+        .content {
+            width: 40%;
+            color : white;
+            text-align: right;
+            padding : 0px 25px;
+            .Title {
+                font-size: 1.6rem;
+                font-weight: 600;
+                
+            }
+        }
+        .blank {
+            width : 40%;
+        }
+        .circle{
+            width : 10%;
+            width : 50px;
+            height : 50px;
+            background-color: white;
+            border-radius: 50%;
+        }
+    }
+}

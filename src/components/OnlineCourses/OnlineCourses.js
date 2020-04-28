@@ -56,8 +56,8 @@ const OnlineCourses = (props) => {
             </div>
 
             <div className={classes.together}>
-                <span>We code together</span>
-                <span>and grow together</span>
+                <span>&lt;We code together</span>
+                <span>and grow together /></span>
             </div>
         </div>
     )

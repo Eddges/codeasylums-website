@@ -1,0 +1,10 @@
+.image {
+  width: 12%;
+  margin: 5%;
+}
+
+.image:hover {
+  cursor: pointer;
+  width: 13%;
+}
+/*# sourceMappingURL=Company.module.css.map */

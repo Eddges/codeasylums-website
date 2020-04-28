@@ -10,7 +10,7 @@ const LandingPage = (props) => {
             <div className={classes.LandingPage}>
                 <div className={classes.divWelcome}>
                     <p className={classes.welcomeTo}>Welcome to</p>
-                    <p className={classes.codeAsylums}>CodeAsylums</p>
+                    <p className={classes.codeAsylums}>&lt;CodeAsylums /></p>
                     <p className={classes.detail1}>The best coding bootcamp in India</p>
                     <p className={classes.detail2}>Data Structures | Algorithms | Full-Stack Development</p>
                     <p className={classes.detail3}>Machine Learning | Data Science | DevOps</p>

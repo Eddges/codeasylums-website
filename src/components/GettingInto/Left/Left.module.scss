@@ -1,0 +1,28 @@
+.left{
+    font-family: 'Raleway';
+    margin-top: 10%;
+    display : flex;
+    justify-content: center;
+    box-sizing: border-box;
+    .content {
+        width: 38%;
+        color : white;
+        text-align: right;
+        padding : 0px 25px;
+        .Title {
+            font-size: 1.5rem;
+            font-weight: 600;
+            
+        }
+    }
+    .blank {
+        width : 38%;
+    }
+    .circle{
+        width : 24%;
+        width : 22px;
+        height : 22px;
+        background-color: white;
+        border-radius: 50%;
+    }
+}
