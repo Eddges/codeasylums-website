@@ -1,0 +1,62 @@
+.Testimonial {
+    width : 90%;
+    height : 90%;
+    background-color: white;
+    box-shadow: 0px 0px 18px rgb(134, 134, 134);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family : 'Roboto'; 
+    padding : 10px;
+    .Circle{
+        width : 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-color: #AEF4C2;
+    }
+    .Content{
+        font-family: 'Rajdhani';
+    }
+    .Name{
+        font-family: 'Rajdhani';
+        font-weight: 500;
+        font-size : 1.5rem;
+    }
+    .About {
+        font-family: 'Rajdhani';
+        font-weight: 500;
+    }
+}
+
+@media (max-width : 576px) {
+    .Testimonial{
+        .Circle{
+            margin: 10px 0px;
+        }
+        .Content{
+            margin : 8px 0px;
+        }
+    }
+}
+
+@media(min-width : 1800px) {
+    .Testimonial{
+        .Content{
+            padding : 0px 16px;
+            font-size: 1.4rem;
+        }
+        .About{
+            font-size: 1.6rem;
+        }
+        .Name{
+            font-size: 1.8rem;
+        }
+        .Circle{
+            width : 150px;
+            height : 150px;
+        }
+    }
+
+    
+}

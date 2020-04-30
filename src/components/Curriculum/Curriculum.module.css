@@ -1,0 +1,136 @@
+.Curriculum {
+  height: auto;
+  background-color: white;
+  width: 100%;
+  margin-top: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Roboto';
+}
+
+.Curriculum .BG {
+  margin-top: 50px;
+  width: 85%;
+  height: 100vh;
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 15px #d1d1d1;
+          box-shadow: 0px 0px 15px #d1d1d1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.Curriculum .BG .paraCurriculum {
+  width: 100%;
+  height: 25%;
+  font-size: 4.5rem;
+  font-weight: 200;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+}
+
+.Curriculum .BG .paraLearn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 10%;
+  text-align: center;
+  font-size: 1.7rem;
+  color: #9e9e9e;
+  font-weight: 300;
+}
+
+.Curriculum .BG .divCurriculumCards {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 85%;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Curriculum .BG .divCurriculumCards .Card {
+  width: 17%;
+  height: 60%;
+  background-color: #ECECEC;
+  border-radius: 18px;
+  padding: 10px 0px;
+  -webkit-box-shadow: 0px 5px 10px #afafaf;
+          box-shadow: 0px 5px 10px #afafaf;
+}
+
+@media (max-width: 576px) {
+  .Curriculum {
+    margin: 100px 0px;
+    width: 100vw;
+    height: auto;
+  }
+  .Curriculum .BG {
+    width: 90%;
+    height: auto;
+  }
+  .Curriculum .BG .paraCurriculum {
+    margin-top: 50px;
+    font-size: 3.6rem;
+  }
+  .Curriculum .BG .paraLearn {
+    font-size: 1.3rem;
+  }
+  .Curriculum .BG .divCurriculumCards {
+    margin: 50px 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .Curriculum .BG .divCurriculumCards .Card {
+    width: 80%;
+    height: 240px;
+    margin: 20px 0px;
+  }
+}
+
+@media (min-width: 1800px) {
+  .Curriculum .BG .paraCurriculum {
+    font-size: 6rem;
+  }
+  .Curriculum .BG .paraLearn {
+    font-size: 2.1rem;
+  }
+}
+/*# sourceMappingURL=Curriculum.module.css.map */

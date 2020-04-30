@@ -1,6 +1,6 @@
 .LandingMargin {
     height : 12vh;
-    background-color: orange;
+    background-color: white;
 }
 
 .LandingPage{
@@ -98,5 +98,209 @@
     }
     to {
         transform : rotate(450deg)
+    }
+}
+
+@media(max-width : 1080px) {
+    .LandingMargin {
+        height : 12vh;
+        background-color: white;
+    }
+    
+    .LandingPage{
+        height : 82vh;
+        background-color: white;
+        display : flex;
+        flex-direction: column-reverse;
+        font-family: 'Roboto';
+    }
+    
+    .divWelcome {
+        background-color: white;
+        display : flex;
+        padding-left : 0px;
+        justify-content : center;
+        flex-direction: column;
+        align-items : flex-start;
+        align-items: center;
+    }
+    
+    
+    .welcomeTo {
+        font-weight: 400;
+        font-size : 1.6rem;
+    }
+    
+    .codeAsylums{
+        font-weight: 700;
+        font-size : 2.1rem;
+        width : 100%;
+        text-align: center;
+    }
+    
+    .detail1 {
+        color : #8E8E8E;
+        margin-top : 3%;
+        font-size : 1.1rem;
+    }
+    .detail2 {
+        color : #8E8E8E;
+        margin-top : 2%;
+        font-size: 0.9rem;
+    }
+    .detail3 {
+        color : #8E8E8E;
+        font-size: 0.9rem;
+    }
+    
+    .btnGetStarted {
+        background-color: white;
+        border : solid 2px black;
+        color : black;
+        border-radius: 5px;
+        width : 170px;
+        height : 45px;
+        margin-top : 4%;
+        transition : background-color 230ms ease-in;
+        transition : color 230ms ease-in;
+    }
+    .btnGetStarted:hover{
+        background-color: black;
+        color : white;
+        cursor: pointer;
+    }
+    
+    .divImage {
+        display : flex;
+        background-color: white;
+        justify-content: center;
+        flex : 0;
+    }
+    
+    .divImage img{
+        width: 100%;
+        height : auto;
+        margin-top : 0px;
+    }
+    
+    .Arrow {
+        height : 6vh;
+        text-align: center;
+    }
+    .Arrow img{
+        height : 60%;
+        transform: rotate(90deg);
+        transition : margin-top 230ms ease-in;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 1080p */
+/* 1080p */
+/* 1080p */
+/* 1080p */
+
+
+
+
+
+@media(min-width : 1800px) {
+    .LandingMargin {
+        height : 12vh;
+        background-color: white;
+    }
+    
+    .LandingPage{
+        height : 80vh;
+        background-color: white;
+        display : flex;
+        font-family: 'Roboto';
+    }
+    
+    .divWelcome {
+        background-color: white;
+        flex : 2;
+        display : flex;
+        padding-left : 15%;
+        justify-content : center;
+        flex-direction: column;
+        align-items : flex-start;
+    }
+    
+    
+    .welcomeTo {
+        font-weight: 400;
+        font-size : 2.8rem;
+    }
+    
+    .codeAsylums{
+        font-weight: 700;
+        font-size : 4rem;
+    }
+    
+    .detail1 {
+        color : #8E8E8E;
+        margin-top : 3%;
+        font-size : 1.8rem;
+    }
+    .detail2 {
+        color : #8E8E8E;
+        margin-top : 2%;
+        font-size: 1.2rem;
+    }
+    .detail3 {
+        color : #8E8E8E;
+        font-size: 1.2rem;
+    }
+    
+    .btnGetStarted {
+        background-color: white;
+        border : solid 2px black;
+        color : black;
+        border-radius: 5px;
+        width : 40%;
+        height : 8%;
+        margin-top : 4%;
+        transition : background-color 230ms ease-in;
+        transition : color 230ms ease-in;
+        font-size: 1.2rem;
+    }
+    .btnGetStarted:hover{
+        background-color: black;
+        color : white;
+        cursor: pointer;
+    }
+    
+    .divImage {
+        display : flex;
+        background-color: white;
+        flex : 4;
+        justify-content: center;
+        align-items : flex-start;
+    }
+    
+    .divImage img{
+        width: 100%;
+        height : auto;
+        margin-top : 10%;
+    }
+    
+    .Arrow {
+        height : 8vh;
+        text-align: center;
+    }
+    .Arrow img{
+        height : 60%;
+        transform: rotate(90deg);
+        transition : margin-top 230ms ease-in;
     }
 }

@@ -1,0 +1,103 @@
+.Advantage{
+    font-family: 'Roboto';
+    text-align: center;
+    .Heading {
+        width: 100%;
+        margin-top : 9%;
+        font-size: 4rem;
+        font-weight: 200;
+    }
+    .BG {
+        background-color: #F9F9F9;
+        width : 100%;
+        height : 70vh;
+        margin-top: 4%;
+        display : flex;
+        padding : 0px 10%;
+        ul{
+            text-align: left;
+            margin : 10px;
+            padding : 5px;
+            width: 25%;
+            height : 90%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            li{
+                color : black;
+                font-weight: 300;
+                font-size: 0.9rem;
+            }
+        }
+        .divTestimonial {
+            width : 40%;
+            padding : 5% 2%;
+            display : flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}
+
+@media (max-width : 576px) {
+    .Advantage{
+        .Heading{
+            margin-top: 80px;
+            font-size: 2.5rem;
+        }
+        .BG{
+            height : auto;
+            padding : 60px 20px;
+            flex-direction: column;
+            align-items: center;
+            ul {
+                width : 80%;
+                margin-left: 50px;
+                li{
+                    padding : 10px 0px;
+                }
+            }
+            .divTestimonial{
+                width : 90%;
+            }
+        }
+    }
+}
+
+@media(min-width : 1800px) {
+    .Advantage{
+        .Heading {
+            font-size: 6rem;
+        }
+        .BG {
+            background-color: #F9F9F9;
+            width : 100%;
+            height : 70vh;
+            margin-top: 4%;
+            display : flex;
+            padding : 0px 100px;
+            ul{
+                text-align: left;
+                margin : 10px;
+                padding : 5px;
+                width: 25%;
+                height : 90%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                li{
+                    color : black;
+                    font-weight: 300;
+                    font-size: 1.4rem;
+                }
+            }
+            .divTestimonial {
+                width : 40%;
+                padding : 5% 2%;
+                display : flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    }
+}

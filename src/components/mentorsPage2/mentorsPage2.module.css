@@ -1,0 +1,51 @@
+.divMargin {
+  height: 12vh;
+  background-color: white;
+  width: 100%;
+}
+
+.mentors {
+  font-family: 'Roboto';
+  text-align: center;
+  font-weight: 200;
+  font-size: 11vh;
+  margin: 4% 0px;
+  width: 100%;
+}
+
+.divMentors {
+  height: 60vh;
+  background-color: white;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px 10%;
+}
+
+@media (max-width: 576px) {
+  .divMargin {
+    height: 80px;
+  }
+  .divMentors {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: auto;
+    padding: 30px 0px;
+  }
+}
+/*# sourceMappingURL=mentorsPage2.module.css.map */

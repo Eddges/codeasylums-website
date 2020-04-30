@@ -1,0 +1,37 @@
+$bg : #E7FFCE;
+
+.CourseTestimonials {
+    margin-top: 100px;
+    background-color: $bg;
+    height : auto;
+    padding : 40px 20px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .Testimonial{
+        width : 28%;
+        height : 450px;
+        padding : 3% 3%;
+        display : flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media(max-width : 576px) {
+    .CourseTestimonials{
+        .Testimonial{
+            width : 85%;   
+            height : 380px; 
+        }
+    }
+}
+
+@media (min-width : 1800px) {
+    .CourseTestimonials{
+        .Testimonial{
+            height: 600px;
+        }
+    }
+}

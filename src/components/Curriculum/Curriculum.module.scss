@@ -1,0 +1,98 @@
+.Curriculum {
+    height : auto;
+    background-color: white;
+    width: 100%;
+    margin-top : 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto';
+
+    .BG {
+        margin-top: 50px;
+        width : 85%;
+        height : 100vh;
+        background-color: white;
+        box-shadow: 0px 0px 15px rgb(209, 209, 209);
+        display: flex;
+        flex-direction: column;
+        .paraCurriculum {
+            width: 100%;
+            height: 25%;
+            font-size : 4.5rem;
+            font-weight: 200;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: end;
+        }
+        .paraLearn{
+            display: flex;
+            align-items: start;
+            justify-content: center;
+            width : 100%;
+            height : 10%;
+            text-align: center;
+            font-size: 1.7rem;
+            color : rgb(158, 158, 158);
+            font-weight : 300;
+        }
+        .divCurriculumCards{
+            width : 100%;
+            display : flex;
+            height : 85%;
+            justify-content: space-evenly;
+            align-items: center;
+            .Card {
+                width : 17%;
+                height : 60%;
+                background-color: #ECECEC;
+                border-radius: 18px;
+                padding : 10px 0px;
+                box-shadow: 0px 5px 10px rgb(175, 175, 175);
+            }
+        }
+    }
+}
+
+@media(max-width : 576px) {
+    .Curriculum{
+        margin: 100px 0px;
+        width : 100vw;
+        height: auto;
+        .BG {
+            width : 90%;
+            height: auto;
+            .paraCurriculum{
+                margin-top: 50px;
+                font-size: 3.6rem;
+            }
+            .paraLearn{
+                font-size: 1.3rem;
+            }
+            .divCurriculumCards{
+                margin: 50px 0px;
+                flex-direction: column;
+                .Card{
+                    width : 80%;
+                    height: 240px;
+                    margin : 20px 0px;
+                }
+            }
+        }
+    }
+}
+
+@media(min-width : 1800px) {
+    .Curriculum{
+        .BG{
+            .paraCurriculum{
+                font-size: 6rem;
+            }
+            .paraLearn{
+                font-size : 2.1rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,mBAAmB,CAAC;EAChB,gBAAgB,EAHd,OAAO;EAIT,MAAM,EAAG,IAAI;EACb,OAAO,EAAG,SAAS;CAEtB",
+    "sources": [
+        "CourseTestimonials.moduls.scss"
+    ],
+    "names": [],
+    "file": "CourseTestimonials.moduls.css"
+}

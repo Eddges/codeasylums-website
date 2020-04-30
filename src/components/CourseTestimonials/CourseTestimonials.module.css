@@ -1,0 +1,44 @@
+.CourseTestimonials {
+  margin-top: 100px;
+  background-color: #E7FFCE;
+  height: auto;
+  padding: 40px 20px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.CourseTestimonials .Testimonial {
+  width: 28%;
+  height: 450px;
+  padding: 3% 3%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 576px) {
+  .CourseTestimonials .Testimonial {
+    width: 85%;
+    height: 380px;
+  }
+}
+
+@media (min-width: 1800px) {
+  .CourseTestimonials .Testimonial {
+    height: 600px;
+  }
+}
+/*# sourceMappingURL=CourseTestimonials.module.css.map */

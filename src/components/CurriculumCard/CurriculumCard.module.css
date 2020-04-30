@@ -1,0 +1,61 @@
+.CurriculumCard {
+  width: 95%;
+  height: 95%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5px;
+  text-align: center;
+  font-family: 'Roboto';
+}
+
+.CurriculumCard .divIcon {
+  width: 90%;
+  height: 24%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.CurriculumCard .divIcon img {
+  height: 90%;
+  border-radius: 10px;
+}
+
+.CurriculumCard .title {
+  font-family: 'Roboto';
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+.CurriculumCard .content {
+  font-size: 0.7em;
+  padding: 5px;
+  color: #686868;
+}
+
+@media (min-width: 1800px) {
+  .CurriculumCard .title {
+    font-size: 1.2rem;
+  }
+  .CurriculumCard .content {
+    font-size: 1rem;
+  }
+}
+/*# sourceMappingURL=CurriculumCard.module.css.map */

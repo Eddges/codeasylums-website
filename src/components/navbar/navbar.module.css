@@ -46,7 +46,7 @@
 }
 
 .Navbar .btnDiv {
-    flex : 4;
+    flex : 3;
     display: flex;
     justify-content: right;
     height : 100%;
@@ -92,4 +92,37 @@
     color : black;
     cursor : pointer;
     border : 2px solid black;
+}
+
+@media (max-width : 576px) {
+    .Navbar{
+        width : 100%;
+        height : 80px;
+    }
+    .Navbar .imageDiv {
+        height : 40%;
+    }
+    .Navbar ul{
+        display : none;
+    }
+    .btnApply{
+        font-size: 0.8rem;
+        width : 100px;
+    }
+    .btnHire {
+        font-size: 0.8rem;
+        width : 120px;
+    }
+}
+
+@media (min-width : 1800px) {
+    .Navbar ul li {
+        font-size: 1.2rem;
+    }
+    .btnApply{
+        font-size: 1.6rem;
+    }
+    .btnHire{
+        font-size: 1.4rem;
+    }
 }

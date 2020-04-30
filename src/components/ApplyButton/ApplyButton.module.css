@@ -1,0 +1,51 @@
+.Apply {
+  margin-top: 50px;
+  height: 30vh;
+  font-family: 'Roboto';
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Apply p {
+  font-size: 4rem;
+  font-weight: 200;
+}
+
+.Apply button {
+  border: solid 2px #717171;
+  border-radius: 8px;
+  background-color: black;
+  color: white;
+  width: 220px;
+  height: 50px;
+  font-size: 1.2rem;
+}
+
+.Apply button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+}
+
+@media (min-width: 1800px) {
+  .Apply p {
+    font-size: 6rem;
+  }
+  .Apply button {
+    width: 340px;
+    height: 70px;
+    font-size: 2rem;
+  }
+}
+/*# sourceMappingURL=ApplyButton.module.css.map */
