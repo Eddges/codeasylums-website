@@ -1,0 +1,71 @@
+.CurriculumLink{
+    width : 100%;
+    height : 50px;
+    background-color: #ede8ff;
+    display : flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    align-items: center;
+    padding : 30px 20px;
+    color : rgb(63, 65, 68);
+    transition : all;
+    margin-bottom: 0px;
+}
+
+.CurriculumLink:hover{
+    cursor: pointer;
+}
+
+.CurriculumAnswer{
+    width : 100%;
+    background-color: #ede8ff;
+    border-radius: 5px;
+    padding : 0px 30px;
+    color : rgb(91, 93, 98);
+    max-height : 0px;
+    overflow: hidden;
+    transition: all 0.6s;
+}
+
+.Open {
+    max-height: 400px;
+    padding : 50px 30px;
+}
+
+@media(min-width : 1800px) {
+    .CurriculumLink{
+        width : 100%;
+        height : 50px;
+        background-color: #ede8ff;
+        display : flex;
+        justify-content: space-between;
+        border-radius: 5px;
+        align-items: center;
+        padding : 50px 20px;
+        color : rgb(63, 65, 68);
+        transition : all;
+        margin-bottom: 0px;
+        font-size: 1.4rem;
+    }
+    
+    .CurriculumLink:hover{
+        cursor: pointer;
+    }
+    
+    .CurriculumAnswer{
+        width : 100%;
+        background-color: #ede8ff;
+        border-radius: 5px;
+        padding : 0px 30px;
+        color : rgb(91, 93, 98);
+        max-height : 0px;
+        overflow: hidden;
+        transition: all 0.6s;
+        font-size: 1.3rem;
+    }
+    
+    .Open {
+        max-height: 400px;
+        padding : 50px 30px;
+    }
+}

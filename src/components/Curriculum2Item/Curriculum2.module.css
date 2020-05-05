@@ -1,0 +1,184 @@
+.Container {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Roboto';
+}
+
+.Container .item {
+  width: 90%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.Container .item .left {
+  width: 10%;
+  min-height: 100%;
+  position: relative;
+}
+
+.Container .item .left .circle {
+  position: absolute;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  background-color: #00c48c;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  margin-top: -5px;
+  z-index: 10;
+}
+
+.Container .item .left .line {
+  position: absolute;
+  width: 2px;
+  height: 100%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  background-color: #00c48c;
+}
+
+.Container .item .right {
+  width: 90%;
+  background-color: white;
+  padding: 20px 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.Container .item .right .title {
+  font-size: 1.2rem;
+  color: #07070c;
+}
+
+.Container .item .right .description {
+  color: #8a8a8a;
+  margin-top: 10px;
+}
+
+.Container .item .right .expand1 {
+  width: 100%;
+  height: auto;
+  margin: 3px 0px;
+}
+
+.Container .item .right :nth-child(3) {
+  margin-top: 20px;
+}
+
+@media (min-width: 1800px) {
+  .Container {
+    width: 100%;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-family: 'Roboto';
+  }
+  .Container .item {
+    width: 90%;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .Container .item .left {
+    width: 10%;
+    min-height: 100%;
+    position: relative;
+  }
+  .Container .item .left .circle {
+    position: absolute;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: #00c48c;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    margin-top: -5px;
+    z-index: 10;
+  }
+  .Container .item .left .line {
+    position: absolute;
+    width: 2px;
+    height: 100%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    background-color: #00c48c;
+  }
+  .Container .item .right {
+    width: 90%;
+    background-color: white;
+    padding: 20px 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .Container .item .right .title {
+    font-size: 1.7rem;
+    color: #07070c;
+  }
+  .Container .item .right .description {
+    color: #8a8a8a;
+    margin-top: 10px;
+    font-size: 1.3rem;
+  }
+  .Container .item .right .expand1 {
+    width: 100%;
+    height: auto;
+    margin: 3px 0px;
+  }
+  .Container .item .right :nth-child(3) {
+    margin-top: 20px;
+  }
+}
+/*# sourceMappingURL=Curriculum2.module.css.map */

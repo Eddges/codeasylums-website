@@ -14,6 +14,8 @@ import MenuModal from '../../components/MenuModal/MenuModal'
 import StudentCarousel from '../../components/StudentCarousel/StudentCarousel'
 import Accordion from '../../components/accordion/Accordion'
 import Page2Top from '../../components/Page2Top/Page2Top'
+import Curriculum2Item from '../../components/Curriculum2Item/Curriculum2Item'
+import CurriculumFullStack from '../../components/CurriculumFullStack/CurriculumFullStack'
 
 const Course = (props) => {
     return(
@@ -26,6 +28,7 @@ const Course = (props) => {
             <Bubbles />
             <StudentCarousel />
             <Curriculum />
+            <CurriculumFullStack />
             <JobReady />
             <ApplyButton />
             <CourseTestimonials />

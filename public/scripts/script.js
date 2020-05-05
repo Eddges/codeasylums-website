@@ -21,3 +21,7 @@ $(".onlineCourses").on("click", function() {
 // $(".link").click(function(){
 //     $(this).addClass("accOpen")
 // })
+
+$(".CurriculumLink").click(function() {
+    $(this).next().toggleClass("Open")
+})
