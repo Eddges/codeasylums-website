@@ -14,6 +14,7 @@ import MenuModal from '../../components/MenuModal/MenuModal'
 import StudentCarousel from '../../components/StudentCarousel/StudentCarousel'
 import Accordion from '../../components/accordion/Accordion'
 import Page2Top from '../../components/Page2Top/Page2Top'
+import TeamPage from '../../components/Teampage/TeamPage';
 
 const Course = (props) => {
     return(
@@ -29,6 +30,7 @@ const Course = (props) => {
             <JobReady />
             <ApplyButton />
             <CourseTestimonials />
+            <TeamPage/>
             <Accordion />
             <Footer />
         </Layout>
