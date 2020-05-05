@@ -6,7 +6,7 @@ import OnlineCourses from '../../components/OnlineCourses/OnlineCourses'
 import Expectations from '../../components/expectations/Expectations'
 import Placements from '../../components/Placements/Placements'
 import GettingInto from '../../components/GettingInto/GettingInto'
-import classes from './LandingPage.module.css'
+// import classes from './LandingPage.module.css'
 import Footer from '../../components/Footer/Footer'
 
 class LandPage extends React.Component {

@@ -1,6 +1,13 @@
+.container {
+  width: 25%;
+  height: 100%;
+}
+
 .card {
-  width: 20%;
-  height: 80%;
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -8,67 +15,243 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   background-color: white;
   text-align: center;
   font-family: 'Roboto';
+  position: relative;
+  z-index: 10;
+  border-radius: 7px;
+}
+
+.card .back {
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background-color: #4204d4;
+  z-index: -80;
+  justify-self: flex-start;
+  border-radius: 8px 8px 0px 0px;
 }
 
 .card .Circle {
-  width: 130px;
-  height: 130px;
+  position: absolute;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
-  background-color: #AEF4C2;
+  background-color: white;
+  z-index: 20;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  -webkit-box-shadow: 0px 0px 10px #acacac;
+          box-shadow: 0px 0px 10px #acacac;
 }
 
 .card .name {
   font-weight: 500;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+  z-index: 20;
+  margin-top: 80px;
+  color: #313131;
 }
 
 .card .about {
   margin-top: -10%;
   font-weight: 400;
-  font-size: 0.9rem;
+  font-size: 1rem;
+  z-index: 20;
+  padding: 4px 30px;
+  color: #607086;
+}
+
+.card .details {
+  font-size: 0.8rem;
+  padding: 0px 30px 30px 30px;
+  margin-bottom: 20px;
+  text-align: left;
+  color: #424242;
 }
 
 @media (max-width: 576px) {
+  .container {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
   .card {
-    padding: 35px 10px;
-    width: 70%;
-    border-radius: 10px;
-    -webkit-box-shadow: 0px 0px 10px #dbdbdb;
-            box-shadow: 0px 0px 10px #dbdbdb;
-    margin: 20px 0px;
+    -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    width: 80%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: white;
+    text-align: center;
+    font-family: 'Roboto';
+    position: relative;
+    z-index: 10;
+    border-radius: 7px;
+    margin: 50px 0px;
+  }
+  .card .back {
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: #4204d4;
+    z-index: -80;
+    justify-self: flex-start;
+    border-radius: 8px 8px 0px 0px;
+  }
+  .card .Circle {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+    z-index: 20;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    -webkit-box-shadow: 0px 0px 10px #acacac;
+            box-shadow: 0px 0px 10px #acacac;
   }
   .card .name {
-    margin: 10px 0px;
+    font-weight: 500;
+    font-size: 1.1rem;
+    z-index: 20;
+    margin-top: 80px;
+    color: #313131;
   }
   .card .about {
-    margin: 10px 0px;
+    margin-top: 3%;
+    font-weight: 400;
+    font-size: 1rem;
+    z-index: 20;
+    padding: 4px 30px;
+    color: #607086;
+  }
+  .card .details {
+    font-size: 0.8rem;
+    padding: 0px 30px 30px 30px;
+    margin-top: 5%;
+    margin-bottom: 20px;
+    text-align: left;
+    color: #424242;
   }
 }
 
 @media (min-width: 1800px) {
+  .container {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
   .card {
-    width: 27%;
+    -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    width: 75%;
     height: 100%;
-    padding: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: white;
+    text-align: center;
+    font-family: 'Roboto';
+    position: relative;
+    z-index: 10;
+    border-radius: 7px;
+    margin: 50px 0px;
+  }
+  .card .back {
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: #4204d4;
+    z-index: -80;
+    justify-self: flex-start;
+    border-radius: 8px 8px 0px 0px;
   }
   .card .Circle {
-    width: 200px;
-    height: 200px;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: white;
+    z-index: 20;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    -webkit-box-shadow: 0px 0px 10px #acacac;
+            box-shadow: 0px 0px 10px #acacac;
   }
   .card .name {
+    font-weight: 500;
     font-size: 1.6rem;
+    z-index: 20;
+    margin-top: 30%;
+    color: #313131;
   }
   .card .about {
-    font-size: 1.1rem;
+    margin-top: 5%;
+    font-weight: 400;
+    font-size: 1.3rem;
+    z-index: 20;
+    padding: 4px 30px;
+    color: #607086;
+  }
+  .card .details {
+    font-size: 1.3rem;
+    padding: 0px 30px 70px 30px;
+    margin-top: 7%;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #424242;
   }
 }
 /*# sourceMappingURL=mentorCards.module.css.map */

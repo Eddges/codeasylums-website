@@ -3,11 +3,16 @@ import classes from './mentorCards.module.css'
 
 const MentorCards = (props) => {
     return(
-        <div className={classes.card}>
-            <div className={classes.Circle}></div>
-            <p className={classes.name}>{props.name}</p>
-            <p className={classes.about}>{props.about}</p>
+        <div className={classes.container}>
+            <div className={classes.card}>
+                <div className={classes.back}></div>
+                <div className={classes.Circle}></div>
+                <p className={classes.name}>{props.name}</p>
+                <p className={classes.about}>{props.about}</p>
+                <p className={classes.details}>{props.details}</p>
+            </div>
         </div>
+
     )
 }
 

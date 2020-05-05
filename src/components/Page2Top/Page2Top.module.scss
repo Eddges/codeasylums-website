@@ -1,0 +1,264 @@
+$blue : #045158;
+
+.marginDiv{
+    height : 12vh;
+}
+.Wrapper{
+    display: flex;
+    flex-direction: column;
+    .bar{
+        display: flex;
+        justify-content: center;
+        z-index: 50;
+        width : 100%;
+        height : 100px;
+        .barContent{
+            text-align: center;
+            font-family: 'Open Sans';
+            width : 70%;
+            height : 100%;
+            background-color: white;
+            border-radius: 3px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+            padding : 5px;
+            .barIcons{
+                width : 100%;
+                height: 100%;
+                display : flex;
+                align-items: center;
+                justify-content: space-evenly;
+                ion-icon{
+                    width : 5%;
+                    height : 30%;
+                    color : #045158;
+                }
+            }
+            
+        }
+    }
+}
+
+.Page2Top{
+    height : 80vh;
+    width : 100%;
+    display : flex;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: -50px;
+    img{
+        height : 100%;
+        width : 100%;   
+        object-fit: cover;
+        z-index: -10;
+        position : absolute;
+    }
+    .gradient{
+        position: absolute;
+        height : 100%;
+        width : 100%;
+        // background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);
+        // background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+        background: linear-gradient(to right, #2af598, #009efd , #6a11cb , #2575fc);
+        background-size: 500%;
+        animation: gradientBackground 10s infinite alternate ease-in-out;
+        opacity: 96%;
+        z-index: 0;
+        overflow: hidden;
+    }
+    .container{
+        z-index: 10;
+        width: 100%;
+        height : 100%;
+        color : white;
+        font-family: 'Open Sans';
+        display : flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        .text{
+            display : flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            :nth-child(1){
+                font-weight: 700;
+                font-size: 1.1rem;
+                padding : 20px;
+            }
+            :nth-child(2) {
+                font-size: 1.3rem;
+                font-family: 'Open Sans';
+                letter-spacing: 2px;
+            }
+            :nth-child(3) {
+                font-size: 1.3rem;
+                font-family: 'Open Sans';
+                letter-spacing: 2px;
+            }
+        }
+        .buttons {
+            width : 45%;
+            height : 70px;
+            border : solid 1px white;
+            border-radius: 3px;
+            z-index: 200;
+            margin-top: 90px;
+            display : flex;
+            form{
+                width : 100%;
+                height : 100%;
+                display: flex;
+                justify-content: space-between;
+                input{
+                    padding : 5px 10px;
+                    width : 24%;
+                    height: 100%;
+                    background-color: transparent;
+                    color : white;
+                    border : none;
+                }
+                span{
+                    position: relative;
+                    width : 1px;
+                    height : 60%;
+                    background-color: white;
+                    top : 50%;
+                    transform : translateY(-50%)
+                }
+                button{
+                    background-color: white;
+                    border: none;
+                    width : 25%;
+                    height : 100%;
+                    font-weight: 600;
+                    color : $blue;
+                    &:hover{
+                        cursor: pointer;
+                        background-color: rgb(241, 241, 241);
+                    }
+                }
+            }
+        }
+
+    }
+}
+@keyframes gradientBackground {
+    0% {
+      background-position: left;
+    }
+    100% {
+      background-position: right;
+    }
+  }
+  
+
+  @media(min-width : 1800px) {
+    .Page2Top{
+        height : 80vh;
+        width : 100%;
+        display : flex;
+        flex-direction: column;
+        position: relative;
+        margin-bottom: -50px;
+        img{
+            height : 100%;
+            width : 100%;   
+            object-fit: cover;
+            z-index: -10;
+            position : absolute;
+        }
+        .gradient{
+            position: absolute;
+            height : 100%;
+            width : 100%;
+            // background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);
+            // background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+            background: linear-gradient(to right, #2af598, #009efd , #6a11cb , #2575fc);
+            background-size: 500%;
+            animation: gradientBackground 10s infinite alternate ease-in-out;
+            opacity: 96%;
+            z-index: 0;
+            overflow: hidden;
+        }
+        .container{
+            z-index: 10;
+            width: 100%;
+            height : 100%;
+            color : white;
+            font-family: 'Open Sans';
+            display : flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            .text{
+                display : flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                :nth-child(1){
+                    font-weight: 700;
+                    font-size: 1.7rem;
+                    padding : 20px;
+                }
+                :nth-child(2) {
+                    font-size: 1.5rem;
+                    font-family: 'Open Sans';
+                    letter-spacing: 2px;
+                }
+                :nth-child(3) {
+                    font-size: 1.5rem;
+                    font-family: 'Open Sans';
+                    letter-spacing: 2px;
+                }
+            }
+            .buttons {
+                width : 45%;
+                height : 100px;
+                border : solid 1px white;
+                border-radius: 3px;
+                z-index: 200;
+                margin-top: 90px;
+                display : flex;
+                form{
+                    width : 100%;
+                    height : 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    input{
+                        padding : 5px 10px;
+                        width : 24%;
+                        height: 100%;
+                        background-color: transparent;
+                        color : white;
+                        border : none;
+                        font-size: 1.1rem;
+                    }
+                    span{
+                        position: relative;
+                        width : 1px;
+                        height : 60%;
+                        background-color: white;
+                        top : 50%;
+                        transform : translateY(-50%)
+                    }
+                    button{
+                        background-color: white;
+                        border: none;
+                        width : 25%;
+                        height : 100%;
+                        font-weight: 600;
+                        color : $blue;
+                        font-size: 1.1rem;
+                        &:hover{
+                            cursor: pointer;
+                            background-color: rgb(241, 241, 241);
+                        }
+                    }
+                }
+            }
+    
+        }
+    }
+  }

@@ -1,0 +1,365 @@
+.marginDiv {
+  height: 12vh;
+}
+
+.Wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.Wrapper .bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  z-index: 50;
+  width: 100%;
+  height: 100px;
+}
+
+.Wrapper .bar .barContent {
+  text-align: center;
+  font-family: 'Open Sans';
+  width: 70%;
+  height: 100%;
+  background-color: white;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  padding: 5px;
+}
+
+.Wrapper .bar .barContent .barIcons {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.Wrapper .bar .barContent .barIcons ion-icon {
+  width: 5%;
+  height: 30%;
+  color: #045158;
+}
+
+.Page2Top {
+  height: 80vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  margin-bottom: -50px;
+}
+
+.Page2Top img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  z-index: -10;
+  position: absolute;
+}
+
+.Page2Top .gradient {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: -webkit-gradient(linear, left top, right top, from(#2af598), color-stop(#009efd), color-stop(#6a11cb), to(#2575fc));
+  background: linear-gradient(to right, #2af598, #009efd, #6a11cb, #2575fc);
+  background-size: 500%;
+  -webkit-animation: gradientBackground 10s infinite alternate ease-in-out;
+          animation: gradientBackground 10s infinite alternate ease-in-out;
+  opacity: 96%;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.Page2Top .container {
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  color: white;
+  font-family: 'Open Sans';
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.Page2Top .container .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Page2Top .container .text :nth-child(1) {
+  font-weight: 700;
+  font-size: 1.1rem;
+  padding: 20px;
+}
+
+.Page2Top .container .text :nth-child(2) {
+  font-size: 1.3rem;
+  font-family: 'Open Sans';
+  letter-spacing: 2px;
+}
+
+.Page2Top .container .text :nth-child(3) {
+  font-size: 1.3rem;
+  font-family: 'Open Sans';
+  letter-spacing: 2px;
+}
+
+.Page2Top .container .buttons {
+  width: 45%;
+  height: 70px;
+  border: solid 1px white;
+  border-radius: 3px;
+  z-index: 200;
+  margin-top: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Page2Top .container .buttons form {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.Page2Top .container .buttons form input {
+  padding: 5px 10px;
+  width: 24%;
+  height: 100%;
+  background-color: transparent;
+  color: white;
+  border: none;
+}
+
+.Page2Top .container .buttons form span {
+  position: relative;
+  width: 1px;
+  height: 60%;
+  background-color: white;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.Page2Top .container .buttons form button {
+  background-color: white;
+  border: none;
+  width: 25%;
+  height: 100%;
+  font-weight: 600;
+  color: #045158;
+}
+
+.Page2Top .container .buttons form button:hover {
+  cursor: pointer;
+  background-color: #f1f1f1;
+}
+
+@-webkit-keyframes gradientBackground {
+  0% {
+    background-position: left;
+  }
+  100% {
+    background-position: right;
+  }
+}
+
+@keyframes gradientBackground {
+  0% {
+    background-position: left;
+  }
+  100% {
+    background-position: right;
+  }
+}
+
+@media (min-width: 1800px) {
+  .Page2Top {
+    height: 80vh;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: relative;
+    margin-bottom: -50px;
+  }
+  .Page2Top img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    z-index: -10;
+    position: absolute;
+  }
+  .Page2Top .gradient {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: -webkit-gradient(linear, left top, right top, from(#2af598), color-stop(#009efd), color-stop(#6a11cb), to(#2575fc));
+    background: linear-gradient(to right, #2af598, #009efd, #6a11cb, #2575fc);
+    background-size: 500%;
+    -webkit-animation: gradientBackground 10s infinite alternate ease-in-out;
+            animation: gradientBackground 10s infinite alternate ease-in-out;
+    opacity: 96%;
+    z-index: 0;
+    overflow: hidden;
+  }
+  .Page2Top .container {
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-family: 'Open Sans';
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  .Page2Top .container .text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .Page2Top .container .text :nth-child(1) {
+    font-weight: 700;
+    font-size: 1.7rem;
+    padding: 20px;
+  }
+  .Page2Top .container .text :nth-child(2) {
+    font-size: 1.5rem;
+    font-family: 'Open Sans';
+    letter-spacing: 2px;
+  }
+  .Page2Top .container .text :nth-child(3) {
+    font-size: 1.5rem;
+    font-family: 'Open Sans';
+    letter-spacing: 2px;
+  }
+  .Page2Top .container .buttons {
+    width: 45%;
+    height: 100px;
+    border: solid 1px white;
+    border-radius: 3px;
+    z-index: 200;
+    margin-top: 90px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .Page2Top .container .buttons form {
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .Page2Top .container .buttons form input {
+    padding: 5px 10px;
+    width: 24%;
+    height: 100%;
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 1.1rem;
+  }
+  .Page2Top .container .buttons form span {
+    position: relative;
+    width: 1px;
+    height: 60%;
+    background-color: white;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+  .Page2Top .container .buttons form button {
+    background-color: white;
+    border: none;
+    width: 25%;
+    height: 100%;
+    font-weight: 600;
+    color: #045158;
+    font-size: 1.1rem;
+  }
+  .Page2Top .container .buttons form button:hover {
+    cursor: pointer;
+    background-color: #f1f1f1;
+  }
+}
+/*# sourceMappingURL=Page2Top.module.css.map */

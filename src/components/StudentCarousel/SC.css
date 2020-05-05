@@ -1,0 +1,228 @@
+.container {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  padding: 0;
+  margin: 15% 0px 0px 0px;
+  height: 100%;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.details {
+  text-align: center;
+  margin: 30px 0px 0px 0px;
+  font-size: 1.4rem;
+  color: #414141;
+  padding: 0px 300px;
+}
+
+.details span {
+  color: black;
+  font-weight: 500;
+}
+
+.title {
+  font-size: 4rem;
+  color: black;
+  font-weight: 200;
+  font-family: 'Roboto';
+  text-align: center;
+}
+
+.timeline {
+  width: 100%;
+  position: relative;
+  margin-top: 100px;
+}
+
+.timeline-nav__item {
+  width: auto;
+  height: auto;
+  text-align: center;
+  opacity: 0.5;
+  background: transparent;
+  color: #000000;
+  margin: 15px 25px !important;
+  position: relative;
+  font-size: 14px;
+  line-height: 28px;
+  font-weight: 400;
+  outline: none;
+  cursor: pointer;
+}
+
+.timeline-nav__item::before {
+  content: "";
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: #000000;
+  -webkit-transition: .2s;
+  transition: .2s;
+  -webkit-box-shadow: 0px 0px 10px #b9b9b9;
+          box-shadow: 0px 0px 10px #b9b9b9;
+}
+
+.timeline-nav__item.slick-current {
+  color: #51bcf6;
+  opacity: 1;
+}
+
+.timeline-nav__item.slick-current::before {
+  background-color: #51bcf6;
+}
+
+.timeline-wrapper {
+  position: relative;
+  width: 100%;
+  height: 580px;
+  margin: 60px auto;
+}
+
+@media (max-width: 500px) {
+  .timeline-wrapper {
+    height: 1000px;
+    max-height: 900px;
+  }
+}
+
+.timeline-slider {
+  height: 100%;
+}
+
+.timeline-slider .monday {
+  background-image: url(../../assets/student.jpg);
+}
+
+.timeline .slick-list {
+  height: 100%;
+}
+
+@media (min-width: 1080px) {
+  .timeline .slick-list {
+    padding: 0 180px !important;
+  }
+}
+
+.timeline .slick-track {
+  height: 100%;
+}
+
+.timeline-slide {
+  position: relative;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  outline: none;
+  background-size: auto 400px, cover;
+  background-position: top;
+  margin: 0 24px;
+  width: 80%;
+  z-index: 1;
+}
+
+.timeline-slide:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  z-index: 2;
+}
+
+.timeline-slide__content {
+  z-index: 5;
+  position: absolute;
+  top: 220px;
+  background: #ffffff;
+  width: 80%;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0px);
+          transform: translate(-50%, 0px);
+  padding: 40px;
+  opacity: 0;
+  -webkit-box-shadow: 0px 0px 10px #a1a1a1;
+          box-shadow: 0px 0px 10px #a1a1a1;
+  -webkit-transition: opacity 1s;
+  transition: opacity 1s;
+}
+
+@media (max-width: 500px) {
+  .timeline-slide__content {
+    width: 100%;
+  }
+}
+
+.timeline-year {
+  z-index: 5;
+  font-size: 35px;
+  color: #ffffff;
+  background: #51bcf6;
+  padding: 15px 26px;
+  -webkit-transition: opacity 1.2s;
+  transition: opacity 1.2s;
+  position: absolute;
+  right: 0;
+  opacity: 0;
+}
+
+.timeline-title {
+  color: #51bcf6;
+  font-size: 26px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+.timeline-text {
+  font-size: 18px;
+  line-height: 28px;
+  color: #666666;
+}
+
+.timeline .slick-current:after {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.timeline .slick-current .timeline-year {
+  opacity: 1;
+}
+
+.timeline .slick-current .timeline-slide__content {
+  opacity: 1;
+}
+
+@media (max-width: 576px) {
+  .container .title {
+    font-size: 3rem;
+    margin-top: 50px;
+  }
+  .container .details {
+    padding: 1% 4%;
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 1800px) {
+  .container .timeline .timeline-nav div {
+    font-size: 1.3rem;
+  }
+}
+/*# sourceMappingURL=SC.css.map */
