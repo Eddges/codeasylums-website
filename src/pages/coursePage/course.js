@@ -9,12 +9,14 @@ import JobReady from '../../components/JobReady/JobReady'
 import ApplyButton from '../../components/ApplyButton/ApplyButton'
 import CourseTestimonials from '../../components/CourseTestimonials/CourseTestimonials'
 import Curriculum from '../../components/Curriculum/Curriculum'
-import Footer from '../../components/Footer/Footer'
+// import Footer from '../../components/Footer/Footer'
 import MenuModal from '../../components/MenuModal/MenuModal'
 import StudentCarousel from '../../components/StudentCarousel/StudentCarousel'
 import Accordion from '../../components/accordion/Accordion'
 import Page2Top from '../../components/Page2Top/Page2Top'
 import TeamPage from '../../components/Teampage/TeamPage';
+import Footer from '../../components/Footer_Section/Footer';
+import Banner from '../../components/Banner/Banner';
 
 const Course = (props) => {
     return(
@@ -27,15 +29,17 @@ const Course = (props) => {
             <Bubbles />
             <StudentCarousel />
             <Curriculum />
+            <Banner/>
             <JobReady />
             <ApplyButton />
             <CourseTestimonials />
             <TeamPage/>
             <Accordion />
-            <Footer />
+            {/* <Footer /> */}
+            <Footer/>
         </Layout>
         
     )
 }
 
-export default Course
+export default Course;
