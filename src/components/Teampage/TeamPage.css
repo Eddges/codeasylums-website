@@ -14,10 +14,10 @@
     padding: 0;
   }
   
-  body{
+  /* body{
     background-color: whitesmoke;
   
-  }
+  } */
   
   .wrapper {
     /* margin-left: 200px;
@@ -41,7 +41,9 @@
     margin-left: 50px;
     /* align-content: space-between; */
     background-color: white;
-    box-shadow: 0 1.4rem 8rem rgba(0,0,0,.2);
+    /* box-shadow: 0 1.4rem 8rem rgba(0,0,0,.2); */
+    box-shadow: -6px -6px 20px rgba(255,255,255,1),
+                6px 6px 20px rgba(0,0,0,0.2);
     border-radius: 10px;
 
   }
