@@ -17,6 +17,7 @@ import Page2Top from '../../components/Page2Top/Page2Top'
 import TeamPage from '../../components/Teampage/TeamPage';
 import Footer from '../../components/Footer_Section/Footer';
 import Banner from '../../components/Banner/Banner';
+import Batchdetails from '../../components/Batchdetails/Batchdetails'
 
 const Course = (props) => {
     return(
@@ -29,6 +30,7 @@ const Course = (props) => {
             <Bubbles />
             <StudentCarousel />
             <Curriculum />
+            <Batchdetails/>
             <Banner/>
             <JobReady />
             <ApplyButton />
