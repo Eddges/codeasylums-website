@@ -1,7 +1,7 @@
 import React from 'react';
 // import logo from './logo.svg';
 import './TeamPage.css';
-import Card from './Card';
+// import Card from './Card';
 import BoxAvatar from './BoxAvatar';
 
 function TeamPage() {
@@ -11,9 +11,56 @@ function TeamPage() {
             <h1>EXPLORE OUR COURSES</h1>
       </div>
       <div className="wrapper">
-        <Card title ="FULL STACK TRACK CERTIFICATION" description = "Lorem ipsum dolor sit amet consectetur adipisicing elit.Soluta reiciendis officiis asperiores dolorem tenetur quod consequatur necessitatibus ducimus, tempore quas?" />
+        {/* <Card title ="FULL STACK TRACK CERTIFICATION" description = "Lorem ipsum dolor sit amet consectetur adipisicing elit.Soluta reiciendis officiis asperiores dolorem tenetur quod consequatur necessitatibus ducimus, tempore quas?" />
         <Card title= "DATA SCIENCE TRACK CERTIFICATION" description = "Lorem ipsum dolor sit amet consectetur adipisicing elit.Soluta reiciendis officiis asperiores dolorem tenetur quod consequatur necessitatibus ducimus, tempore quas?"/>
-        <Card title= "DATA SCIENCE TRACK CERTIFICATION" description = "Lorem ipsum dolor sit amet consectetur adipisicing elit.Soluta reiciendis officiis asperiores dolorem tenetur quod consequatur necessitatibus ducimus, tempore quas?"/>
+        <Card title= "DATA SCIENCE TRACK CERTIFICATION" description = "Lorem ipsum dolor sit amet consectetur adipisicing elit.Soluta reiciendis officiis asperiores dolorem tenetur quod consequatur necessitatibus ducimus, tempore quas?"/> */}
+
+        <div className="card">
+            <div className="up">
+                <h3>FULL STACK TRACK CERTIFICATION</h3>
+            </div>
+            <div className="down">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Soluta reiciendis officiis asperiores dolorem tenetur quod consequatur necessitatibus ducimus, tempore quas?</p>
+            </div>
+            <div className="bottom">
+                <button className="button">Explore</button>
+            </div>
+            <div className="card-footer">
+                <p>For 6 months</p>
+            </div>
+        </div>
+
+        {/* 2nd */}
+        <div className="card card1">
+            <div className="up">
+                <h3>DATA SCIENCE TRACK CERTIFICATION</h3>
+            </div>
+            <div className="down">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Soluta reiciendis officiis asperiores dolorem tenetur quod consequatur necessitatibus ducimus, tempore quas?</p>
+            </div>
+            <div className="bottom">
+                <button className="button">Explore</button>
+            </div>
+            <div className="card-footer">
+                <p>For 6 months</p>
+            </div>
+        </div>
+
+        {/* 3rd */}
+        <div className="card card2">
+            <div className="up">
+                <h3>DEEP LEARNING TRACK CERTIFICATION</h3>
+            </div>
+            <div className="down">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Soluta reiciendis officiis asperiores dolorem tenetur quod consequatur necessitatibus ducimus, tempore quas?</p>
+            </div>
+            <div className="bottom">
+                <button className="button">Explore</button>
+            </div>
+            <div className="card-footer">
+                <p>For 6 months</p>
+            </div>
+        </div>
         
     </div>
     <div class="wrapper_team">

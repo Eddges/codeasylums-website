@@ -17,10 +17,12 @@ import Page2Top from '../../components/Page2Top/Page2Top'
 import Curriculum2Item from '../../components/Curriculum2Item/Curriculum2Item'
 import CurriculumFullStack from '../../components/CurriculumFullStack/CurriculumFullStack'
 import Banner1 from '../../components/Banner1/Banner1'
-
 import TeamPage from '../../components/Teampage/TeamPage';
 import Parallax1 from '../../components/Parallax1/Parallax1'
-import Parallax2 from '../../components/Parallax2/Parallax2'
+import Banner from '../../components/Banner/Banner';
+import Batchdetails from '../../components/Batchdetails/Batchdetails'
+import fullstackIllustration from '../../assets/illustration2.jpg'
+import Fullstack_student_carousel from '../../components/Fullstack_student_carousel/Fullstack_student_carousel'
 
 
 const Course = (props) => {
@@ -28,23 +30,26 @@ const Course = (props) => {
         <Layout>
             <MenuModal />
             <Navbar />
-            <Page2Top title="FULLSTACK WEB DEVELOPMENT + DSA" line1="Become a MERN stack developer and get a job" line2="Rated by students" type="fullstack" />
+            <Page2Top title="FULLSTACK WEB DEVELOPMENT + DSA" line1="Become a MERN stack developer and get a job" line2="Rated by students" type="fullstack" illustration={fullstackIllustration} />
             <CodeAsylumsAdvantage />
             <Parallax1 />
             <MentorsPage2 />
-            <Banner1 /> 
-            <StudentCarousel />
+            {/* <Banner1 />  */}
+            <Fullstack_student_carousel />
+            {/* <StudentCarousel /> */}
+            <Batchdetails/>
+            <Banner/>
             <CurriculumFullStack />
             <Bubbles />
             <JobReady />
             {/* <ApplyButton /> */}
             <CourseTestimonials />
-            {/* <TeamPage/> */}
+            <TeamPage/>
             <Accordion />
-            {/* <Footer /> */}
+            <Footer/>
         </Layout>
         
     )
 }
 
-export default Course
+export default Course;

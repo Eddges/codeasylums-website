@@ -1,7 +1,5 @@
 import React from 'react'
 import classes from './Page2Top.module.css'
-import image from '../../assets/illustration2.jpg'
-import illustration from '../../assets/illustration2.jpg'
 import stars from '../../assets/stars.png'
 import adobe from '../../assets/companies/Adobe.png'
 import amazon from '../../assets/companies/amazon.png'
@@ -15,7 +13,8 @@ class Page2Top extends React.Component {
         title : this.props.title,
         line1 : this.props.line1,
         line2 : this.props.line2,
-        course : this.props.course
+        course : this.props.course,
+        illustration : this.props.illustration
     }
 
     render() {
@@ -23,7 +22,7 @@ class Page2Top extends React.Component {
             <div className={classes.Wrapper}>
             <div className={classes.marginDiv}></div>
                 <div className={classes.Page2Top}>
-                    <img src={image} alt="Student Image" />
+                    <img src={this.state.illustration} alt="Student Image" />
                     <div className={classes.gradient}></div>
                     <div className={classes.container}>
                         <div className={classes.text}>

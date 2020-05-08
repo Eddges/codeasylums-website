@@ -22,24 +22,24 @@ const CourseTestimonials = (props) => {
             about : "CEO, Microsoft", 
             content : "I completely give my placement credits to CodeAsylum’s FullStack Development program. It has indeed changed my life."
         },
-        {
-            icon : null,
-            name : "Shivam Shekhar",
-            about : "CEO, Microsoft", 
-            content : "I completely give my placement credits to CodeAsylum’s FullStack Development program. It has indeed changed my life."
-        },
-        {
-            icon : null,
-            name : "Shivam Shekhar",
-            about : "CEO, Microsoft", 
-            content : "I completely give my placement credits to CodeAsylum’s FullStack Development program. It has indeed changed my life."
-        },
-        {
-            icon : null,
-            name : "Shivam Shekhar",
-            about : "CEO, Microsoft", 
-            content : "I completely give my placement credits to CodeAsylum’s FullStack Development program. It has indeed changed my life."
-        }
+        // {
+        //     icon : null,
+        //     name : "Shivam Shekhar",
+        //     about : "CEO, Microsoft", 
+        //     content : "I completely give my placement credits to CodeAsylum’s FullStack Development program. It has indeed changed my life."
+        // },
+        // {
+        //     icon : null,
+        //     name : "Shivam Shekhar",
+        //     about : "CEO, Microsoft", 
+        //     content : "I completely give my placement credits to CodeAsylum’s FullStack Development program. It has indeed changed my life."
+        // },
+        // {
+        //     icon : null,
+        //     name : "Shivam Shekhar",
+        //     about : "CEO, Microsoft", 
+        //     content : "I completely give my placement credits to CodeAsylum’s FullStack Development program. It has indeed changed my life."
+        // }
     ]
 
     const testimonialCards = testimonials.map(card => 

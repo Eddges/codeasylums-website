@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+/* body{
+    background-color: rgb(242, 247, 250);
+} */
+
+.header{
+    margin-bottom: 2em;
+    margin-top: 2em;
+    text-align: center;
+    font-family: monospace;
+    font-size: 2em;
+}
+
+.wrapper{
+    margin: 4em;
+    display: flex;
+    height: 50vh;
+    width: 100%;
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
+   
+    
+}
+
+.wrapper .box {
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+    width: 20vw;
+    background-color: #fff;
+    margin-left: 2em;
+    /* border-radius: 10px; */
+    box-shadow: -6px -6px 20px rgba(255,255,255,1),
+    6px 6px 20px rgba(0,0,0,0.2);
+    
+}
+
+.wrapper .box .first_section{
+    display: flex;
+    flex-basis: 33%;
+    /* background-color: aquamarine; */
+}
+
+.wrapper .box .first_section .left{
+    display: flex;
+    flex-basis: 25%;
+    background-color: rgb(250, 248, 248);
+    justify-content: center;
+    align-items: center;
+    color: rgb(158, 185, 192);
+    font-family: monospace;
+    font-size: 2em;
+    font-weight: 900;
+}
+
+.wrapper .box .first_section .right{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 75%;
+    background-color: rgb(253, 250, 250);
+    color: rgb(158, 185, 192);
+    font-family: monospace;
+    justify-content: center;
+    font-weight: 900;
+}
+
+.wrapper .box .second_section{
+    display: flex;
+    flex-basis: 33%;
+    background-color: rgb(252, 248, 248);
+    color: rgb(12, 0, 0);
+    /* justify-content: center; */
+    align-items: center;
+    font-family: monospace;
+    font-size: 2em;
+    font-weight: 900;
+}
+
+.wrapper .box .second_section h4{
+    margin-left: 0.5em;
+}
+
+.divider{
+    height: 0.02em;
+    width: auto;
+    background-color: rgb(204, 199, 199);
+}
+
+
+.wrapper .box .third_section{
+    display: flex;
+    flex-basis: 33%;
+    flex-direction: column;
+    background-color: rgb(255, 251, 251);
+    color: rgb(14, 1, 1);
+    font-family: monospace;
+    justify-content: center;
+    
+}
+
+.wrapper .box .third_section p{
+    margin-left: 0.5em;
+}
+
+@media screen and (max-width: 796px) {
+    .wrapper{
+        margin: 1em;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        /* justify-content: space-around; */
+        /* flex-wrap: wrap; */
+       
+        }
+
+        .wrapper .box {
+            display: flex;
+            flex-direction: column;
+            height: 30vh;
+            width: 80vw;
+            background-color: #fff;
+            /* margin-left: 2em; */
+            /* border-radius: 10px; */
+            box-shadow: -6px -6px 20px rgba(255,255,255,1),
+            6px 6px 20px rgba(0,0,0,0.2);
+            margin-bottom: 2em;
+            
+        }
+}

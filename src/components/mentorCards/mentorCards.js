@@ -6,7 +6,9 @@ const MentorCards = (props) => {
         <div className={classes.container}>
             <div className={classes.card}>
                 <div className={classes.back}></div>
-                <div className={classes.Circle}></div>
+                <div className={classes.Circle}>
+                    <img src={props.image} />
+                </div>
                 <p className={classes.name}>{props.name}</p>
                 <p className={classes.about}>{props.about}</p>
                 <p className={classes.details}>{props.details}</p>

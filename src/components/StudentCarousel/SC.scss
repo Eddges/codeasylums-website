@@ -106,27 +106,27 @@ $bubble7 : rgb(240, 113, 130);
     &-slider{
       height: 100%; 
       // background-image: url(https://unsplash.it/1920/600?image=11);
-      .monday{
-              background-image: url(../../assets/student.jpg);
-      }
-      .tuesday{
-        background-image: url(../../assets/student.jpg);
-      }
-      .wednesday{
-        background-image: url(../../assets/student.jpg);
-      }
-      .thursday{
-        background-image: url(../../assets/student.jpg);
-      }
-      .friday{
-        background-image: url(../../assets/student.jpg);
-      }
-      .saturday{
-        background-image: url(../../assets/student.jpg);
-      }
-      .sunday{
-        background-image: url(../../assets/student.jpg);
-      }
+      // .monday{
+      //         background-image: url(../../assets/student.jpg);
+      // }
+      // .tuesday{
+      //   background-image: url(../../assets/student.jpg);
+      // }
+      // .wednesday{
+      //   background-image: url(../../assets/student.jpg);
+      // }
+      // .thursday{
+      //   background-image: url(../../assets/student.jpg);
+      // }
+      // .friday{
+      //   background-image: url(../../assets/student.jpg);
+      // }
+      // .saturday{
+      //   background-image: url(../../assets/student.jpg);
+      // }
+      // .sunday{
+      //   background-image: url(../../assets/student.jpg);
+      // }
       // background-color : black;
     }
     .slick-list{
@@ -215,14 +215,18 @@ $bubble7 : rgb(240, 113, 130);
   }
   
   @media(max-width : 576px) {
-    .container{
+    .containerCarousel{
       .title{
-        font-size: 3rem;
+        width : 100%;
+        padding : 0px;
+        text-align: center;
+        font-size: 2.5rem;
         margin-top: 50px;
       }
       .details{
         padding : 1% 4%;
         font-size: 1rem;
+        text-align: center;
       }
     }
   }

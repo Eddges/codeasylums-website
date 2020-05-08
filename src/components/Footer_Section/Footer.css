@@ -10,6 +10,8 @@
     height: 35vh;
     width: 100%;
     background-color: azure;
+
+
     justify-content: space-around;
 }
 
@@ -36,9 +38,10 @@
 
 .footer_down {
     display: flex;
-    background-color: azure;
+    /* background-color: azure; */
     height: 10vh;
     width: 100%;
+
 }
 
 .footer_down .col1{
@@ -48,6 +51,7 @@
     align-items: center;
     width: 15vw;
     height: 10vh;
+    
 }
 
 .footer_down .col2{

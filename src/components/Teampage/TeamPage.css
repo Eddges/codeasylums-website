@@ -1,29 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
 
 .App {
+    height: 20vh;
     text-align: center;
     margin-top: 30px;
     font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 80;
+    font-size: 1.5em;
   }
   
-  *{
+  /* *{
     margin: 0;
     padding: 0;
-  }
+  } */
   
+<<<<<<< HEAD
   /* body{
     background-color: whitesmoke;
+=======
+
+>>>>>>> f2426124782ba404558a5e595ed7fa49759d2c9d
   
   } */
   
   .wrapper {
-    /* margin-left: 200px;
-    margin-right: 200px; */
+    margin-left: 200px;
+    margin-right: 200px;
     display: flex;
     flex-direction: row;
     height: 100vh;
     width: 100%;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     align-content: space-between;
   
@@ -34,27 +41,56 @@
     display: flex;
     flex-direction: column;
     width: 20vw;
-    height: 50vh;
+    height: 55vh;
     margin-left: 50px;
     /* align-content: space-between; */
     background-color: white;
+    /* box-shadow: 0 1.4rem 8rem rgba(0,0,0,.2); */
+    box-shadow: -6px -6px 20px rgba(255,255,255,1),
+                6px 6px 20px rgba(0,0,0,0.2);
+    border-radius: 10px;
+
   }
   
   .wrapper .card .up{
     display: flex;
-    flex-basis: 30%;
+    flex-basis: 35%;
     justify-content: center;
     align-items: center;
     /* background-color: rgb(5, 15, 150); */
     /* background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%); */
     background: linear-gradient(90deg, #3F2B96 0%, #A8C0FF 100%);
     color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     
   }
+
+  .wrapper .card1 .up{
+    
+    /* background-color: rgb(5, 15, 150); */
+    /* background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%); */
+    /* background: linear-gradient(90deg, #3F2B96 0%, #A8C0FF 100%); */
+    background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+    
+  }
+
+  .wrapper .card2 .up{
+   
+    /* background-color: rgb(5, 15, 150); */
+    /* background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%); */
+    /* background: linear-gradient(90deg, #3F2B96 0%, #A8C0FF 100%); */
+    background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+    
+    
+  }
+
+
   .wrapper .card .up h3{
     /* padding: 10px; */
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    padding: 0.9em;
   }
   
   .wrapper .card .down{
@@ -127,7 +163,7 @@
   
   @media screen and (max-width: 796px) {
     .wrapper{
-      height: auto;
+      height: inherit;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -152,7 +188,7 @@
   .wrapper_team {
     display: flex;
     height: 100vh;
-    width: 100vw;
+    width: 100%;
   }
   
   .wrapper_team .left {
@@ -160,6 +196,7 @@
     flex-direction: column;
     flex-basis: 40%;
     justify-content: center;
+    background-color: #002366;
     /* align-items: center; */
     /* margin:40px;
     padding: 40px; */
@@ -169,6 +206,9 @@
     display: flex;
     flex-basis: 60%;
     flex-direction: column;
+    background-color: rgb(248, 245, 245);
+    color: rgb(36, 8, 8);
+    font-family: monospace;
   }
   
   .wrapper_team .right .up{
@@ -192,7 +232,8 @@
     height: 30vh;
     width: 15vw;
     /* margin-right: 20px; */
-    background-color: aqua;
+    background-color: rgb(241, 76, 81);
+    margin-right: 0.5em;
   }
   
   .box2{
@@ -218,28 +259,33 @@
   .wrapper_team .left p{
     font-family: 'Jost', sans-serif;
     margin-left: 40px;
-    margin-top: 10px;
-    padding: 10px;
+    margin-top: 5px;
+    padding: 20px;
+    color: white;
     
   }
   
   .wrapper_team .left h5{
-    font-family: 'Jost', sans-serif;
+    font-family: monospace;
     margin-left: 40px;
     margin-top: 10px;
-    padding: 10px;
+    padding: 20px;
     font-weight: 900;
+    font-size: 1.5em;
+    color: #D64045;
     /* margin-right: 20px; */
   }
   
   .wrapper_team .left h1{
     /* font-family: 'Jost', sans-serif; */
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: monospace;
     font-size: 3em;
     margin-left: 40px;
     margin-top: 10px;
-    padding: 10px;
+    padding: 20px;
     font-weight: 900;
+    /* color: #D64045; */
+    color: white;
   }
   
   .box h5{
