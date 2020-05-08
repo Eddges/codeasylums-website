@@ -24,7 +24,7 @@ $bubble7 : rgb(240, 113, 130);
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-bottom: -200px;
+    margin-bottom: -3%;
   }
   .details {
     text-align: left;
@@ -91,6 +91,7 @@ $bubble7 : rgb(240, 113, 130);
       }
     }
     
+
     &-wrapper{
       position: relative;
       width: 100%;
@@ -105,29 +106,6 @@ $bubble7 : rgb(240, 113, 130);
     }
     &-slider{
       height: 100%; 
-      // background-image: url(https://unsplash.it/1920/600?image=11);
-      // .monday{
-      //         background-image: url(../../assets/student.jpg);
-      // }
-      // .tuesday{
-      //   background-image: url(../../assets/student.jpg);
-      // }
-      // .wednesday{
-      //   background-image: url(../../assets/student.jpg);
-      // }
-      // .thursday{
-      //   background-image: url(../../assets/student.jpg);
-      // }
-      // .friday{
-      //   background-image: url(../../assets/student.jpg);
-      // }
-      // .saturday{
-      //   background-image: url(../../assets/student.jpg);
-      // }
-      // .sunday{
-      //   background-image: url(../../assets/student.jpg);
-      // }
-      // background-color : black;
     }
     .slick-list{
       height: 100%;
@@ -216,6 +194,7 @@ $bubble7 : rgb(240, 113, 130);
   
   @media(max-width : 576px) {
     .containerCarousel{
+      margin-bottom: -200px;
       .title{
         width : 100%;
         padding : 0px;

@@ -18,7 +18,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-bottom: -200px;
+  margin-bottom: -3%;
 }
 
 .details {
@@ -210,6 +210,9 @@
 }
 
 @media (max-width: 576px) {
+  .containerCarousel {
+    margin-bottom: -200px;
+  }
   .containerCarousel .title {
     width: 100%;
     padding: 0px;
