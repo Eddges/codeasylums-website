@@ -16,7 +16,7 @@ const Curriculum2Item = (props) => {
                     <div className={classes.expand1}>
                         <div class="CurriculumLink">
                             <span>{props.topic1}</span>
-                            <span>+</span>
+                            <span class="accRotate">+</span>
                         </div>
                         <div class="CurriculumAnswer">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id lectus sed purus tristique sagittis. Aliquam molestie eu ligula eget bibendum. Nullam sapien nisi, varius a lacinia vel, posuere sit amet mi
@@ -27,7 +27,7 @@ const Curriculum2Item = (props) => {
                     <div className={classes.expand1}>
                         <div class="CurriculumLink">
                             <span>{props.topic2}</span>
-                            <span>+</span>
+                            <span class="accRotate">+</span>
                         </div>
                         <div class="CurriculumAnswer">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id lectus sed purus tristique sagittis. Aliquam molestie eu ligula eget bibendum. Nullam sapien nisi, varius a lacinia vel, posuere sit amet mi

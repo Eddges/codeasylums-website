@@ -1,8 +1,17 @@
+.container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .CourseTestimonials {
-  margin-top: 100px;
   background-color: #E7FFCE;
   height: auto;
-  padding: 40px 20px;
+  padding: 20px 20px;
   text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -12,11 +21,13 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  width: 100%;
+  background-color: #eeeeee;
 }
 
 .CourseTestimonials .Testimonial {
   width: 28%;
-  height: 450px;
+  height: 350px;
   padding: 3% 3%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -32,7 +43,7 @@
 @media (max-width: 576px) {
   .CourseTestimonials .Testimonial {
     width: 85%;
-    height: 380px;
+    height: 300px;
   }
 }
 

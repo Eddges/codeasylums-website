@@ -9,15 +9,18 @@ import JobReady from '../../components/JobReady/JobReady'
 import ApplyButton from '../../components/ApplyButton/ApplyButton'
 import CourseTestimonials from '../../components/CourseTestimonials/CourseTestimonials'
 import Curriculum from '../../components/Curriculum/Curriculum'
-import Footer from '../../components/Footer/Footer'
+import Footer from '../../components/Footer_Section/Footer'
 import MenuModal from '../../components/MenuModal/MenuModal'
 import StudentCarousel from '../../components/StudentCarousel/StudentCarousel'
 import Accordion from '../../components/accordion/Accordion'
 import Page2Top from '../../components/Page2Top/Page2Top'
 import Curriculum2Item from '../../components/Curriculum2Item/Curriculum2Item'
 import CurriculumFullStack from '../../components/CurriculumFullStack/CurriculumFullStack'
+import Banner1 from '../../components/Banner1/Banner1'
 
 import TeamPage from '../../components/Teampage/TeamPage';
+import Parallax1 from '../../components/Parallax1/Parallax1'
+import Parallax2 from '../../components/Parallax2/Parallax2'
 
 
 const Course = (props) => {
@@ -25,19 +28,20 @@ const Course = (props) => {
         <Layout>
             <MenuModal />
             <Navbar />
-            <Page2Top title="FULLSTACK WEB DEVELOPMENT + DSA" line1="Become a MERN stack developer and get a job" line2="A 6 week long bootcamp" type="fullstack" />
-            <MentorsPage2 />
+            <Page2Top title="FULLSTACK WEB DEVELOPMENT + DSA" line1="Become a MERN stack developer and get a job" line2="Rated by students" type="fullstack" />
             <CodeAsylumsAdvantage />
-            <Bubbles />
+            <Parallax1 />
+            <MentorsPage2 />
+            <Banner1 /> 
             <StudentCarousel />
-            <Curriculum />
             <CurriculumFullStack />
+            <Bubbles />
             <JobReady />
-            <ApplyButton />
+            {/* <ApplyButton /> */}
             <CourseTestimonials />
-            <TeamPage/>
+            {/* <TeamPage/> */}
             <Accordion />
-            <Footer />
+            {/* <Footer /> */}
         </Layout>
         
     )

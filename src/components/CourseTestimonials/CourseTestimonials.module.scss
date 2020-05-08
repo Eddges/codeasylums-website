@@ -1,17 +1,45 @@
 $bg : #E7FFCE;
+$bg1 : #0f3647;
 
+.container{
+    width : 100%;
+    display : flex;
+    justify-content: center;
+    // .Line{
+    //     width : 80%;
+    //     height : 8px;
+    //     position: absolute;
+    //     background-color: #002366;
+    //     border-radius: 2px;
+    //     transform: translateY(-50%);
+    // }
+}
 .CourseTestimonials {
-    margin-top: 100px;
+        // margin-top: 100px;
     background-color: $bg;
     height : auto;
-    padding : 40px 20px;
+    padding : 20px 20px;
     text-align: center;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    width : 100%;
+    // border-radius: 5px;
+    // background-color: $bg1;
+    // background : linear-gradient(to right, #2a112e, #03200f );
+    // background: linear-gradient(to right,#0a2b3f , #311055);
+    // background-size: 200%;
+    // animation: gradientBackground 1s infinite alternate ease-in-out;
+    // background: linear-gradient(to right, #2a463a, #0a2b3f , #311055 , #003083);
+    // background-size: 200%;
+    // animation: gradientBackground 1s infinite alternate ease-in-out;
+    // background-color: rgba(214, 64, 69, 0.027);
+    background-color: #eeeeee;
+    // background-color: #002366;
+    
     .Testimonial{
         width : 28%;
-        height : 450px;
+        height : 350px;
         padding : 3% 3%;
         display : flex;
         justify-content: center;
@@ -23,7 +51,7 @@ $bg : #E7FFCE;
     .CourseTestimonials{
         .Testimonial{
             width : 85%;   
-            height : 380px; 
+            height : 300px; 
         }
     }
 }

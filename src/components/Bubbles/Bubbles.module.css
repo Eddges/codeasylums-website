@@ -16,7 +16,7 @@
 
 .Container .Advantage {
   margin-top: 10%;
-  font-size: 3.5rem;
+  font-size: 3rem;
   margin-bottom: 5%;
   font-weight: 200;
 }
@@ -113,7 +113,7 @@
   width: 300px;
   height: 300px;
   border-radius: 50%;
-  background-color: #dee053;
+  background-color: #f07182;
   z-index: 10;
   -webkit-transform: translateX(-40%);
           transform: translateX(-40%);
@@ -142,7 +142,7 @@
   width: 350px;
   height: 350px;
   border-radius: 50%;
-  background-color: #f07182;
+  background-color: #dee053;
   -webkit-transform: translateX(-5%);
           transform: translateX(-5%);
   z-index: 0;
@@ -221,7 +221,7 @@
     width: 220px;
     height: 220px;
     border-radius: 50%;
-    background-color: #dee053;
+    background-color: #f07182;
     z-index: 10;
     -webkit-transform: translateX(-40%);
             transform: translateX(-40%);
@@ -247,7 +247,7 @@
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    background-color: #f07182;
+    background-color: #dee053;
     -webkit-transform: translateX(-10%);
             transform: translateX(-10%);
     z-index: 0;

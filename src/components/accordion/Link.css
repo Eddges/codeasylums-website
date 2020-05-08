@@ -19,7 +19,7 @@
 }
 
 .accordion .title {
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 200;
   margin: 20px 0px 0px 0;
 }
@@ -103,6 +103,18 @@
   }
   .container .item .link {
     font-size: 1.7rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .accordion .title {
+    font-size: 2rem;
+  }
+  .accordion .container .item .link {
+    font-size: 0.8rem;
+  }
+  .accordion .container .item .answer {
+    font-size: 0.7rem;
   }
 }
 /*# sourceMappingURL=Link.css.map */

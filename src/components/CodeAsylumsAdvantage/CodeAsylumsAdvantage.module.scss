@@ -1,37 +1,66 @@
 .Advantage{
     font-family: 'Roboto';
     text-align: center;
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    // background-color: #f3f3f3;
+    background-color: #D64045;
+    color : rgb(51, 51, 51);
+    position: relative;
+    // margin-top: -100px;
+    // .Line{
+    //     width : 100%;
+    //     height : 10px;
+    //     background-color: #D64045;   
+    //     border-radius:1px;
+    //     position: absolute;
+    //     transform: translateY(-50%);
+    // }
     .Heading {
+        // color : rgb(216, 17, 23);
+        // color : rgb(63, 63, 63);
+        color : white;
         width: 100%;
-        margin-top : 9%;
-        font-size: 4rem;
-        font-weight: 200;
+        margin-top : 10%;
+        font-size: 2.5rem;
+        font-weight: 500;
+        text-align: left;
+        padding-left : 10%;
+        // background-color: #002366;
     }
     .BG {
-        background-color: #F9F9F9;
+        // background-color: rgb(246, 246, 246);
+        // background-color: #002366;
         width : 100%;
-        height : 70vh;
-        margin-top: 4%;
+        height : 60vh;
+        margin-top: 0%;
         display : flex;
         padding : 0px 10%;
+    //     background: linear-gradient(to right, #003083, #311055 ,#0a2b3f ,  #2a463a);
+    // background-size: 200%;
+    // animation: gradientBackground 1s infinite alternate ease-in-out;
         ul{
             text-align: left;
-            margin : 10px;
+            margin : 0px 10px;
             padding : 5px;
             width: 25%;
-            height : 90%;
+            height : 80%;
             display: flex;
             flex-direction: column;
             justify-content: space-evenly;
             li{
-                color : black;
-                font-weight: 300;
+                
+                font-family: 'Open Sans';
+                font-weight: 500;
                 font-size: 0.9rem;
+                // color : rgb(78, 78, 78);
+                color : white;
             }
         }
         .divTestimonial {
             width : 40%;
-            padding : 5% 2%;
+            padding : 3% 2% 5% 2%;
             display : flex;
             align-items: center;
             justify-content: center;

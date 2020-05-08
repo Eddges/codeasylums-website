@@ -24,4 +24,5 @@ $(".onlineCourses").on("click", function() {
 
 $(".CurriculumLink").click(function() {
     $(this).next().toggleClass("Open")
+    $(this).children(".accRotate").toggleClass("Rotate")
 })

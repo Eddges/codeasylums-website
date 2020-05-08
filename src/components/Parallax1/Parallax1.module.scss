@@ -1,0 +1,33 @@
+.Parallax1 {
+    background-image: url(../../assets/Humaaans/sitting-1.png);
+    background-position: right;
+    position: relative;
+    background-attachment: fixed;
+    display : flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height : 60vh;
+    background-repeat: no-repeat;
+    p{
+        font-family: 'Roboto';
+        color : black;
+        font-size: 3rem;
+        text-align: left;
+        font-weight: 200;
+    }
+}
+
+@media(max-width : 576px) {
+    .Parallax1{
+        height : 30vh;
+        p{
+            background-color: #250046;
+            padding : 0px 10px;
+            font-size: 1.7rem;
+            // font-weight: bold;
+            color : white;
+            border-radius: 2px;
+        }
+    }
+}

@@ -5,9 +5,10 @@
 }
 
 .Job .Heading {
+  text-align: center;
   width: 100%;
   margin-top: 9%;
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 200;
 }
 
@@ -19,9 +20,9 @@
 }
 
 .Job .BG {
-  background-color: #DEF3FF;
+  background-color: #D64045;
   width: 100%;
-  height: 90vh;
+  height: 70vh;
   margin-top: 4%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -48,13 +49,13 @@
 }
 
 .Job .BG ul li {
-  color: black;
-  font-weight: 300;
+  color: white;
+  font-weight: 500;
   font-size: 0.9rem;
 }
 
 .Job .BG .divTestimonial {
-  width: 50%;
+  width: 40%;
   padding: 3% 2%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -78,7 +79,6 @@
     font-size: 1.1rem;
   }
   .Job .BG {
-    background-color: #DEF3FF;
     width: 100%;
     height: auto;
     margin-top: 4%;
@@ -113,8 +113,8 @@
     padding-left: 15%;
   }
   .Job .BG ul li {
-    color: black;
-    font-weight: 300;
+    color: white;
+    font-weight: 500;
     font-size: 0.9rem;
     margin: 5px 0px;
     width: 100%;

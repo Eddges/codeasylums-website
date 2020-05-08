@@ -22,6 +22,7 @@
   z-index: 50;
   width: 100%;
   height: 100px;
+  margin-bottom: -50px;
 }
 
 .Wrapper .bar .barContent {
@@ -50,10 +51,13 @@
           justify-content: space-evenly;
 }
 
-.Wrapper .bar .barContent .barIcons ion-icon {
-  width: 5%;
+.Wrapper .bar .barContent .barIcons div {
+  width: 8%;
   height: 30%;
-  color: #045158;
+}
+
+.Wrapper .bar .barContent .barIcons div img {
+  width: 100%;
 }
 
 .Page2Top {
@@ -62,11 +66,10 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   position: relative;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-bottom: -50px;
 }
 
@@ -83,11 +86,9 @@
   position: absolute;
   height: 100%;
   width: 100%;
-  background: -webkit-gradient(linear, left top, right top, from(#2af598), color-stop(#009efd), color-stop(#6a11cb), to(#2575fc));
-  background: linear-gradient(to right, #2af598, #009efd, #6a11cb, #2575fc);
-  background-size: 500%;
-  -webkit-animation: gradientBackground 10s infinite alternate ease-in-out;
-          animation: gradientBackground 10s infinite alternate ease-in-out;
+  background: -webkit-gradient(linear, left top, right top, from(#002366), to(#46237a));
+  background: linear-gradient(to right, #002366, #46237a);
+  background-size: 100%;
   opacity: 96%;
   z-index: 0;
   overflow: hidden;
@@ -95,7 +96,7 @@
 
 .Page2Top .container {
   z-index: 10;
-  width: 100%;
+  width: 60%;
   height: 100%;
   color: white;
   font-family: 'Open Sans';
@@ -129,80 +130,142 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  width: 100%;
+}
+
+.Page2Top .container .text p {
+  width: 100%;
+  text-align: left;
+  padding-left: 15%;
+  padding-bottom: 2%;
 }
 
 .Page2Top .container .text :nth-child(1) {
   font-weight: 700;
-  font-size: 1.1rem;
-  padding: 20px;
+  font-size: 1rem;
 }
 
 .Page2Top .container .text :nth-child(2) {
-  font-size: 1.3rem;
+  font-size: 2rem;
   font-family: 'Open Sans';
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 
 .Page2Top .container .text :nth-child(3) {
   font-size: 1.3rem;
   font-family: 'Open Sans';
-  letter-spacing: 2px;
+  font-weight: 300;
 }
 
-.Page2Top .container .buttons {
-  width: 45%;
-  height: 70px;
-  border: solid 1px white;
-  border-radius: 3px;
-  z-index: 200;
-  margin-top: 90px;
+.Page2Top .container .text :nth-child(4) {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
 }
 
-.Page2Top .container .buttons form {
+.Page2Top .container .text .alumni {
+  margin-top: 40px;
+  font-weight: 700;
+}
+
+.Page2Top .container .text .stars {
   width: 100%;
+  position: relative;
+  height: 40px;
+  text-align: left;
+  padding-left: 12%;
+}
+
+.Page2Top .container .text .stars img {
+  max-width: 20%;
+  max-height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.Page2Top .Form {
+  width: 40%;
+  height: 100%;
+  z-index: 10;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Page2Top .Form .Container {
+  width: 70%;
+  height: 76%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 5%;
+  background-color: whitesmoke;
+  border-radius: 3px;
+}
+
+.Page2Top .Form .Container form {
+  padding: 2%;
+  font-family: 'Roboto';
   height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
-.Page2Top .container .buttons form input {
-  padding: 5px 10px;
-  width: 24%;
-  height: 100%;
-  background-color: transparent;
+.Page2Top .Form .Container form span {
+  font-weight: 500;
+  font-size: 1.3rem;
+  padding-bottom: 5px;
+  color: #4b4b4b;
+}
+
+.Page2Top .Form .Container form input {
+  height: 15%;
+  background-color: white;
+  margin: 0.5% 0px;
+  border-radius: 3px;
+  border: none;
+  padding: 0px 10px;
+  -webkit-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.Page2Top .Form .Container form button {
+  height: 23%;
+  background-color: #e7252b;
+  border: none;
+  border-radius: 5px;
   color: white;
-  border: none;
+  font-size: 1.3rem;
 }
 
-.Page2Top .container .buttons form span {
-  position: relative;
-  width: 1px;
-  height: 60%;
-  background-color: white;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-}
-
-.Page2Top .container .buttons form button {
-  background-color: white;
-  border: none;
-  width: 25%;
-  height: 100%;
-  font-weight: 600;
-  color: #045158;
-}
-
-.Page2Top .container .buttons form button:hover {
+.Page2Top .Form .Container form button:hover {
   cursor: pointer;
-  background-color: #f1f1f1;
+  -webkit-animation: callback 1s;
+          animation: callback 1s;
 }
 
 @-webkit-keyframes gradientBackground {
@@ -220,6 +283,24 @@
   }
   100% {
     background-position: right;
+  }
+}
+
+@-webkit-keyframes callback {
+  0% {
+    background-color: #ff0027;
+  }
+  100% {
+    background-color: #d30023;
+  }
+}
+
+@keyframes callback {
+  0% {
+    background-color: #ff0027;
+  }
+  100% {
+    background-color: #d30023;
   }
 }
 
@@ -360,6 +441,234 @@
   .Page2Top .container .buttons form button:hover {
     cursor: pointer;
     background-color: #f1f1f1;
+  }
+}
+
+@media (max-width: 576px) {
+  .Wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .Wrapper .bar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    z-index: 50;
+    width: 100%;
+    height: 200px;
+  }
+  .Wrapper .bar .barContent {
+    text-align: center;
+    font-family: 'Open Sans';
+    width: 70%;
+    height: 100%;
+    background-color: white;
+    border-radius: 3px;
+    -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 5px;
+  }
+  .Wrapper .bar .barContent .barIcons {
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .Wrapper .bar .barContent .barIcons div {
+    width: 15%;
+    margin: 0 10%;
+  }
+  .Page2Top {
+    padding: 0% 0% 20% 0%;
+    height: auto;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: relative;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: -50px;
+  }
+  .Page2Top .container {
+    z-index: 10;
+    width: 100%;
+    height: 70%;
+    color: white;
+    font-family: 'Open Sans';
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  .Page2Top .container .text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+  }
+  .Page2Top .container .text p {
+    width: 100%;
+    text-align: left;
+    padding: 0px 10%;
+    padding-bottom: 2%;
+  }
+  .Page2Top .container .text :nth-child(1) {
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 0.8rem;
+  }
+  .Page2Top .container .text :nth-child(2) {
+    font-size: 1.2rem;
+    font-family: 'Open Sans';
+    letter-spacing: 1px;
+  }
+  .Page2Top .container .text :nth-child(3) {
+    font-size: 1.1rem;
+    font-family: 'Open Sans';
+    font-weight: 300;
+  }
+  .Page2Top .container .text :nth-child(4) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: end;
+  }
+  .Page2Top .container .text .stars {
+    width: 100%;
+    position: relative;
+    height: 40px;
+    text-align: left;
+    padding-left: 12%;
+  }
+  .Page2Top .container .text .stars img {
+    max-width: 20%;
+    max-height: 100%;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  .Page2Top .Form {
+    margin-top: 20px;
+    width: 100%;
+    height: 30%;
+    z-index: 10;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .Page2Top .Form .Container {
+    width: 80%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 5%;
+    background-color: whitesmoke;
+    border-radius: 3px;
+  }
+  .Page2Top .Form .Container form {
+    padding: 2%;
+    font-family: 'Roboto';
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .Page2Top .Form .Container form span {
+    font-weight: 500;
+    font-size: 1.1rem;
+    padding-bottom: 5px;
+    color: #4b4b4b;
+  }
+  .Page2Top .Form .Container form input {
+    height: 50px;
+    background-color: white;
+    margin: 0.5% 0px;
+    border-radius: 3px;
+    border: none;
+    padding: 0px 10px;
+    -webkit-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  .Page2Top .Form .Container form button {
+    height: 80px;
+    background-color: #ff0027;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.1rem;
+    margin-top: 10px;
+  }
+  .Page2Top .Form .Container form button:hover {
+    cursor: pointer;
+    -webkit-animation: callback 1s;
+            animation: callback 1s;
   }
 }
 /*# sourceMappingURL=Page2Top.module.css.map */
