@@ -14,10 +14,14 @@ import MenuModal from '../../components/MenuModal/MenuModal'
 import StudentCarousel from '../../components/StudentCarousel/StudentCarousel'
 import Accordion from '../../components/accordion/Accordion'
 import Page2Top from '../../components/Page2Top/Page2Top'
+import Curriculum2Item from '../../components/Curriculum2Item/Curriculum2Item'
+import CurriculumFullStack from '../../components/CurriculumFullStack/CurriculumFullStack'
+
 import TeamPage from '../../components/Teampage/TeamPage';
 import Footer from '../../components/Footer_Section/Footer';
 import Banner from '../../components/Banner/Banner';
 import Batchdetails from '../../components/Batchdetails/Batchdetails'
+
 
 const Course = (props) => {
     return(
@@ -32,6 +36,10 @@ const Course = (props) => {
             <Curriculum />
             <Batchdetails/>
             <Banner/>
+
+            
+
+            <CurriculumFullStack />
             <JobReady />
             <ApplyButton />
             <CourseTestimonials />
