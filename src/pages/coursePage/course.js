@@ -9,7 +9,7 @@ import JobReady from '../../components/JobReady/JobReady'
 import ApplyButton from '../../components/ApplyButton/ApplyButton'
 import CourseTestimonials from '../../components/CourseTestimonials/CourseTestimonials'
 import Curriculum from '../../components/Curriculum/Curriculum'
-import Footer from '../../components/Footer/Footer'
+// import Footer from '../../components/Footer/Footer'
 import MenuModal from '../../components/MenuModal/MenuModal'
 import StudentCarousel from '../../components/StudentCarousel/StudentCarousel'
 import Accordion from '../../components/accordion/Accordion'
@@ -18,6 +18,9 @@ import Curriculum2Item from '../../components/Curriculum2Item/Curriculum2Item'
 import CurriculumFullStack from '../../components/CurriculumFullStack/CurriculumFullStack'
 
 import TeamPage from '../../components/Teampage/TeamPage';
+import Footer from '../../components/Footer_Section/Footer';
+import Banner from '../../components/Banner/Banner';
+import Batchdetails from '../../components/Batchdetails/Batchdetails'
 
 
 const Course = (props) => {
@@ -31,16 +34,22 @@ const Course = (props) => {
             <Bubbles />
             <StudentCarousel />
             <Curriculum />
+            <Batchdetails/>
+            <Banner/>
+
+            
+
             <CurriculumFullStack />
             <JobReady />
             <ApplyButton />
             <CourseTestimonials />
             <TeamPage/>
             <Accordion />
-            <Footer />
+            {/* <Footer /> */}
+            <Footer/>
         </Layout>
         
     )
 }
 
-export default Course
+export default Course;
