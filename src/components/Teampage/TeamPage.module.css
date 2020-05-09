@@ -16,14 +16,9 @@
   }
   
   .wrapper {
-<<<<<<< HEAD:src/components/Teampage/TeamPage.css
-    overflow: hidden;
-    margin-left: 200px;
-    margin-right: 200px;
-=======
+
     /* margin-left: 200px; */
     /* margin-right: 200px; */
->>>>>>> 5e937acd942530959c28e6837355c0bd325e6bab:src/components/Teampage/TeamPage.module.css
     display: flex;
     flex-direction: row;
     height: 70vh;
@@ -520,13 +515,8 @@
     .wrapper_team{
       display: flex;
       flex-direction: column;
-<<<<<<< HEAD:src/components/Teampage/TeamPage.css
-      /* width : 200px; */
+
       height: auto;
-      overflow: hidden;
-=======
-      height: auto;
->>>>>>> 5e937acd942530959c28e6837355c0bd325e6bab:src/components/Teampage/TeamPage.module.css
     }
     .wrapper_team .right{
       display: flex;

@@ -38,15 +38,10 @@ const Footer = () => {
             <p>Read Our Stories on medium</p>
         </div>
     </div>
-<<<<<<< HEAD
-    <div class="footer_down">
-        <div class="col1">
-            <img src={logo} width = "104" height="61"  alt=""/>
-=======
+
     <div class={styles.footer_down}>
         <div class={styles.col1}>
-            <img src="./logo.png" width = "104" height="61"  alt=""/>
->>>>>>> 5e937acd942530959c28e6837355c0bd325e6bab
+            <img src={logo} width = "104" height="61"  alt=""/>
         </div>
         <div class={styles.col2}>
             <p>Copyright 2019</p>
@@ -54,7 +49,7 @@ const Footer = () => {
         <div class={styles.col3}>
             <p>Terms</p>
             <p>Privacy</p>
-            <p>Concern</p>
+            {/* <p>Concern</p> */}
         </div>
         </div>
         </>

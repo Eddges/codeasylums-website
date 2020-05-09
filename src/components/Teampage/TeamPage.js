@@ -7,13 +7,9 @@ import classes from './TeamPage.module.css'
 
 function TeamPage() {
   return (
-<<<<<<< HEAD
-    <div className={classes.container}>
-      <div className = "App">
-=======
+
     <div>
       <div className = {styles.App}>
->>>>>>> 5e937acd942530959c28e6837355c0bd325e6bab
             <h1>EXPLORE OUR COURSES</h1>
       </div>
       <div className={styles.wrapper}>

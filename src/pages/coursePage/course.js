@@ -48,7 +48,7 @@ const Course = (props) => {
             
             {/* <ApplyButton /> */}
             
-            <TeamPage/>
+            {/* <TeamPage/> */}
             <Accordion />
             <Banner/>
 

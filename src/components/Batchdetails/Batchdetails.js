@@ -5,13 +5,9 @@ import classes from './Batchdetails.module.css'
 
 const Batchdetails = () => {
     return(
-<<<<<<< HEAD
-        <div className={classes.BG}>
-            <div className = "header">
-=======
-        <div>
+
+        <div className={styles.mainDiv}>
             <div className = {styles.header}>
->>>>>>> 5e937acd942530959c28e6837355c0bd325e6bab
                 <h1>Upcoming Batches</h1>
             </div>
             <div className={styles.wrapper}>
