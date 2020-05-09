@@ -7,7 +7,7 @@
 
 .wrapper {
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     height: 50vh;
     width: 100%;
@@ -16,11 +16,19 @@
 .wrapper .banner {
     display: flex;
     height: 30vh;
-    width: 70%;
+    width: 80%;
+    /* align-self: center; */
     border-radius: 10px;
     background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
     /* background: linear-gradient(90deg, #fcff9e 0%, #c67700 100%); */
+    transition: 0.4s ease-in-out;
 }
+
+/* .wrapper .banner:hover{
+    width:72%;
+    height: 32vh;
+    margin-bottom: 0.3em;
+} */
 
 .wrapper .banner .left {
     display: flex;
