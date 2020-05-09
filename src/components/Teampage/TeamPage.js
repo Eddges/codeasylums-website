@@ -1,70 +1,70 @@
 import React from 'react';
 // import logo from './logo.svg';
-import './TeamPage.css';
+import styles from './TeamPage.module.css';
 // import Card from './Card';
 import BoxAvatar from './BoxAvatar';
 
 function TeamPage() {
   return (
     <div>
-      <div className = "App">
+      <div className = {styles.App}>
             <h1>EXPLORE OUR COURSES</h1>
       </div>
-      <div className="wrapper">
+      <div className={styles.wrapper}>
         {/* <Card title ="FULL STACK TRACK CERTIFICATION" description = "Lorem ipsum dolor sit amet consectetur adipisicing elit.Soluta reiciendis officiis asperiores dolorem tenetur quod consequatur necessitatibus ducimus, tempore quas?" />
         <Card title= "DATA SCIENCE TRACK CERTIFICATION" description = "Lorem ipsum dolor sit amet consectetur adipisicing elit.Soluta reiciendis officiis asperiores dolorem tenetur quod consequatur necessitatibus ducimus, tempore quas?"/>
         <Card title= "DATA SCIENCE TRACK CERTIFICATION" description = "Lorem ipsum dolor sit amet consectetur adipisicing elit.Soluta reiciendis officiis asperiores dolorem tenetur quod consequatur necessitatibus ducimus, tempore quas?"/> */}
 
-        <div className="card">
-            <div className="up">
+        <div className={styles.card}>
+            <div className={styles.up}>
                 <h3>FULL STACK TRACK CERTIFICATION</h3>
             </div>
-            <div className="down">
+            <div className={styles.down}>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Soluta reiciendis officiis asperiores dolorem tenetur quod consequatur necessitatibus ducimus, tempore quas?</p>
             </div>
-            <div className="bottom">
-                <button className="button">Explore</button>
+            <div className={styles.bottom}>
+                <button className={styles.button}>Explore</button>
             </div>
-            <div className="card-footer">
+            <div className={styles.card_footer}>
                 <p>For 6 months</p>
             </div>
         </div>
 
         {/* 2nd */}
-        <div className="card card1">
-            <div className="up">
+        <div className={styles.card1}>
+            <div className={styles.up}>
                 <h3>DATA SCIENCE TRACK CERTIFICATION</h3>
             </div>
-            <div className="down">
+            <div className={styles.down}>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Soluta reiciendis officiis asperiores dolorem tenetur quod consequatur necessitatibus ducimus, tempore quas?</p>
             </div>
-            <div className="bottom">
-                <button className="button">Explore</button>
+            <div className={styles.bottom}>
+                <button className={styles.button}>Explore</button>
             </div>
-            <div className="card-footer">
+            <div className={styles.card_footer}>
                 <p>For 6 months</p>
             </div>
         </div>
 
         {/* 3rd */}
-        <div className="card card2">
-            <div className="up">
+        <div className={styles.card2}>
+            <div className={styles.up}>
                 <h3>DEEP LEARNING TRACK CERTIFICATION</h3>
             </div>
-            <div className="down">
+            <div className={styles.down}>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Soluta reiciendis officiis asperiores dolorem tenetur quod consequatur necessitatibus ducimus, tempore quas?</p>
             </div>
-            <div className="bottom">
-                <button className="button">Explore</button>
+            <div className={styles.bottom}>
+                <button className={styles.button}>Explore</button>
             </div>
-            <div className="card-footer">
+            <div className={styles.card_footer}>
                 <p>For 6 months</p>
             </div>
         </div>
         
     </div>
-    <div class="wrapper_team">
-        <div class="left">
+    <div class={styles.wrapper_team}>
+        <div class={styles.left}>
             <h1>The Creative Crew behind Codeasylums</h1>
             <h5>What we are</h5>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -73,33 +73,33 @@ function TeamPage() {
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 Necessitatibus voluptatem ex maxime sunt totam, corrupti temporibus excepturi iusto asperiores porro.</p>
         </div>
-        <div class="right">
-            <div class="up">
+        <div class={styles.right}>
+            <div class={styles.up}>
                 <BoxAvatar/>
-                <div class="box box2">
+                <div class={styles.box,styles.box2}>
                     <img src="https://img.icons8.com/color/200/000000/person-male.png"/>
                     <h5>solu</h5>
                     <p>product manager</p>
                 </div>
-                <div class="box box3">
+                <div class={styles.box,styles.box3}>
                     <img src="https://img.icons8.com/color/200/000000/person-male.png"/>
                     <h5>solu</h5>
                     <p>product manager</p>
                 </div>
             </div>
 
-            <div class="down">
-                <div class="box box4">
+            <div class={styles.down}>
+                <div class={styles.box,styles.box4}>
                     <img src="https://img.icons8.com/color/200/000000/person-male.png"/>
                     <h5>solu</h5>
                     <p>product manager</p>
                 </div>
-                <div class="box box5">
+                <div class={styles.box,styles.box5}>
                     <img src="https://img.icons8.com/color/200/000000/person-male.png"/>
                     <h5>solu</h5>
                     <p>product manager</p>
                 </div>
-                <div class="box box6">
+                <div class={styles.box,styles.box6}>
                     <img src="https://img.icons8.com/color/200/000000/person-male.png"/>  
                     <h5>solu</h5>
                     <p>product manager</p>    

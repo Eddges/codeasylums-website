@@ -1,14 +1,14 @@
 import React from 'react';
-import './Batchdetails.css';
+import styles from './Batchdetails.module.css';
 import Box from './Box';
 
 const Batchdetails = () => {
     return(
         <div>
-            <div className = "header">
+            <div className = {styles.header}>
                 <h1>Upcoming Batches</h1>
             </div>
-            <div className="wrapper">
+            <div className={styles.wrapper}>
         
         
         <Box date = "19" month = "February" time="18:00-22:00" coursename = "Machine Learning Lessson #43" status = "Booking Ended" count = "200/200tickets sold"/>
