@@ -3,10 +3,11 @@ import React from 'react';
 import './TeamPage.css';
 // import Card from './Card';
 import BoxAvatar from './BoxAvatar';
+import classes from './TeamPage.module.css'
 
 function TeamPage() {
   return (
-    <div>
+    <div className={classes.container}>
       <div className = "App">
             <h1>EXPLORE OUR COURSES</h1>
       </div>

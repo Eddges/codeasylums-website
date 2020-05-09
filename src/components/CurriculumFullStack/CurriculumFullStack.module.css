@@ -1,10 +1,11 @@
 .CurriculumFullStack{
     height : auto;
     padding : 50px 0px;
-    margin-top : 150px;
+    /* margin-top : 150px; */
     /* background-color: #0024660c; */
     background-color: #f2f7fa;
     /* background-color: rgba(214, 64, 69, 0.055); */
+    /* margin-bottom : -10%; */
 }
 
 .CurriculumFullStack .title{

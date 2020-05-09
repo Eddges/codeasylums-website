@@ -1,8 +1,8 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
    
-}
+} */
 
 /* body{
     background-color: rgb(242, 247, 250);
@@ -18,7 +18,7 @@
 }
 
 .wrapper{
-    margin: 4em;
+    margin: 0em 0px;
     display: flex;
     height: auto;
     width: 100%;

@@ -66,6 +66,7 @@ class Page2Top extends React.Component {
                 </div>  
                 <div className={classes.bar}>
                     <div className={classes.barContent}>
+                        <p className={classes.alumniWork}>Our alumni work at : </p>
                         {/* <p>Our alumni work at</p> */}
                         <div className={classes.barIcons}>
                             <div className={classes.icons}>

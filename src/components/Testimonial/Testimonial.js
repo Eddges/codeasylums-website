@@ -11,8 +11,12 @@ const Testimonial = (props) => {
         showAbout = "1"
     }
 
+    let animated = "";
+    if(props.scrollAnimated){
+        animated="zoom-in"
+    }
     return(
-        <div className={classes.Testimonial}>
+        <div className={classes.Testimonial} data-aos={animated}> 
             <div className={classes.Circle} style={{display : showCircle}}></div>
             <div className={classes.Content}>"{props.content}"</div>
             <div className={classes.Name}>{props.name}</div>

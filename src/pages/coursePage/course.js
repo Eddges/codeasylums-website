@@ -34,18 +34,24 @@ const Course = (props) => {
             <CodeAsylumsAdvantage />
             <Parallax1 />
             <MentorsPage2 />
-            {/* <Banner1 />  */}
-            <Fullstack_student_carousel />
-            {/* <StudentCarousel /> */}
-            <Batchdetails/>
-            <Banner/>
             <CurriculumFullStack />
-            <Bubbles />
             <JobReady />
-            {/* <ApplyButton /> */}
+            <Batchdetails/>
             <CourseTestimonials />
+            
+            
+            {/* <Banner1 />  */}
+            <StudentCarousel />
+            
+            
+            <Bubbles />
+            
+            {/* <ApplyButton /> */}
+            
             <TeamPage/>
             <Accordion />
+            <Banner/>
+
             <Footer/>
         </Layout>
         

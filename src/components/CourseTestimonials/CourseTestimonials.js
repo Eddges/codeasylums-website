@@ -43,7 +43,7 @@ const CourseTestimonials = (props) => {
     ]
 
     const testimonialCards = testimonials.map(card => 
-        <div className={classes.Testimonial}><Testimonial content={card.content} name={card.name} about={classes.about} showAbout={true} showCircle={false} /></div>
+        <div className={classes.Testimonial}><Testimonial scrollAnimated={true} content={card.content} name={card.name} about={classes.about} showAbout={true} showCircle={false} /></div>
     )
     return (
         <div className={classes.container}>

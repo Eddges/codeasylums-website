@@ -15,6 +15,9 @@ $royalblue : #002366;
         height : 100px;
         margin-bottom: -50px;
         .barContent{
+            .alumniWork{
+                display : none;
+            }
             text-align: center;
             font-family: 'Open Sans';
             width : 70%;
@@ -394,6 +397,14 @@ $royalblue : #002366;
             width : 100%;
             height : 200px;
             .barContent{
+                .alumniWork{
+                    display : block;
+                    color : #002366;
+                    font-weight: 700;
+                    padding : 1%;
+                    padding-bottom: 5%;
+                    font-size: 0.8rem;
+                }
                 text-align: center;
                 font-family: 'Open Sans';
                 width : 70%;
@@ -478,6 +489,9 @@ $royalblue : #002366;
                 :nth-child(4) {
                     display : flex;
                     align-items: end;
+                }
+                :nth-child(6) {
+                    display : none;
                 }
                 .stars{
                     width : 100%;

@@ -12,10 +12,13 @@
     border-radius: 3px;
     
     .Circle{
-        width : 100px;
-        height: 100px;
+        width : 90px;
+        height: 90px;
         border-radius: 50%;
-        background-color: #AEF4C2;
+        // background-color: #AEF4C2;
+        background-color: white;
+        box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+        margin-bottom: 10px;
     }
     .Content{
         font-family: 'Rajdhani';
