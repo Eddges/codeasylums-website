@@ -1,0 +1,28 @@
+.container{
+    width : 100%;
+    height : 110vh;
+    background-color : #d64045;
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    p{
+        font-family: 'Roboto';
+        color : white;
+        font-weight: bold;
+        font-size: 4rem;
+        padding : 40px;
+    }
+    .border{
+        text-align: center;
+        width : 70%;
+        height : 70%;
+        background-color: rgb(47, 47, 47);
+        padding : 3%;
+        border-radius: 15px 15px 0px 0px;
+        img{
+            width : 100%;
+
+        }
+    }
+}
