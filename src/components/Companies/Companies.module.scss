@@ -1,0 +1,33 @@
+.Companies{
+    width : 100%;
+    height : auto;
+    background-color: #f2f7fe;
+    font-family: 'Open Sans';
+    p{
+        font-size: 1.6rem;
+        font-weight: bold;
+        padding : 5% 0px;
+        text-align: center;
+    }
+    .Logos{
+        width : 100%;
+        // background-color: coral;
+        display : flex;
+        flex-wrap: wrap;
+        padding : 0px 200px 100px 200px;
+        .Round{
+            margin : 20px 40px;
+            width : 100px;
+            height : 100px;
+            border-radius: 50%;
+            background-color: white;
+            display : flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow : 0px 0px 2px rgba(0,0,0,0.2);
+            img{
+                width: 80%;
+            }
+        }
+    }
+}

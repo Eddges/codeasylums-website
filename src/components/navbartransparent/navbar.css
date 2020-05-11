@@ -1,0 +1,10 @@
+.nav-scrolled{
+    background-color: white;
+    box-shadow: 0px 1px 5px rgba(0,0,0,0.2);
+    color : rgb(58, 58, 58);
+}
+
+.nav-scrolled ul li a{
+    color : rgb(88, 88, 88);
+    
+}

@@ -1,5 +1,6 @@
 import React from 'react'
 import classes from './navbar.module.css'
+import './navbar.css'
 import Logo from '../../assets/CodeAsylums.png'
 
 class Navbar extends React.Component {
@@ -7,7 +8,7 @@ class Navbar extends React.Component {
     render() {
 
         return(
-            <div className={classes.Navbar}>
+            <nav className={classes.Navbar}>
                 <div className={classes.imageDiv}>
                     <img src={Logo} alt="Logo" />
                 </div>
@@ -25,7 +26,7 @@ class Navbar extends React.Component {
                     <button className={classes.btnApply}>Apply</button>
                     <button className={classes.btnHire}>Hire Engineers</button>
                 </div>
-            </div>
+            </nav>
         )
     }
  

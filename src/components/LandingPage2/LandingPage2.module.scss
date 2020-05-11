@@ -38,19 +38,24 @@ $pink : #d64045;
             :nth-child(1) {
                 color : white;
                 font-weight: bold;
-                font-size: 5rem;
+                font-size: 3.5rem;
             }
             :nth-child(2) {
+                color : white;
+                font-weight: bold;
+                font-size: 5rem;
+            }
+            :nth-child(3) {
                 margin-top: 5px;
                 color : white;
                 font-size: 1.5rem;
             }
-            :nth-child(3) {
+            :nth-child(4) {
                 margin-top: 15px;
                 color : white;
                 font-size: 1rem;
             }
-            :nth-child(4) {
+            :nth-child(5) {
                 color : white;
                 font-size: 1rem;
             }

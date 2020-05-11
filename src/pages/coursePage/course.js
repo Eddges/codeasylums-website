@@ -17,7 +17,7 @@ import Page2Top from '../../components/Page2Top/Page2Top'
 import Curriculum2Item from '../../components/Curriculum2Item/Curriculum2Item'
 import CurriculumFullStack from '../../components/CurriculumFullStack/CurriculumFullStack'
 import Banner1 from '../../components/Banner1/Banner1'
-import TeamPage from '../../components/Teampage/TeamPage';
+import Courses from '../../components/Teampage/Courses';
 import Parallax1 from '../../components/Parallax1/Parallax1'
 import Banner from '../../components/Banner/Banner';
 import Batchdetails from '../../components/Batchdetails/Batchdetails'

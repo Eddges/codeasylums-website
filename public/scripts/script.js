@@ -13,16 +13,31 @@ $(".onlineCourses").on("click", function() {
 
 })
 
-// $('.link').click(function(e) {
-//     e.preventDefault();
-//     $("answer").addClass('answer-open')
-// });
 
-// $(".link").click(function(){
-//     $(this).addClass("accOpen")
-// })
+
 
 $(".CurriculumLink").click(function() {
     $(this).next().toggleClass("Open")
     $(this).children(".accRotate").toggleClass("Rotate")
 })
+
+const nav = document.querySelector("nav");
+const sectionOne = document.querySelector(".introSS")
+
+const sectionOneOptions = {
+    rootMargin : "-300px 0px 0px 0px"
+};
+
+const sectionOneObserver = new IntersectionObserver(function(entries, sectionOneObserver){
+    entries.forEach(entry => {
+        if(!entry.isIntersecting) {
+            nav.classList.add('nav-scrolled')
+            console.log(nav.classList)
+        }
+        else{
+            nav.classList.remove('nav-scrolled')
+        }
+    })
+}, sectionOneOptions)
+
+sectionOneObserver.observe(sectionOne)

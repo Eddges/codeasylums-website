@@ -36,9 +36,9 @@ const Expectations = (props) => {
                     </div>
                 </div>
             </div> 
-            <div className={classes.Intermediate}>
+            {/* <div className={classes.Intermediate}>
                 <p>Our grads have been successfully placed at </p>
-            </div>  
+            </div>   */}
         </React.Fragment>    
     )
 }

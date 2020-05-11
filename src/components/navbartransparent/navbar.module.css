@@ -8,18 +8,22 @@
     align-items: center;
     font-family: 'Roboto', sans-serif;
     z-index : 100;
+    transition: background-color 0.2s ease-in-out;
 }
 
 .Navbar .imageDiv {
     height : 60%;
     flex : 1;
     text-align: center;
-    background-color: white;
+    /* background-color: white; */
     border-radius: 0px 5px 5px 0px;
 }
 
 .Navbar .imageDiv img {
     height : 100%;
+    background-color: white;
+    padding : 5px;
+    border-radius: 4px;
 }
 .Navbar .imageDiv img:hover {
     cursor : pointer;
@@ -69,7 +73,6 @@
     color : white;
     padding: 5px;
     width : 20%;
-    
 }
 .btnApply:hover {
     background-color: #d64045;
@@ -133,4 +136,8 @@
     .btnHire{
         font-size: 1.4rem;
     }
+}
+
+.nav-scrolled{
+    background-color: white;
 }

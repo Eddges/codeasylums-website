@@ -49,22 +49,28 @@
 .Header .content .left :nth-child(1) {
   color: white;
   font-weight: bold;
-  font-size: 5rem;
+  font-size: 3.5rem;
 }
 
 .Header .content .left :nth-child(2) {
+  color: white;
+  font-weight: bold;
+  font-size: 5rem;
+}
+
+.Header .content .left :nth-child(3) {
   margin-top: 5px;
   color: white;
   font-size: 1.5rem;
 }
 
-.Header .content .left :nth-child(3) {
+.Header .content .left :nth-child(4) {
   margin-top: 15px;
   color: white;
   font-size: 1rem;
 }
 
-.Header .content .left :nth-child(4) {
+.Header .content .left :nth-child(5) {
   color: white;
   font-size: 1rem;
 }

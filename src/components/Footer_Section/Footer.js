@@ -38,7 +38,6 @@ const Footer = () => {
             <p>Read Our Stories on medium</p>
         </div>
     </div>
-
     <div class={styles.footer_down}>
         <div class={styles.col1}>
             <img src={logo} width = "104" height="61"  alt=""/>
@@ -49,7 +48,7 @@ const Footer = () => {
         <div class={styles.col3}>
             <p>Terms</p>
             <p>Privacy</p>
-            {/* <p>Concern</p> */}
+            <p>Concern</p>
         </div>
         </div>
         </>
