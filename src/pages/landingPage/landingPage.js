@@ -37,8 +37,6 @@ class LandPage extends React.Component {
                     {/* <LandingPage /> */}
                     {/* <Campus_Selection /> */}
                     {/* <OnlineCourses /> */}
-                    
-                    
                     {/* <GettingInto /> */}
                     {/* <TeamPage /> */}
                     <Banner />
