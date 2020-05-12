@@ -12,10 +12,6 @@ function Courses() {
             <p>EXPLORE OUR COURSES</p>
       </div>
       <div className={styles.wrapper}>
-        {/* <Card title ="FULL STACK TRACK CERTIFICATION" description = "Lorem ipsum dolor sit amet consectetur adipisicing elit.Soluta reiciendis officiis asperiores dolorem tenetur quod consequatur necessitatibus ducimus, tempore quas?" />
-        <Card title= "DATA SCIENCE TRACK CERTIFICATION" description = "Lorem ipsum dolor sit amet consectetur adipisicing elit.Soluta reiciendis officiis asperiores dolorem tenetur quod consequatur necessitatibus ducimus, tempore quas?"/>
-        <Card title= "DATA SCIENCE TRACK CERTIFICATION" description = "Lorem ipsum dolor sit amet consectetur adipisicing elit.Soluta reiciendis officiis asperiores dolorem tenetur quod consequatur necessitatibus ducimus, tempore quas?"/> */}
-
         <div className={styles.card}>
             <div className={styles.up}>
                 <h3>FULL STACK TRACK CERTIFICATION</h3>

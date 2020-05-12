@@ -8,6 +8,7 @@ import google from '../../assets/companies/google.png'
 import flipkart from '../../assets/companies/flipkart.png'
 import microsoft from '../../assets/companies/microsoft.png'
 
+
 class Page2Top extends React.Component {
     state={
         title : this.props.title,
@@ -35,6 +36,7 @@ class Page2Top extends React.Component {
                             </div>
                             <p>{this.state.line2}</p>
                             <p className={classes.alumni}>Our alumni work at : </p>
+                            <div className="introSS"></div>
                         </div>
                     </div>
                     <div className={classes.Form}>
@@ -48,26 +50,10 @@ class Page2Top extends React.Component {
                             </form>
                         </div>
                     </div>
-
-
-
-                    {/* <div className={classes.buttons}>
-                            <form>
-                                <input type="text" placeholder="Enter your name" /><span></span>
-                                <input type="email" placeholder="e-Mail" /><span></span>
-                                <input type="text" placeholder="Phone" />
-                                <button type="submit">Request Callback</button>
-                            </form>
-                    </div> */}
-
-
-
-
                 </div>  
                 <div className={classes.bar}>
                     <div className={classes.barContent}>
                         <p className={classes.alumniWork}>Our alumni work at : </p>
-                        {/* <p>Our alumni work at</p> */}
                         <div className={classes.barIcons}>
                             <div className={classes.icons}>
                                 <img src={adobe} alt="Adobe" />
@@ -87,12 +73,6 @@ class Page2Top extends React.Component {
                             <div className={classes.icons}>
                                 <img src={microsoft} alt="Microsoft" />
                             </div>
-                            {/* <ion-icon name="logo-css3"></ion-icon> */}
-                            {/* <ion-icon name="logo-buffer"></ion-icon> */}
-                            {/* <ion-icon name="logo-github"></ion-icon> */}
-                            {/* <ion-icon name="logo-html5"></ion-icon> */}
-                            {/* <ion-icon name="logo-react"></ion-icon> */}
-                            {/* <ion-icon name="logo-wordpress"></ion-icon> */}
                         </div>
                     </div>
                 </div>

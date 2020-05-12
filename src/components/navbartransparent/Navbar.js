@@ -1,15 +1,19 @@
 import React from 'react'
-import classes from './navbar.module.css'
+// import from './navbar.module.css'
 import './navbar.css'
 import Logo from '../../assets/CodeAsylums.png'
+import LogoWhite from '../../assets/logoWhite.png'
 
 class Navbar extends React.Component {
 
     render() {
 
         return(
-            <nav className={classes.Navbar}>
-                <div className={classes.imageDiv}>
+            <nav className="Navbar">
+                <div className="imageDiv">
+                    <img src={LogoWhite} alt="Logo" />
+                </div>
+                <div className="imageDiv1">
                     <img src={Logo} alt="Logo" />
                 </div>
     
@@ -22,9 +26,9 @@ class Navbar extends React.Component {
                     <li><a>ALUMNI</a></li>
                 </ul>
     
-                <div className={classes.btnDiv}>
-                    <button className={classes.btnApply}>Apply</button>
-                    <button className={classes.btnHire}>Hire Engineers</button>
+                <div className="btnDiv">
+                    <button className="btnApply">Apply</button>
+                    <button className="btnHire">Hire Engineers</button>
                 </div>
             </nav>
         )

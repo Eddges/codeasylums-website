@@ -1,13 +1,14 @@
 $lightGrey : #EEEEEE;
 
 .Expectations {
-    height : 60vh;
+    height : 40vh;
     width : 100%;
     box-sizing: border-box;
     display : flex;
     flex-direction: row;
     justify-content: space-evenly;
-
+    background-color: #002366;
+    color : white;
     .ExpectationsInside{
         width : 33%;
         display : flex;
@@ -17,7 +18,7 @@ $lightGrey : #EEEEEE;
             width: 100px;
             height : 100px;
             border-radius: 50%;
-            background-color: $lightGrey;
+            background-color: white;
             display : flex;
             justify-content: center;
             align-items: center;

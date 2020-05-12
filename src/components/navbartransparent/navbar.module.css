@@ -12,7 +12,7 @@
 }
 
 .Navbar .imageDiv {
-    height : 60%;
+    height : 90%;
     flex : 1;
     text-align: center;
     /* background-color: white; */
@@ -21,10 +21,27 @@
 
 .Navbar .imageDiv img {
     height : 100%;
-    background-color: white;
+    /* background-color: white; */
     padding : 5px;
     border-radius: 4px;
 }
+
+.Navbar .imageDiv1 {
+    height : 90%;
+    flex : 1;
+    text-align: center;
+    /* background-color: white; */
+    border-radius: 0px 5px 5px 0px;
+    display : none;
+}
+
+.Navbar .imageDiv1 img {
+    height : 100%;
+    /* background-color: white; */
+    padding : 5px;
+    border-radius: 4px;
+}
+
 .Navbar .imageDiv img:hover {
     cursor : pointer;
     height : 105%;

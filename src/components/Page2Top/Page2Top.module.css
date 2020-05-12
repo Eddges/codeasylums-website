@@ -1,7 +1,3 @@
-.marginDiv {
-  height: 12vh;
-}
-
 .Wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -65,7 +61,7 @@
 }
 
 .Page2Top {
-  height: 80vh;
+  height: 100vh;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -90,10 +86,9 @@
   position: absolute;
   height: 100%;
   width: 100%;
-  background: -webkit-gradient(linear, left top, right top, from(#002366), to(#46237a));
-  background: linear-gradient(to right, #002366, #46237a);
+  background-color: black;
   background-size: 100%;
-  opacity: 96%;
+  opacity: 60%;
   z-index: 0;
   overflow: hidden;
 }
@@ -192,7 +187,7 @@
 
 .Page2Top .Form {
   width: 40%;
-  height: 100%;
+  height: 65%;
   z-index: 10;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -206,7 +201,8 @@
 }
 
 .Page2Top .Form .Container {
-  width: 70%;
+  margin-top: 200px;
+  width: 55%;
   height: 76%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -305,146 +301,6 @@
   }
   100% {
     background-color: #d30023;
-  }
-}
-
-@media (min-width: 1800px) {
-  .Page2Top {
-    height: 80vh;
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    position: relative;
-    margin-bottom: -50px;
-  }
-  .Page2Top img {
-    height: 100%;
-    width: 100%;
-    -o-object-fit: cover;
-       object-fit: cover;
-    z-index: -10;
-    position: absolute;
-  }
-  .Page2Top .gradient {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background: -webkit-gradient(linear, left top, right top, from(#2af598), color-stop(#009efd), color-stop(#6a11cb), to(#2575fc));
-    background: linear-gradient(to right, #2af598, #009efd, #6a11cb, #2575fc);
-    background-size: 500%;
-    -webkit-animation: gradientBackground 10s infinite alternate ease-in-out;
-            animation: gradientBackground 10s infinite alternate ease-in-out;
-    opacity: 96%;
-    z-index: 0;
-    overflow: hidden;
-  }
-  .Page2Top .container {
-    z-index: 10;
-    width: 100%;
-    height: 100%;
-    color: white;
-    font-family: 'Open Sans';
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    text-align: center;
-  }
-  .Page2Top .container .text {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .Page2Top .container .text :nth-child(1) {
-    font-weight: 700;
-    font-size: 1.7rem;
-    padding: 20px;
-  }
-  .Page2Top .container .text :nth-child(2) {
-    font-size: 1.5rem;
-    font-family: 'Open Sans';
-    letter-spacing: 2px;
-  }
-  .Page2Top .container .text :nth-child(3) {
-    font-size: 1.5rem;
-    font-family: 'Open Sans';
-    letter-spacing: 2px;
-  }
-  .Page2Top .container .buttons {
-    width: 45%;
-    height: 100px;
-    border: solid 1px white;
-    border-radius: 3px;
-    z-index: 200;
-    margin-top: 90px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  .Page2Top .container .buttons form {
-    width: 100%;
-    height: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-  }
-  .Page2Top .container .buttons form input {
-    padding: 5px 10px;
-    width: 24%;
-    height: 100%;
-    background-color: transparent;
-    color: white;
-    border: none;
-    font-size: 1.1rem;
-  }
-  .Page2Top .container .buttons form span {
-    position: relative;
-    width: 1px;
-    height: 60%;
-    background-color: white;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
-  }
-  .Page2Top .container .buttons form button {
-    background-color: white;
-    border: none;
-    width: 25%;
-    height: 100%;
-    font-weight: 600;
-    color: #045158;
-    font-size: 1.1rem;
-  }
-  .Page2Top .container .buttons form button:hover {
-    cursor: pointer;
-    background-color: #f1f1f1;
   }
 }
 
@@ -548,6 +404,7 @@
     text-align: center;
   }
   .Page2Top .container .text {
+    padding-top: 50%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
