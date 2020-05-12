@@ -4,11 +4,17 @@ import './../FeedbackSlider/FeedbackSlider.css'
 const FeedbackSliderCard = (props) => {
     return(
         <section class="section">
-            <span class=" material-icons" style={{fontSize: "50px", color: "#6b86ff"}}>
-            face
+            <div className = "leftfeedbackCard">
+            <span className = "img">
+            {/* <img src="https://img.icons8.com/bubbles/200/000000/user-female.png"/> */}
+            <img src = "https://randomuser.me/api/portraits/men/1.jpg"/>
             </span>
-            <p>{props.feedback}</p>
-            <p>{props.name}</p>
+            </div>
+            <div className = "rightfeedbackCard">
+                <p>{props.feedback}</p>
+                <p>{props.name}</p>
+            </div>
+           
         </section>
     )
 }
