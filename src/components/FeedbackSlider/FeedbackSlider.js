@@ -43,7 +43,7 @@ const FeedbackSlider = (props) => {
           keyboard_arrow_right
           </i></button>
                 <button class="prev"><i class="material-icons">
-          keyboard_arrow_left
+          {/* keyboard_arrow_left */}
           </i></button>
               </div>
             </div>
