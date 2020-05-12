@@ -26,11 +26,13 @@ const FeedbackSlider = (props) => {
     const cards = feedbacks.map((iterator, index) => <FeedbackSliderCard feedback={iterator.feedback} name={iterator.name} key={index} />)
 
     return(
+
         <div>
             <div class ="headertestimonial">
                 <p>OUR TESTIMONIALS</p>
             </div>
             <div class="testimonials_section">
+
         <div class="containerSlider">
             <div class="carouselSlider">
               <div class="sliderMain">
@@ -47,8 +49,9 @@ const FeedbackSlider = (props) => {
             </div>
           </div>
     </div>
+
         </div>
-        
+
     )
 }
 

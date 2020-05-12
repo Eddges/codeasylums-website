@@ -40,7 +40,7 @@ const Footer = () => {
     </div>
     <div class={styles.footer_down}>
         <div class={styles.col1}>
-            <img src="./logo.png" width = "104" height="61"  alt=""/>
+            <img src={logo} width = "104" height="61"  alt=""/>
         </div>
         <div class={styles.col2}>
             <p>Copyright 2019</p>

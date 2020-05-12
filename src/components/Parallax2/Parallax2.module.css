@@ -1,0 +1,28 @@
+.Parallax1 {
+  background-image: url(../../assets/illustration2.jpg);
+  background-position: right;
+  position: relative;
+  background-attachment: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 20vh;
+  background-repeat: no-repeat;
+  margin-top: 100px;
+}
+
+.Parallax1 p {
+  font-family: 'Roboto';
+  color: black;
+  font-size: 3rem;
+  text-align: left;
+  font-weight: 200;
+}
+/*# sourceMappingURL=Parallax2.module.css.map */

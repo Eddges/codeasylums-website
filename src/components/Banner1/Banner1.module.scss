@@ -1,0 +1,40 @@
+$bgblack : #252525;
+
+.Banner1{
+    // margin-top: 200px;
+    width : 90%;
+    margin-top: -50px;
+    height : 300px;
+    font-family: 'Roboto';
+    text-align: center;
+    padding : 20px 30px;
+    display : flex;
+    align-items: center;
+    background: linear-gradient(to right, #2a463a, #0a2b3f , #311055 , #003083);
+    
+    background-size: 200%;
+    animation: gradientBackground 1s infinite alternate ease-in-out;
+    p{
+        width : 100%;
+        text-align: center;
+        color : white;
+        font-size: 3.5rem;
+        font-weight: 200;
+    }
+}
+
+@keyframes gradientBackground {
+    0% {
+      background-position: left;
+    }
+    100% {
+      background-position: right;
+    }
+  }
+
+  @media(max-width : 576px) {
+    .Banner1{
+      height : 700px;
+      width : 100%;
+    }
+  }

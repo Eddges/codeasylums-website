@@ -1,27 +1,43 @@
 .divMargin {
-    height : 12vh;
+    height : 10vh;
     background-color: white;
     width: 100%;
 }
-.mentors{
-    font-family: 'Roboto';
-    text-align: center;
-    font-weight: 200;
-    font-size: 11vh;
-    margin : 4% 0px 12% 0px;
+.container{
     width : 100%;
+    display : flex;
+    justify-content: center;
+    align-self: start;
+    background-color: white;
+    margin-bottom: 00px;
 }
+// .mentors{
+//     font-family: 'Roboto';
+//     text-align: center;
+//     font-weight: 200;
+//     font-size: 11vh;
+//     margin : 4% 0px 7% 0px;
+//     width : 100%;
+// }
 
 .divMentors{
-    height : 60vh;
-    background-color: white;
+    height : 80vh;
+    // background-color: rgb(246, 246, 246);
     width : 100%;
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    align-items: center;
-    padding : 0px 10%;
+    align-items: start;
+    padding : 5px 2%;
+    // background: linear-gradient(to bottom,  #061d47, #074b72);
+    // position: absolute;
+    // background-color : #fafbfc;
+    // background-color : #014361;
+    background-size: 200%;
+    // background-color: #D64045;
+    // animation: gradientBackground 1s infinite alternate ease-in-out;
+    margin-bottom: -10%;
 }
 
 @media(max-width : 576px) {
@@ -34,3 +50,12 @@
         padding : 30px 0px;
     }
 }
+
+// @keyframes gradientBackground {
+//     0% {
+//       background-position: left;
+//     }
+//     100% {
+//       background-position: right;
+//     }
+//   }

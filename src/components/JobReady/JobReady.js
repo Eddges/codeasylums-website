@@ -6,10 +6,10 @@ const CodeAsylumsAdvantage = (props) => {
     return(
         <div className={classes.Job}>
             <p className={classes.Heading} >Be Job Ready</p>
-            <p className={classes.Opportunities}>What are the job Opportunities?</p>
+            <p className={classes.Opportunities}>Accelarate your growth with CodeAsylums FullStack Web Development + DSA Bootcamp</p>
             <div className={classes.BG}>
                 <div className={classes.divTestimonial}>
-                    <Testimonial showCircle={true} showAbout={true} name="Shivam Shekhar" about="-CEO/CTO Google" content="I attended the FullStack Development bootcamp at CodeAsylums in the summer of 2019 in my final year of engineering. I am currently placed at Amzon as a JavaScript web developer. I completely give my placement credits to CodeAsylum’s FullStack Development program. It has indeed changed my life." />
+                    <Testimonial showCircle={false} showAbout={true} name="Shivam Shekhar" about="-CEO/CTO Google" content="I attended the FullStack Development bootcamp at CodeAsylums in the summer of 2019 in my final year of engineering. I am currently placed at Amzon as a JavaScript web developer. I completely give my placement credits to CodeAsylum’s FullStack Development program. It has indeed changed my life." />
                 </div>
                 <ul>
                     <li>FullStack Developer</li>

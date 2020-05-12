@@ -5,6 +5,7 @@ import classes from './CodeAsylumsAdvantage.module.css'
 const CodeAsylumsAdvantage = (props) => {
     return(
         <div className={classes.Advantage}>
+            <div className={classes.Line}></div>
             <p className={classes.Heading} >The CodeAsylums Advantage</p>
             <div className={classes.BG}>
                 <ul>

@@ -1,21 +1,25 @@
 .divMargin {
-  height: 12vh;
+  height: 10vh;
   background-color: white;
   width: 100%;
 }
 
-.mentors {
-  font-family: 'Roboto';
-  text-align: center;
-  font-weight: 200;
-  font-size: 11vh;
-  margin: 4% 0px 12% 0px;
+.container {
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-item-align: start;
+      align-self: start;
+  background-color: white;
+  margin-bottom: 00px;
 }
 
 .divMentors {
-  height: 60vh;
-  background-color: white;
+  height: 80vh;
   width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -29,10 +33,12 @@
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 0px 10%;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  padding: 5px 2%;
+  background-size: 200%;
+  margin-bottom: -10%;
 }
 
 @media (max-width: 576px) {

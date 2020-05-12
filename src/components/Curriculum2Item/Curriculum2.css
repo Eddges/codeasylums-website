@@ -11,6 +11,9 @@
     transition : all;
     margin-bottom: 0px;
 }
+.accRotate{
+    transition : all .2s;
+}
 
 .CurriculumLink:hover{
     cursor: pointer;
@@ -30,6 +33,10 @@
 .Open {
     max-height: 400px;
     padding : 50px 30px;
+}
+
+.Rotate{
+    transform : rotate(45deg);
 }
 
 @media(min-width : 1800px) {
@@ -67,5 +74,8 @@
     .Open {
         max-height: 400px;
         padding : 50px 30px;
+    }
+    .Rotate{
+        transform : rotate(45deg);
     }
 }

@@ -1,20 +1,35 @@
 .Advantage {
   font-family: 'Roboto';
   text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #D64045;
+  color: #333333;
+  position: relative;
 }
 
 .Advantage .Heading {
+  color: white;
   width: 100%;
-  margin-top: 9%;
-  font-size: 4rem;
-  font-weight: 200;
+  margin-top: 10%;
+  font-size: 2.5rem;
+  font-weight: 500;
+  text-align: left;
+  padding-left: 10%;
 }
 
 .Advantage .BG {
-  background-color: #F9F9F9;
   width: 100%;
-  height: 70vh;
-  margin-top: 4%;
+  height: 60vh;
+  margin-top: 0%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -23,10 +38,10 @@
 
 .Advantage .BG ul {
   text-align: left;
-  margin: 10px;
+  margin: 0px 10px;
   padding: 5px;
   width: 25%;
-  height: 90%;
+  height: 80%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -40,14 +55,15 @@
 }
 
 .Advantage .BG ul li {
-  color: black;
-  font-weight: 300;
+  font-family: 'Open Sans';
+  font-weight: 500;
   font-size: 0.9rem;
+  color: white;
 }
 
 .Advantage .BG .divTestimonial {
   width: 40%;
-  padding: 5% 2%;
+  padding: 3% 2% 5% 2%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

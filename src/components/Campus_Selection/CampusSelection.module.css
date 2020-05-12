@@ -1,0 +1,60 @@
+.campus {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.campus .Online {
+  overflow: hidden;
+  width: 50%;
+  height: 50vh;
+  position: relative;
+}
+
+.campus .Online div {
+  position: absolute;
+}
+
+.campus .Online div img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.campus .Online .gradient {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #d64045c2;
+  z-index: 10;
+}
+
+.campus .Campus {
+  overflow: hidden;
+  width: 50%;
+  height: 50vh;
+  position: relative;
+}
+
+.campus .Campus div {
+  width: 100%;
+  position: absolute;
+}
+
+.campus .Campus div img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transform: translateY(-15%);
+          transform: translateY(-15%);
+}
+
+.campus .Campus .gradient {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #46237ab7;
+  z-index: 10;
+}
+/*# sourceMappingURL=CampusSelection.module.css.map */

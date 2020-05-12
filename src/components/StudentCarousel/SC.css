@@ -1,8 +1,8 @@
-.container {
+.containerCarousel {
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   padding: 0;
-  margin: 15% 0px 0px 0px;
+  margin: 100px 0px 0px 0px;
   height: 100%;
   background-color: white;
   display: -webkit-box;
@@ -18,14 +18,16 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin-bottom: -3%;
 }
 
 .details {
-  text-align: center;
+  text-align: left;
   margin: 30px 0px 0px 0px;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   color: #414141;
-  padding: 0px 300px;
+  padding: 0px 20%;
+  font-family: 'Open Sans';
 }
 
 .details span {
@@ -34,17 +36,19 @@
 }
 
 .title {
-  font-size: 4rem;
+  width: 100%;
+  font-size: 3rem;
   color: black;
   font-weight: 200;
   font-family: 'Roboto';
-  text-align: center;
+  text-align: left;
+  padding-left: 20%;
 }
 
 .timeline {
   width: 100%;
   position: relative;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 .timeline-nav__item {
@@ -81,12 +85,12 @@
 }
 
 .timeline-nav__item.slick-current {
-  color: #51bcf6;
+  color: #002366;
   opacity: 1;
 }
 
 .timeline-nav__item.slick-current::before {
-  background-color: #51bcf6;
+  background-color: #002366;
 }
 
 .timeline-wrapper {
@@ -105,10 +109,6 @@
 
 .timeline-slider {
   height: 100%;
-}
-
-.timeline-slider .monday {
-  background-image: url(../../assets/student.jpg);
 }
 
 .timeline .slick-list {
@@ -175,7 +175,7 @@
   z-index: 5;
   font-size: 35px;
   color: #ffffff;
-  background: #51bcf6;
+  background: #002366;
   padding: 15px 26px;
   -webkit-transition: opacity 1.2s;
   transition: opacity 1.2s;
@@ -185,7 +185,7 @@
 }
 
 .timeline-title {
-  color: #51bcf6;
+  color: #002366;
   font-size: 26px;
   line-height: 30px;
   font-weight: 400;
@@ -210,13 +210,20 @@
 }
 
 @media (max-width: 576px) {
-  .container .title {
-    font-size: 3rem;
+  .containerCarousel {
+    margin-bottom: -200px;
+  }
+  .containerCarousel .title {
+    width: 100%;
+    padding: 0px;
+    text-align: center;
+    font-size: 2.5rem;
     margin-top: 50px;
   }
-  .container .details {
+  .containerCarousel .details {
     padding: 1% 4%;
     font-size: 1rem;
+    text-align: center;
   }
 }
 

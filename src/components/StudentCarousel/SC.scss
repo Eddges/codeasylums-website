@@ -6,47 +6,51 @@ $white: #fff;
     $orange: #ff9900;
 $bubble1 : rgb(116, 245, 152);
 $bubble2 : rgb(101, 240, 217);
-$bubble3 : rgb(81, 188, 246);
+$bubble3 : #002366;
 $bubble4 : rgb(241, 179, 121);
 $bubble5 : rgb(222, 224, 83);
 $bubble6 : rgb(174, 241, 107);
 $bubble7 : rgb(240, 113, 130);
 
 
-  .container {   
+  .containerCarousel {   
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     padding: 0;
-    margin: 15% 0px 0px 0px;
+    margin: 100px 0px 0px 0px;
     height: 100%;  
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-bottom: -3%;
   }
   .details {
-    text-align: center;
+    text-align: left;
     margin : 30px 0px 0px 0px;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     color : rgb(65, 65, 65);
-    padding : 0px 300px;
+    padding : 0px 20%;
+    font-family: 'Open Sans';
     span{
       color : black;
       font-weight: 500;
     }
   }
   .title {
-    font-size: 4rem;
+    width: 100%;
+    font-size: 3rem;
     color: black;
     font-weight: 200;
     font-family: 'Roboto';
-    text-align: center;
+    text-align: left;
+    padding-left : 20%;
   }
   .timeline{
     width: 100%;
     position: relative;
-    margin-top: 100px;
+    margin-top: 50px;
     
     &-nav{
       &__item{
@@ -87,6 +91,7 @@ $bubble7 : rgb(240, 113, 130);
       }
     }
     
+
     &-wrapper{
       position: relative;
       width: 100%;
@@ -101,11 +106,6 @@ $bubble7 : rgb(240, 113, 130);
     }
     &-slider{
       height: 100%; 
-      // background-image: url(https://unsplash.it/1920/600?image=11);
-      .monday{
-              background-image: url(../../assets/student.jpg);
-      }
-      // background-color : black;
     }
     .slick-list{
       height: 100%;
@@ -193,14 +193,19 @@ $bubble7 : rgb(240, 113, 130);
   }
   
   @media(max-width : 576px) {
-    .container{
+    .containerCarousel{
+      margin-bottom: -200px;
       .title{
-        font-size: 3rem;
+        width : 100%;
+        padding : 0px;
+        text-align: center;
+        font-size: 2.5rem;
         margin-top: 50px;
       }
       .details{
         padding : 1% 4%;
         font-size: 1rem;
+        text-align: center;
       }
     }
   }

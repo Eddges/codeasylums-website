@@ -3,12 +3,13 @@ import React from 'react';
 import styles from './TeamPage.module.css';
 // import Card from './Card';
 import BoxAvatar from './BoxAvatar';
+import './intro.css'
 
-function TeamPage() {
+function Courses() {
   return (
     <div>
       <div className = {styles.App}>
-            <h1>EXPLORE OUR COURSES</h1>
+            <p>EXPLORE OUR COURSES</p>
       </div>
       <div className={styles.wrapper}>
         {/* <Card title ="FULL STACK TRACK CERTIFICATION" description = "Lorem ipsum dolor sit amet consectetur adipisicing elit.Soluta reiciendis officiis asperiores dolorem tenetur quod consequatur necessitatibus ducimus, tempore quas?" />
@@ -63,52 +64,8 @@ function TeamPage() {
         </div>
         
     </div>
-    <div class={styles.wrapper_team}>
-        <div class={styles.left}>
-            <h1>The Creative Crew behind Codeasylums</h1>
-            <h5>What we are</h5>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Veniam odit voluptatibus, exercitationem veritatis modi incidunt assumenda facere ut voluptate dolorum?</p>
-            <h5>Our Mission</h5>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Necessitatibus voluptatem ex maxime sunt totam, corrupti temporibus excepturi iusto asperiores porro.</p>
-        </div>
-        <div class={styles.right}>
-            <div class={styles.up}>
-                <BoxAvatar/>
-                <div class={styles.box,styles.box2}>
-                    <img src="https://img.icons8.com/color/200/000000/person-male.png"/>
-                    <h5>solu</h5>
-                    <p>product manager</p>
-                </div>
-                <div class={styles.box,styles.box3}>
-                    <img src="https://img.icons8.com/color/200/000000/person-male.png"/>
-                    <h5>solu</h5>
-                    <p>product manager</p>
-                </div>
-            </div>
-
-            <div class={styles.down}>
-                <div class={styles.box,styles.box4}>
-                    <img src="https://img.icons8.com/color/200/000000/person-male.png"/>
-                    <h5>solu</h5>
-                    <p>product manager</p>
-                </div>
-                <div class={styles.box,styles.box5}>
-                    <img src="https://img.icons8.com/color/200/000000/person-male.png"/>
-                    <h5>solu</h5>
-                    <p>product manager</p>
-                </div>
-                <div class={styles.box,styles.box6}>
-                    <img src="https://img.icons8.com/color/200/000000/person-male.png"/>  
-                    <h5>solu</h5>
-                    <p>product manager</p>    
-                </div>
-            </div>
-        </div>
-    </div>
     </div>
   );
 }
 
-export default TeamPage;
+export default Courses;

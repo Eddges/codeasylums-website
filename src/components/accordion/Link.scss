@@ -9,7 +9,7 @@
     font-family: 'Roboto';
     // background-color: rgb(245, 245, 245);
     .title{
-        font-size: 4rem;
+        font-size: 3rem;
         font-weight: 200;
         margin : 20px 0px 0px 0;
     }
@@ -74,5 +74,24 @@
     }
     .container .item .link{
         font-size: 1.7rem;
+    }
+}
+
+@media(max-width : 576px) {
+
+    .accordion{
+        .title{
+            font-size: 2rem;
+        }
+        .container{
+            .item{
+                .link{
+                    font-size: 0.8rem;
+                }
+                .answer{
+                    font-size: 0.7rem;
+                }
+            }
+        }
     }
 }

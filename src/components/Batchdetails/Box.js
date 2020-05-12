@@ -3,7 +3,7 @@ import styles from './Batchdetails.module.css';
 
 const Box = (props) => {
     return(
-        <div>
+        <div className={styles.boxDiv}>
             <div className={styles.box}>
             <div className={styles.first_section}>
                 <div className={styles.left}>

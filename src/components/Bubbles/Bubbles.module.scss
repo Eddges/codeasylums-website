@@ -1,10 +1,18 @@
-$bubble1 : rgb(116, 245, 152);
-$bubble2 : rgb(101, 240, 217);
-$bubble3 : rgb(119, 200, 243);
-$bubble4 : rgb(241, 179, 121);
-$bubble5 : rgb(222, 224, 83);
-$bubble6 : rgb(174, 241, 107);
-$bubble7 : rgb(240, 113, 130);
+// $bubble1 : rgb(116, 245, 152);
+// $bubble2 : rgb(101, 240, 217);
+// $bubble3 : rgb(119, 200, 243);
+// $bubble4 : rgb(241, 179, 121);
+// $bubble7 : rgb(222, 224, 83);
+// $bubble6 : rgb(174, 241, 107);
+// $bubble5 : rgb(240, 113, 130);
+
+$bubble1 : #d64045;
+$bubble2 : #44af69;
+$bubble3 : #46237a;
+$bubble4 : #4d9de0;
+$bubble7 : #002366;
+$bubble6 : #44af69;
+$bubble5 : #d64045;
 
 .Container {
     font-family: 'Roboto';
@@ -13,9 +21,11 @@ $bubble7 : rgb(240, 113, 130);
     flex-direction: column;
     align-items: center;
     width : 100%;
+    background: url(../../assets//BubbleBG.png);
+    background-attachment: fixed;
     .Advantage{
         margin-top: 10%;
-        font-size: 3.5rem;
+        font-size: 3rem;
         margin-bottom: 5%;
         font-weight : 200;
     }   
@@ -38,11 +48,11 @@ $bubble7 : rgb(240, 113, 130);
         }
     }
     .Bubble1 {
-        width : 300px;
-        height : 300px;
+        width : 320px;
+        height : 320px;
         border-radius : 50%;
         background-color: $bubble1;
-        margin-bottom: -120px;
+        margin-bottom: -100px;
     }
     .Bubble2 {
         width : 400px;
@@ -51,39 +61,40 @@ $bubble7 : rgb(240, 113, 130);
         background-color: $bubble2;
         transform: translateX(35%);
         z-index : 10;
-        margin-bottom: -180px;
+        margin-bottom: -130px;
         div{
             align-items: center;
         }
     }
     .Bubble3 {
-        width : 300px;
-        height : 300px;
+        width : 350px;
+        height : 350px;
         border-radius : 50%;
         background-color: $bubble3;
         transform: translateX(-40%);
-        margin-bottom: -180px;
+        margin-bottom: -80px;
+        z-index : 5;
     }
     .Bubble4 {
         width : 420px;
         height : 420px;
         border-radius : 50%;
         background-color: $bubble4;
-        z-index : 5;
         transform: translateX(30%);
-        margin-bottom: -170px;
+        margin-bottom: -130px;
+        z-index: 30;
         div{
             align-items: center;
         }
     }
     .Bubble5 {
-        width : 300px;
-        height : 300px;
+        width : 360px;
+        height : 360px;
         border-radius : 50%;
         background-color: $bubble5;
-        z-index: 10;
+        z-index: 40;
         transform: translateX(-40%);
-        margin-bottom: -210px;
+        margin-bottom: -120px;
     }
     .Bubble6 {
         width : 380px;
@@ -91,8 +102,8 @@ $bubble7 : rgb(240, 113, 130);
         border-radius : 50%;
         background-color: $bubble6;
         transform: translateX(40%);
-        z-index: 8;
-        margin-bottom: -200px;
+        z-index: 50;
+        margin-bottom: -120px;
         div{
             align-items: center;
             text-align: center;
@@ -104,7 +115,7 @@ $bubble7 : rgb(240, 113, 130);
         border-radius : 50%;
         background-color: $bubble7;
         transform: translateX(-5%);
-        z-index: 0;
+        z-index: 60;
     }
 }
 
@@ -136,7 +147,7 @@ $bubble7 : rgb(240, 113, 130);
             border-radius : 50%;
             background-color: $bubble2;
             transform: translateX(5%);
-            margin-bottom: -100px;
+            margin-bottom: -50px;
             div{
                 align-items: center;
             }
@@ -147,7 +158,7 @@ $bubble7 : rgb(240, 113, 130);
             border-radius : 50%;
             background-color: $bubble3;
             transform: translateX(-40%);
-            margin-bottom: -130px;
+            margin-bottom: -60px;
         }
         .Bubble4 {
             width : 300px;
@@ -156,7 +167,7 @@ $bubble7 : rgb(240, 113, 130);
             background-color: $bubble4;
             z-index : 5;
             transform: translateX(30%);
-            margin-bottom: -170px;
+            margin-bottom: -80px;
             div{
                 align-items: center;
             }
@@ -168,7 +179,7 @@ $bubble7 : rgb(240, 113, 130);
             background-color: $bubble5;
             z-index: 10;
             transform: translateX(-40%);
-            margin-bottom: -120px;
+            margin-bottom: -60px;
         }
         .Bubble6 {
             width : 250px;
@@ -177,7 +188,7 @@ $bubble7 : rgb(240, 113, 130);
             background-color: $bubble6;
             transform: translateX(40%);
             z-index: 8;
-            margin-bottom: -130px;
+            margin-bottom: -70px;
             div{
                 align-items: center;
                 text-align: center;

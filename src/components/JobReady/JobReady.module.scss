@@ -2,23 +2,33 @@
     font-family: 'Roboto';
     text-align: center;
     width : 100%;
+    // background-color: #f2f7fe;
+    background-color: #d64045;
+
     .Heading {
+        
+        text-align: left;
         width: 100%;
-        margin-top : 9%;
-        font-size: 4rem;
-        font-weight: 200;
+        font-size: 3rem;
+        font-weight: 500;
+        padding-top : 5%;
+        color : white;
+        padding-left : 15%;
     }
     .Opportunities {
-        text-align: center;
-        color: #979797;
-        font-size: 1.6rem;
+        text-align: left;
+        // color: #979797;
+        color : white;
+        font-size: 1.2rem;
         font-weight: 300;
+        padding-left : 15%;
     }
     .BG {
-        background-color: #DEF3FF;
+        // background-color: #D64045;
+        // background-color: #002366;
         width : 100%;
-        height : 90vh;
-        margin-top: 4%;
+        height : 70vh;
+        // margin-top: 1%;
         display : flex;
         padding : 0px 10%;
         ul{
@@ -30,14 +40,16 @@
             display: flex;
             flex-direction: column;
             justify-content: space-evenly;
+            
             li{
-                color : black;
-                font-weight: 300;
+                // color : rgb(70, 70, 70);
+                color : white;
+                font-weight: 500;
                 font-size: 0.9rem;
             }
         }
         .divTestimonial {
-            width : 50%;
+            width : 40%;
             padding : 3% 2%;
             display : flex;
             align-items: center;
@@ -50,13 +62,14 @@
     .Job{
         width : 100vw;
         .Heading {
-            font-size: 3rem;
+            font-size: 2rem;
+            padding : 20px 15%;
         }
         .Opportunities {
             font-size: 1.1rem;
         }
         .BG {
-            background-color: #DEF3FF;
+            // background-color: #DEF3FF;
             width : 100%;
             height: auto;
             margin-top: 4%;
@@ -75,8 +88,8 @@
                 align-items: center;
                 padding-left: 15%;
                 li{
-                    color : black;
-                    font-weight: 300;
+                    color : white;
+                    font-weight: 500;
                     font-size: 0.9rem;
                     margin : 5px 0px;
                     width: 100%;
@@ -110,4 +123,8 @@
             }
         }
     }
+}
+
+.Job{
+    margin-top : 0px;
 }
