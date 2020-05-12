@@ -6,10 +6,10 @@ const Contact_form = () => {
         <div>
             <div className = {styles.contact_container}>
                 <div className = {styles.left_container}>
-                <p className={styles.heading}>Let's do this!</p>
-                <p className={styles.text}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima maxime aliquam, delectus enim fugiat incidunt voluptate dicta aut possimus corrupti.</p>
-                <p className={styles.label}>Nagendra Kumar</p>
-                <p className={styles.text}>Lorem ipsum dolor sit amet.</p> 
+                    <p className={styles.heading}>Let's do this!</p>
+                    <p className={styles.text}>“I now have a rewarding job that challenges me and stretches me to grow and learn every day. Not to mention, I can afford to save money and pay off debt.”</p>
+                    <p className={styles.label}>Nagendra Kumar</p>
+                    <p className={styles.textCredential}>FullStack Web Development track, December 2019</p> 
                 </div>
                 {/* left container ends here */}
 
@@ -19,22 +19,21 @@ const Contact_form = () => {
                     </p>
                     <form>
                         <label>Name</label>
-                        <input type = "text"/>
+                        <input type = "text" placeholder="John Doe"/>
                         <div className = {styles.boxarea}>
                             <div className = {styles.emailarea}>
                                 <label>Email</label>
-                                <input type = "text"/>
+                                <input type = "text" placeholder="johndoe@gmail.com"/>
                             </div>
                             <div className = {styles.phonearea}>
-                                <label>Email</label>
-                                <input type = "text"/>
+                                <label>Phone</label>
+                                <input type = "text" placeholder="(+91)-9999999999"/>
                             </div>
                         </div>
-                        <label>In which program are you interested?</label>
-                        <input type = "text"/>"
+                        <button className={styles.time}>Find a time</button>
                        
                     </form>
-                    <p className={styles.footer}>Prefer email? Contact abc to talk to a student advisor</p>  
+                    <p className={styles.footer}>Prefer email? Contact <span>codeasylums@gmail.com</span> to talk to a student advisor</p>  
                 </div>
 
             

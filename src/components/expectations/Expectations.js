@@ -8,7 +8,8 @@ const Expectations = (props) => {
     return(
         <React.Fragment>
             <div className={classes.Expectations}>
-                <div className={classes.ExpectationsInside}>
+                <div className={classes.ExpectationsGradient}></div>
+                <div className={classes.ExpectationsInside} data-aos="zoom-in">
                     <div class={classes.image}>
                         <img src={collaborate} alt="Be collaborative" />
                     </div>
@@ -17,7 +18,7 @@ const Expectations = (props) => {
                         <p>Students work in close proximity, allowing ideas to form through collaboration</p>
                     </div>
                 </div>
-                <div className={classes.ExpectationsInside}>
+                <div className={classes.ExpectationsInside} data-aos="zoom-in"> 
                     <div class={classes.image}>
                         <img src={idea} alt="Be collaborative" />
                     </div>
@@ -26,7 +27,7 @@ const Expectations = (props) => {
                         <p>We push you to do more, think bigger, and go further.</p>
                     </div>
                 </div>
-                <div className={classes.ExpectationsInside}>
+                <div className={classes.ExpectationsInside} data-aos="zoom-in">
                     <div class={classes.image}>
                         <img src={job} alt="Be collaborative" />
                     </div>

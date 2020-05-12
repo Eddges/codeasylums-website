@@ -17,7 +17,8 @@ import MenuModal from '../../components/MenuModal/MenuModal'
 import Team from '../../components/Teampage/Team'
 import FeedbackSlider from '../../components/FeedbackSlider/FeedbackSlider'
 import Companies from '../../components/Companies/Companies'
-
+import Contact_form from '../../components/Contact_form/Contact_form'
+import CoreTeam from '../../components/CoreTeam/CoreTeam'
 
 class LandPage extends React.Component {
     render() {
@@ -28,18 +29,21 @@ class LandPage extends React.Component {
                     <MenuModal />
                     <LandingPage2 />
                     <Courses />
-                    <Expectations />
-                    <Companies />
-                    {/* <Placements /> */}
-                    <Team />
                     <FeedbackSlider />
+                    <Companies />
+                    <Expectations />
+                    
+                    {/* <Placements /> */}
+                    {/* <Team /> */}
+                    <CoreTeam />
                     {/* <GetStarted /> */}
                     {/* <LandingPage /> */}
                     {/* <Campus_Selection /> */}
                     {/* <OnlineCourses /> */}
                     {/* <GettingInto /> */}
                     {/* <TeamPage /> */}
-                    <Banner />
+                    {/* <Banner /> */}
+                    <Contact_form />
                     <Footer />
                     {/* <Footer /> */}
                 </Layout>

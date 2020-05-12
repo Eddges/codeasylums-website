@@ -1,190 +1,217 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
 
+.CoursesMain{
+  display : flex;
+  flex-wrap: wrap;
+  font-family: 'Roboto';
+}
+
 .App {
-    height: 10vh;
+    height: 30vh;
     text-align: center;
-    margin-top: 15px;
-    font-family: monospace;
-    font-weight: 80;
-    font-size: 3em;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 2.5em;
+    display : flex;
+    align-items: center;
+    width: 100%;
+    background-color: #0e0250;
+    display : flex;
+    align-items: center;
+    justify-content: center;
   }
-  
-  /* *{
-    margin: 0;
-    padding: 0;
-  } */
-  
+
+  .App p{
+    width : 100%;
+    color : white;
+  }
+
+
 
   
-  /* } */ 
-  
   .wrapper {
-    /* margin-left: 200px; */
-    /* margin-right: 200px; */
     display: flex;
     flex-direction: row;
-    height: 65vh;
+    height: 90vh;
     width: 100%;
     justify-content: center;
     align-items: center;
     align-content: space-between;
-  
-  
+    background-color: #f2f7fe;
+    /* background-color: #d6404526; */
+    /* background-color: #0e0250; */
   }
   
+
+  .wrapper .card .up .gradient{
+    width : 100%;
+    height : 100%;
+    position : absolute;
+    /* background: linear-gradient(90deg, rgb(0, 134, 18) 0%, rgb(213, 228, 0) 100%); */
+    background-color: black;
+    opacity : 0.6;
+    /* z-index : 10; */
+  }
+  .wrapper .card1 .up .gradient{
+    width : 100%;
+    height : 100%;
+    position : absolute;
+    background: linear-gradient(90deg, rgb(16, 0, 26) 0%, rgb(0, 35, 122)100%);
+    opacity : 0.7;
+    /* z-index : 10; */
+  }
+  .wrapper .card2 .up .gradient{
+    width : 100%;
+    height : 100%;
+    position : absolute;
+    background: linear-gradient(90deg, rgb(0, 59, 0) 0%, rgb(38, 39, 0) 100%);
+    opacity : 0.5;
+    /* z-index : 10; */
+  }
+
   .wrapper .card{
     display: flex;
     flex-direction: column;
     width: 25%;
-    height: 55vh;
+    height: 65vh;
     margin-left: 50px;
-    /* align-content: space-between; */
     background-color: white;
-    /* box-shadow: 0 1.4rem 8rem rgba(0,0,0,.2); */
-    box-shadow: -6px -6px 20px rgba(255,255,255,1),
-                6px 6px 20px rgba(0,0,0,0.2);
-    border-radius: 10px;
-
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+    border-radius: 4px;
+    position : relative;
+    overflow: hidden;
   }
   
   .wrapper .card .up{
     display: flex;
-    flex-basis: 35%;
+    height : 35%;
     justify-content: center;
     align-items: center;
-    /* background-color: rgb(5, 15, 150); */
-    /* background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%); */
-    background: linear-gradient(90deg, #3F2B96 0%, #A8C0FF 100%);
+    background: url('../../assets/Online.jpg');
     color: white;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    overflow: hidden;
+    position : relative;
+    background-size: cover;
+    background-position: bottom;
   }
 
   .wrapper .card1{
     display: flex;
     flex-direction: column;
     width: 25%;
-    height: 55vh;
+    height: 65vh;
     margin-left: 50px;
-    /* align-content: space-between; */
     background-color: white;
-    /* box-shadow: 0 1.4rem 8rem rgba(0,0,0,.2); */
-    box-shadow: -6px -6px 20px rgba(255,255,255,1),
-                6px 6px 20px rgba(0,0,0,0.2);
-    border-radius: 10px;
-
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+    border-radius: 4px;
+    position : relative;
+    overflow: hidden;
   }
 
   .wrapper .card1 .up{
     display: flex;
-    flex-basis: 35%;
+    height : 35%;
     justify-content: center;
     align-items: center;
+    /* background: linear-gradient(90deg, #3F2B96 0%, #A8C0FF 100%); */
+    background: url('../../assets/data.jpg');
+    background-size: cover;
+    background-position: center;
     color: white;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
-    
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    overflow: hidden;
+    position : relative;
   }
 
   .wrapper .card2{
     display: flex;
     flex-direction: column;
     width: 25%;
-    height: 55vh;
+    height: 65vh;
     margin-left: 50px;
-    /* align-content: space-between; */
     background-color: white;
-    /* box-shadow: 0 1.4rem 8rem rgba(0,0,0,.2); */
-    box-shadow: -6px -6px 20px rgba(255,255,255,1),
-                6px 6px 20px rgba(0,0,0,0.2);
-    border-radius: 10px;
-
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+    border-radius: 4px;
+    position : relative;
+    overflow: hidden;
   }
 
   .wrapper .card2 .up{
     display: flex;
-    flex-basis: 35%;
+    height : 35%;
     justify-content: center;
     align-items: center;
-    /* background: linear-gradient(90deg, #3F2B96 0%, #A8C0FF 100%); */
+    background: url('../../assets/ml.jpg');
+    background-size: contain;
     color: white;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
-    
-    
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    overflow: hidden;
+    position : relative;
   }
 
 
   .wrapper .card .up h3{
-    /* padding: 10px; */
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans';
     padding: 0.9em;
+    z-index: 10;
+    text-shadow: 0px 0px 5px rgba(0,0,0,0.6);
   }
 
   .wrapper .card1 .up h3{
-    /* padding: 10px; */
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans';
     padding: 0.9em;
+    z-index: 10;
+    text-shadow: 0px 0px 5px rgba(0,0,0,0.6);
   }
 
   .wrapper .card2 .up h3{
-    /* padding: 10px; */
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans';
     padding: 0.9em;
+    z-index: 10;
+    text-shadow: 0px 0px 5px rgba(0,0,0,0.6);
   }
   
   .wrapper .card .down{
     display: flex;
-    flex-direction: column;
-    flex-basis: 30%;
-    
-  
+    flex-direction: column; 
+    padding : 0px 30px;
+  }
+  .wrapper .card .down p{
+    padding-top: 40px;
+    text-align: left;
+    font-size: 0.9rem;
+    color : rgb(53, 53, 53);
   }
 
   .wrapper .card1 .down{
     display: flex;
-    flex-direction: column;
-    flex-basis: 30%;
-    
-  
+    flex-direction: column; 
+    padding : 0px 30px;
+  }
+  .wrapper .card1 .down p{
+    padding-top: 40px;
+    text-align: left;
+    font-size: 0.9rem;
+    color : rgb(53, 53, 53);
   }
 
   .wrapper .card2 .down{
     display: flex;
-    flex-direction: column;
-    flex-basis: 30%;
-    
-  
+    flex-direction: column; 
+    padding : 0px 30px;
   }
-  
-  .wrapper .card .down p{
-    padding-top: 40px;
-    /* padding-right: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px; */
-    text-align: center;
-  }
-
-  .wrapper .card1 .down p{
-    padding-top: 40px;
-    /* padding-right: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px; */
-    text-align: center;
-  }
-
   .wrapper .card2 .down p{
     padding-top: 40px;
-    /* padding-right: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px; */
-    text-align: center;
+    text-align: left;
+    font-size: 0.9rem;
+    color : rgb(53, 53, 53);
   }
   
   .wrapper .card .bottom {
@@ -232,20 +259,25 @@
   }
   
   .button{
+    margin-top: 20px;
     display: flex;
-    width: 110px;
-    align-self: center;
-    height: 45px;
+    width: 50%;
+    align-self: start;
+    height: 40px;
     border: none;
-    border-radius: 22px;
+    border-radius: 5px;
     text-decoration: none;
-    background-color: rgb(29, 190, 91);
+    background-color: #001742;
+    /* background-color: white; */
     justify-content: center;
     align-items: center;
     color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    /* box-shadow : 0px 0px 5px rgba(0,0,0,0.3) */
   }
   
-  @media screen and (max-width: 450px) {
+  @media screen and (max-width: 576px) {
     .wrapper{
       height: auto;
       display: flex;
@@ -507,8 +539,15 @@
     }
   }
   
+
+
+
+
+
+
+
   /* mobile view */
-  @media screen and (max-width: 450px){
+  @media screen and (max-width: 576px){
     .wrapper_team{
       display: flex;
       flex-direction: column;
@@ -591,4 +630,57 @@
     }
   }
   
+  @media screen and (max-width: 576px) {
+
+    .CoursesMain .App p{
+      font-size: 2rem;
+    }
+    .wrapper{
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+      /* margin-left: 0; */
+      /* margin-top: 0; */
+      margin-bottom: 0px;
+      padding-top : 50px;
+    }
+  
+    .wrapper .card{
+      display: flex;
+      flex-direction: column;
+      width: 80%;
+      height: 50vh;
+      /* margin-left: 50px; */
+      margin-bottom: 20px;
+      background-color: white;
+      padding : 0px;
+      margin : 10px 0px;
+    }
+
+    .wrapper .card1{
+      display: flex;
+      flex-direction: column;
+      width: 80%;
+      height: 50vh;
+      /* margin-left: 50px; */
+      margin-bottom: 20px;
+      background-color: white;
+      padding : 0px;
+      margin : 10px 0px;
+    }
+
+    .wrapper .card2{
+      display: flex;
+      flex-direction: column;
+      width: 80%;
+      height: 50vh;
+      /* margin-left: 50px; */
+      margin-bottom: 20px;
+      background-color: white;
+      padding : 0px;
+      margin : 10px 0px;
+    }
+  }
   

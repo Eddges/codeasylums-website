@@ -74,3 +74,50 @@ $pink : #d64045;
         }
     }
 }
+
+
+@media(max-width : 576px) {
+    .Header{
+        height : auto;
+        // .margin{
+        //     height : 10vh;
+        // }
+        .content{
+            height : 100vh;
+            video{
+                height : 100%;
+            }
+            .left{
+                width : 100%;
+                :nth-child(1) {
+                    color : white;
+                    font-weight: bold;
+                    font-size: 2rem;
+                }
+                :nth-child(2) {
+                    color : white;
+                    font-weight: bold;
+                    font-size: 3rem;
+                }
+                :nth-child(3) {
+                    margin-top: 5px;
+                    color : white;
+                    font-size: 1.2rem;
+                }
+                :nth-child(4) {
+                    margin-top: 15px;
+                    color : white;
+                    font-size: 1rem;
+                }
+                :nth-child(5) {
+                    color : white;
+                    font-size: 1rem;
+                }
+                .ApplyButton{
+                    width : 60%;
+                    height : 50px;
+                }
+            }
+        }
+    }
+}

@@ -1,22 +1,36 @@
-.Companies{
+.Container{
     width : 100%;
     height : auto;
+    padding : 10% 0px;
+    display : flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(14, 2, 80) ;
+}
+
+.Companies{
+    width : 90%;
+    height : auto;
     background-color: #f2f7fe;
-    font-family: 'Open Sans';
+    font-family: 'Roboto';
+    border-radius: 5px;
+    box-shadow: 0px 0px 45px rgb(0, 26, 85);
     p{
-        font-size: 1.6rem;
-        font-weight: bold;
+        font-size: 2.5rem;
+        font-weight: 500;
         padding : 5% 0px;
         text-align: center;
+        color : rgb(14, 2, 80);
     }
     .Logos{
         width : 100%;
         // background-color: coral;
         display : flex;
         flex-wrap: wrap;
-        padding : 0px 200px 100px 200px;
+        justify-content: center;
+        padding : 0px 150px 100px 150px;
         .Round{
-            margin : 20px 40px;
+            margin : 20px 20px;
             width : 100px;
             height : 100px;
             border-radius: 50%;
@@ -27,6 +41,30 @@
             box-shadow : 0px 0px 2px rgba(0,0,0,0.2);
             img{
                 width: 80%;
+            }
+        }
+    }
+}
+
+
+
+@media(max-width : 576px) {
+    .Container{
+        margin : 0px;
+        .Companies{
+            p{
+                font-size: 2rem;
+            }
+            .Logos{
+                flex-direction: row;
+                padding : 20px 0px;
+                align-items: center;
+                .Round{
+                    margin : 10px;
+                    padding : 0px;
+                    width : 80px;
+                    height : 80px;
+                }
             }
         }
     }

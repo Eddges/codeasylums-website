@@ -3,6 +3,7 @@ import React from 'react'
 import './navbar.css'
 import Logo from '../../assets/CodeAsylums.png'
 import LogoWhite from '../../assets/logoWhite.png'
+import {NavLink} from 'react-router-dom'
 
 class Navbar extends React.Component {
 
@@ -20,6 +21,7 @@ class Navbar extends React.Component {
                 <ul>
                     <li><a>HOME</a></li>
                     <li className="onlineCourses"><a>ONLINE COURSES</a></li>
+                    {/* <li className="onlineCourses"><NavLink to="/fullstack">ONLINE COURSES</NavLink></li> */}
                     <li><a>OFFLINE COURSES</a></li>
                     <li><a>CULTURES</a></li>
                     <li><a>MENTORS</a></li>

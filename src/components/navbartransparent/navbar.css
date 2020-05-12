@@ -64,6 +64,11 @@
     padding : 5px;
     text-align : center
 }
+
+.Navbar ul li a{
+    color : white;
+    text-decoration: none;
+}
 .Navbar ul li:hover{
     cursor : pointer;
     /* color : black; */
@@ -128,7 +133,7 @@
         height : 80px;
     }
     .Navbar .imageDiv {
-        height : 40%;
+        height : 70%;
     }
     .Navbar ul{
         display : none;

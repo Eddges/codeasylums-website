@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.teamsection{
+    display:flex;
+    height: 100vh;
+    width: 100%;
+}
+
+.teamsection .teamDescription{
+    display: flex;
+    flex-basis: 40%;
+    height: 100vh;
+    flex-direction: column;
+    font-family: 'Roboto';
+    color: white;
+    /* background-color: rgb(9, 9, 143); */
+    /* background-color: rgb(36, 4, 87); */
+    background-color: #002366;
+    justify-content: center;
+    /* align-items: center; */
+}
+.teamsection .teamDescription .heading{
+    font-size: 2em;
+    font-weight: 500;
+    /* padding: 2em 2em 0em 2em; */
+    width : 100%;
+    padding : 20px 10%;
+}
+
+.teamsection .teamDescription .label{
+    font-size: 1.5em;
+    font-weight: 500;
+    padding : 20px 10%;
+}
+
+.teamsection .teamDescription .text{
+    font-size: 0.9em;
+    font-weight: 300;
+    padding : 20px 20% 20px 10%;
+}
+.teamsection .teamAvatar{
+    display: flex;
+    flex-basis:60% ;
+    height: 100vh;
+    flex-wrap:  wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f2f7fe;
+ 
+}
+
+.teamsection .teamAvatar .box{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 250px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 10px;
+    /* background-color: blueviolet; */
+    /* background-color: #f2f7fe; */
+
+}
+
+.teamsection .teamAvatar .box .up{
+    /* background:url('<img src="https://randomuser.me/api/portraits/men/1.jpg') ; */
+    display: flex;
+    flex-basis: 80%;
+    background-color: yellow;
+    justify-content: center;
+    align-items: center;
+}
+
+.teamsection .teamAvatar .box1 .up{
+    background-color: blanchedalmond;
+}
+.teamsection .teamAvatar .box2 .up{
+    background-color: darkseagreen;
+}
+.teamsection .teamAvatar .box3 .up{
+    background-color: rgb(118, 137, 245);
+}
+.teamsection .teamAvatar .box4 .up{
+    background-color: gold;
+}
+.teamsection .teamAvatar .box5 .up{
+    background-color: lightcoral;
+}
+.teamsection .teamAvatar .box6 .up{
+    background-color: blanchedalmond;
+}
+
+/* .teamsection .teamAvatar .box .up::before {
+    content:'';
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background: rgb(92, 2, 2);
+    opacity: 0.8;
+    /* border-top-left-radius: 2px;
+    border-top-right-radius: 10px; */
+
+/* }  */
+
+
+
+.teamsection .teamAvatar .box .down{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto';
+    font-size: 0.8rem;
+    /* color: white; */
+}
+
+.teamsection .teamAvatar .box .down .name{
+    font-size: large;
+    margin-top: 0.3em;
+    color: #002366;
+}
+
+.teamsection .teamAvatar .box .down .position{
+    font-size: 0.9rem;
+    margin-top: 0em;
+    /* font-weight: ; */
+    color: rgb(59, 59, 59);
+}
+
+@media screen and (max-width: 796px){
+    .teamsection{
+        display:flex;
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+    }
+
+    .teamsection .teamDescription{
+        display: flex;
+        flex-direction: column;
+        flex-basis: 40%;
+        /* background-color: rgb(9, 9, 143); */
+        background-color: rgb(36, 4, 87);
+        margin-bottom: 0.5em;
+        padding-bottom: 1.5em;
+        height: auto;
+        justify-content: center;
+        /* align-items: center; */
+    }
+}

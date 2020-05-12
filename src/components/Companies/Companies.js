@@ -29,12 +29,15 @@ const Companies = (props) => {
         )
     })
     return(
-        <div className={classes.Companies}>
+        <div className={classes.Container}>
+            <div className={classes.Companies}>
             <p>Our graduates are placed at</p>
             <div className={classes.Logos}>
                 {rounds}
             </div>
+            </div>
         </div>
+        
     )
 }
 

@@ -7,19 +7,19 @@ const FeedbackSlider = (props) => {
     const feedbacks = [
         {
             name : "Nagendra Kumar",
-            feedback : "Hello I am XYZ and I attended codeasylums and I am very happy"
+            feedback : "CodeAsylums was elemental in helping me secure my job at Microsoft. The mentors were amazing. You could either try to grasp everything by yourself, which would take months, or you could join CodeAsylums and kickstart your career path!"
         },
         {
             name : "Shivam Shekhar",
-            feedback : "Hello I am XYZ and I attended codeasylums and I am very happy"
+            feedback : "CodeAsylums was elemental in helping me secure my job at Microsoft. The mentors were amazing. You could either try to grasp everything by yourself, which would take months, or you could join CodeAsylums and kickstart your career path!"
         },
         {
             name : "Saurav Suman",
-            feedback : "Hello I am XYZ and I attended codeasylums and I am very happy"
+            feedback : "CodeAsylums was elemental in helping me secure my job at Microsoft. The mentors were amazing. You could either try to grasp everything by yourself, which would take months, or you could join CodeAsylums and kickstart your career path!"
         },
         {
             name : "Nagendra Kumar",
-            feedback : "Hello I am XYZ and I attended codeasylums and I am very happy"
+            feedback : "CodeAsylums was elemental in helping me secure my job at Microsoft. The mentors were amazing. You could either try to grasp everything by yourself, which would take months, or you could join CodeAsylums and kickstart your career path!"
         }
     ]
 
@@ -28,9 +28,9 @@ const FeedbackSlider = (props) => {
     return(
 
         <div>
-            <div class ="headertestimonial">
+            {/* <div class ="headertestimonial">
                 <p>OUR TESTIMONIALS</p>
-            </div>
+            </div> */}
             <div class="testimonials_section">
 
         <div class="containerSlider">

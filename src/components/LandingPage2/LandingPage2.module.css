@@ -88,4 +88,47 @@
   font-weight: bold;
   font-size: 1rem;
 }
+
+@media (max-width: 576px) {
+  .Header {
+    height: auto;
+  }
+  .Header .content {
+    height: 100vh;
+  }
+  .Header .content video {
+    height: 100%;
+  }
+  .Header .content .left {
+    width: 100%;
+  }
+  .Header .content .left :nth-child(1) {
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+  }
+  .Header .content .left :nth-child(2) {
+    color: white;
+    font-weight: bold;
+    font-size: 3rem;
+  }
+  .Header .content .left :nth-child(3) {
+    margin-top: 5px;
+    color: white;
+    font-size: 1.2rem;
+  }
+  .Header .content .left :nth-child(4) {
+    margin-top: 15px;
+    color: white;
+    font-size: 1rem;
+  }
+  .Header .content .left :nth-child(5) {
+    color: white;
+    font-size: 1rem;
+  }
+  .Header .content .left .ApplyButton {
+    width: 60%;
+    height: 50px;
+  }
+}
 /*# sourceMappingURL=LandingPage2.module.css.map */
