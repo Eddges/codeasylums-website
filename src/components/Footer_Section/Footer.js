@@ -48,7 +48,7 @@ const Footer = () => {
         <div class={styles.col3}>
             <p>Terms</p>
             <p>Privacy</p>
-            <p>Concern</p>
+            <p>-</p>
         </div>
         </div>
         </>
