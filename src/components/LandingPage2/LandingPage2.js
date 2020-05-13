@@ -1,6 +1,6 @@
 import React from 'react'
 import classes from './LandingPage2.module.css'
-import video1 from '../../assets/codingVid.mp4'
+import video1 from '../../assets/codingVid.webm'
 
 const LandingPage2 = () => (
     <header className={classes.Header}>

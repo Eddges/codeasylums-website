@@ -86,9 +86,11 @@
   position: absolute;
   height: 100%;
   width: 100%;
-  background-color: black;
+  background: #000e24;
+  background: -webkit-gradient(linear, right top, left top, from(#000e24), color-stop(90%, #090979), to(#19009d));
+  background: linear-gradient(270deg, #000e24 0%, #090979 90%, #19009d 100%);
   background-size: 100%;
-  opacity: 60%;
+  opacity: 70%;
   z-index: 0;
   overflow: hidden;
 }
@@ -259,7 +261,8 @@
   border: none;
   border-radius: 5px;
   color: white;
-  font-size: 1.3rem;
+  font-size: 0.8rem;
+  font-weight: bold;
 }
 
 .Page2Top .Form .Container form button:hover {

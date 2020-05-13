@@ -63,9 +63,12 @@ $royalblue : #002366;
         position: absolute;
         height : 100%;
         width : 100%;
-        background-color: black;
+        // background-color: black;
+        // background-color: #0f0066;
+        background: rgb(0,14,36);
+        background: linear-gradient(270deg, rgba(0,14,36,1) 0%, rgba(9,9,121,1) 90%, rgba(25,0,157,1) 100%); 
         background-size: 100%;
-        opacity: 60%;
+        opacity: 70%;
         z-index: 0;
         overflow: hidden;
     }
@@ -178,7 +181,8 @@ $royalblue : #002366;
                     border: none;
                     border-radius: 5px;
                     color : white;
-                    font-size: 1.3rem;
+                    font-size: 0.8rem;
+                    font-weight: bold;
                     &:hover{
                         cursor: pointer;
                         animation : callback 1s;

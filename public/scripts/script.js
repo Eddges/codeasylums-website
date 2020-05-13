@@ -1,17 +1,46 @@
+// let onlineCounter=false;
+// $(".onlineCourses").hover(function() {
+//     if(!onlineCounter){
+//         $(".MenuModal").fadeIn(300, function(){
+//             onlineCounter=true;
+//         })
+//     }
+//     else{
+//         $(".MenuModal").fadeOut(200, function(){
+//             onlineCounter=false;
+//         })
+//     }
+
+// })
+
+
 let onlineCounter=false;
-$(".onlineCourses").on("click", function() {
-    if(!onlineCounter){
+$(".onlineCourses").hover(function() {
+    // if(!onlineCounter){
         $(".MenuModal").fadeIn(300, function(){
             onlineCounter=true;
         })
-    }
-    else{
-        $(".MenuModal").fadeOut(200, function(){
-            onlineCounter=false;
-        })
-    }
+        $(".BGClick").addClass("showBGClick")
+    // }
+    // else{
+    //     $(".MenuModal").fadeOut(200, function(){
+    //         onlineCounter=false;
+    //     })
+    // }
 
 })
+
+
+$(".BGClick").click(function() {
+    $(".MenuModal").fadeOut(300)
+    $(this).toggleClass("showBGClick")
+})
+
+
+console.log($(".BGClick"))
+
+
+
 
 
 

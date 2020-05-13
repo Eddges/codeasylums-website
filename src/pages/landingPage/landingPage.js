@@ -19,6 +19,7 @@ import FeedbackSlider from '../../components/FeedbackSlider/FeedbackSlider'
 import Companies from '../../components/Companies/Companies'
 import Contact_form from '../../components/Contact_form/Contact_form'
 import CoreTeam from '../../components/CoreTeam/CoreTeam'
+import BGClick from '../../components/BGClick/BGClick'
 
 class LandPage extends React.Component {
     render() {
@@ -27,6 +28,7 @@ class LandPage extends React.Component {
                 <Layout>
                     <Navbar />
                     <MenuModal />
+                    <BGClick />
                     <LandingPage2 />
                     <Courses />
                     <FeedbackSlider />

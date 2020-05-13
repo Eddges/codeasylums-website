@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,QAAQ,CAAA;EACJ,QAAQ,EAAG,KAAK;EAChB,KAAK,EAAG,IAAI;EACZ,MAAM,EAAG,KAAK;EACd,OAAO,EAAG,EAAE;EACZ,OAAO,EAAG,IAAI;CAEjB;;AAED,AAAA,YAAY,CAAC;EAET,OAAO,EAAG,KAAK;CAClB",
+    "sources": [
+        "BGClick.scss"
+    ],
+    "names": [],
+    "file": "BGClick.css"
+}

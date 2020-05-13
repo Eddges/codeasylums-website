@@ -250,4 +250,10 @@
     font-size: 1.5rem;
   }
 }
+
+.showMenuModal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 /*# sourceMappingURL=MenuModal.css.map */

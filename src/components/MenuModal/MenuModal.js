@@ -32,7 +32,7 @@ const MenuModal = () => {
             </div>
             <div className="lineDiv"></div>
         <div className="lowerDiv">
-            <p className="help">Need help choosing the right course? <span className="explore">Explore Career paths</span></p>
+            <p className="help">Need help choosing the right course? Call us on <span className="explore">8505885570</span></p>
         </div>
         </div>
     )
