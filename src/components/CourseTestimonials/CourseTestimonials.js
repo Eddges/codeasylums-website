@@ -47,11 +47,9 @@ const CourseTestimonials = (props) => {
     )
     return (
         <div className={classes.container}>
+            <p>What are our students saying about us?</p>
             <div className={classes.Line}></div>
             <div className={classes.CourseTestimonials}>
-                {/* <div className={classes.Testimonial}>
-                <Testimonial content="I completely give my placement credits to CodeAsylum’s FullStack Development program. It has indeed changed my life." name="Shivam Shekhar" about="CEO Microsoft" showAbout={true} showCircle={true} />
-                </div> */}
                 {testimonialCards}
             </div>
         </div>

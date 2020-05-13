@@ -4,15 +4,23 @@ $bg1 : #0f3647;
 .container{
     width : 100%;
     display : flex;
+    flex-direction: column;
     justify-content: center;
-    // .Line{
-    //     width : 80%;
-    //     height : 8px;
-    //     position: absolute;
-    //     background-color: #002366;
-    //     border-radius: 2px;
-    //     transform: translateY(-50%);
-    // }
+    background-color: #f2f7fe;
+    align-items: center;
+    justify-content: center;
+    p{
+        width: 100%;
+        padding-left: 15%;
+        font-size: 2rem;
+        font-family: 'Roboto';
+        color : #242424;
+        height : auto;
+        padding-top: 5%;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+    }
 }
 .CourseTestimonials {
         // margin-top: 100px;
@@ -24,16 +32,6 @@ $bg1 : #0f3647;
     flex-wrap: wrap;
     justify-content: center;
     width : 100%;
-    // border-radius: 5px;
-    // background-color: $bg1;
-    // background : linear-gradient(to right, #2a112e, #03200f );
-    // background: linear-gradient(to right,#0a2b3f , #311055);
-    // background-size: 200%;
-    // animation: gradientBackground 1s infinite alternate ease-in-out;
-    // background: linear-gradient(to right, #2a463a, #0a2b3f , #311055 , #003083);
-    // background-size: 200%;
-    // animation: gradientBackground 1s infinite alternate ease-in-out;
-    // background-color: rgba(214, 64, 69, 0.027);
     background-color: #f2f7fa;
     // background-color: #002366;
     
@@ -48,6 +46,13 @@ $bg1 : #0f3647;
 }
 
 @media(max-width : 576px) {
+    .container{
+        p{
+            padding : 10px 30px;
+            height : 200px;
+            text-align: center;
+        }
+    }
     .CourseTestimonials{
         .Testimonial{
             width : 85%;   
