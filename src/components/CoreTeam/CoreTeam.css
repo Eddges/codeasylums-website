@@ -149,4 +149,15 @@
         justify-content: center;
         /* align-items: center; */
     }
+
+    .teamsection .teamAvatar{
+        display: flex;
+        flex-basis:60% ;
+        height: auto;
+        flex-wrap:  wrap;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #f2f7fe;
+     
+    }
 }
