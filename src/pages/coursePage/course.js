@@ -24,6 +24,7 @@ import Batchdetails from '../../components/Batchdetails/Batchdetails'
 import fullstackIllustration from '../../assets/illustration2.jpg'
 import fullStackBG from '../../assets/fullStackBG.jpg'
 import Fullstack_student_carousel from '../../components/Fullstack_student_carousel/Fullstack_student_carousel'
+import BGClick from '../../components/BGClick/BGClick'
 
 
 const Course = (props) => {
@@ -31,6 +32,7 @@ const Course = (props) => {
         <Layout>
             <MenuModal />
             <Navbar />
+            <BGClick />
             <Page2Top title="FULLSTACK WEB DEVELOPMENT + DSA" line1="Become a MERN stack developer and get a job" line2="Rated by students" type="fullstack" illustration={fullStackBG} />
             <CodeAsylumsAdvantage />
             <Parallax1 />
@@ -39,17 +41,8 @@ const Course = (props) => {
             <JobReady />
             <Batchdetails/>
             <CourseTestimonials />
-            
-            
-            {/* <Banner1 />  */}
             <StudentCarousel />
-            
-            
             <Bubbles />
-            
-            {/* <ApplyButton /> */}
-            
-            {/* <TeamPage/> */}
             <Accordion />
             <Banner/>
 
