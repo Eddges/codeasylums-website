@@ -14,25 +14,29 @@ const MenuModal = () => {
             <div className="upperDiv">
             <div className="Courses">
                 <ul>
-                    <li>Courses</li>
-                    <li>FullStack Development</li>
-                    <li>Virgin Algorithms<span className="new">new</span></li>
-                    <li>Machine Learning <span className="popular">popular</span></li>
-                    <li>Business Analytics</li>
+                    <li>Full Stack Development Web/App </li>
+                    <li>Full Stack Development <span className="new">popular</span></li>
+                    <li>Advanced Full Stack Development <span className="new">popular</span></li>
                 </ul>
             </div>
-            <div className="Tracks">
+            <div className="Courses">
                 <ul>
-                    <li>Tracks</li>
-                    <li>Development Track</li>
-                    <li>Coding Track</li>
-                    <li>Analyst Track</li>
+                    <li>Cracking Coding Interview</li>
+                    <li>Data Structures Track <span className="new">popular</span></li>
+                    <li>Competitive Programming & Advanced DSA <span className="new">popular</span></li>
+                </ul>
+            </div>
+            <div className="Courses">
+                <ul>
+                    <li>Data Science</li>
+                    <li>Data Science & Engineering <span className="new">popular</span></li>
+                    
                 </ul>
             </div>
             </div>
             <div className="lineDiv"></div>
         <div className="lowerDiv">
-            <p className="help">Need help choosing the right course? Call us on <span className="explore">8505885570</span></p>
+            <p className="help">Want to know more about courses? Call us on <span className="explore">8505885570</span></p>
         </div>
         </div>
     )
