@@ -1,0 +1,556 @@
+*{
+    margin : 0px;
+    padding : 0px;
+    box-sizing: border-box;
+}
+
+
+.landing-container{
+    display : flex;
+    width : 100%;
+    height : 100vh;
+    font-family: 'Raleway';
+    .glass{
+        position: absolute;
+        width : 100%;
+        height : 100%;
+        filter : blur(8)px;
+    }
+    .landing-left{
+        width: 50%;
+        height : 100%;
+        position : relative;
+        // background-color: #fd00610a;
+        background-color: #f2f7fea9;
+        transition: all 0.5s;
+        overflow: hidden;
+        .landing-left-text{
+            height : 100%;
+            width : 100%;
+            display : flex;
+            flex-direction: column;
+            align-items: flex-end;
+            text-align: landing-right;
+            padding : 100px 40px;
+            z-index: 100;
+            transition: all 0.5s;
+            position: absolute;
+            :nth-child(1){
+                color : #002366;
+                font-size: 3rem;
+            }
+            :nth-child(2){
+                font-family: 'Open Sans';
+                color : #4b4b4b;
+                padding-top : 8px;
+                font-weight: 400;
+                font-size: 1.3rem;
+            }
+            :nth-child(3){
+                font-family: 'Open Sans';
+                color : #464646;
+                // padding-top : 4px;
+                font-weight: 400;
+                font-size: 1.3rem;
+            }
+            :nth-child(4){
+                font-family: 'Raleway';
+                font-size: 0.75rem;
+                color : rgb(139, 139, 139);
+                font-weight: bold;
+                width : 40%;
+                margin-top: 10px;
+            }
+            .landing-left-button{
+                margin-top: 30px;
+                border: none;
+                background-color: #4500a8;
+                color : white;
+                font-weight: bold;
+                width : 240px;
+                height : 40px;
+                font-family: 'Open Sans';
+                border-radius: 5px;
+                box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+                transition: all 0.5s;
+                &:hover{
+                    cursor: pointer;
+                    background-color: #eee3fd;
+                    color : rgb(44, 3, 109);  
+                }
+            }
+        }
+        .landing-left-text-shifted{
+            padding: 100px 60px;
+            :nth-child(1){
+                color : white;
+            }
+            :nth-child(2){
+                color : white;
+            }
+            :nth-child(3){
+                color : white;
+            }
+            :nth-child(4){
+                color : white;
+            }
+            .left-button{
+                background-color: white;
+                color : rgb(49, 2, 87);
+            }
+        }
+        .Table{
+            position : absolute;
+            margin-top: 110vh;
+            width : 100%;
+            margin-left: 00px;
+            z-index : 0;
+            transition: all 0.7s;
+        }
+        .Table-shifted{
+            // margin-left: -50px;
+            margin-top: 70%;
+        }
+        .WaveBack{
+            position : absolute;
+            margin-top: 80vh;
+            width : 100%;
+            // margin-left: -5%;
+            z-index : 0;
+            transition: all 2s;
+        }
+        .WaveBack-shifted{
+            width : 120%;
+            margin-left : 40px;
+        }
+        .Main{
+            position : absolute;
+            margin-top: 20vh;
+            width : 60%;
+            margin-left: 1%;
+            z-index : 10; 
+            transition: all 1s;
+        }
+        .Main-shifted{
+            width : 55%;
+            margin-left : 8%;
+        }
+        .Decor{
+            position : absolute;
+            margin-top: 15%;
+            width : 95%;
+            margin-left: 0%;
+            z-index : 10; 
+            transition: all 1s;
+        }
+        .Decor-shifted{
+            width : 90%;
+            margin-top: 14%;
+            margin-left: -4%;
+        }
+        .ReactJS{
+            position: absolute;
+            width: 45px;
+            margin-left: 35%;
+            margin-top: 32%;
+            transition: all 1s;
+        }
+        .ReactJS-shifted{
+            width : 30px;
+            transform: rotate(-30deg);
+            margin-left: 35%;
+            margin-top: 10%;
+        }
+        .Kuber{
+            position: absolute;
+            width: 40px;
+            margin-left: 40%;
+            margin-top: 60%;
+            transition: all 01s;
+        }
+        .Kuber-shifted{
+            position: absolute;
+            width: 30px;
+            margin-left: 45%;
+            margin-top: 15%;
+        }
+        .HTML5{
+            position: absolute;
+            width: 25px;
+            margin-left: 20%;
+            margin-top: 55%;
+            transition: all 1s;
+        }
+        .HTML5-shifted{
+            position: absolute;
+            width: 30px;
+            margin-left: 25%;
+            margin-top: 14%;
+        }
+        .Github{
+            position: absolute;
+            width: 23px;
+            margin-left: 30%;
+            margin-top: 55%;
+            transition: all 1s;
+        }
+        .Github-shifted{
+            position: absolute;
+            width: 26px;
+            margin-left: 22%;
+            margin-top: 25%;
+        }
+        .Logo{
+            position: absolute;
+            width: 100px;
+            margin-left: 3%;
+            margin-top: 1%;
+            transition: all 1s;
+        }
+        .Logo-noshow{
+            display : none;
+        }
+        .LogoWhite{
+            display : none;
+        }
+        .LogoWhite-show{
+            position: absolute;
+            width: 100px;
+            margin-left: 3%;
+            margin-top: 1%;
+            transition: all 1s; 
+            display: inline-block;
+        }
+    }
+
+    .landing-left-shifted{
+        // background-color: #fd00610a;
+        background-color: #31066e;
+    }
+
+    .landing-right{
+        width: 50%;
+        height : 100%;
+        position : relative;
+        display : flex;
+        flex-direction: column;
+        background-color: #f2f7fea9;
+        transition: all 0.5s;
+        overflow: hidden;
+        .landing-right-text{
+            height : 100%;
+            width : 100%;
+            display : flex;
+            flex-direction: column;
+            align-items: flex-start;
+            text-align: left;
+            padding : 100px 40px;
+            position: absolute;
+            transition: all .5s;
+            :nth-child(1){
+                color : #002366;
+                font-size: 3rem;
+            }
+            :nth-child(2){
+                font-family: 'Open Sans';
+                color : #4b4b4b;
+                padding-top : 8px;
+                font-weight: 400;
+                font-size: 1.3rem;
+            }
+            :nth-child(3){
+                font-family: 'Open Sans';
+                color : #464646;
+                font-weight: 400;
+                font-size: 1.3rem;
+            }
+            :nth-child(4){
+                font-family: 'Raleway';
+                font-size: 0.75rem;
+                color : rgb(139, 139, 139);
+                font-weight: bold;
+                width : 40%;
+                margin-top: 10px;
+
+            }
+            .landing-right-button{
+                margin-top: 30px;
+                border: none;
+                background-color: rgb(0, 93, 233);
+                color : white;
+                font-weight: bold;
+                width : 240px;
+                height : 40px;
+                font-family: 'Open Sans';
+                border-radius: 5px;
+                box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+                transition: all 0.5s;
+                &:hover{
+                    cursor: pointer;
+                    background-color: rgb(58, 124, 223);
+                }
+            }
+        }
+        .landing-right-text-shifted{
+            padding : 100px 20px 100px 60px;
+        }
+        .WaveFront{
+            position : absolute;
+            margin-top: 78vh;
+            width : 110%;
+            margin-left: 00px;
+            z-index : 20;
+            transition: all 1.5s;
+        }
+        .WaveFront-shifted{
+            width : 130%;
+        }
+        .WaveBack{
+            position : absolute;
+            margin-top: 77vh;
+            width : 110%;
+            margin-right: -10%;
+            z-index : 0;
+            transition: all 1.5s;
+        }
+        .WaveBack-shifted{
+            width : 100%;
+            margin-right : 0%;
+        }
+        .Main{
+            position : absolute;
+            margin-top: 27vh;
+            width : 65%;
+            margin-left: 35%;
+            z-index : 10; 
+            transition: all 1s;
+        }
+        .Main-shifted{
+            width : 68%;
+            margin-left: 38%;
+            margin-top: 26vh;
+        }
+        .Decor{
+            position : absolute;
+            margin-top: 30%;
+            width : 60%;
+            margin-left: 45%;
+            z-index : 10; 
+            transition: all 1s;
+        }
+        .Decor-shifted{
+            margin-top: 27%;
+            width : 65%;
+            margin-left: 50%;
+        }
+        .AWS{
+            position: absolute;
+            width: 50px;
+            margin-left: 90%;
+            margin-top: 5%;
+            transition: all 1s;
+        }
+        .AWS-shifted{
+            width: 60px;
+            margin-left: 85%;
+            margin-top: 3%
+        }
+        .Docker{
+            position: absolute;
+            width: 30px;
+            margin-left: 80%;
+            margin-top: 10%;
+            transition: all 1s;
+        }
+        .Docker-shifted{
+            width: 35px;
+            margin-left: 78%;
+            margin-top: 9%;
+        }
+        .Ansible{
+            position: absolute;
+            width: 28px;
+            margin-left: 85%;
+            margin-top: 20%;
+            transition: all 1s;
+        }
+        .Ansible-shifted{
+            width: 35px;
+            margin-left: 86%;
+            margin-top: 10%;
+        }
+        .Circle4{
+            position: absolute;
+            width: 16px;
+            margin-left: 95%;
+            margin-top: 55%;
+            transition: all 1s;
+        }
+    }
+    .landing-right-shifted{
+        background-color: #b5d4ff63;
+    }
+}
+
+
+
+
+@media(max-width : 800px) {
+    .landing-container{
+        flex-direction: column;
+        height : auto;
+        .landing-left{
+            width : 100%;
+            height : 90vh;
+            display : flex;
+            flex-direction: column;
+            margin : 0px;
+            padding : 0px;
+            .landing-left-text{
+                text-align: center;
+                :nth-child(1){
+                    margin : 0px;
+                    padding : 0px;
+                    text-align: center;
+                    width : 100%;
+                }
+                :nth-child(2){
+                    margin : 0px;
+                    padding : 0px;
+                    text-align: center;
+                    width : 100%;
+                }
+                :nth-child(3){
+                    margin : 0px;
+                    padding : 0px;
+                    text-align: center;
+                    width : 100%;
+                }
+                :nth-child(4){
+                    margin : 0px;
+                    padding : 10px 0px;
+                    text-align: center;
+                    width : 100%;
+                }
+            }
+            .landing-left-text-shifted{
+                padding : 100px 40px;
+            }
+
+
+            .Table{
+                margin-top: 110vh;
+            }
+            .Table-shifted{
+                margin-top: 80vh;
+            }
+            .Main{
+                margin-top: 55vh;
+            }
+            .Decor{
+                margin-top: 53vh;
+            }
+            .Decor-shifted{
+                margin-top: 52vh;
+            }
+            .ReactJS{
+                margin-top: 72vh;
+            }
+            .ReactJS-shifted{
+                margin-top: 50vh;
+            }
+            .Kuber{
+                margin-top: 72vh;
+            }
+            .Kuber-shifted{
+                margin-top: 51vh;
+            }
+            .HTML5{
+                margin-top: 72vh;
+            }
+            .HTML5-shifted{
+                margin-left: 18%;
+                margin-top: 60vh;
+            }
+            .Github{
+                margin-top: 72vh;
+            }
+            .Github-shifted{
+                margin-top: 52vh;
+            }
+            .Logo{
+                position: absolute;
+                width: 60px;
+                margin-left: 50%;
+                margin-top: 5vh;
+                transform: translateX(-50%);
+            }
+            .Logo-noshow{
+                display : none;
+            }
+            .LogoWhite{
+                display : none;
+            }
+            .LogoWhite-show{
+                position: absolute;
+                width: 60px;
+                margin-left: 50%;
+                margin-top: 5vh;
+                transform: translateX(-50%);
+                display: inline-block;
+            }
+
+        }
+        .landing-right {
+            width : 100%;
+            height : 90vh;
+            .landing-right-text{
+                text-align: center;
+                :nth-child(1){
+                    margin : 0px;
+                    padding : 0px;
+                    text-align: center;
+                    width : 100%;
+                }
+                :nth-child(2){
+                    margin : 0px;
+                    padding : 0px;
+                    text-align: center;
+                    width : 100%;
+                }
+                :nth-child(3){
+                    margin : 0px;
+                    padding : 0px;
+                    text-align: center;
+                    width : 100%;
+                }
+                :nth-child(4){
+                    margin : 0px;
+                    padding : 10px 0px;
+                    text-align: center;
+                    width : 100%;
+                }
+            }
+            .landing-right-text-shifted{
+                padding : 100px 40px;
+            }
+            .Main{
+                margin-top: 60vh;
+                margin-left: 25%;
+            }
+            .Main-shifted{
+                width : 68%;
+                margin-left: 20%;
+                margin-top: 58vh;
+            }
+            .Decor{
+                margin-top: 55vh;
+                margin-left: 35%;
+            }
+            .Decor-shifted{
+                margin-top: 52vh;
+                margin-left: 40%;
+            }
+        }
+    }
+}

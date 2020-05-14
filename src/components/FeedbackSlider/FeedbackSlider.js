@@ -55,4 +55,4 @@ const FeedbackSlider = (props) => {
     )
 }
 
-export default FeedbackSlider
+export default FeedbackSlider   

@@ -1,0 +1,663 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.landing-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  font-family: 'Raleway';
+}
+
+.landing-container .glass {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-filter: blur(8) px;
+          filter: blur(8) px;
+}
+
+.landing-container .landing-left {
+  width: 50%;
+  height: 100%;
+  position: relative;
+  background-color: #f2f7fea9;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  overflow: hidden;
+}
+
+.landing-container .landing-left .landing-left-text {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  text-align: landing-right;
+  padding: 100px 40px;
+  z-index: 100;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  position: absolute;
+}
+
+.landing-container .landing-left .landing-left-text :nth-child(1) {
+  color: #002366;
+  font-size: 3rem;
+}
+
+.landing-container .landing-left .landing-left-text :nth-child(2) {
+  font-family: 'Open Sans';
+  color: #4b4b4b;
+  padding-top: 8px;
+  font-weight: 400;
+  font-size: 1.3rem;
+}
+
+.landing-container .landing-left .landing-left-text :nth-child(3) {
+  font-family: 'Open Sans';
+  color: #464646;
+  font-weight: 400;
+  font-size: 1.3rem;
+}
+
+.landing-container .landing-left .landing-left-text :nth-child(4) {
+  font-family: 'Raleway';
+  font-size: 0.75rem;
+  color: #8b8b8b;
+  font-weight: bold;
+  width: 40%;
+  margin-top: 10px;
+}
+
+.landing-container .landing-left .landing-left-text .landing-left-button {
+  margin-top: 30px;
+  border: none;
+  background-color: #4500a8;
+  color: white;
+  font-weight: bold;
+  width: 240px;
+  height: 40px;
+  font-family: 'Open Sans';
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.landing-container .landing-left .landing-left-text .landing-left-button:hover {
+  cursor: pointer;
+  background-color: #eee3fd;
+  color: #2c036d;
+}
+
+.landing-container .landing-left .landing-left-text-shifted {
+  padding: 100px 60px;
+}
+
+.landing-container .landing-left .landing-left-text-shifted :nth-child(1) {
+  color: white;
+}
+
+.landing-container .landing-left .landing-left-text-shifted :nth-child(2) {
+  color: white;
+}
+
+.landing-container .landing-left .landing-left-text-shifted :nth-child(3) {
+  color: white;
+}
+
+.landing-container .landing-left .landing-left-text-shifted :nth-child(4) {
+  color: white;
+}
+
+.landing-container .landing-left .landing-left-text-shifted .left-button {
+  background-color: white;
+  color: #310257;
+}
+
+.landing-container .landing-left .Table {
+  position: absolute;
+  margin-top: 110vh;
+  width: 100%;
+  margin-left: 00px;
+  z-index: 0;
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
+}
+
+.landing-container .landing-left .Table-shifted {
+  margin-top: 70%;
+}
+
+.landing-container .landing-left .WaveBack {
+  position: absolute;
+  margin-top: 80vh;
+  width: 100%;
+  z-index: 0;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+}
+
+.landing-container .landing-left .WaveBack-shifted {
+  width: 120%;
+  margin-left: 40px;
+}
+
+.landing-container .landing-left .Main {
+  position: absolute;
+  margin-top: 20vh;
+  width: 60%;
+  margin-left: 1%;
+  z-index: 10;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.landing-container .landing-left .Main-shifted {
+  width: 55%;
+  margin-left: 8%;
+}
+
+.landing-container .landing-left .Decor {
+  position: absolute;
+  margin-top: 15%;
+  width: 95%;
+  margin-left: 0%;
+  z-index: 10;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.landing-container .landing-left .Decor-shifted {
+  width: 90%;
+  margin-top: 14%;
+  margin-left: -4%;
+}
+
+.landing-container .landing-left .ReactJS {
+  position: absolute;
+  width: 45px;
+  margin-left: 35%;
+  margin-top: 32%;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.landing-container .landing-left .ReactJS-shifted {
+  width: 30px;
+  -webkit-transform: rotate(-30deg);
+          transform: rotate(-30deg);
+  margin-left: 35%;
+  margin-top: 10%;
+}
+
+.landing-container .landing-left .Kuber {
+  position: absolute;
+  width: 40px;
+  margin-left: 40%;
+  margin-top: 60%;
+  -webkit-transition: all 01s;
+  transition: all 01s;
+}
+
+.landing-container .landing-left .Kuber-shifted {
+  position: absolute;
+  width: 30px;
+  margin-left: 45%;
+  margin-top: 15%;
+}
+
+.landing-container .landing-left .HTML5 {
+  position: absolute;
+  width: 25px;
+  margin-left: 20%;
+  margin-top: 55%;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.landing-container .landing-left .HTML5-shifted {
+  position: absolute;
+  width: 30px;
+  margin-left: 25%;
+  margin-top: 14%;
+}
+
+.landing-container .landing-left .Github {
+  position: absolute;
+  width: 23px;
+  margin-left: 30%;
+  margin-top: 55%;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.landing-container .landing-left .Github-shifted {
+  position: absolute;
+  width: 26px;
+  margin-left: 22%;
+  margin-top: 25%;
+}
+
+.landing-container .landing-left .Logo {
+  position: absolute;
+  width: 100px;
+  margin-left: 3%;
+  margin-top: 1%;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.landing-container .landing-left .Logo-noshow {
+  display: none;
+}
+
+.landing-container .landing-left .LogoWhite {
+  display: none;
+}
+
+.landing-container .landing-left .LogoWhite-show {
+  position: absolute;
+  width: 100px;
+  margin-left: 3%;
+  margin-top: 1%;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  display: inline-block;
+}
+
+.landing-container .landing-left-shifted {
+  background-color: #31066e;
+}
+
+.landing-container .landing-right {
+  width: 50%;
+  height: 100%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #f2f7fea9;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  overflow: hidden;
+}
+
+.landing-container .landing-right .landing-right-text {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  text-align: left;
+  padding: 100px 40px;
+  position: absolute;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.landing-container .landing-right .landing-right-text :nth-child(1) {
+  color: #002366;
+  font-size: 3rem;
+}
+
+.landing-container .landing-right .landing-right-text :nth-child(2) {
+  font-family: 'Open Sans';
+  color: #4b4b4b;
+  padding-top: 8px;
+  font-weight: 400;
+  font-size: 1.3rem;
+}
+
+.landing-container .landing-right .landing-right-text :nth-child(3) {
+  font-family: 'Open Sans';
+  color: #464646;
+  font-weight: 400;
+  font-size: 1.3rem;
+}
+
+.landing-container .landing-right .landing-right-text :nth-child(4) {
+  font-family: 'Raleway';
+  font-size: 0.75rem;
+  color: #8b8b8b;
+  font-weight: bold;
+  width: 40%;
+  margin-top: 10px;
+}
+
+.landing-container .landing-right .landing-right-text .landing-right-button {
+  margin-top: 30px;
+  border: none;
+  background-color: #005de9;
+  color: white;
+  font-weight: bold;
+  width: 240px;
+  height: 40px;
+  font-family: 'Open Sans';
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.landing-container .landing-right .landing-right-text .landing-right-button:hover {
+  cursor: pointer;
+  background-color: #3a7cdf;
+}
+
+.landing-container .landing-right .landing-right-text-shifted {
+  padding: 100px 20px 100px 60px;
+}
+
+.landing-container .landing-right .WaveFront {
+  position: absolute;
+  margin-top: 78vh;
+  width: 110%;
+  margin-left: 00px;
+  z-index: 20;
+  -webkit-transition: all 1.5s;
+  transition: all 1.5s;
+}
+
+.landing-container .landing-right .WaveFront-shifted {
+  width: 130%;
+}
+
+.landing-container .landing-right .WaveBack {
+  position: absolute;
+  margin-top: 77vh;
+  width: 110%;
+  margin-right: -10%;
+  z-index: 0;
+  -webkit-transition: all 1.5s;
+  transition: all 1.5s;
+}
+
+.landing-container .landing-right .WaveBack-shifted {
+  width: 100%;
+  margin-right: 0%;
+}
+
+.landing-container .landing-right .Main {
+  position: absolute;
+  margin-top: 27vh;
+  width: 65%;
+  margin-left: 35%;
+  z-index: 10;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.landing-container .landing-right .Main-shifted {
+  width: 68%;
+  margin-left: 38%;
+  margin-top: 26vh;
+}
+
+.landing-container .landing-right .Decor {
+  position: absolute;
+  margin-top: 30%;
+  width: 60%;
+  margin-left: 45%;
+  z-index: 10;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.landing-container .landing-right .Decor-shifted {
+  margin-top: 27%;
+  width: 65%;
+  margin-left: 50%;
+}
+
+.landing-container .landing-right .AWS {
+  position: absolute;
+  width: 50px;
+  margin-left: 90%;
+  margin-top: 5%;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.landing-container .landing-right .AWS-shifted {
+  width: 60px;
+  margin-left: 85%;
+  margin-top: 3%;
+}
+
+.landing-container .landing-right .Docker {
+  position: absolute;
+  width: 30px;
+  margin-left: 80%;
+  margin-top: 10%;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.landing-container .landing-right .Docker-shifted {
+  width: 35px;
+  margin-left: 78%;
+  margin-top: 9%;
+}
+
+.landing-container .landing-right .Ansible {
+  position: absolute;
+  width: 28px;
+  margin-left: 85%;
+  margin-top: 20%;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.landing-container .landing-right .Ansible-shifted {
+  width: 35px;
+  margin-left: 86%;
+  margin-top: 10%;
+}
+
+.landing-container .landing-right .Circle4 {
+  position: absolute;
+  width: 16px;
+  margin-left: 95%;
+  margin-top: 55%;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.landing-container .landing-right-shifted {
+  background-color: #b5d4ff63;
+}
+
+@media (max-width: 800px) {
+  .landing-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: auto;
+  }
+  .landing-container .landing-left {
+    width: 100%;
+    height: 90vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+  }
+  .landing-container .landing-left .landing-left-text {
+    text-align: center;
+  }
+  .landing-container .landing-left .landing-left-text :nth-child(1) {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    width: 100%;
+  }
+  .landing-container .landing-left .landing-left-text :nth-child(2) {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    width: 100%;
+  }
+  .landing-container .landing-left .landing-left-text :nth-child(3) {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    width: 100%;
+  }
+  .landing-container .landing-left .landing-left-text :nth-child(4) {
+    margin: 0px;
+    padding: 10px 0px;
+    text-align: center;
+    width: 100%;
+  }
+  .landing-container .landing-left .landing-left-text-shifted {
+    padding: 100px 40px;
+  }
+  .landing-container .landing-left .Table {
+    margin-top: 110vh;
+  }
+  .landing-container .landing-left .Table-shifted {
+    margin-top: 80vh;
+  }
+  .landing-container .landing-left .Main {
+    margin-top: 55vh;
+  }
+  .landing-container .landing-left .Decor {
+    margin-top: 53vh;
+  }
+  .landing-container .landing-left .Decor-shifted {
+    margin-top: 52vh;
+  }
+  .landing-container .landing-left .ReactJS {
+    margin-top: 72vh;
+  }
+  .landing-container .landing-left .ReactJS-shifted {
+    margin-top: 50vh;
+  }
+  .landing-container .landing-left .Kuber {
+    margin-top: 72vh;
+  }
+  .landing-container .landing-left .Kuber-shifted {
+    margin-top: 51vh;
+  }
+  .landing-container .landing-left .HTML5 {
+    margin-top: 72vh;
+  }
+  .landing-container .landing-left .HTML5-shifted {
+    margin-left: 18%;
+    margin-top: 60vh;
+  }
+  .landing-container .landing-left .Github {
+    margin-top: 72vh;
+  }
+  .landing-container .landing-left .Github-shifted {
+    margin-top: 52vh;
+  }
+  .landing-container .landing-left .Logo {
+    position: absolute;
+    width: 60px;
+    margin-left: 50%;
+    margin-top: 5vh;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+  .landing-container .landing-left .Logo-noshow {
+    display: none;
+  }
+  .landing-container .landing-left .LogoWhite {
+    display: none;
+  }
+  .landing-container .landing-left .LogoWhite-show {
+    position: absolute;
+    width: 60px;
+    margin-left: 50%;
+    margin-top: 5vh;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    display: inline-block;
+  }
+  .landing-container .landing-right {
+    width: 100%;
+    height: 90vh;
+  }
+  .landing-container .landing-right .landing-right-text {
+    text-align: center;
+  }
+  .landing-container .landing-right .landing-right-text :nth-child(1) {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    width: 100%;
+  }
+  .landing-container .landing-right .landing-right-text :nth-child(2) {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    width: 100%;
+  }
+  .landing-container .landing-right .landing-right-text :nth-child(3) {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    width: 100%;
+  }
+  .landing-container .landing-right .landing-right-text :nth-child(4) {
+    margin: 0px;
+    padding: 10px 0px;
+    text-align: center;
+    width: 100%;
+  }
+  .landing-container .landing-right .landing-right-text-shifted {
+    padding: 100px 40px;
+  }
+  .landing-container .landing-right .Main {
+    margin-top: 60vh;
+    margin-left: 25%;
+  }
+  .landing-container .landing-right .Main-shifted {
+    width: 68%;
+    margin-left: 20%;
+    margin-top: 58vh;
+  }
+  .landing-container .landing-right .Decor {
+    margin-top: 55vh;
+    margin-left: 35%;
+  }
+  .landing-container .landing-right .Decor-shifted {
+    margin-top: 52vh;
+    margin-left: 40%;
+  }
+}
+/*# sourceMappingURL=DeciderPage.css.map */
