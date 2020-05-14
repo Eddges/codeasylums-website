@@ -19,7 +19,7 @@ function Courses() {
         <div className={styles.card}>
             <div className={styles.up}>
                 <div className={styles.gradient}></div>
-                <h3>FULL STACK TRACK CERTIFICATION</h3>
+                <h3>DATA STRUCTURE COURSE</h3>
             </div>
             <div className={styles.down}>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Soluta reiciendis officiis asperiores dolorem tenetur quod consequatur necessitatibus ducimus, tempore quas?</p>
@@ -36,7 +36,7 @@ function Courses() {
         <div className={styles.card1}>
             <div className={styles.up}>
                 <div className={styles.gradient}></div>
-                <h3>DATA SCIENCE TRACK CERTIFICATION</h3>
+                <h3>COMPETITIVE PROGRAMMING AND ADVANCED DSA</h3>
             </div>
             <div className={styles.down}>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Soluta reiciendis officiis asperiores dolorem tenetur quod consequatur necessitatibus ducimus, tempore quas?</p>
@@ -53,7 +53,40 @@ function Courses() {
         <div className={styles.card2}>
             <div className={styles.up}>
                 <div className={styles.gradient}></div>
-                <h3>DEEP LEARNING TRACK CERTIFICATION</h3>
+                <h3>DATA SCIENCE TRACK CERTIFICATION</h3>
+            </div>
+            <div className={styles.down}>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Soluta reiciendis officiis asperiores dolorem tenetur quod consequatur necessitatibus ducimus, tempore quas?</p>
+            </div>
+            <div className={styles.bottom}>
+                <button className={styles.button}>Explore</button>
+            </div>
+            {/* <div className={styles.card_footer}>
+                <p>For 6 months</p>
+            </div> */}
+        </div>
+        {/* 4 */}
+        <div className={styles.card3}>
+            <div className={styles.up}>
+                <div className={styles.gradient}></div>
+                <h3>FULLSTACK WEB-BASED DEVELOPMENT</h3>
+            </div>
+            <div className={styles.down}>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Soluta reiciendis officiis asperiores dolorem tenetur quod consequatur necessitatibus ducimus, tempore quas?</p>
+            </div>
+            <div className={styles.bottom}>
+                <button className={styles.button}>Explore</button>
+            </div>
+            {/* <div className={styles.card_footer}>
+                <p>For 6 months</p>
+            </div> */}
+        </div>
+
+        {/* 5 */}
+        <div className={styles.card4}>
+            <div className={styles.up}>
+                <div className={styles.gradient}></div>
+                <h3>ADVANCED FULLSTACK</h3>
             </div>
             <div className={styles.down}>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Soluta reiciendis officiis asperiores dolorem tenetur quod consequatur necessitatibus ducimus, tempore quas?</p>

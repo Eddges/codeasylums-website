@@ -9,11 +9,12 @@ const Footer = () => {
         <>
         <div class={styles.footer_section}>
         <div class={styles.col}>
-            <h1>Courses</h1>
-            <p>Data Science Career Track</p>
-            <p>AI/Machine Learning Career Track</p>
-            <p>Data Analytics Career Track</p>
-            <p>UI/UX Design Career Track</p>
+            <h1>COURSES</h1>
+            <p>Full Stack Development</p>
+            <p>Advance Full Stack Development</p>
+            <p>Data Structures Track</p>
+            <p>Competitive Programming & Advanced DSA</p>
+            <p>Data Science & Engineering</p>
         </div>
         <div class={styles.col}>
             <h1>ABOUT US</h1>
@@ -25,9 +26,9 @@ const Footer = () => {
         <div class={styles.col}>
             <h1>CONTACT</h1>
             <p>Email us:</p>
-            <p>india@springboard.com</p>
+            <p>bootcamp@codeasylums.com</p>
             <p>Call us:</p>
-            <p>+918088424853</p>
+            <p>+91123567800</p>
             
         </div>
         <div class={styles.col}>
@@ -39,17 +40,11 @@ const Footer = () => {
         </div>
     </div>
     <div class={styles.footer_down}>
-        <div class={styles.col1}>
-            <img src={logo} width = "104" height="61"  alt=""/>
-        </div>
+       
         <div class={styles.col2}>
-            <p>Copyright 2019</p>
+            <p>Copyright 2020</p>
         </div>
-        <div class={styles.col3}>
-            <p>Terms</p>
-            <p>Privacy</p>
-            <p>-</p>
-        </div>
+       
         </div>
         </>
     
