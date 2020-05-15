@@ -11,9 +11,9 @@ class App extends React.Component {
     render() {
         return(
             <Switch>
-                <Route path="/" exact component={LandPage} />
+                <Route path="/land" exact component={LandPage} />
                 <Route path="/fullstack" exact component={Course} />
-                <Route path="/decide" exact component={DeciderPage} />
+                <Route path="/" exact component={DeciderPage} />
             </Switch>
                 
 
