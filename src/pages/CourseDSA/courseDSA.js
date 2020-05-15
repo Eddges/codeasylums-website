@@ -1,9 +1,8 @@
 import React from 'react'
 import Layout from '../../components/Layout/Layout'
-import classes from './course.module.css'
 import Navbar from '../../components/navbartransparent/Navbar'
 import CodeAsylumsAdvantage from '../../components/CodeAsylumsAdvantage/CodeAsylumsAdvantage'
-import MentorsPage2 from '../../components/mentorsPage2/mentorsPage2'
+import MentorsDSA from '../../components/mentorsPage2/MentorsDSA/MentorsDSA'
 import Bubbles from '../../components/Bubbles/Bubbles'
 import JobReady from '../../components/JobReady/JobReady'
 import ApplyButton from '../../components/ApplyButton/ApplyButton'
@@ -22,26 +21,31 @@ import Parallax1 from '../../components/Parallax1/Parallax1'
 import Banner from '../../components/Banner/Banner';
 import Batchdetails from '../../components/Batchdetails/Batchdetails'
 import fullstackIllustration from '../../assets/illustration2.jpg'
-import fullStackBG from '../../assets/fullStackBG.jpg'
-import Fullstack_student_carousel from '../../components/Fullstack_student_carousel/Fullstack_student_carousel'
+import dsaBG from '../../assets/dsa.jpg'
 import BGClick from '../../components/BGClick/BGClick'
 import CurriculumDSA from '../../components/CurriculumFullStack/CurriculumDSA/CurriculumDSA'
+import FeedbackSliderCard from '../../components/FeedbackSliderCard/FeedbackSliderCard'
+import FeedbackSlider from '../../components/FeedbackSlider/FeedbackSlider'
+import FeedbackSliderDSA from '../../components/FeedbackSlider/FeedbackSliderDSA/FeedbackSliderDSA'
+import BatchdetailsDSA from '../../components/Batchdetails/BatchDetailsDSA/BatchdetailsDSA'
+import JobReadyDSA from '../../components/JobReady/JobReadyDSA/JobReadyDSA'
 
 
-const Course = (props) => {
+const CourseDSA = (props) => {
     return(
         <Layout>
             <MenuModal />
             <Navbar />
             <BGClick />
-            <Page2Top title="FULLSTACK WEB DEVELOPMENT + DSA" duration="6 Weeks" line1="Become a MERN stack developer and get a job" line2="Rated by students" type="fullstack" illustration={fullStackBG} />
+            <Page2Top title="Data Structures and Algorithms (From scratch)" top="Online | 8 Weeks | Lively Mentorship | 4 Weeks Job Assistance" line1="Implement Data Structures and crack coding interviews" line2="Rated by students" type="fullstack" illustration={dsaBG} />
             <CodeAsylumsAdvantage />
             <Parallax1 />
-            <MentorsPage2 />
-            <CurriculumFullStack />
-            <JobReady />
-            <Batchdetails/>
-            <CourseTestimonials />
+            <MentorsDSA />
+            <CurriculumDSA/>
+            <JobReadyDSA />
+            <FeedbackSliderDSA />
+            <BatchdetailsDSA/>
+            {/* <CourseTestimonials /> */}
             <StudentCarousel />
             <Bubbles />
             <Accordion />
@@ -53,4 +57,4 @@ const Course = (props) => {
     )
 }
 
-export default Course;
+export default CourseDSA;

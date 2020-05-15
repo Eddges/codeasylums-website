@@ -15,6 +15,7 @@ class Page2Top extends React.Component {
         line1 : this.props.line1,
         line2 : this.props.line2,
         course : this.props.course,
+        duration : this.props.duration,
         illustration : this.props.illustration
     }
 
@@ -27,7 +28,7 @@ class Page2Top extends React.Component {
                     <div className={classes.gradient}></div>
                     <div className={classes.container}>
                         <div className={classes.text}>
-                            <p>Online | 6 Weeks | 1:1 Mentorship</p>
+                            <p>{this.props.top}</p>
                             <p>{this.state.title}</p>   
                             <p>{this.state.line1}</p>
                             

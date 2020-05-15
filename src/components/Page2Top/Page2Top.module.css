@@ -204,7 +204,7 @@
 
 .Page2Top .Form .Container {
   margin-top: 200px;
-  width: 75%;
+  width: 55%;
   height: 76%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -242,21 +242,9 @@
   font-size: 1.3rem;
   padding-bottom: 5px;
   color: #4b4b4b;
-  text-align: center;
 }
 
 .Page2Top .Form .Container form input {
-  height: 15%;
-  background-color: white;
-  margin: 0.5% 0px;
-  border-radius: 3px;
-  border: none;
-  padding: 0px 10px;
-  -webkit-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
-}
-
-.Page2Top .Form .Container form select {
   height: 15%;
   background-color: white;
   margin: 0.5% 0px;
@@ -275,7 +263,6 @@
   color: white;
   font-size: 0.8rem;
   font-weight: bold;
-  margin-top: 10px;
 }
 
 .Page2Top .Form .Container form button:hover {
@@ -535,16 +522,6 @@
     color: #4b4b4b;
   }
   .Page2Top .Form .Container form input {
-    height: 32px;
-    background-color: white;
-    margin: 1% 0px;
-    border-radius: 3px;
-    border: none;
-    padding: 0px 10px;
-    -webkit-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
-            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
-  }
-  .Page2Top .Form .Container form select {
     height: 32px;
     background-color: white;
     margin: 1% 0px;
