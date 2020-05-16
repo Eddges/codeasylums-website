@@ -407,6 +407,9 @@
             margin : 0px;
             padding : 0px;
             .landing-left-text{
+                display : flex;
+                flex-direction: column;
+                align-items: center;
                 text-align: center;
                 :nth-child(1){
                     margin : 0px;
@@ -506,6 +509,9 @@
             height : 90vh;
             .landing-right-text{
                 text-align: center;
+                display : flex;
+                flex-direction: column;
+                align-items: center;
                 :nth-child(1){
                     margin : 0px;
                     padding : 0px;

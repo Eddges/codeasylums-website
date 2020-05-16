@@ -1,0 +1,166 @@
+.Job {
+  font-family: 'Roboto';
+  text-align: center;
+  width: 100%;
+  background-color: #0e0250;
+  position: relative;
+}
+
+.Job .Line {
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  height: 2%;
+  background-color: #dd272d;
+  z-index: 20;
+}
+
+.Job .Heading {
+  text-align: left;
+  width: 100%;
+  font-size: 3rem;
+  font-weight: 500;
+  padding-top: 5%;
+  color: white;
+  padding-left: 15%;
+}
+
+.Job .Opportunities {
+  text-align: left;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 300;
+  padding-left: 15%;
+}
+
+.Job .BG {
+  width: 100%;
+  height: 40vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0px 10%;
+}
+
+.Job .BG ul {
+  text-align: left;
+  margin: 10px;
+  padding: 60px 20px;
+  width: 25%;
+  height: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.Job .BG ul li {
+  color: white;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.Job .BG .divTestimonial {
+  width: 40%;
+  padding: 3% 2%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media (max-width: 576px) {
+  .Job {
+    width: 100vw;
+  }
+  .Job .Heading {
+    font-size: 2rem;
+    padding: 20px 15%;
+  }
+  .Job .Opportunities {
+    font-size: 1.1rem;
+  }
+  .Job .BG {
+    width: 100%;
+    height: auto;
+    margin-top: 4%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0px 20px;
+  }
+  .Job .BG ul {
+    text-align: left;
+    margin: 10px;
+    padding: 5px 20px;
+    width: 100%;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-left: 15%;
+  }
+  .Job .BG ul li {
+    color: white;
+    font-weight: 500;
+    font-size: 0.9rem;
+    margin: 5px 0px;
+    width: 100%;
+    padding: 0px 0px 0px 10%;
+  }
+  .Job .BG .divTestimonial {
+    width: 100%;
+    padding: 5% 2%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media (min-width: 1800px) {
+  .Job .Heading {
+    font-size: 6rem;
+  }
+  .Job .Opportunities {
+    font-size: 2rem;
+  }
+  .Job .BG ul li {
+    font-size: 1.5rem;
+  }
+}
+
+.Job {
+  margin-top: 0px;
+}
+/*# sourceMappingURL=JobReadyDataScience.module.css.map */

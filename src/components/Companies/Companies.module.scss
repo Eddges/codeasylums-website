@@ -1,26 +1,55 @@
 .Container{
     width : 100%;
     height : auto;
-    padding : 10% 0px;
+    padding : 5% 0px;
     display : flex;
     align-items: center;
     justify-content: center;
     background-color:rgb(14, 2, 80) ;
+    // background-color: #f2f7fe;
+    // background: url('../../assets/corporate.jpg');
+    background-size: contain;
+    // background : linear-gradient(to bottom, #0e0250, #002366);
+    position: relative;
+    // .Gradient{
+    //     position: absolute;
+    //     width : 100%;
+    //     height: 100%;
+    //     background-color: black;
+    //     background-size: cover;
+    //     opacity: 0.4;
+    // }
 }
 
 .Companies{
     width : 90%;
     height : auto;
     background-color: #f2f7fe;
+    // background-color: white;
     font-family: 'Roboto';
     border-radius: 5px;
-    box-shadow: 0px 0px 45px rgb(0, 26, 85);
+    // box-shadow: 0px 0px 45px rgb(0, 26, 85);
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+    display : flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+    .Line{
+        width : 30%;
+        height : 1px;
+        background-color: rgb(112, 112, 112);
+        margin-bottom: 20px;
+        margin-top: 0px;
+    }
     p{
-        font-size: 2.5rem;
+        font-family: 'Raleway';
+        font-size: 1.5rem;
         font-weight: 500;
-        padding : 5% 0px;
+        padding : 3% 0px;
         text-align: center;
-        color : rgb(14, 2, 80);
+        color : rgb(56, 56, 56);
     }
     .Logos{
         width : 100%;
@@ -51,9 +80,13 @@
 @media(max-width : 576px) {
     .Container{
         margin : 0px;
+        .Line{
+            width :80%;
+            margin : 10px 0px;
+        }
         .Companies{
             p{
-                font-size: 2rem;
+                font-size: 1.2rem;
             }
             .Logos{
                 flex-direction: row;

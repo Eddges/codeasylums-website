@@ -152,10 +152,7 @@
 }
 
 .btnHire:hover {
-  background-color: white;
-  color: black;
   cursor: pointer;
-  border: 2px solid black;
 }
 
 @media (max-width: 576px) {

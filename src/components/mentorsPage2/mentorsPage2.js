@@ -1,6 +1,7 @@
 import React from 'react'
 import MentorCards from '../mentorCards/mentorCards'
 import classes from './mentorsPage2.module.css'
+// import professional from '../../../assets/professional.jpg'
 import professional from '../../assets/professional.jpg'
 
 const MentorsPage2 = (props) => {
