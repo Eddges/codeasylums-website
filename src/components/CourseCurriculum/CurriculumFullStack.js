@@ -2,7 +2,7 @@ import React from 'react'
 import Curriculum2Item from '../Curriculum2Item/Curriculum2Item'
 import classes from './CurriculumFullStack.module.css'
 
-class CurriculumFullStack extends React.Component{
+class CourseCurriculum extends React.Component{
 
     render() {
 
@@ -55,4 +55,4 @@ class CurriculumFullStack extends React.Component{
     }
 }
 
-export default CurriculumFullStack
+export default CourseCurriculum

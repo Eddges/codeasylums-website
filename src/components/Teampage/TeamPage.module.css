@@ -4,15 +4,18 @@
   display : flex;
   flex-wrap: wrap;
   font-family: 'Roboto';
+  height : auto;
+  /* padding : 200px 0px; */
 }
 
 .App {
-    height: 30vh;
+    height: 75vh;
     text-align: center;
     font-family: 'Roboto';
     font-weight: 500;
-    font-size: 2.5em;
+    font-size: 1.2rem;
     display : flex;
+    flex-direction: column;
     align-items: center;
     width: 100%;
     background-color: #0e0250;
@@ -21,9 +24,62 @@
     justify-content: center;
   }
 
+  .App .Desc{
+    /* width : 20vh; */
+    width : 100%;
+    height : 40vh;
+    display : flex;
+    flex-direction: column;
+  }
+  .App .Desc .checks1{
+    display : flex;
+    width : 100%;
+  }
+  .App .Desc .DescP{
+    width : 100%;
+    text-align: center;
+    font-size: 1.2rem;
+    color : white;
+    font-family: 'Raleway';
+    height : 20vh;
+    display : flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1%;
+  }
+
+  .App .Desc .check{
+    height : 40vh;
+    width : 33%;
+    display : flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .App .Desc .check img{
+    width : 10%;
+  }
+  .App .Desc .check p{
+    text-align: center;
+    color : white;
+    padding : 10px 60px;
+    font-size: 1rem;
+    font-weight: 300;
+  }
+  .App .Line{
+    height : 1px;
+    width : 60%;
+    background-color: white;
+    margin : 40px 0px;
+  }
   .App p{
+    display : flex;
+    justify-content: center;
+    align-items: center;
     width : 100%;
     color : white;
+    height : 10vh;
+    font-size: 1.7rem;
   }
 
 
@@ -39,8 +95,8 @@
     align-items: center;
     align-content: space-between;
     background-color: #f2f7fe;
-    padding-top: 2em;
-    padding-bottom: 1em;
+    padding-top: 4em;
+    padding-bottom: 5em;
     /* background-color: #d6404526; */
     /* background-color: #0e0250; */
   }
@@ -97,6 +153,7 @@
     height: 65vh;
     margin-left: 50px;
     margin-bottom: 1em;
+    margin-top: 2em;
     background-color: white;
     box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
     border-radius: 4px;
@@ -126,6 +183,7 @@
     height: 65vh;
     margin-left: 50px;
     margin-bottom: 1em;
+    margin-top: 2em;
     background-color: white;
     box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
     border-radius: 4px;
@@ -155,6 +213,7 @@
     width: 25%;
     height: 65vh;
     margin-left: 50px;
+    margin-top: 2em;
     margin-bottom: 1em;
     background-color: white;
     box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
@@ -168,8 +227,8 @@
     height : 35%;
     justify-content: center;
     align-items: center;
-    background:url('../../assets/data.jpg');
-    background-size: contain;
+    background:url('../../assets/data-science.jpg');
+    background-size: cover;
     color: white;
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
@@ -183,6 +242,7 @@
     width: 25%;
     height: 65vh;
     margin-left: 50px;
+    margin-top: 4em;
     margin-bottom: 1em;
     background-color: white;
     box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
@@ -197,7 +257,7 @@
     justify-content: center;
     align-items: center;
     background: url('../../assets/fullstack.jpg');
-    background-size: contain;
+    background-size: cover;
     color: white;
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
@@ -211,6 +271,7 @@
     width: 25%;
     height: 65vh;
     margin-left: 50px;
+    margin-top: 4em;
     margin-bottom: 1em;
     background-color: white;
     box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
@@ -224,8 +285,8 @@
     height : 35%;
     justify-content: center;
     align-items: center;
-    background: url('../../assets/adf.jpg');
-    background-size: contain;
+    background: url('../../assets/fullstackadvanced.jpg');
+    background-size: cover;
     color: white;
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;

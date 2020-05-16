@@ -1,0 +1,214 @@
+// $bubble1 : rgb(116, 245, 152);
+// $bubble2 : rgb(101, 240, 217);
+// $bubble3 : rgb(119, 200, 243);
+// $bubble4 : rgb(241, 179, 121);
+// $bubble7 : rgb(222, 224, 83);
+// $bubble6 : rgb(174, 241, 107);
+// $bubble5 : rgb(240, 113, 130);
+
+$bubble1 : #d64045;
+$bubble2 : #44af69;
+$bubble3 : #46237a;
+$bubble4 : #4d9de0;
+$bubble7 : #002366;
+$bubble6 : #44af69;
+$bubble5 : #d64045;
+
+.Container {
+    font-family: 'Roboto';
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width : 100%;
+    background: url(../../../assets//BubbleBG.png);
+    background-attachment: fixed;
+    .Advantage{
+        margin-top: 10%;
+        font-size: 3rem;
+        margin-bottom: 5%;
+        font-weight : 200;
+    }   
+    div {
+        display : flex;
+        justify-content : center;
+        align-items: center;
+        div{
+            width : 70%;
+            height : 70%;
+            text-align: left;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            color : white;
+            align-items: start;
+            :nth-child(1) {
+                font-size: 2rem;
+            }
+        }
+    }
+    .Bubble1 {
+        width : 320px;
+        height : 320px;
+        border-radius : 50%;
+        background-color: $bubble1;
+        margin-bottom: -100px;
+    }
+    .Bubble2 {
+        width : 400px;
+        height : 400px;
+        border-radius : 50%;
+        background-color: $bubble2;
+        transform: translateX(35%);
+        z-index : 10;
+        margin-bottom: -130px;
+        div{
+            align-items: center;
+        }
+    }
+    .Bubble3 {
+        width : 350px;
+        height : 350px;
+        border-radius : 50%;
+        background-color: $bubble3;
+        transform: translateX(-40%);
+        margin-bottom: -80px;
+        z-index : 5;
+    }
+    .Bubble4 {
+        width : 420px;
+        height : 420px;
+        border-radius : 50%;
+        background-color: $bubble4;
+        transform: translateX(30%);
+        margin-bottom: -130px;
+        z-index: 30;
+        div{
+            align-items: center;
+        }
+    }
+    .Bubble5 {
+        width : 360px;
+        height : 360px;
+        border-radius : 50%;
+        background-color: $bubble5;
+        z-index: 40;
+        transform: translateX(-40%);
+        margin-bottom: -120px;
+    }
+    .Bubble6 {
+        width : 380px;
+        height : 380px;
+        border-radius : 50%;
+        background-color: $bubble6;
+        transform: translateX(40%);
+        z-index: 50;
+        margin-bottom: -120px;
+        div{
+            align-items: center;
+            text-align: center;
+        }
+    }
+    .Bubble7 {
+        width : 350px;
+        height : 350px;
+        border-radius : 50%;
+        background-color: $bubble7;
+        transform: translateX(-5%);
+        z-index: 60;
+    }
+}
+
+@media (max-width : 576px) {
+    .Container{
+        overflow: hidden;
+
+        .Advantage{
+            margin : 30px 0px;        }
+        div {
+            display : flex;
+            justify-content : center;
+            align-items: center;
+            div{
+
+                text-align: center;
+                align-items: center;
+            }
+        }
+        .Bubble1 {
+            width : 220px;
+            height : 220px;
+            margin-bottom: -50px;
+            transform: translateX(-20%);
+        }
+        .Bubble2 {
+            width : 300px;
+            height : 300px;
+            border-radius : 50%;
+            background-color: $bubble2;
+            transform: translateX(5%);
+            margin-bottom: -50px;
+            div{
+                align-items: center;
+            }
+        }
+        .Bubble3 {
+            width : 240px;
+            height : 240px;
+            border-radius : 50%;
+            background-color: $bubble3;
+            transform: translateX(-40%);
+            margin-bottom: -60px;
+        }
+        .Bubble4 {
+            width : 300px;
+            height : 300px;
+            border-radius : 50%;
+            background-color: $bubble4;
+            z-index : 5;
+            transform: translateX(30%);
+            margin-bottom: -80px;
+            div{
+                align-items: center;
+            }
+        }
+        .Bubble5 {
+            width : 220px;
+            height : 220px;
+            border-radius : 50%;
+            background-color: $bubble5;
+            z-index: 10;
+            transform: translateX(-40%);
+            margin-bottom: -60px;
+        }
+        .Bubble6 {
+            width : 250px;
+            height : 250px;
+            border-radius : 50%;
+            background-color: $bubble6;
+            transform: translateX(40%);
+            z-index: 8;
+            margin-bottom: -70px;
+            div{
+                align-items: center;
+                text-align: center;
+            }
+        }
+        .Bubble7 {
+            width : 300px;
+            height : 300px;
+            border-radius : 50%;
+            background-color: $bubble7;
+            transform: translateX(-10%);
+            z-index: 0;
+        }
+    }
+}
+
+@media(min-width : 1800px){
+    .Container{
+        .Advantage{
+            font-size: 4.5rem;
+        }
+    }
+}

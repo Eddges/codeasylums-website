@@ -23,18 +23,21 @@ const Companies = (props) => {
     const names = [adobe, amazon, arcesium, DI, flipkart, google, GS, intuit, microsoft, OYO, paysafe, paytm, qubole, vmware, walmart]
     const rounds = names.map((iterator, index) => {
         return(
-            <div className={classes.Round}>
+            <div className={classes.Round} data-aos="zoom-in" >
                 <img src={iterator} alt={adobe} />
             </div>
         )
     })
     return(
         <div className={classes.Container}>
+            {/* <div className={classes.Line}></div> */}
+            <div className={classes.Gradient}></div>
             <div className={classes.Companies}>
-            <p>Our graduates are placed at</p>
-            <div className={classes.Logos}>
-                {rounds}
-            </div>
+                <p>Our graduates are working at</p>
+                <div className={classes.Line}></div>
+                <div className={classes.Logos}>
+                    {rounds}
+                </div>
             </div>
         </div>
         

@@ -31,7 +31,7 @@ const FeedbackSlider = (props) => {
             {/* <div class ="headertestimonial">
                 <p>OUR TESTIMONIALS</p>
             </div> */}
-            <div class="testimonials_section">
+            <div class="testimonials_section_main">
 
         <div class="containerSlider">
             <div class="carouselSlider">

@@ -13,10 +13,17 @@
     text-align: left;
     font-family: 'Roboto';
     font-size: 3rem;
-    margin-bottom: 90px;
+    
     font-weight: 200;
     width : 100%;
     padding-left : 15%;
 
     /* margin-top: -100px; */
+}
+
+.CurriculumFullStack .Description{
+    padding : 10px 15%;
+    margin-bottom: 90px;
+    font-family: 'Roboto';
+    color : rgb(65, 65, 65);
 }

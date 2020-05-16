@@ -1,0 +1,29 @@
+.CurriculumFullStack{
+    height : auto;
+    padding : 50px 0px;
+    /* margin-top : 150px; */
+    /* background-color: #0024660c; */
+    background-color: #f2f7fa;
+    /* background-color: rgba(214, 64, 69, 0.055); */
+    /* margin-bottom : -10%; */
+}
+
+.CurriculumFullStack .title{
+    background-color: #00246600;
+    text-align: left;
+    font-family: 'Roboto';
+    font-size: 3rem;
+    
+    font-weight: 200;
+    width : 100%;
+    padding-left : 15%;
+
+    /* margin-top: -100px; */
+}
+
+.CurriculumFullStack .Description{
+    padding : 10px 15%;
+    margin-bottom: 90px;
+    font-family: 'Roboto';
+    color : rgb(65, 65, 65);
+}
