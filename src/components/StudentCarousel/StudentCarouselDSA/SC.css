@@ -52,15 +52,14 @@
 }
 
 .timeline-nav__item {
-  width: auto;
+  width: 200px;
   height: auto;
   text-align: center;
   opacity: 0.5;
   background: transparent;
-  color: #000000;
   margin: 15px 25px !important;
   position: relative;
-  font-size: 14px;
+  font-size: 20px;
   line-height: 28px;
   font-weight: 400;
   outline: none;
@@ -91,6 +90,10 @@
 
 .timeline-nav__item.slick-current::before {
   background-color: #002366;
+}
+
+.timeline-nav__item1 {
+  font-size: 10px;
 }
 
 .timeline-wrapper {

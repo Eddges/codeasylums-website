@@ -8,18 +8,22 @@ class CurriculumDataScience extends React.Component{
 
         const section1 = [
             {
-                link : "Excel",
+                link : "Intro to Machine Learning",
                 details : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id lectus sed purus tristique sagittis. Aliquam molestie eu ligula eget bibendum. Nullam sapien nisi, varius a lacinia vel, posuere sit amet mi"
             },
             {
                 link : "Guesstimates",
                 details : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id lectus sed purus tristique sagittis. Aliquam molestie eu ligula eget bibendum. Nullam sapien nisi, varius a lacinia vel, posuere sit amet mi"
-            }
+            },
+            {
+                link : "Case Studies",
+                details : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id lectus sed purus tristique sagittis. Aliquam molestie eu ligula eget bibendum. Nullam sapien nisi, varius a lacinia vel, posuere sit amet mi"
+            },
         ]
 
         const section2 = [
             {
-                link : "Excel",
+                link : "Python and Statistics",
                 details : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id lectus sed purus tristique sagittis. Aliquam molestie eu ligula eget bibendum. Nullam sapien nisi, varius a lacinia vel, posuere sit amet mi"
             },
             {
@@ -30,7 +34,11 @@ class CurriculumDataScience extends React.Component{
 
         const section3 = [
             {
-                link : "SQL",
+                link : "Excel & Aptitude",
+                details : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id lectus sed purus tristique sagittis. Aliquam molestie eu ligula eget bibendum. Nullam sapien nisi, varius a lacinia vel, posuere sit amet mi"
+            },
+            {
+                link : "Group Discussions",
                 details : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id lectus sed purus tristique sagittis. Aliquam molestie eu ligula eget bibendum. Nullam sapien nisi, varius a lacinia vel, posuere sit amet mi"
             }
         ]
@@ -39,55 +47,43 @@ class CurriculumDataScience extends React.Component{
             {
                 link : "SQL",
                 details : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id lectus sed purus tristique sagittis. Aliquam molestie eu ligula eget bibendum. Nullam sapien nisi, varius a lacinia vel, posuere sit amet mi"
+            },
+            {
+                link : "Numpy Pandas",
+                details : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id lectus sed purus tristique sagittis. Aliquam molestie eu ligula eget bibendum. Nullam sapien nisi, varius a lacinia vel, posuere sit amet mi"
             }
         ]
         const section5 = [
             {
-                link : "Overview - ML",
+                link : "SQL",
                 details : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id lectus sed purus tristique sagittis. Aliquam molestie eu ligula eget bibendum. Nullam sapien nisi, varius a lacinia vel, posuere sit amet mi"
             },
             {
-                link : "Python Syntaxes",
+                link : "Machine Learning Regression",
                 details : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id lectus sed purus tristique sagittis. Aliquam molestie eu ligula eget bibendum. Nullam sapien nisi, varius a lacinia vel, posuere sit amet mi"
             }
         ]
         const section6 = [
             {
-                link : "Statistics",
-                details : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id lectus sed purus tristique sagittis. Aliquam molestie eu ligula eget bibendum. Nullam sapien nisi, varius a lacinia vel, posuere sit amet mi"
-            },
-            {
-                link : "Python - Numpy, Pandas",
+                link : "Machine Learning Supervised & Unsupervised",
                 details : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id lectus sed purus tristique sagittis. Aliquam molestie eu ligula eget bibendum. Nullam sapien nisi, varius a lacinia vel, posuere sit amet mi"
             }
         ]
         const section7 = [
             {
-                link : "ML - Models",
-                details : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id lectus sed purus tristique sagittis. Aliquam molestie eu ligula eget bibendum. Nullam sapien nisi, varius a lacinia vel, posuere sit amet mi"
-            },
-            {
-                link : "Python - Model Libraries",
+                link : "Machine Learning Models & Algorithms using SkLearn",
                 details : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id lectus sed purus tristique sagittis. Aliquam molestie eu ligula eget bibendum. Nullam sapien nisi, varius a lacinia vel, posuere sit amet mi"
             }
         ]
         const section8 = [
             {
-                link : "ML - Application on Dataset",
-                details : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id lectus sed purus tristique sagittis. Aliquam molestie eu ligula eget bibendum. Nullam sapien nisi, varius a lacinia vel, posuere sit amet mi"
-            },
-            {
-                link : "Python - Application",
+                link : "Deep Learning using Keras",
                 details : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id lectus sed purus tristique sagittis. Aliquam molestie eu ligula eget bibendum. Nullam sapien nisi, varius a lacinia vel, posuere sit amet mi"
             }
         ]
         const section9 = [
             {
-                link : "Visualisation - Tablue",
-                details : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id lectus sed purus tristique sagittis. Aliquam molestie eu ligula eget bibendum. Nullam sapien nisi, varius a lacinia vel, posuere sit amet mi"
-            },
-            {
-                link : "R Programming",
+                link : "Visualisation Tools",
                 details : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id lectus sed purus tristique sagittis. Aliquam molestie eu ligula eget bibendum. Nullam sapien nisi, varius a lacinia vel, posuere sit amet mi"
             },
             {
@@ -97,23 +93,13 @@ class CurriculumDataScience extends React.Component{
         ]
         const section10 = [
             {
-                link : "Deep Learning",
-                details : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id lectus sed purus tristique sagittis. Aliquam molestie eu ligula eget bibendum. Nullam sapien nisi, varius a lacinia vel, posuere sit amet mi"
-            },
-            {
-                link : "Python - Keras",
+                link : "Week Long Product Development",
                 details : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id lectus sed purus tristique sagittis. Aliquam molestie eu ligula eget bibendum. Nullam sapien nisi, varius a lacinia vel, posuere sit amet mi"
             }
         ]
         const section11 = [
             {
-                link : "Product Development - End to End",
-                details : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id lectus sed purus tristique sagittis. Aliquam molestie eu ligula eget bibendum. Nullam sapien nisi, varius a lacinia vel, posuere sit amet mi"
-            }
-        ]
-        const section12 = [
-            {
-                link : "Placement Assistance",
+                link : "Data Science and related Technologies",
                 details : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id lectus sed purus tristique sagittis. Aliquam molestie eu ligula eget bibendum. Nullam sapien nisi, varius a lacinia vel, posuere sit amet mi"
             }
         ]
@@ -134,7 +120,7 @@ class CurriculumDataScience extends React.Component{
                 <Curriculum2Item title="Week 9" topic1="NodeJS" topic2="MongoDB" section={section9} />
                 <Curriculum2Item title="Week 10" topic1="NodeJS" topic2="MongoDB" section={section10} />
                 <Curriculum2Item title="Week 11" topic1="NodeJS" topic2="MongoDB" section={section11} />
-                <Curriculum2Item title="Week 12 - Week 13" topic1="NodeJS" topic2="MongoDB" section={section12} />
+                {/* <Curriculum2Item title="Week 12 - Week 13" topic1="NodeJS" topic2="MongoDB" section={section12} /> */}
             </div>
             
         )

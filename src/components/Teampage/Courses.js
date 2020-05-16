@@ -5,10 +5,12 @@ import styles from './TeamPage.module.css';
 import BoxAvatar from './BoxAvatar';
 import './intro.css'
 import checked from '../../assets/check.png'
+import {NavLink} from 'react-router-dom'
 
 function Courses() {
   return (
     <div className={styles.CoursesMain}>
+    
       <div className = {styles.App}>
         <div className={styles.Desc}>
             <p className={styles.DescP}>High quality and expertly crafted curriculum</p>
@@ -30,7 +32,9 @@ function Courses() {
         </div>
             <div className={styles.Line}></div>
             <p>Explore</p>
+            
       </div>
+      <div id="courses"></div>
       <div className={styles.wrapper}>
         <div className={styles.card}>
             <div className={styles.up}>
@@ -41,7 +45,7 @@ function Courses() {
                 <p>This course is for those people who are new to the world of data structures and looking forward to implementing data structures in depth to crack coding interviews of mainly tier-2 companies</p>
             </div>
             <div className={styles.bottom}>
-                <button className={styles.button}>Explore</button>
+                <a href="/dsa"><button className={styles.button}>Explore</button></a>
             </div>
         </div>
 
@@ -55,7 +59,7 @@ function Courses() {
                 <p>This course is majorly for the professionals who are looking forward to cracking coding interviews for tier - 1 product-based companies</p>
             </div>
             <div className={styles.bottom}>
-                <button className={styles.button}>Explore</button>
+                <a href="/dsadvanced"><button className={styles.button}>Explore</button></a>
             </div>
         </div>
 
@@ -69,7 +73,7 @@ function Courses() {
                 <p>There are professionals in the industry who have worked in Testing, Maintenance, Ops, System Admin, who are looking forward to work in startups with good work in the field of full-stack web developmen</p>
             </div>
             <div className={styles.bottom}>
-                <button className={styles.button}>Explore</button>
+                <a href="/datascience"><button className={styles.button}>Explore</button></a>
             </div>
         </div>
         {/* 4 */}
@@ -79,10 +83,10 @@ function Courses() {
                 <h3>FULLSTACK WEB-BASED DEVELOPMENT</h3>
             </div>
             <div className={styles.down}>
-            <p>There are professionals in the industry who have worked in Testing, Maintenance, Ops, System Admin, who are looking forward to work in startups with good work in the field of full-stack web developmen</p>
+            <p>There are professionals in the industry who have worked in Testing, Maintenance, Ops, System Admin, who are looking forward to work in startups with good work in the field of full-stack web development</p>
             </div>
             <div className={styles.bottom}>
-                <button className={styles.button}>Explore</button>
+                <a href="/fullstack"><button className={styles.button}>Explore</button></a>
             </div>
         </div>
 
@@ -96,7 +100,7 @@ function Courses() {
                 <p>There are professionals who are working in making web and mobile-based applications from scratch and looking for a framework based development and development</p>
             </div>
             <div className={styles.bottom}>
-                <button className={styles.button}>Explore</button>
+                <a href="/fullstackadvanced"><button className={styles.button}>Explore</button></a>
             </div>
         </div>
         

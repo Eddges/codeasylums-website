@@ -1,6 +1,7 @@
 import React from 'react'
 import './FeedbackSlider.css'
 import FeedbackSliderCard from '../FeedbackSliderCard/FeedbackSliderCard'
+import classes from './FeedbackSlider.module.css'
 
 const FeedbackSlider = (props) => {
 
@@ -28,9 +29,9 @@ const FeedbackSlider = (props) => {
     return(
 
         <div>
-            {/* <div class ="headertestimonial">
-                <p>OUR TESTIMONIALS</p>
-            </div> */}
+            <div className={classes.headertestimonial}>
+                <p>What are our students saying about us?</p>
+            </div>
             <div class="testimonials_section_main">
 
         <div class="containerSlider">

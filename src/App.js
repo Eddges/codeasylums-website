@@ -21,8 +21,8 @@ class App extends React.Component {
                 <Route path="/fullstack" exact component={CourseFullStack} />
                 <Route path="/decide" exact component={DeciderPage} />
                 <Route path="/dsa" exact component={CourseDSA} />
-                <Route path="/systems" exact component={CourseSystems} />
-                <Route path="/fullstackadvanced" exact component={CourseFullStackAdvanced} />
+                <Route path="/fullstackadvanced" exact component={CourseSystems} />
+                {/* <Route path="/fullstackadvanced" exact component={CourseFullStackAdvanced} /> */}
                 <Route path="/dsadvanced" exact component={CourseDSAdvanced} />
                 <Route path="/datascience" exact component={CourseDataScience} />
             </Switch>

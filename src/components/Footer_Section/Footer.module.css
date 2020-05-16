@@ -7,7 +7,7 @@
 
 .footer_section{
     display: flex;
-    height: 35vh;
+    height: 40vh;
     width: 100%;
     background-color: #002366;
     color: white;
@@ -17,7 +17,7 @@
 
 .footer_section .col {
     display: flex;
-    flex-basis: 20%;
+    flex-basis: 23%;
     flex-direction: column;
     /* background-color: bisque; */
     justify-content: center;
@@ -32,8 +32,13 @@
     font-family: 'Open Sans';
 }
 
+.footer_section .col a{
+    text-decoration: none;
+    color : white;
+}
+
 .footer_section .col p{
-    margin-bottom: 15px;
+    margin-bottom: 13px;
     font-family: 'Open Sans';
 }
 

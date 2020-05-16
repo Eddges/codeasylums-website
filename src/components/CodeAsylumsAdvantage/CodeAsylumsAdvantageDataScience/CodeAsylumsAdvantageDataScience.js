@@ -9,13 +9,13 @@ const CodeAsylumsAdvantageDataScience = (props) => {
             <p className={classes.Heading} >The CodeAsylums Advantage</p>
             <div className={classes.BG}>
                 <ul>
-                    <li>80+ Hrs of dedicated professional mentoring</li>
-                    <li>Online Live interactive coding</li>
-                    <li>Fully supported by Teaching Assistants</li>
-                    <li>Coding Contest and Contest Discussions</li>
+                    <li>100+ Hrs of dedicated professional mentoring</li>
+                    <li>Online Live interactive sessions</li>
+                    <li>Aptitude, Case Studies & Guestimates</li>
+                    <li>Kaggle Contest and AI Webinars  </li>
                 </ul>
                 <ul>
-                    <li>Problem Solving Sharpening with Intuitive Learning </li>
+                    <li>Fully supported by Teaching Assistants</li>
                     <li>Collaborative and Interactive Environment using Community Channels</li>
                     <li>Internal plus Competitive progress & reports for self-assessments</li>
                     <li>Placement Assistance and Referrals for Job Opportunities</li>

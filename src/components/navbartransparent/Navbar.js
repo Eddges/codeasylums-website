@@ -20,8 +20,8 @@ class Navbar extends React.Component {
                 </div>
     
                 <ul>
-                    <li><a>HOME</a></li>
-                    <li className="onlineCourses"><a>ONLINE COURSES</a></li>
+                    <li><a href="/">HOME</a></li>
+                    <li className="onlineCourses"><a href="#courses">ONLINE COURSES</a></li>
                     {/* <li className="onlineCourses"><NavLink to="/fullstack">ONLINE COURSES</NavLink></li> */}
                     <li><a>OFFLINE COURSES</a></li>
                     <li><a>CULTURES</a></li>

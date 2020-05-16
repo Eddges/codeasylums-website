@@ -150,7 +150,7 @@
     display: flex;
     flex-direction: column;
     width: 25%;
-    height: 65vh;
+    height: 60vh;
     margin-left: 50px;
     margin-bottom: 1em;
     margin-top: 2em;
@@ -180,7 +180,7 @@
     display: flex;
     flex-direction: column;
     width: 25%;
-    height: 65vh;
+    height: 60vh;
     margin-left: 50px;
     margin-bottom: 1em;
     margin-top: 2em;
@@ -211,7 +211,7 @@
     display: flex;
     flex-direction: column;
     width: 25%;
-    height: 65vh;
+    height: 60vh;
     margin-left: 50px;
     margin-top: 2em;
     margin-bottom: 1em;
@@ -240,7 +240,7 @@
     display: flex;
     flex-direction: column;
     width: 25%;
-    height: 65vh;
+    height: 60vh;
     margin-left: 50px;
     margin-top: 4em;
     margin-bottom: 1em;
@@ -269,7 +269,7 @@
     display: flex;
     flex-direction: column;
     width: 25%;
-    height: 65vh;
+    height: 60vh;
     margin-left: 50px;
     margin-top: 4em;
     margin-bottom: 1em;
@@ -402,6 +402,10 @@
     justify-content: center;
     align-items: flex-start;
   }
+  .wrapper .card .bottom a{
+    width : 150px;
+    text-decoration: none;
+  }
 
   .wrapper .card1 .bottom {
     display: flex;
@@ -409,6 +413,10 @@
     flex-basis: 15%;
     justify-content: center;
     align-items: flex-start;
+  }
+  .wrapper .card1 .bottom a{
+    width : 150px;
+    text-decoration: none;
   }
   
   .wrapper .card2 .bottom {
@@ -418,6 +426,10 @@
     justify-content: center;
     align-items: flex-start;
   }
+  .wrapper .card2 .bottom a{
+    width : 150px;
+    text-decoration: none;
+  }
 
   .wrapper .card3 .bottom {
     display: flex;
@@ -425,6 +437,10 @@
     flex-basis: 15%;
     justify-content: center;
     align-items: flex-start;
+  }
+  .wrapper .card3 .bottom a{
+    width : 150px;
+    text-decoration: none;
   }
 
   .wrapper .card4 .bottom {
@@ -434,6 +450,11 @@
     justify-content: center;
     align-items: flex-start;
   }
+  .wrapper .card4 .bottom a{
+    width : 150px;
+    text-decoration: none;
+  }
+
   .wrapper .card .card_footer{
     display: flex;
     flex-basis: 10%;
@@ -472,7 +493,7 @@
   .button{
     margin-top: 20px;
     display: flex;
-    width: 50%;
+    width: 100%;
     align-self: start;
     height: 40px;
     border: none;
@@ -486,6 +507,9 @@
     font-size: 1rem;
     font-weight: bold;
     /* box-shadow : 0px 0px 5px rgba(0,0,0,0.3) */
+  }
+  .button:hover{
+    cursor: pointer;
   }
   
   @media screen and (max-width: 576px) {

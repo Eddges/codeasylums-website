@@ -29,12 +29,14 @@ const CourseDSA = (props) => {
             <CodeAsylumsAdvantageDSA />
             <Parallax1 />
             <MentorsDSA />
-            <CurriculumDSA/>
             <JobReadyDSA />
             <FeedbackSliderDSA />
+            <CurriculumDSA/>
+            
+            <StudentCarouselDSA />
             <BatchdetailsDSA/>
             {/* <CourseTestimonials /> */}
-            <StudentCarouselDSA />
+            
             {/* <BubblesDSA /> */}
             <Accordion />
             <Banner/>

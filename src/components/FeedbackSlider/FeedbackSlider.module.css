@@ -1,0 +1,13 @@
+.headertestimonial{
+    height: 10vh;
+    width: 100%;
+    font-family: 'Raleway';
+    font-size: 1.6em;
+    text-align: center;
+    /* margin-top: 2em; */
+    font-weight: 500;
+    background-color: rgb(14, 2, 80);
+    /* background-color: #d64045; */
+    color: white;
+    padding-top: 2em;
+  }

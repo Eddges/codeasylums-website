@@ -1,0 +1,114 @@
+.SupportBanner {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #0e0250;
+  font-family: 'Roboto';
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.SupportBanner .TopText {
+  color: white;
+  text-align: center;
+  font-weight: 500;
+  font-family: 'Raleway';
+  padding: 40px 0px;
+  font-size: 1.5rem;
+}
+
+.SupportBanner .Line {
+  width: 32%;
+  height: 1px;
+  background-color: white;
+  margin: 10px 0px;
+}
+
+.SupportBanner .body {
+  padding: 50px 0px;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.SupportBanner .body .Circle {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: white;
+}
+
+.SupportBanner .body .Item {
+  width: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.SupportBanner .body .Item img {
+  width: 20%;
+}
+
+.SupportBanner .body .Item p {
+  color: white;
+  padding: 10px 80px;
+  text-align: center;
+}
+
+.SupportBanner .BottomText {
+  color: white;
+  text-align: center;
+  font-weight: 500;
+  font-family: 'Raleway';
+  padding: 40px 0px;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .SupportBanner .TopText {
+    font-size: 1.2rem;
+    padding: 30px 50px;
+  }
+  .SupportBanner .BottomText {
+    font-size: 1.2rem;
+    padding: 30px 50px;
+  }
+  .SupportBanner .Line {
+    width: 70%;
+  }
+  .SupportBanner .body .Item {
+    width: 100%;
+    margin: 20px 0px;
+  }
+}
+/*# sourceMappingURL=SupportBanner.module.css.map */

@@ -21,6 +21,7 @@ import Contact_form from '../../components/Contact_form/Contact_form'
 import CoreTeam from '../../components/CoreTeam/CoreTeam'
 import BGClick from '../../components/BGClick/BGClick'
 import Mission from '../../components/Mission/Mission'
+import SupportBanner from '../../components/SupportBanner/SupportBanner'
 
 class LandPage extends React.Component {
     render() {
@@ -35,6 +36,7 @@ class LandPage extends React.Component {
                     <FeedbackSlider />
                     {/* <Mission /> */}
                     <Companies />
+                    <SupportBanner />
                     {/* <Expectations /> */}
                     
                     {/* <Placements /> */}

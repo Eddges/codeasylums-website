@@ -32,16 +32,18 @@ const CourseDataScience = (props) => {
             <MenuModal />
             <Navbar />
             <BGClick />
-            <Page2Top title="Data Science Track" top="Online | 12 Weeks | Lively Mentorship | 4 Weeks Job Assistance" line1="Implement Data Structures and crack coding interviews" line2="Rated by students" type="fullstack" illustration={datascienceBG} />
+            <Page2Top title="Data Science Track" top="Online | 11 Weeks | Lively Mentorship | 2 Weeks Job Assistance" line1="Become a Data Scientist in 91 days" line2="Rated by students" type="fullstack" illustration={datascienceBG} />
             <CodeAsylumsAdvantageDataScience />
             <Parallax1 />
             <MentorsDataScience />
-            <CurriculumDataScience/>
             <JobReadyDataScience />
             <FeedbackSliderDataScience />
+            <CurriculumDataScience/>
+            <StudentCarouselDataScience />
+            
             <BatchdetailsDataScience />
             {/* <CourseTestimonials /> */}
-            <StudentCarouselDataScience />
+            
             {/* <BubblesDSA /> */}
             <Accordion />
             <Banner/>
