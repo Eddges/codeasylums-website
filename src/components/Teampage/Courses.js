@@ -22,7 +22,7 @@ function Courses() {
                 <h3>DATA STRUCTURE COURSE</h3>
             </div>
             <div className={styles.down}>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Soluta reiciendis officiis asperiores dolorem tenetur quod consequatur necessitatibus ducimus, tempore quas?</p>
+                <p>This course is for those people who are new to the world of data structures and looking forward to implementing data structures in depth to crack coding interviews of mainly tier-2 companies</p>
             </div>
             <div className={styles.bottom}>
                 <button className={styles.button}>Explore</button>
@@ -39,7 +39,7 @@ function Courses() {
                 <h3>COMPETITIVE PROGRAMMING AND ADVANCED DSA</h3>
             </div>
             <div className={styles.down}>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Soluta reiciendis officiis asperiores dolorem tenetur quod consequatur necessitatibus ducimus, tempore quas?</p>
+                <p>This course is majorly for the professionals who are looking forward to cracking coding interviews for tier - 1 product-based companies</p>
             </div>
             <div className={styles.bottom}>
                 <button className={styles.button}>Explore</button>
@@ -56,7 +56,7 @@ function Courses() {
                 <h3>DATA SCIENCE TRACK CERTIFICATION</h3>
             </div>
             <div className={styles.down}>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Soluta reiciendis officiis asperiores dolorem tenetur quod consequatur necessitatibus ducimus, tempore quas?</p>
+                <p>There are professionals in the industry who have worked in Testing, Maintenance, Ops, System Admin, who are looking forward to work in startups with good work in the field of full-stack web developmen</p>
             </div>
             <div className={styles.bottom}>
                 <button className={styles.button}>Explore</button>
@@ -72,7 +72,7 @@ function Courses() {
                 <h3>FULLSTACK WEB-BASED DEVELOPMENT</h3>
             </div>
             <div className={styles.down}>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Soluta reiciendis officiis asperiores dolorem tenetur quod consequatur necessitatibus ducimus, tempore quas?</p>
+            <p>There are professionals in the industry who have worked in Testing, Maintenance, Ops, System Admin, who are looking forward to work in startups with good work in the field of full-stack web developmen</p>
             </div>
             <div className={styles.bottom}>
                 <button className={styles.button}>Explore</button>
@@ -89,7 +89,7 @@ function Courses() {
                 <h3>ADVANCED FULLSTACK</h3>
             </div>
             <div className={styles.down}>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Soluta reiciendis officiis asperiores dolorem tenetur quod consequatur necessitatibus ducimus, tempore quas?</p>
+                <p>There are professionals who are working in making web and mobile-based applications from scratch and looking for a framework based development and development</p>
             </div>
             <div className={styles.bottom}>
                 <button className={styles.button}>Explore</button>
