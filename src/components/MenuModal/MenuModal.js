@@ -15,21 +15,21 @@ const MenuModal = () => {
             <div className="Courses">
                 <ul>
                     <li>Full Stack Development Web/App </li>
-                    <li>Full Stack Development <span className="new">popular</span></li>
-                    <li>Advanced Full Stack Development <span className="new">popular</span></li>
+                    <li><a href="/fullstack">Full Stack Development</a> <span className="new">popular</span></li>
+                    <li><a href="/fullstackadvanced">Advanced Full Stack Development </a><span className="new">popular</span></li>
                 </ul>
             </div>
             <div className="Courses">
                 <ul>
                     <li>Cracking Coding Interview</li>
-                    <li>Data Structures Track <span className="new">popular</span></li>
-                    <li>Competitive Programming & Advanced DSA <span className="new">popular</span></li>
+                    <li><a href="/dsa">Data Structures Track</a> <span className="new">popular</span></li>
+                    <li><a href="/dsadvanced">Competitive Programming & Advanced DSA</a> <span className="new">popular</span></li>
                 </ul>
             </div>
             <div className="Courses">
                 <ul>
                     <li>Data Science</li>
-                    <li>Data Science & Engineering <span className="new">popular</span></li>
+                    <li><a href="/datascience">Data Science & Engineering </a><span className="new">popular</span></li>
                     
                 </ul>
             </div>
