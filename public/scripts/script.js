@@ -1,6 +1,23 @@
 $(document).ready(function(){
 
+
+  $('#Hamburger').click(function(){
+    $('.NavMobile').addClass('NavMobileVisible')
+    console.log('Clicked')
+    $('.CloseNavMobile').click(function(){
+      $('.NavMobile').removeClass('NavMobileVisible')
+    })
+    $('.NavMobile .Items .NavItems li a').click(function(){
+      $('.NavMobile').removeClass('NavMobileVisible')
+    })
+  })
+
+  // $('.NavMobile .Items .NavItems li').click(function(){
+
+  // })
+
     $('.landing-left').hover(function(){
+
         $(".landing-left-text").toggleClass("landing-left-text-shifted")
         $(".landing-left .WaveFront").toggleClass("WaveFront-shifted")
         $(".landing-left .WaveBack").toggleClass("WaveBack-shifted")
@@ -32,8 +49,8 @@ $(document).ready(function(){
 
     
     let onlineCounter=false;
-    $(".onlineCourses").hover(function() {
-            $(".MenuModal").fadeIn(300, function(){
+    $(".onlineCourses").click(function() {
+            $(".MenuModal").fadeToggle(300, function(){
                 onlineCounter=true;
             })
             $(".BGClick").addClass("showBGClick")
@@ -81,4 +98,40 @@ const sectionOneObserver = new IntersectionObserver(function(entries, sectionOne
 sectionOneObserver.observe(sectionOne)
 })
 
+
+$('a[href*="#"]')
+  // Remove links that don't actually link to anything
+  .not('[href="#"]')
+  .not('[href="#0"]')
+  .click(function(event) {
+    // On-page links
+    if (
+      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+      && 
+      location.hostname == this.hostname
+    ) {
+      // Figure out element to scroll to
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      // Does a scroll target exist?
+      if (target.length) {
+        // Only prevent default if animation is actually gonna happen
+        event.preventDefault();
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000, function() {
+          // Callback after animation
+          // Must change focus!
+          var $target = $(target);
+          $target.focus();
+          if ($target.is(":focus")) { // Checking if the target was focused
+            return false;
+          } else {
+            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+            $target.focus(); // Set focus again
+          };
+        });
+      }
+    }
+  });
 

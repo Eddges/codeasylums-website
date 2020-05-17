@@ -4,7 +4,7 @@ import './Link.css'
 
 const Accordion = (props) => {
     return(
-        <section className="accordion">
+        <section className="accordion" id="faq">
             <p className="title">Frequently Asked Questions</p>
             <div className="container">
                 <div className="item" id="item1">

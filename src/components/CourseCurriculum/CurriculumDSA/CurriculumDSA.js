@@ -83,7 +83,7 @@ class CurriculumDSA extends React.Component{
         ]
 
         return(
-            <div className={classes.CurriculumFullStack}>
+            <div className={classes.CurriculumFullStack} id="curriculum">
                 <p className={classes.title}>Course Curriculum</p>
                 <p className={classes.Description}>This course is for those people who are new to the world of data structures and looking forward to implementing data structures in depth to crack coding interviews of mainly tier-2 companies</p>
                 <Curriculum2Item title="Week 0 - Week1" topic1="Array-Based Problems" topic2="Linked lists" section={section1} />

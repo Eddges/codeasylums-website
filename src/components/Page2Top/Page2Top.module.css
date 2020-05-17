@@ -255,17 +255,6 @@
           box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
-.Page2Top .Form .Container form select {
-  height: 15%;
-  background-color: white;
-  margin: 0.5% 0px;
-  border-radius: 3px;
-  border: none;
-  padding: 0px 10px;
-  -webkit-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
-}
-
 .Page2Top .Form .Container form button {
   height: 50px;
   background-color: #e7252b;

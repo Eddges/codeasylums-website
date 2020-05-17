@@ -6,20 +6,20 @@ import Box from './BoxDataScience';
 const BatchdetailsDataScience = () => {
     return(
 
-        <div className={styles.mainDiv}>
+        <div className={styles.mainDiv} id="batches">
             <div className = {styles.header}>
                 <h1>Upcoming Batches</h1>
             </div>
             <div className={styles.wrapper}>
         
         
-        <Box date = "16"  month = "May" time="18:00-22:00" coursename = "Data Science Track" status = "Seats Full" count = "40/40 students"/>
+        {/* <Box date = "16"  month = "May" time="18:00-22:00" coursename = "Data Science Track" status = "Seats Filling" count = "10/15 students"/> */}
         {/* <!-- 2 --> */}
-        <Box date = "21" month = "May" time="18:00-22:00" coursename = "Data Science Track" status = "Seats Filling" count = "31/40 students"/>
+        <Box date = "21" month = "May" time="18:00-22:00" coursename = "Data Science Track" status = "Seats Filling" count = "7/15 students"/>
         {/* <!-- 3 --> */}
-        <Box date = "30" month = "May" time="18:00-22:00" coursename = "Data Science Track" status = "Open" count = "15/40 students"/>
+        <Box date = "30" month = "May" time="18:00-22:00" coursename = "Data Science Track" status = "Open" count = "3/15 students"/>
         {/* <!-- 4 --> */}
-        <Box date = "6" month = "June" time="18:00-22:00" coursename = "Data Science Track" status = "Open" count = "12/40 students"/>
+        <Box date = "6" month = "June" time="18:00-22:00" coursename = "Data Science Track" status = "Open" count = "4/15 students"/>
         {/* <Box date = "19" month = "February" time="18:00-22:00" coursename = "Machine Learning Lessson #43" status = "Booking Ended" count = "200/200tickets sold"/> */}
 
 

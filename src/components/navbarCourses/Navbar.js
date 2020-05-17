@@ -20,13 +20,13 @@ class Navbar extends React.Component {
                             <li className="CloseNavMobile"><img src={closeBtn} alt="Close"/></li>
                             <li><a href="/">HOME</a></li>
                             <div className="navLine"></div>
-                            <li><a href="#CoursesSection">COURSES</a></li>
+                            <li><a href="/#CoursesSection">COURSES</a></li>
                             <div className="navLine"></div>
-                            <li><a href="#proteam">TEAM</a></li>
+                            <li><a href="#curriculum">CURRICULUM</a></li>
                             <div className="navLine"></div>
-                            <li><a href="#protestimonials">TESTIMONIALS</a></li>
+                            <li><a href="#batches">BATCHES</a></li>
                             <div className="navLine"></div>
-                            <li><a href="#procallback">CONTACT</a></li>
+                            <li><a href="#faq">FAQ</a></li>
                             <div className="navLine"></div>
                             
                         </ul>
@@ -43,12 +43,12 @@ class Navbar extends React.Component {
     
                 <ul>
                     <li><a href="/">HOME</a></li>
-                    <li className="onlineCourses"><a>COURSES</a></li>
+                    <li className="onlineCourses"><a >COURSES</a></li>
                     {/* <li className="onlineCourses"><NavLink to="/fullstack">ONLINE COURSES</NavLink></li> */}
                     {/* <li><a>OFFLINE COURSES</a></li> */}
-                    <li><a href="#protestimonials">TESTIMONIALS</a></li>
-                    <li><a href="#proteam">TEAM</a></li>
-                    <li><a href="#procallback">CONTACT</a></li>
+                    <li><a href="#curriculum">CURRICULUM</a></li>
+                    <li><a href="#batches">BATCHES</a></li>
+                    <li><a href="#faq">FAQ</a></li>
                 </ul>
     
                 <div className="btnDiv">
