@@ -70,7 +70,7 @@ function Courses() {
                 <h3>DATA SCIENCE TRACK CERTIFICATION</h3>
             </div>
             <div className={styles.down}>
-                <p>There are professionals in the industry who have worked in Testing, Maintenance, Ops, System Admin, who are looking forward to work in startups with good work in the field of full-stack web developmen</p>
+                <p>There are professionals in the industry who have worked in Testing, Maintenance, Ops, System Admin, who are looking forward to work in startups with good work in the field of full-stack web development</p>
             </div>
             <div className={styles.bottom}>
                 <a href="/datascience"><button className={styles.button}>Explore</button></a>

@@ -341,9 +341,13 @@
     padding : 0px 30px;
   }
   .wrapper .card .down p{
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+    text-align: center;
     padding-top: 40px;
-    text-align: left;
-    font-size: 0.9rem;
+    height: 150px;
     color : rgb(53, 53, 53);
   }
 
@@ -353,9 +357,13 @@
     padding : 0px 30px;
   }
   .wrapper .card1 .down p{
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+    text-align: center;
     padding-top: 40px;
-    text-align: left;
-    font-size: 0.9rem;
+    height: 150px;
     color : rgb(53, 53, 53);
   }
 
@@ -365,9 +373,13 @@
     padding : 0px 30px;
   }
   .wrapper .card2 .down p{
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+    text-align: center;
     padding-top: 40px;
-    text-align: left;
-    font-size: 0.9rem;
+    height: 150px;
     color : rgb(53, 53, 53);
   }
 
@@ -377,9 +389,13 @@
     padding : 0px 30px;
   }
   .wrapper .card3 .down p{
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+    text-align: center;
     padding-top: 40px;
-    text-align: left;
-    font-size: 0.9rem;
+    height: 150px;
     color : rgb(53, 53, 53);
   }
 
@@ -389,9 +405,13 @@
     padding : 0px 30px;
   }
   .wrapper .card4 .down p{
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+    text-align: center;
     padding-top: 40px;
-    text-align: left;
-    font-size: 0.9rem;
+    height: 150px;
     color : rgb(53, 53, 53);
   }
   
