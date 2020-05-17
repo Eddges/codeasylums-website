@@ -5,6 +5,7 @@ import Logo from '../../assets/CodeAsylums.png'
 import LogoWhite from '../../assets/logoWhite.png'
 import {NavLink} from 'react-router-dom'
 // import ModalButton from '../ModalButton/ModalButton'
+import Modalpop from '../Modal/Modal'
 
 class Navbar extends React.Component {
 
@@ -30,9 +31,12 @@ class Navbar extends React.Component {
                 </ul>
     
                 <div className="btnDiv">
-                    <button className="btnApply">Apply</button>
+                    {/* <button className="btnApply">Apply</button> */}
+                   
                     {/* <ModalButton/> */}
+                    <Modalpop />
                     <button className="btnHire">Hire Engineers</button>
+                    
                 </div>
             </nav>
         )
