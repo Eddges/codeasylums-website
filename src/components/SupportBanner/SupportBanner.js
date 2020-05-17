@@ -20,7 +20,7 @@ const SupportBanner = (props) => {
                 </div>
                 <div className={classes.Item}>
                     <img src={medal} alt="Mentor" />
-                    <p>Impeccable Mentor Support throughout</p>
+                    <p>Impeccable mentor & TA support throughout</p>
                 </div>
             </div>
             <div className={classes.Line}></div>

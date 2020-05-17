@@ -9,7 +9,7 @@ import {NavLink} from 'react-router-dom'
 
 function Courses() {
   return (
-    <div className={styles.CoursesMain}>
+    <div className={styles.CoursesMain} id="Courses">
     
       <div className = {styles.App}>
         <div className={styles.Desc}>
