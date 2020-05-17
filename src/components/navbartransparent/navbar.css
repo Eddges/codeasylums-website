@@ -110,7 +110,7 @@
           align-items: center;
 }
 
-.btnApply {
+.btnMentor {
   font-family: 'Roboto';
   font-weight: 400;
   font-size: 1rem;
@@ -124,12 +124,12 @@
   width: 30%;
 }
 
-.btnApply a {
+.btnMentor a {
   text-decoration: none;
   color: white;
 }
 
-.btnApply:hover {
+.btnMentor:hover {
   background-color: #d64045;
   border: solid 2px #d64045;
   color: white;
@@ -221,7 +221,7 @@
   .Navbar ul {
     display: none;
   }
-  .btnApply {
+  .btnMentor {
     font-size: 0.8rem;
     width: 100px;
   }
@@ -317,7 +317,7 @@
             transform: translateX(30%);
     z-index: 500;
   }
-  .Navbar .btnDiv .btnApply {
+  .Navbar .btnDiv .btnMentor {
     display: none;
   }
   .Navbar .btnDiv .btnHire {
@@ -338,7 +338,7 @@
   .Navbar ul li {
     font-size: 1.2rem;
   }
-  .btnApply {
+  .btnMentor {
     font-size: 1.6rem;
   }
   .btnHire {

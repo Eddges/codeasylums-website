@@ -1,6 +1,6 @@
 .container {
   width: 21%;
-  height: 68%;
+  height: 58%;
 }
 
 .card {
@@ -74,7 +74,7 @@
   font-weight: 500;
   font-size: 1.1rem;
   z-index: 20;
-  margin-top: 80px;
+  margin-top: 40px;
   color: #002366;
 }
 
@@ -91,7 +91,7 @@
   font-size: 0.8rem;
   padding: 0px 30px 30px 30px;
   margin-bottom: 20px;
-  text-align: left;
+  text-align: center;
   color: #4b4b4b;
 }
 

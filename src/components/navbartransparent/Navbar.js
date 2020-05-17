@@ -7,7 +7,7 @@ import {NavLink} from 'react-router-dom'
 import BGClick from '../BGClick/BGClick'
 // import ModalButton from '../ModalButton/ModalButton'
 import closeBtn from '../../assets/close.svg'
-// import Modalpop from '../Modal/Modal'
+import Modalpop from '../Modal/Modal'
 
 
 class Navbar extends React.Component {
@@ -54,9 +54,10 @@ class Navbar extends React.Component {
                 </ul>
     
                 <div className="btnDiv">
-                    <button className="btnApply"><a href="#procallback">Request Callback</a></button>
-                    {/* <ModalButton/> */}
-                    <button className="btnHire">Apply as Mentor</button>
+                    <Modalpop/>
+                    <button className="btnMentor"><a href="#procallback">Apply as Mentor</a></button>
+                    
+                    {/* <button className="btnHire">Apply as Mentor</button> */}
 
                     <div className="Hamburger" id="Hamburger">
                         <div className="HamburgerTop"></div>
@@ -67,7 +68,7 @@ class Navbar extends React.Component {
                    
                     {/* <ModalButton/> */}
                     {/* <Modalpop /> */}
-                    <button className="btnHire">Hire Engineers</button>
+                    {/* <button className="btnHire">Hire Engineers</button> */}
                     
                 </div>
 

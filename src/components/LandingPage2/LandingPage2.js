@@ -12,7 +12,7 @@ const LandingPage2 = () => (
                 <p>The best coding bootcamp in India</p>
                 <p>Data Structures | Algorithms | Full-Stack Development</p>
                 <p>Machine Learning | Data Science | DevOps</p>
-                <button className={classes.ApplyButton}>Explore</button>
+                <button className={classes.ApplyButton} > <a href="#CoursesSection">Explore</a></button>
             </div>
             <div className={classes.gradient}></div>
             <video className={classes.bg} autobuffer="autobuffer" autoplay="autoplay" loop="loop" >

@@ -22,6 +22,7 @@ import CoreTeam from '../../components/CoreTeam/CoreTeam'
 import BGClick from '../../components/BGClick/BGClick'
 import Mission from '../../components/Mission/Mission'
 import SupportBanner from '../../components/SupportBanner/SupportBanner'
+import Lead from '../../components/Lead/Lead'
 
 class LandPage extends React.Component {
     render() {
@@ -52,6 +53,7 @@ class LandPage extends React.Component {
                     <Contact_form />
                     <Footer />
                     {/* <Footer /> */}
+                    <Lead />
                 </Layout>
             </div>
         )

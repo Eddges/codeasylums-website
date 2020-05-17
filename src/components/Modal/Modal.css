@@ -3,20 +3,27 @@
 }
 
 .btnModal{
-    font-family: 'Roboto';
-  font-weight: 400;
-  font-size: 1em;
-  background-color: #d64045;
-  /* border: 2px solid black; */
-  border: 2px solid #d64045;
-  border-radius: 5px;
-  /* color : black; */
-  color: white;
-  padding: 5px;
-  width: 10em;
-  height: 2em;
+  font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 1rem;
+    background-color: #d64045;
+    /* border: 2px solid black; */
+    border : 2px solid #d64045;
+    border-radius : 5px;
+    /* color : black; */
+    color : white;
+    padding: 5px;
+    width : 150px;
+    margin-right: 20px;
 }
-
+.btnModal:hover{
+  cursor : pointer;
+}
+@media(max-width : 798px) {
+  .btnModal{
+    display : none;
+  }
+}
 .wrapper_modal {
     display: flex;
     width: 60vw;
@@ -57,7 +64,7 @@
   }
   
   .wrapper_modal .right p{
-    font-family: monospace;
+    font-family: 'Roboto';
     font-size: 2.5em;
     font-weight: 800;
     margin-left: 2.3em;

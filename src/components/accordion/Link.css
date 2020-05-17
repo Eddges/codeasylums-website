@@ -72,12 +72,12 @@
 }
 
 .accordion .acccontainer .accitem .accanswer {
-  color: #292929;
+  color: #575757;
   background-color: #cfcfcf;
   max-height: 0px;
   overflow: hidden;
   position: relative;
-  font-weight: bold;
+  font-weight: 500;
   -webkit-transition: max-height 0.65s;
   transition: max-height 0.65s;
 }
