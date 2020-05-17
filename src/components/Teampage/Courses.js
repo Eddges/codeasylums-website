@@ -9,7 +9,7 @@ import {NavLink} from 'react-router-dom'
 
 function Courses() {
   return (
-    <div className={styles.CoursesMain}>
+    <div className={styles.CoursesMain} >
     
       <div className = {styles.App}>
         <div className={styles.Desc}>
@@ -17,21 +17,21 @@ function Courses() {
             <div className={styles.checks1}>
                 <div className={styles.check}>
                     <img src={checked} alt="Checked" />
-                    <p>Consistent quality throughout the course to prepare our students for the industry</p>
+                    <p>Consistent quality throughout the course to prepare professionals for the industry</p>
                 </div>
                 <div className={styles.check}>
                     <img src={checked} alt="Checked" />
-                    <p>Courses are highly structured to avoid confusion and maintain proper flow</p>
+                    <p>Courses are structurally conducted to avoid confusion and maintain proper flow</p>
                 </div>
                 <div className={styles.check}>
                 <img src={checked} alt="Checked" />
-                    <p>We teach in-demand technologies, not obsolete ones</p>
+                    <p>We mentor in-demand technologies, not obsolete ones</p>
                 </div>
             </div>
             
         </div>
             <div className={styles.Line}></div>
-            <p>Explore</p>
+            <p id="CoursesSection">Explore</p>
             
       </div>
       <div id="courses"></div>
@@ -67,7 +67,7 @@ function Courses() {
         <div className={styles.card2}>
             <div className={styles.up}>
                 <div className={styles.gradient}></div>
-                <h3>DATA SCIENCE TRACK CERTIFICATION</h3>
+                <h3>DATA SCIENCE TRACK</h3>
             </div>
             <div className={styles.down}>
                 <p>There are professionals in the industry who have worked in Testing, Maintenance, Ops, System Admin, who are looking forward to work in startups with good work in the field of full-stack web development</p>
@@ -94,10 +94,10 @@ function Courses() {
         <div className={styles.card4}>
             <div className={styles.up}>
                 <div className={styles.gradient}></div>
-                <h3>ADVANCED FULLSTACK</h3>
+                <h3>ADVANCED FULLSTACK WITH SCALABILITY</h3>
             </div>
             <div className={styles.down}>
-                <p>There are professionals who are working in making web and mobile-based applications from scratch and looking for a framework based development and development</p>
+                <p>There are professionals who are working in making web and mobile-based applications from scratch and looking for a framework based development and scalability</p>
             </div>
             <div className={styles.bottom}>
                 <a href="/fullstackadvanced"><button className={styles.button}>Explore</button></a>

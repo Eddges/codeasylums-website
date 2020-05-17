@@ -8,7 +8,7 @@ function Modalpop(){
   const [modalIsOpen, setModalIsOpen] = useState(false);
   return(
     <div className = 'modal-root'>
-      <button className = "btnModal" onClick={() => setModalIsOpen(true)}>Apply Now</button>
+      <button className = "btnModal" onClick={() => setModalIsOpen(true)}>Request Callback</button>
       <Modal isOpen = {modalIsOpen} onRequestClose={()=>setModalIsOpen(false)} className = "wrapper_modal">
         {/* <div className = "wrapper_modal"> */}
         <div className = "left">

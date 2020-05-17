@@ -28,7 +28,7 @@ const FeedbackSlider = (props) => {
 
     return(
 
-        <div>
+        <div id="protestimonials">
             <div className={classes.headertestimonial}>
                 <p>What are our students saying about us?</p>
             </div>

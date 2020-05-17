@@ -28,7 +28,7 @@ class Curriculum2Item extends React.Component{
                 </div>
                 <div className={classes.right}>
                     <p className={classes.title}>{this.props.title}</p>
-                    <p className={classes.description}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id lectus sed purus tristique sagittis. Aliquam molestie eu ligula eget bibendum. Nullam sapien nisi, varius a lacinia vel, posuere sit amet mi.</p>
+                    <p className={classes.description}>{this.props.description}</p>
 
                     {links}
                 </div>

@@ -1,6 +1,6 @@
 import React from 'react'
 import Layout from '../../components/Layout/Layout'
-import Navbar from '../../components/navbartransparent/Navbar'
+import Navbar from '../../components/navbarCourses/Navbar'
 import MentorsDSA from '../../components/mentorsPage2/MentorsDSA/MentorsDSA'
 import Footer from '../../components/Footer_Section/Footer'
 import MenuModal from '../../components/MenuModal/MenuModal'

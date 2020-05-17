@@ -84,7 +84,7 @@ class CurriculumDSAdvanced extends React.Component{
         ]
 
         return(
-            <div className={classes.CurriculumFullStack}>
+            <div className={classes.CurriculumFullStack} id="curriculum">
                 <p className={classes.title}>Course Curriculum</p>
                 <p className={classes.Description}>This course is majorly for the professionals who are looking forward to cracking coding interviews for tier - 1 product-based companies</p>
                 <Curriculum2Item title="Week1" topic1="Array-Based Problems" topic2="Linked lists" section={section1} />

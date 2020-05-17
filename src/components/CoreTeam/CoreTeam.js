@@ -4,7 +4,7 @@ import styles from './CoreTeam.css';
 
 const CoreTeam = () => {
     return(
-        <div>
+        <div id="proteam">
             <div class="teamsection">
         <div class="teamDescription">
             <p class="heading">Learn with the best</p>

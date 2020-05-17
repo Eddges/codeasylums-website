@@ -7,8 +7,6 @@ import {NavLink} from 'react-router-dom'
 import BGClick from '../BGClick/BGClick'
 // import ModalButton from '../ModalButton/ModalButton'
 import closeBtn from '../../assets/close.svg'
-import Modalpop from '../Modal/Modal'
-
 
 class Navbar extends React.Component {
 
@@ -22,13 +20,13 @@ class Navbar extends React.Component {
                             <li className="CloseNavMobile"><img src={closeBtn} alt="Close"/></li>
                             <li><a href="/">HOME</a></li>
                             <div className="navLine"></div>
-                            <li><a href="#CoursesSection">COURSES</a></li>
+                            <li><a href="/#CoursesSection">COURSES</a></li>
                             <div className="navLine"></div>
-                            <li><a href="#proteam">TEAM</a></li>
+                            <li><a href="#curriculum">CURRICULUM</a></li>
                             <div className="navLine"></div>
-                            <li><a href="#protestimonials">TESTIMONIALS</a></li>
+                            <li><a href="#batches">BATCHES</a></li>
                             <div className="navLine"></div>
-                            <li><a href="#procallback">CONTACT</a></li>
+                            <li><a href="#faq">FAQ</a></li>
                             <div className="navLine"></div>
                             
                         </ul>
@@ -45,17 +43,17 @@ class Navbar extends React.Component {
     
                 <ul>
                     <li><a href="/">HOME</a></li>
-                    <li className="onlineCourses"><a>COURSES</a></li>
+                    <li className="onlineCourses"><a >COURSES</a></li>
                     {/* <li className="onlineCourses"><NavLink to="/fullstack">ONLINE COURSES</NavLink></li> */}
                     {/* <li><a>OFFLINE COURSES</a></li> */}
-                    <li><a href="#protestimonials">TESTIMONIALS</a></li>
-                    <li><a href="#proteam">TEAM</a></li>
-                    <li><a href="#procallback">CONTACT</a></li>
+                    <li><a href="#curriculum">CURRICULUM</a></li>
+                    <li><a href="#batches">BATCHES</a></li>
+                    <li><a href="#faq">FAQ</a></li>
                 </ul>
     
                 <div className="btnDiv">
-                    {/* <button className="btnApply"><a href="#procallback">Request Callback</a></button> */}
-                    <Modalpop/>
+                    <button className="btnApply"><a href="#procallback">Request Callback</a></button>
+                    {/* <ModalButton/> */}
                     <button className="btnHire">Apply as Mentor</button>
 
                     <div className="Hamburger" id="Hamburger">
@@ -63,12 +61,6 @@ class Navbar extends React.Component {
                         <div className="HamburgerMiddle"></div>
                         <div className="HamburgerBottom"></div>
                     </div>
-                    {/* <button className="btnApply">Apply</button> */}
-                   
-                    {/* <ModalButton/> */}
-                    {/* <Modalpop /> */}
-                    <button className="btnHire">Hire Engineers</button>
-                    
                 </div>
 
                 
