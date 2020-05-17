@@ -36,7 +36,7 @@ app.get('/api/saveLead', (req, res) => {
     },
     {
         "Attribute": "Experience",
-        "Value": exp
+        "Value": experience
     }
 ];
   axios
