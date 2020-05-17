@@ -17,7 +17,7 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
-    "start":"run-p front server",
+    "start": "run-p front server",
     "front": "PORT=4000 react-scripts start",
     "server": "node server",
     "build": "react-scripts build",
