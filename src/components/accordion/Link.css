@@ -18,19 +18,23 @@
   font-family: 'Roboto';
 }
 
-.accordion .title {
-  font-size: 3rem;
-  font-weight: 200;
-  margin: 20px 0px 0px 0;
+.accordion .acctitle {
+  width: 100%;
+  font-size: 2.4rem;
+  font-weight: 400;
+  margin: 20px 0px 10px 0;
+  text-align: left;
+  padding-left: 10%;
+  color: #002366;
 }
 
-.accordion .container {
+.accordion .acccontainer {
   background-color: #F9F9F9;
   width: 100%;
   padding: 0% 5%;
 }
 
-.accordion .container .item {
+.accordion .acccontainer .accitem {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -40,7 +44,7 @@
           flex-direction: column;
 }
 
-.accordion .container .item .link {
+.accordion .acccontainer .accitem .acclink {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -59,62 +63,56 @@
           box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
-.accordion .container .item .link :nth-child(2) {
+.accordion .acccontainer .accitem .acclink :nth-child(2) {
   display: none;
 }
 
-.accordion .container .item .accOpen {
-  font-weight: bold;
+.accordion .acccontainer .accitem .acclink:hover {
+  cursor: pointer;
 }
 
-.accordion .container .item .accOpen .answer {
-  max-height: 200px;
-}
-
-.accordion .container .item .answer {
+.accordion .acccontainer .accitem .accanswer {
   color: #292929;
   background-color: #cfcfcf;
   max-height: 0px;
   overflow: hidden;
   position: relative;
+  font-weight: bold;
   -webkit-transition: max-height 0.65s;
   transition: max-height 0.65s;
 }
 
-.accordion .container .item .answer p {
+.accordion .acccontainer .accitem .accanswer p {
   padding: 2%;
 }
 
-.accordion .container .item:target .answer {
+.accordion .acccontainer .accitem .accOpen {
   max-height: 200px;
 }
 
-.accordion .container .item:target .link :nth-child(1) {
-  display: none;
-}
-
-.accordion .container .item:target .link :nth-child(2) {
-  display: block;
+.accordion .acccontainer .accitem .accOpen .answer {
+  max-height: 200px;
 }
 
 @media (min-width: 1800px) {
-  .answer {
+  .accanswer {
     font-size: 1.3rem;
   }
-  .container .item .link {
+  .acccontainer .accitem .acclink {
     font-size: 1.7rem;
   }
 }
 
 @media (max-width: 576px) {
-  .accordion .title {
+  .accaccordion .acctitle {
     font-size: 2rem;
+    padding-left: 0px;
   }
-  .accordion .container .item .link {
-    font-size: 0.8rem;
+  .accaccordion .acccontainer .accitem .acclink {
+    font-size: 0.5rem;
   }
-  .accordion .container .item .answer {
-    font-size: 0.7rem;
+  .accaccordion .acccontainer .accitem .answer {
+    font-size: 0.5rem;
   }
 }
 /*# sourceMappingURL=Link.css.map */

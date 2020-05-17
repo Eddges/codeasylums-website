@@ -8,19 +8,23 @@
     align-items: center;
     font-family: 'Roboto';
     // background-color: rgb(245, 245, 245);
-    .title{
-        font-size: 3rem;
-        font-weight: 200;
-        margin : 20px 0px 0px 0;
+    .acctitle{
+        width : 100%;
+        font-size: 2.4rem;
+        font-weight: 400;
+        margin : 20px 0px 10px 0;
+        text-align: left;
+        padding-left : 10%;
+        color : #002366;
     }
-    .container{
+    .acccontainer{
         background-color: #F9F9F9;
         width: 100%;
         padding : 0% 5%;
-        .item{
+        .accitem{
             display : flex;
             flex-direction: column;
-            .link{
+            .acclink{
                 display: flex;
                 justify-content: space-between;
                 background-color: white;
@@ -35,61 +39,67 @@
                 :nth-child(2) {
                     display: none;
                 }
-            }
-            .accOpen{
-                font-weight: bold;
-                .answer{
-                    max-height: 200px;
+                &:hover{
+                    cursor : pointer;
                 }
             }
-            .answer{
+            .accanswer{
                 color : rgb(41, 41, 41);
                 background-color: rgb(207, 207, 207);
                 max-height : 0px;
                 overflow: hidden;
                 position : relative;
+                font-weight: bold;
                 transition : max-height 0.65s;
                 p{
                     padding : 2%;
                 }
             }
-            &:target .answer{
+            .accOpen{
+
                 max-height: 200px;
-            }
-            &:target .link{
-                :nth-child(1) {
-                    display : none;
-                }
-                :nth-child(2) {
-                    display : block;
+                .answer{
+                    max-height: 200px;
                 }
             }
+            // &:target .answer{
+            //     max-height: 200px;
+            // }
+            // &:target .link{
+            //     :nth-child(1) {
+            //         display : none;
+            //     }
+            //     :nth-child(2) {
+            //         display : block;
+            //     }
+            // }
         }
     }
 }
 
 @media(min-width : 1800px) {
-    .answer{
+    .accanswer{
         font-size: 1.3rem;
     }
-    .container .item .link{
+    .acccontainer .accitem .acclink{
         font-size: 1.7rem;
     }
 }
 
 @media(max-width : 576px) {
 
-    .accordion{
-        .title{
+    .accaccordion{
+        .acctitle{
             font-size: 2rem;
+            padding-left : 0px;
         }
-        .container{
-            .item{
-                .link{
-                    font-size: 0.8rem;
+        .acccontainer{
+            .accitem{
+                .acclink{
+                    font-size: 0.5rem;
                 }
                 .answer{
-                    font-size: 0.7rem;
+                    font-size: 0.5rem;
                 }
             }
         }

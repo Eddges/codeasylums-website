@@ -1,5 +1,12 @@
 $(document).ready(function(){
 
+  $('.acclink').click(function(){
+    console.log('clicked')
+    console.log($(this).next())
+    $(this).next().toggleClass('accOpen')
+  })
+
+
 
   $('#Hamburger').click(function(){
     $('.NavMobile').addClass('NavMobileVisible')

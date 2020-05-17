@@ -5,80 +5,80 @@ import './Link.css'
 const Accordion = (props) => {
     return(
         <section className="accordion" id="faq">
-            <p className="title">Frequently Asked Questions</p>
-            <div className="container">
-                <div className="item" id="item1">
-                    <a className="link" href="#item1" >
+            <p className="acctitle">Frequently Asked Questions</p>
+            <div className="acccontainer">
+                <div className="accitem" id="item1">
+                    <a className="acclink"  >
                         What is the average duration of the programs?
                         <span>+</span>
                         <span>-</span>
                     </a>
-                    <div className="answer">
+                    <div className="accanswer">
                         <p>This is the expanded answer. This is the expanded answer. This is the expanded answer.This is the expanded answer. This is the expanded answer. This is the expanded answer.This is the expanded answer. This is the expanded answer. This is the expanded answer.
                             This is the expanded answer. This is the expanded answer. This is the expanded answer.This is the expanded answer. This is the expanded answer. This is the expanded answer.This is the expanded answer. This is the expanded answer. This is the expanded answer.
                             This is the expanded answer. This is the expanded answer. This is the expanded answer.This is the expanded answer. This is the expanded answer. This is the expanded answer.This is the expanded answer. This is the expanded answer. This is the expanded answer.
                         </p>
                     </div>
                 </div>
-                <div className="item" id="item2">
-                    <a className="link" href="#item2">
+                <div className="accitem" id="item2">
+                    <a className="acclink" >
                         Is it for complete beginners too?
                         <span>+</span>
                         <span>-</span>
                     </a>
-                    <div className="answer">
+                    <div className="accanswer">
                         <p>This is the expanded answer. This is the expanded answer. This is the expanded answer.This is the expanded answer. This is the expanded answer. This is the expanded answer.This is the expanded answer. This is the expanded answer. This is the expanded answer.
                             This is the expanded answer. This is the expanded answer. This is the expanded answer.This is the expanded answer. This is the expanded answer. This is the expanded answer.This is the expanded answer. This is the expanded answer. This is the expanded answer.
                             This is the expanded answer. This is the expanded answer. This is the expanded answer.This is the expanded answer. This is the expanded answer. This is the expanded answer.This is the expanded answer. This is the expanded answer. This is the expanded answer.
                         </p>
                     </div>
                 </div>
-                <div className="item" id="item3">
-                    <a className="link" href="#item3">
+                <div className="accitem" id="item3">
+                    <a className="acclink" >
                         How long will I need to devoted each day?
                         <span>+</span>
                         <span>-</span>
                     </a>
-                    <div className="answer">
+                    <div className="accanswer">
                         <p>This is the expanded answer. This is the expanded answer. This is the expanded answer.This is the expanded answer. This is the expanded answer. This is the expanded answer.This is the expanded answer. This is the expanded answer. This is the expanded answer.
                             This is the expanded answer. This is the expanded answer. This is the expanded answer.This is the expanded answer. This is the expanded answer. This is the expanded answer.This is the expanded answer. This is the expanded answer. This is the expanded answer.
                             This is the expanded answer. This is the expanded answer. This is the expanded answer.This is the expanded answer. This is the expanded answer. This is the expanded answer.This is the expanded answer. This is the expanded answer. This is the expanded answer.
                         </p>
                     </div>
                 </div>
-                <div className="item" id="item4">
-                    <a className="link" href="#item4">
+                <div className="accitem" id="item4">
+                    <a className="acclink" >
                         What if I have a team already?
                         <span>+</span>
                         <span>-</span>
                     </a>
-                    <div className="answer">
+                    <div className="accanswer">
                         <p>This is the expanded answer. This is the expanded answer. This is the expanded answer.This is the expanded answer. This is the expanded answer. This is the expanded answer.This is the expanded answer. This is the expanded answer. This is the expanded answer.
                             This is the expanded answer. This is the expanded answer. This is the expanded answer.This is the expanded answer. This is the expanded answer. This is the expanded answer.This is the expanded answer. This is the expanded answer. This is the expanded answer.
                             This is the expanded answer. This is the expanded answer. This is the expanded answer.This is the expanded answer. This is the expanded answer. This is the expanded answer.This is the expanded answer. This is the expanded answer. This is the expanded answer.
                         </p>
                     </div>
                 </div>
-                <div className="item" id="item5">
-                    <a className="link" href="#item5">
+                <div className="accitem" id="item5">
+                    <a className="acclink" >
                         What is the refund policy?
                         <span>+</span>
                         <span>-</span>
                     </a>
-                    <div className="answer">
+                    <div className="accanswer">
                         <p>This is the expanded answer. This is the expanded answer. This is the expanded answer.This is the expanded answer. This is the expanded answer. This is the expanded answer.This is the expanded answer. This is the expanded answer. This is the expanded answer.
                             This is the expanded answer. This is the expanded answer. This is the expanded answer.This is the expanded answer. This is the expanded answer. This is the expanded answer.This is the expanded answer. This is the expanded answer. This is the expanded answer.
                             This is the expanded answer. This is the expanded answer. This is the expanded answer.This is the expanded answer. This is the expanded answer. This is the expanded answer.This is the expanded answer. This is the expanded answer. This is the expanded answer.
                         </p>
                     </div>
                 </div>
-                <div className="item" id="item6">
-                    <a className="link" href="#item6">
+                <div className="accitem" id="item6">
+                    <a className="acclink" >
                         What if I don't like the program?
                         <span>+</span>
                         <span>-</span>
                     </a>
-                    <div className="answer">
+                    <div className="accanswer">
                         <p>This is the expanded answer. This is the expanded answer. This is the expanded answer.This is the expanded answer. This is the expanded answer. This is the expanded answer.This is the expanded answer. This is the expanded answer. This is the expanded answer.
                             This is the expanded answer. This is the expanded answer. This is the expanded answer.This is the expanded answer. This is the expanded answer. This is the expanded answer.This is the expanded answer. This is the expanded answer. This is the expanded answer.
                             This is the expanded answer. This is the expanded answer. This is the expanded answer.This is the expanded answer. This is the expanded answer. This is the expanded answer.This is the expanded answer. This is the expanded answer. This is the expanded answer.
@@ -89,7 +89,7 @@ const Accordion = (props) => {
         </section>
         // <React.Fragment>
         //             <div id="Hello">Hellloooooo</div>
-        // <a href="#Hello">Click here</a>
+        // <a >Click here</a>
         // </React.Fragment>
 
     )
