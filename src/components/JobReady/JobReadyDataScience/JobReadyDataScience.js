@@ -5,7 +5,7 @@ import classes from './JobReadyDataScience.module.css'
 const JobReadyDataScience = (props) => {
     return(
         <div className={classes.Job}>
-            <div className={classes.Line}></div>
+            {/* <div className={classes.Line}></div> */}
             <p className={classes.Heading} >Be Job Ready</p>
             <p className={classes.Opportunities}>Accelerate your coding skills with CodeAsylums to Crack Coding Interviews</p>
             <div className={classes.BG}>

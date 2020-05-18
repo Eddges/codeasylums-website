@@ -33,10 +33,10 @@ const Footer = () => {
         </div>
         <div class={styles.col}>
             <h1>FOLLOW US</h1>
-            <p>Like Us on Facebook</p>
-            <p>Follow Us on Twitter</p>
-            <p>Follow Us on Instagram</p>
-            <p>Read Our Stories on medium</p>
+            <p><a href="https://www.facebook.com/CodeAsylums/">Like Us on Facebook</a></p>
+            <p><a href="https://twitter.com/codeasylums?lang=en">Follow Us on Twitter</a></p>
+            <p><a href="https://www.instagram.com/codeasylums/?hl=en">Follow Us on Instagram</a></p>
+            <p><a href="https://medium.com/progate/kickstarting-careers-during-summer-holidays-with-a-4-week-programming-bootcamp-f807da834d83">Read Our Stories on medium</a></p>
         </div>
     </div>
     <div class={styles.footer_down}>

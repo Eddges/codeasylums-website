@@ -24,7 +24,7 @@ class Navbar extends React.Component {
                             <div className="navLine"></div>
                             <li><a href="#CoursesSection">COURSES</a></li>
                             <div className="navLine"></div>
-                            <li><a href="#proteam">TEAM</a></li>
+                            <li><a href="#proplacements">PLACEMENTS</a></li>
                             <div className="navLine"></div>
                             <li><a href="#protestimonials">TESTIMONIALS</a></li>
                             <div className="navLine"></div>
@@ -49,7 +49,7 @@ class Navbar extends React.Component {
                     {/* <li className="onlineCourses"><NavLink to="/fullstack">ONLINE COURSES</NavLink></li> */}
                     {/* <li><a>OFFLINE COURSES</a></li> */}
                     <li><a href="#protestimonials">TESTIMONIALS</a></li>
-                    <li><a href="#proteam">TEAM</a></li>
+                    <li><a href="#proplacements">PLACEMENTS</a></li>
                     <li><a href="#procallback">CONTACT</a></li>
                 </ul>
     

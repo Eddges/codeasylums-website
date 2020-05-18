@@ -15,7 +15,7 @@ function Modalpop(){
           <img src = {logo}/>
           </div>
           <div className = "right">
-            <p>Schedule a Call</p>
+            {/* <p>Schedule a Call</p> */}
             <form>
               <label>Name</label>
               <input/>

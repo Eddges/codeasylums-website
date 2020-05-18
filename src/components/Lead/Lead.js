@@ -7,9 +7,9 @@ class Lead extends React.Component{
     }
 
     clickHandler = () => {
-        axios.get("https://api-in21.leadsquared.com/v2/LeadManagement.svc/Lead.Capture?accessKey=u$r9b4f434d7930c6a4a01ee95d25f49860&secretKey=5fa328205477ae3e74ea80f5e6f225be1ba6e2cf")
+        axios.get("http://localhost:4001/api/saveLead?fname=Saurav&lname=Suman&email=jnu.saurav@ggmail.com&phone=8505885571&course=fullstaack&exp=1-2")
         .then((response, reject) => {
-            console.log(response)
+            console.log(response.data)
         })
     }
 

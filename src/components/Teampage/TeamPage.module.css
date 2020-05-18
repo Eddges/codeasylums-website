@@ -166,7 +166,7 @@
     height : 35%;
     justify-content: center;
     align-items: center;
-    background: url('../../assets/Online.jpg');
+    background: url('../../assets/dsacard.jpg');
     color: white;
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
@@ -197,7 +197,7 @@
     justify-content: center;
     align-items: center;
     /* background: linear-gradient(90deg, #3F2B96 0%, #A8C0FF 100%); */
-    background: url('../../assets/cp.jpg');
+    background: url('../../assets/dsadvancedcard.jpg');
     background-size: cover;
     background-position: center;
     color: white;
@@ -227,7 +227,7 @@
     height : 35%;
     justify-content: center;
     align-items: center;
-    background:url('../../assets/data-science.jpg');
+    background:url('../../assets/datasciencecard.jpg');
     background-size: cover;
     color: white;
     border-top-left-radius: 4px;
@@ -256,7 +256,7 @@
     height : 35%;
     justify-content: center;
     align-items: center;
-    background: url('../../assets/fullstack.jpg');
+    background: url('../../assets/fullstackcard.jpg');
     background-size: cover;
     color: white;
     border-top-left-radius: 4px;
@@ -285,7 +285,7 @@
     height : 35%;
     justify-content: center;
     align-items: center;
-    background: url('../../assets/fullstackadvanced.jpg');
+    background: url('../../assets/fullstackadvancedcard.jpg');
     background-size: cover;
     color: white;
     border-top-left-radius: 4px;

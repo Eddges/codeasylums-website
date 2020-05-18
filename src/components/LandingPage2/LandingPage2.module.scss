@@ -74,6 +74,9 @@ $pink : #d64045;
                     text-decoration: none;
                     font-size: 1rem;
                 }
+                &:hover{
+                    cursor: pointer;
+                }
             }
         }
     }

@@ -29,7 +29,7 @@ const Companies = (props) => {
         )
     })
     return(
-        <div className={classes.Container}>
+        <div className={classes.Container} id="proplacements">
             {/* <div className={classes.Line}></div> */}
             <div className={classes.Gradient}></div>
             <div className={classes.Companies}>

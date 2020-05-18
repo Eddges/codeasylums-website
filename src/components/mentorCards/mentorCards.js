@@ -11,7 +11,7 @@ const MentorCards = (props) => {
                 </div> */}
                 <p className={classes.name}>{props.name}</p>
                 <p className={classes.about}>{props.about}</p>
-                <p className={classes.details}>{props.details}</p>
+                {/* <p className={classes.details}>{props.details}</p> */}
             </div>
         </div>
 

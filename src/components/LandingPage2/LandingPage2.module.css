@@ -94,6 +94,10 @@
   font-size: 1rem;
 }
 
+.Header .content .left .ApplyButton:hover {
+  cursor: pointer;
+}
+
 @media (max-width: 576px) {
   .Header {
     height: auto;

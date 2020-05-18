@@ -42,7 +42,7 @@ class LandPage extends React.Component {
                     
                     {/* <Placements /> */}
                     {/* <Team /> */}
-                    <CoreTeam />
+                    {/* <CoreTeam /> */}
                     {/* <GetStarted /> */}
                     {/* <LandingPage /> */}
                     {/* <Campus_Selection /> */}

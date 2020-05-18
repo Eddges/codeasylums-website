@@ -64,10 +64,11 @@
   }
   
   .wrapper_modal .right p{
-    font-family: 'Roboto';
-    font-size: 2.5em;
-    font-weight: 800;
-    margin-left: 2.3em;
+    font-family: 'Raleway';
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-left: 4em;
+    padding-bottom: 0.4em;
   }
   
   .wrapper_modal .right .btnClose{
@@ -77,20 +78,24 @@
     background-color: white;
     border: none;
   }
+  .wrapper_modal .right .btnClose:hover{
+    cursor: pointer;
+  }
   
   .wrapper_modal .right form{
     display: flex;
     flex-direction: column;
     margin-left: 5em;
     margin-bottom: 1em;
-    padding-bottom: 1em;
+    padding-bottom: 0.5em;
   }
   
   .wrapper_modal .right form label{
-    font-family: monospace;
-    font-size: 1.5em;
+    font-family: 'Roboto';
+    font-size: 0.9em;
     font-weight: 500;
     margin-bottom: 0.5em;
+    color : rgb(44, 44, 44);
   }
   
   .wrapper_modal .right form input{
@@ -104,15 +109,18 @@
   
   .wrapper_modal .right form .btn{
     width: 40%;
-    height: 3.2em;
+    height: 3em;
     border: 1px solid #eee;
     background-color: rgb(37, 56, 221);
     color: white;
     text-align: center;
-    font-family: monospace;
+    font-family: 'Roboto';
     font-size: 1em;
     font-weight: 500;
     border-radius: 5px;
+  }
+  .wrapper_modal .right form .btn:hover{
+    cursor : pointer;
   }
   
   @media screen and (max-width: 796px){
