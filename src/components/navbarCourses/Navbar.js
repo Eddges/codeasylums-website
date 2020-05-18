@@ -29,7 +29,7 @@ class Navbar extends React.Component {
                             <div className="navLine"></div>
                             <li><a href="#faq">FAQ</a></li>
                             <div className="navLine"></div>
-                            <li><a className="linkApply" href="#formApply">APPLY</a></li>
+                            <li><a className="linkApply" href="#formApply">REQUEST CALLBACK</a></li>
                             <li><a className="linkApply" href="mailto:saurav@codeasylums.com">APPLY AS MENTOR</a></li>
                             {/* <Modalpop /> */}
                             

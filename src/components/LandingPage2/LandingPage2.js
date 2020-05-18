@@ -1,7 +1,7 @@
 import React from 'react'
 import classes from './LandingPage2.module.css'
 import video1 from '../../assets/codingVid.webm'
-import video2 from '../../assets/codingVid.mp4'
+// import video2 from '../../assets/codingVid.mp4'
 import Modalpop from '../Modal/Modal'
 import ModalPhone from '../ModalPhone/ModalPhone'
 
