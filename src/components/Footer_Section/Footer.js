@@ -36,21 +36,21 @@ const Footer = () => {
             <h1>FOLLOW US</h1>
             <div className = {styles.col_facebook}>
             <img src="https://img.icons8.com/offices/30/000000/facebook-new.png"/>
-                <a href="https://www.facebook.com/CodeAsylums/">Like Us on Facebook</a>
+                <a href="https://www.facebook.com/CodeAsylums/" target = "_blank">Like Us on Facebook</a>
             </div>
             <div className = {styles.col_facebook}>
             <img src="https://img.icons8.com/offices/30/000000/twitter.png"/>
-            <a href="https://twitter.com/codeasylums?lang=en">Follow Us on Twitter</a>
+            <a href="https://twitter.com/codeasylums?lang=en" target = "_blank">Follow Us on Twitter</a>
             </div>
 
             <div className = {styles.col_facebook}>
             <img src="https://img.icons8.com/offices/30/000000/instagram.png"/>
-            <a href="https://www.instagram.com/codeasylums/?hl=en">Follow Us on Instagram</a>
+            <a href="https://www.instagram.com/codeasylums/?hl=en" target = "_blank">Follow Us on Instagram</a>
             </div>
 
             <div className = {styles.col_facebook}>
             <img src={logo} style = {{width: "30px"}} />
-            <a href="https://medium.com/progate/kickstarting-careers-during-summer-holidays-with-a-4-week-programming-bootcamp-f807da834d83">Read Our Stories on medium</a>
+            <a href="https://medium.com/progate/kickstarting-careers-during-summer-holidays-with-a-4-week-programming-bootcamp-f807da834d83" target = "_blank">Read Our Stories on medium</a>
 
             </div>
            
