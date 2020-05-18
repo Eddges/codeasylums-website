@@ -39,6 +39,7 @@ class Contact_form extends React.Component {
         }
         else{
             firstname= name[0]
+            lastname = ""
         }
         this.setState({
             fname : firstname,
@@ -88,7 +89,7 @@ class Contact_form extends React.Component {
             <div id="procallback">
                 <div className = {styles.contact_container}>
                     <div className = {styles.left_container}>
-                        <p className={styles.heading}>Let's do this!</p>
+                        <p className={styles.heading}>Have a query?</p>
                         <p className={styles.text}>“I now have a rewarding job that challenges me and stretches me to grow and learn every day. Not to mention, I can afford to save money and pay off debt.”</p>
                         <p className={styles.label}>Nagendra Kumar</p>
                         <p className={styles.textCredential}>FullStack Web Development track, December 2019</p> 
@@ -113,13 +114,13 @@ class Contact_form extends React.Component {
                                 </div>
                                 <div className = {styles.phonearea}>
                                     <label>Phone</label>
-                                    <input type = "text" placeholder="(+91)-9999999999" onChange={(e)=> this.phoneChange(e)} />
+                                    <input type = "text" placeholder="+91 8971555493" onChange={(e)=> this.phoneChange(e)} />
                                 </div>
                             </div>
                             <button type="button" className={styles.time} onClick={this.handleClick}>Submit</button>
                            
                         </form>
-                        <p className={styles.footer}>Prefer email? Contact <span>codeasylums@gmail.com</span> to talk to a student advisor</p>  
+                        <p className={styles.footer}>Prefer email? Contact <span>info@codeasylums.com</span> to talk to a student advisor</p>  
                     </div>
     
                 

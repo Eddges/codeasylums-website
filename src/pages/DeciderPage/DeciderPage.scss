@@ -285,6 +285,7 @@
                 border-radius: 5px;
                 box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
                 transition: all 0.5s;
+                z-index: 500;
                 &:hover{
                     cursor: pointer;
                     background-color: rgb(58, 124, 223);
@@ -555,6 +556,172 @@
             }
             .Decor-shifted{
                 margin-top: 52vh;
+                margin-left: 40%;
+            }
+        }
+    }
+}
+
+@media(max-width : 800px) and (max-height : 700px) {
+    .landing-container{
+        flex-direction: column;
+        height : auto;
+        .landing-left{
+            width : 100%;
+            height : 100vh;
+            display : flex;
+            flex-direction: column;
+            margin : 0px;
+            padding : 0px;
+            .landing-left-text{
+                display : flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                :nth-child(1){
+                    margin : 0px;
+                    padding : 0px;
+                    text-align: center;
+                    width : 100%;
+                }
+                :nth-child(2){
+                    margin : 0px;
+                    padding : 0px;
+                    text-align: center;
+                    width : 100%;
+                }
+                :nth-child(3){
+                    margin : 0px;
+                    padding : 0px;
+                    text-align: center;
+                    width : 100%;
+                }
+                :nth-child(4){
+                    margin : 0px;
+                    padding : 10px 0px;
+                    text-align: center;
+                    width : 100%;
+                }
+            }
+            .landing-left-text-shifted{
+                padding : 100px 40px;
+            }
+
+
+            .Table{
+                margin-top: 120vh;
+            }
+            .Table-shifted{
+                margin-top: 90vh;
+            }
+            .Main{
+                margin-top: 65vh;
+            }
+            .Decor{
+                margin-top: 63vh;
+            }
+            .Decor-shifted{
+                margin-top: 62vh;
+            }
+            .ReactJS{
+                margin-top: 88vh;
+            }
+            .ReactJS-shifted{
+                margin-top: 60vh;
+            }
+            .Kuber{
+                margin-top: 90vh;
+            }
+            .Kuber-shifted{
+                margin-top: 61vh;
+            }
+            .HTML5{
+                margin-top: 85vh;
+            }
+            .HTML5-shifted{
+                margin-left: 18%;
+                margin-top: 70vh;
+            }
+            .Github{
+                margin-top: 85vh;
+            }
+            .Github-shifted{
+                margin-top: 62vh;
+            }
+            .Logo{
+                position: absolute;
+                width: 60px;
+                margin-left: 50%;
+                margin-top: 5vh;
+                transform: translateX(-50%);
+            }
+            .Logo-noshow{
+                display : none;
+            }
+            .LogoWhite{
+                display : none;
+            }
+            .LogoWhite-show{
+                position: absolute;
+                width: 60px;
+                margin-left: 50%;
+                margin-top: 5vh;
+                transform: translateX(-50%);
+                display: inline-block;
+            }
+
+        }
+        .landing-right {
+            width : 100%;
+            height : 100vh;
+            .landing-right-text{
+                text-align: center;
+                display : flex;
+                flex-direction: column;
+                align-items: center;
+                :nth-child(1){
+                    margin : 0px;
+                    padding : 0px;
+                    text-align: center;
+                    width : 100%;
+                }
+                :nth-child(2){
+                    margin : 0px;
+                    padding : 0px;
+                    text-align: center;
+                    width : 100%;
+                }
+                :nth-child(3){
+                    margin : 0px;
+                    padding : 0px;
+                    text-align: center;
+                    width : 100%;
+                }
+                :nth-child(4){
+                    margin : 0px;
+                    padding : 10px 0px;
+                    text-align: center;
+                    width : 100%;
+                }
+            }
+            .landing-right-text-shifted{
+                padding : 100px 40px;
+            }
+            .Main{
+                margin-top: 70vh;
+                margin-left: 25%;
+            }
+            .Main-shifted{
+                width : 68%;
+                margin-left: 20%;
+                margin-top: 68vh;
+            }
+            .Decor{
+                margin-top: 65vh;
+                margin-left: 35%;
+            }
+            .Decor-shifted{
+                margin-top: 62vh;
                 margin-left: 40%;
             }
         }

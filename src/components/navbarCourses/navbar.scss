@@ -125,6 +125,10 @@
     display : flex;
     align-items : center;
     justify-content: center;
+    a{
+        text-decoration: none;
+        color : white;
+    }
 }
 .btnHire:hover{
     cursor : pointer;
@@ -245,6 +249,9 @@
                 a{
                     color : white;
                     text-decoration: none;
+                }
+                .linkApply{
+                    color : #d64045;
                 }
             }
         }

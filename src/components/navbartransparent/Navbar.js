@@ -8,6 +8,7 @@ import BGClick from '../BGClick/BGClick'
 // import ModalButton from '../ModalButton/ModalButton'
 import closeBtn from '../../assets/close.svg'
 import Modalpop from '../Modal/Modal'
+import ModalPhone from '../ModalPhone/ModalPhone'
 
 
 class Navbar extends React.Component {
@@ -30,6 +31,10 @@ class Navbar extends React.Component {
                             <div className="navLine"></div>
                             <li><a href="#procallback">CONTACT</a></li>
                             <div className="navLine"></div>
+                            {/* <li><a className="linkApply" href="#procallback">APPLY</a></li> */}
+                            <li><a className="linkApply" href="mailto:saurav@codeasylums.com">APPLY AS MENTOR</a></li>
+
+                            
                             
                         </ul>
                     </div>
@@ -45,17 +50,20 @@ class Navbar extends React.Component {
     
                 <ul>
                     <li><a href="/">HOME</a></li>
+
                     <li className="onlineCourses"><a>COURSES</a></li>
                     {/* <li className="onlineCourses"><NavLink to="/fullstack">ONLINE COURSES</NavLink></li> */}
                     {/* <li><a>OFFLINE COURSES</a></li> */}
                     <li><a href="#protestimonials">TESTIMONIALS</a></li>
                     <li><a href="#proplacements">PLACEMENTS</a></li>
                     <li><a href="#procallback">CONTACT</a></li>
+
+                    
                 </ul>
     
                 <div className="btnDiv">
                     <Modalpop/>
-                    <button className="btnMentor"><a href="#procallback">Apply as Mentor</a></button>
+                    <button className="btnMentor"><a href="mailto:saurav@codeasylums.com">Apply as Mentor</a></button>
                     
                     {/* <button className="btnHire">Apply as Mentor</button> */}
 
