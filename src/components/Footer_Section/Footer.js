@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './Footer.module.css';
+import logo from './medium.png'
 // import logo from '../../assets/logoWhite.png';
 
 // const logo = require('./logo.png');
@@ -26,17 +27,34 @@ const Footer = () => {
         <div class={styles.col}>
             <h1>CONTACT</h1>
             <p>Email us:</p>
-            <p>bootcamp@codeasylums.com</p>
+            <p>info@codeasylums.com</p>
             <p>Call us:</p>
-            <p>+91123567800</p>
+            <p>+918971555493</p>
             
         </div>
         <div class={styles.col}>
             <h1>FOLLOW US</h1>
-            <p><a href="https://www.facebook.com/CodeAsylums/">Like Us on Facebook</a></p>
-            <p><a href="https://twitter.com/codeasylums?lang=en">Follow Us on Twitter</a></p>
-            <p><a href="https://www.instagram.com/codeasylums/?hl=en">Follow Us on Instagram</a></p>
-            <p><a href="https://medium.com/progate/kickstarting-careers-during-summer-holidays-with-a-4-week-programming-bootcamp-f807da834d83">Read Our Stories on medium</a></p>
+            <div className = {styles.col_facebook}>
+            <img src="https://img.icons8.com/offices/30/000000/facebook-new.png"/>
+                <a href="https://www.facebook.com/CodeAsylums/">Like Us on Facebook</a>
+            </div>
+            <div className = {styles.col_facebook}>
+            <img src="https://img.icons8.com/offices/30/000000/twitter.png"/>
+            <a href="https://twitter.com/codeasylums?lang=en">Follow Us on Twitter</a>
+            </div>
+
+            <div className = {styles.col_facebook}>
+            <img src="https://img.icons8.com/offices/30/000000/instagram.png"/>
+            <a href="https://www.instagram.com/codeasylums/?hl=en">Follow Us on Instagram</a>
+            </div>
+
+            <div className = {styles.col_facebook}>
+            <img src={logo} style = {{width: "30px"}} />
+            <a href="https://medium.com/progate/kickstarting-careers-during-summer-holidays-with-a-4-week-programming-bootcamp-f807da834d83">Read Our Stories on medium</a>
+
+            </div>
+           
+           
         </div>
     </div>
     <div class={styles.footer_down}>

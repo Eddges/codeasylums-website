@@ -57,6 +57,10 @@
     align-items: center;
 }
 
+.wrapper .banner .right a{
+    text-decoration: none;
+}
+
 .button{
     margin-top: 10px;
     display: flex;

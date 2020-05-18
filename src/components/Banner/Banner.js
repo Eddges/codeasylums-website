@@ -12,7 +12,10 @@ const Banner = () =>{
             </div>
             <div class={styles.right}>
                 <button class={styles.button}>Talk to us</button>
+                <a href = "mailto: info@codeasylums.com">
                 <button class={styles.button}>Explore more</button>
+                </a>
+                
             </div>
         </div>
     </div>
