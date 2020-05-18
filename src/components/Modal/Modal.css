@@ -196,7 +196,7 @@
       font-family: monospace;
       font-size: 2.3em;
       font-weight: 800;
-      margin-left: 2.5em;
+      margin-left: 1em;
       padding-top: 0.5em;
       padding-bottom: 1em;
     }
@@ -251,7 +251,7 @@
       font-family: monospace;
       font-size: 1.75em;
       font-weight: 800;
-      margin-left: 1em;
+      margin-left: 0em;
       margin-top: 50px;
       padding-top: 0.5em;
       padding-bottom: 1em;
@@ -270,7 +270,7 @@
       height: 2.5em;
       width: 80%;
       margin-bottom: 1em;
-      background-color: aliceblue;
+      /* background-color: aliceblue; */
       border: 1px solid #eeeeee;
       border-radius: 2px;
     }
@@ -278,7 +278,7 @@
       height: 3.5em;
       width: 80%;
       margin-bottom: 1em;
-      background-color: aliceblue;
+      /* background-color: aliceblue; */
       border: 1px solid #eeeeee;
       border-radius: 2px;
     }
