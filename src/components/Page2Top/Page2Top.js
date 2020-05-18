@@ -45,7 +45,7 @@ class Page2Top extends React.Component {
                             <form>
                                 <span>REQUEST A CALLBACK</span>
                                 <input type="text" placeholder="Name" />
-                                <input type="emai" placeholder="e-Mail" />
+                                <input type="email" placeholder="e-Mail" />
                                 <input type="text" placeholder="Phone" />
                                 <select>
                                     <option>Work Experience</option>
