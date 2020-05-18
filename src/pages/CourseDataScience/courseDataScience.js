@@ -45,8 +45,9 @@ const CourseDataScience = (props) => {
             {/* <CourseTestimonials /> */}
             
             {/* <BubblesDSA /> */}
-            <Accordion />
             <Banner/>
+            <Accordion />
+           
 
             <Footer/>
         </Layout>

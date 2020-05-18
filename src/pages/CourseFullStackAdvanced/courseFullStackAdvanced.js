@@ -43,8 +43,8 @@ const CourseFullStackAdvanced = (props) => {
             {/* <CourseTestimonials /> */}
             <StudentCarouselFullStack />
             {/* <BubblesDSA /> */}
-            <Accordion />
             <Banner/>
+            <Accordion />
 
             <Footer/>
         </Layout>
