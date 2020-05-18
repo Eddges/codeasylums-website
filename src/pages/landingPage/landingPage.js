@@ -53,7 +53,7 @@ class LandPage extends React.Component {
                     <Contact_form />
                     <Footer />
                     {/* <Footer /> */}
-                    <Lead />
+                    {/* <Lead /> */}
                 </Layout>
             </div>
         )

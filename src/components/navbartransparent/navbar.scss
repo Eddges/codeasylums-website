@@ -224,6 +224,9 @@
                 justify-content: center;
                 margin : 30px 20%;
                 transform: translateX(-10%);
+                img{
+                    width : 100%;
+                }
                 &:hover{
                     cursor: pointer;
                 }

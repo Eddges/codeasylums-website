@@ -1,0 +1,10 @@
+.phonearea{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 35%;
+    justify-content: start;
+    align-items: start;
+}
+.phonearea input{
+    width: 100%;
+}

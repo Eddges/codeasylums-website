@@ -97,12 +97,16 @@
     border: 1.2px solid #62626267;
     margin-top: 0.5em;
     margin-bottom: 1.5em;
+    /* margin-left : 5px; */
     border-radius: 4px;
     padding-left : 20px;
     background-color: #f2f7fe;
+    display : inline-block;
     /* opacity: 0.5; */
 }
-
+.time:hover{
+    cursor: pointer;
+}
 .contact_container .right_container form .boxarea{
     display: flex;
     flex-direction: row;

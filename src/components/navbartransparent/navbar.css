@@ -292,6 +292,9 @@
     -webkit-transform: translateX(-10%);
             transform: translateX(-10%);
   }
+  .NavMobile .NavItems .CloseNavMobile img {
+    width: 100%;
+  }
   .NavMobile .NavItems .CloseNavMobile:hover {
     cursor: pointer;
   }

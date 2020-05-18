@@ -24,7 +24,7 @@ const CourseSystems = (props) => {
             <MenuModal />
             <Navbar />
             <BGClick />
-            <Page2Top title="FullStack Web Development (Advanced)" top="Online | 10 Weeks | Lively Mentorship | 4 Weeks Job Assistance" line1="Web Development with Platform Scalability - Intermediate to Advance" line2="Rated by students" type="fullstack" illustration={systemsBG} />
+            <Page2Top course="fullstack-advanced" title="FullStack Web Development (Advanced)" top="Online | 10 Weeks | Lively Mentorship | 4 Weeks Job Assistance" line1="Web Development with Platform Scalability - Intermediate to Advance" line2="Rated by students" type="fullstack" illustration={systemsBG} />
             <CodeAsylumsAdvantageSystems />
             <Parallax1 />
             <MentorsSystems />
