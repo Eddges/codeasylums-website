@@ -38,8 +38,9 @@ const CourseDSA = (props) => {
             {/* <CourseTestimonials /> */}
             
             {/* <BubblesDSA /> */}
-            <Accordion />
             <Banner/>
+            <Accordion />
+          
 
             <Footer/>
         </Layout>

@@ -119,7 +119,7 @@ class Contact_form extends React.Component {
                             <button type="button" className={styles.time} onClick={this.handleClick}>Submit</button>
                            
                         </form>
-                        <p className={styles.footer}>Prefer email? Contact <span>codeasylums@gmail.com</span> to talk to a student advisor</p>  
+                        <p className={styles.footer}>Prefer email? Contact <span>info@codeasylums.com</span> to talk to a student advisor</p>  
                     </div>
     
                 

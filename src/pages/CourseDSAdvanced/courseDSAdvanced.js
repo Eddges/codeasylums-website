@@ -40,8 +40,9 @@ const CourseDSAdvanced = (props) => {
             {/* <CourseTestimonials /> */}
             
             {/* <BubblesDSA /> */}
-            <Accordion />
             <Banner/>
+            <Accordion />
+            
 
             <Footer/>
         </Layout>
