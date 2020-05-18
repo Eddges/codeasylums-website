@@ -19,8 +19,8 @@ const CoreTeam = () => {
                     <img src="https://img.icons8.com/plasticine/150/000000/user-male.png"/>
                 </div>
                 <div class="down">
-                    <p class="name">Nagendra Kumar</p>
-                    <p class="position">Program Coordinator</p>
+                    <p class="name">Pratyush Agarwal</p>
+                    {/* <p class="position">Program Coordinator</p> */}
                 </div>
             </div>
 
@@ -31,8 +31,8 @@ const CoreTeam = () => {
 
                 </div>
                 <div class="down">
-                    <p class="name">Nagendra Kumar</p>
-                    <p class="position">Program Coordinator</p>
+                    <p class="name">Saurabh Mishra</p>
+                    {/* <p class="position">Program Coordinator</p> */}
                 </div>
             </div>
 
@@ -43,8 +43,8 @@ const CoreTeam = () => {
 
                 </div>
                 <div class="down">
-                    <p class="name">Nagendra Kumar</p>
-                    <p class="position">Program Coordinator</p>
+                    <p class="name">Aman Agarwal</p>
+                    {/* <p class="position">Program Coordinator</p> */}
                 </div>
             </div>
 
@@ -55,8 +55,8 @@ const CoreTeam = () => {
 
                 </div>
                 <div class="down">
-                    <p class="name">Nagendra Kumar</p>
-                    <p class="position">Program Coordinator</p>
+                    <p class="name">Rahul Kumar</p>
+                    {/* <p class="position">Program Coordinator</p> */}
                 </div>
             </div>
 
@@ -67,8 +67,8 @@ const CoreTeam = () => {
 
                 </div>
                 <div class="down">
-                    <p class="name">Nagendra Kumar</p>
-                    <p class="position">Program Coordinator</p>
+                    <p class="name">Sushma Nagraj</p>
+                    {/* <p class="position">Program Coordinator</p> */}
                 </div>
             </div>
 
@@ -79,12 +79,122 @@ const CoreTeam = () => {
 
                 </div>
                 <div class="down">
-                    <p class="name">Nagendra Kumar</p>
-                    <p class="position">Program Coordinator</p>
+                    <p class="name">Nikita Gupta</p>
+                    {/* <p class="position">Program Coordinator</p> */}
+                </div>
+            </div>
+
+            <div class="box box7" data-aos="fade-up">
+                <div class="up">
+                    {/* <!-- <img src="https://randomuser.me/api/portraits/men/1.jpg" width="250px" height="250px"/>  --> */}
+                    <img src="https://img.icons8.com/plasticine/150/000000/user-male.png"/>
+
+                </div>
+                <div class="down">
+                    <p class="name">Rajat Jain</p>
+                    {/* <p class="position">Program Coordinator</p> */}
+                </div>
+            </div>
+
+            <div class="box box8" data-aos="fade-up">
+                <div class="up">
+                    {/* <!-- <img src="https://randomuser.me/api/portraits/men/1.jpg" width="250px" height="250px"/>  --> */}
+                    <img src="https://img.icons8.com/plasticine/150/000000/user-male.png"/>
+
+                </div>
+                <div class="down">
+                    <p class="name">Rajeev Agarwal</p>
+                    {/* <p class="position">Program Coordinator</p> */}
+                </div>
+            </div>
+
+            <div class="box box9" data-aos="fade-up">
+                <div class="up">
+                    {/* <!-- <img src="https://randomuser.me/api/portraits/men/1.jpg" width="250px" height="250px"/>  --> */}
+                    <img src="https://img.icons8.com/plasticine/150/000000/user-male.png"/>
+
+                </div>
+                <div class="down">
+                    <p class="name">Harshit Singh</p>
+                    {/* <p class="position">Program Coordinator</p> */}
+                </div>
+            </div>
+
+            <div class="box box10" data-aos="fade-up">
+                <div class="up">
+                    {/* <!-- <img src="https://randomuser.me/api/portraits/men/1.jpg" width="250px" height="250px"/>  --> */}
+                    <img src="https://img.icons8.com/plasticine/150/000000/user-male.png"/>
+
+                </div>
+                <div class="down">
+                    <p class="name">Pragya Garg</p>
+                    {/* <p class="position">Program Coordinator</p> */}
+                </div>
+            </div>
+
+            <div class="box box11" data-aos="fade-up">
+                <div class="up">
+                    {/* <!-- <img src="https://randomuser.me/api/portraits/men/1.jpg" width="250px" height="250px"/>  --> */}
+                    <img src="https://img.icons8.com/plasticine/150/000000/user-male.png"/>
+
+                </div>
+                <div class="down">
+                    <p class="name">Puneet Kohli</p>
+                    {/* <p class="position">Program Coordinator</p> */}
+                </div>
+            </div>
+
+            <div class="box box12" data-aos="fade-up">
+                <div class="up">
+                    {/* <!-- <img src="https://randomuser.me/api/portraits/men/1.jpg" width="250px" height="250px"/>  --> */}
+                    <img src="https://img.icons8.com/plasticine/150/000000/user-male.png"/>
+
+                </div>
+                <div class="down">
+                    <p class="name">Shubham Sureka</p>
+                    {/* <p class="position">Program Coordinator</p> */}
+                </div>
+            </div>
+
+            <div class="box box13" data-aos="fade-up">
+                <div class="up">
+                    {/* <!-- <img src="https://randomuser.me/api/portraits/men/1.jpg" width="250px" height="250px"/>  --> */}
+                    <img src="https://img.icons8.com/plasticine/150/000000/user-male.png"/>
+
+                </div>
+                <div class="down">
+                    <p class="name">Karan Chadha</p>
+                    {/* <p class="position">Program Coordinator</p> */}
+                </div>
+            </div>
+
+            <div class="box box14" data-aos="fade-up">
+                <div class="up">
+                    {/* <!-- <img src="https://randomuser.me/api/portraits/men/1.jpg" width="250px" height="250px"/>  --> */}
+                    <img src="https://img.icons8.com/plasticine/150/000000/user-male.png"/>
+
+                </div>
+                <div class="down">
+                    <p class="name">Amar Pathak</p>
+                    {/* <p class="position">Program Coordinator</p> */}
+                </div>
+            </div>
+
+            <div class="box box15" data-aos="fade-up">
+                <div class="up">
+                    {/* <!-- <img src="https://randomuser.me/api/portraits/men/1.jpg" width="250px" height="250px"/>  --> */}
+                    <img src="https://img.icons8.com/plasticine/150/000000/user-male.png"/>
+
+                </div>
+                <div class="down">
+                    <p class="name">Rajat Goyal</p>
+                    {/* <p class="position">Program Coordinator</p> */}
                 </div>
             </div>
             
         </div>
+
+        
     </div>
         </div>
     )
