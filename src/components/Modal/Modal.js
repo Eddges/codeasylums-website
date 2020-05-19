@@ -95,8 +95,9 @@ function Modalpop(){
 
   return(
     <div className = 'modal-root'>
-      <button className ="btnModal" onClick={() => setModalIsOpen(true)}>Request Callback</button>
-      <Modal isOpen = {modalIsOpen} onRequestClose={()=>setModalIsOpen(false)} className = "wrapper_modal">
+
+      <button className = "btnModal" onClick={() => setModalIsOpen(true)}>Request Callback</button>
+      <Modal isOpen = {modalIsOpen} onRequestClose={()=>setModalIsOpen(true)} className = "wrapper_modal">
         {/* <div className = "wrapper_modal"> */}
         <div className = "left">
           <img src = {logo}/>
