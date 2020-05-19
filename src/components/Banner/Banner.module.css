@@ -122,3 +122,10 @@
         align-items: center;
     }
 }
+
+.button:hover{
+    cursor: pointer;
+}
+a:hover{
+    cursor: default;
+}

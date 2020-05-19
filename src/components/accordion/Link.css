@@ -104,15 +104,15 @@
 }
 
 @media (max-width: 576px) {
-  .accaccordion .acctitle {
-    font-size: 2rem;
-    padding-left: 0px;
+  .accordion .acctitle {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
   }
-  .accaccordion .acccontainer .accitem .acclink {
-    font-size: 0.5rem;
+  .accordion .acccontainer .accitem .acclink {
+    font-size: 0.8rem;
   }
-  .accaccordion .acccontainer .accitem .answer {
-    font-size: 0.5rem;
+  .accordion .acccontainer .accitem .accanswer {
+    font-size: 0.8rem;
   }
 }
 /*# sourceMappingURL=Link.css.map */

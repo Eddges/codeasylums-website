@@ -9,11 +9,11 @@ class Curriculum2Item extends React.Component{
     let links = this.props.section.map(iterator => {
         return(
                 <div className={classes.expand1}>
-                        <div class="CurriculumLink">
+                        <div className="CurriculumLink">
                             <span>{iterator.link}</span>
                             <span class="accRotate">+</span>
                         </div>
-                        <div class="CurriculumAnswer">{iterator.details}</div>
+                        <div className="CurriculumAnswer">{iterator.details}</div>
                     </div>
         )
     })

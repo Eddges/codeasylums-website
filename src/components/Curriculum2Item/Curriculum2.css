@@ -79,3 +79,10 @@
         transform : rotate(45deg);
     }
 }
+
+@media(max-width : 576px){
+    .CurriculumLink:nth-child(1){
+        font-size: 0.9rem;
+        padding : 0px 10px;
+    }
+}

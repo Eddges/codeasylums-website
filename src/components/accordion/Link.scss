@@ -86,20 +86,20 @@
     }
 }
 
-@media(max-width : 576px) {
 
-    .accaccordion{
+@media(max-width : 576px){
+    .accordion{
         .acctitle{
-            font-size: 2rem;
-            padding-left : 0px;
+            font-size: 1.5rem;
+            padding-bottom: 1rem;
         }
         .acccontainer{
             .accitem{
                 .acclink{
-                    font-size: 0.5rem;
+                    font-size: 0.8rem;
                 }
-                .answer{
-                    font-size: 0.5rem;
+                .accanswer{
+                    font-size: 0.8rem;
                 }
             }
         }
