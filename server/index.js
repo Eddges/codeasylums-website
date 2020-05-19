@@ -7,12 +7,12 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cors());
 
 app.get('/api/saveLead', (req, res) => {
-  const fname = req.query.fname || 'World';
-  const lname = req.query.lname || 'World';
-  const email = req.query.email || 'World';
+  const fname = req.query.fname || 'Missing';
+  const lname = req.query.lname || 'Missing';
+  const email = req.query.email || 'Missing';
   const phone = req.query.phone || 123234345679;
-  const course = req.query.course || 'Random';
-  const experience = req.query.exp || 'Random';
+  const course = req.query.course || 'Missing';
+  const experience = req.query.exp || 'Missing';
   var data=[
     {
         "Attribute": "FirstName",

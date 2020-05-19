@@ -84,6 +84,7 @@ class Page2Top extends React.Component {
         else{
             axios.get(`http://localhost:4001/api/saveLead?fname=${this.state.fname}&lname=${this.state.lname}&email=${this.state.email}&phone=${this.state.phone}&course=${this.state.course}&exp=${this.state.exp}`)
             .then((response, reject) => {
+                alert("Thanks, Will get back to you soon.");
                 console.log(response.data)
                 console.log(`First Name : ${this.state.fname}`)
                 console.log(`Last Name : ${this.state.lname}`)
