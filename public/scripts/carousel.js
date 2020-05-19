@@ -4,7 +4,7 @@ $(function(){
        slidesToScroll: 1,
        asNavFor: '.timeline-slider',
        centerMode: false,
-       focusOnSelect: true,
+       focusOnSelect: false,
         mobileFirst: true,
        arrows: false,
        infinite:true,
@@ -30,11 +30,12 @@ $(function(){
        slidesToScroll: 1,
        arrows: false,
        asNavFor: '.timeline-nav',     
-       centerMode: true,     
+       centerMode: false,     
        cssEase: 'ease',
         edgeFriction: 0.5,
         mobileFirst: true,
         speed: 500,
+        focusOnSelect : false,
         responsive: [
           {
            breakpoint: 0,

@@ -42,7 +42,7 @@ function Courses() {
                 <h3>DATA STRUCTURE COURSE</h3>
             </div>
             <div className={styles.down}>
-                <p>This course is for those people who are new to the world of data structures and looking forward to implementing data structures in depth to crack coding interviews of mainly tier-2 companies</p>
+                <p>This course is for the people who are new to the world of Data Structures and are looking forward to implement data structures in depth and crack coding interviews of mainly tier-2 companies</p>
             </div>
             <div className={styles.bottom}>
                 <a href="/dsa"><button className={styles.button}>Explore</button></a>
@@ -56,7 +56,7 @@ function Courses() {
                 <h3>COMPETITIVE PROGRAMMING AND ADVANCED DSA</h3>
             </div>
             <div className={styles.down}>
-                <p>This course is majorly for the professionals who are looking forward to cracking coding interviews for tier - 1 product-based companies</p>
+                <p>This course is majorly for the professionals who are looking forward to crack coding interviews for tier - 1 product-based companies</p>
             </div>
             <div className={styles.bottom}>
                 <a href="/dsadvanced"><button className={styles.button}>Explore</button></a>
@@ -83,7 +83,7 @@ function Courses() {
                 <h3>FULLSTACK WEB-BASED DEVELOPMENT</h3>
             </div>
             <div className={styles.down}>
-            <p>There are professionals in the industry who have worked in Testing, Maintenance, Ops, System Admin, who are looking forward to work in startups with good work in the field of full-stack web development</p>
+            <p>For the pofessionals in the industry who have worked in Testing, Maintenance, Ops, System Admin, and are looking forward to working in startups in the field of full-stack web development</p>
             </div>
             <div className={styles.bottom}>
                 <a href="/fullstack"><button className={styles.button}>Explore</button></a>
@@ -97,7 +97,7 @@ function Courses() {
                 <h3>ADVANCED FULLSTACK WITH SCALABILITY</h3>
             </div>
             <div className={styles.down}>
-                <p>There are professionals who are working in making web and mobile-based applications from scratch and looking for a framework based development and scalability</p>
+                <p>For the professionals who are working on web and mobile-based applications, starting from scratch and are looking for framework based development and scalability</p>
             </div>
             <div className={styles.bottom}>
                 <a href="/fullstackadvanced"><button className={styles.button}>Explore</button></a>

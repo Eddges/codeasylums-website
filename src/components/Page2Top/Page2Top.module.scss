@@ -178,8 +178,21 @@ $royalblue : #002366;
                     padding : 0px 10px;
                     box-shadow: 0px 2px 5px rgba(0,0,0,0.2);
                 }
-                select{
+                // select{
+                //     height : 35px;
+                // }
+                select {
+                    border:none;
+                    // -webkit-appearance: none;
+                    // -moz-appearance: none;
+                    // appearance: none;
+                    // -ms-appearance: none; /* get rid of default appearance for IE8, 9 and 10*/
+                    background-color: white;
                     height : 35px;
+                    color : rgb(141, 141, 141);
+                    border-radius: 3px;
+                    padding : 0px 10px;
+                    box-shadow: 0px 2px 5px rgba(0,0,0,0.2);
                 }
                 button{
                     height : 50px;
@@ -189,6 +202,7 @@ $royalblue : #002366;
                     color : white;
                     font-size: 0.8rem;
                     font-weight: bold;
+                    margin-top: 10px;
                     &:hover{
                         cursor: pointer;
                         animation : callback 1s;

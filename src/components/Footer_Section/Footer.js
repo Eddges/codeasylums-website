@@ -22,7 +22,7 @@ const Footer = () => {
             <p>About the Company</p>
             <p>Meet the Team</p>
             <p>Jobs</p>
-            <p>Become a Mentor</p>
+            <p><a href="mailto:saurav@codeasylums.com">Become a Mentor</a></p>
         </div>
         <div class={styles.col}>
             <h1>CONTACT</h1>

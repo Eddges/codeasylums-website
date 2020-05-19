@@ -107,9 +107,9 @@
     .wrapper .banner .left h2{
         color: white;
         /* font-family: monospace; */
-        font-family: monospace;
+        font-family: 'Roboto';
         padding:30px;
-        font-weight: 900;
+        font-weight: 500;
         /* margin-left: 0.2em; */
         text-align: center;
     }

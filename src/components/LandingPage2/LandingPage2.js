@@ -13,8 +13,8 @@ const LandingPage2 = () => (
                 <p>Welcome to</p>
                 <p>CodeAsylums</p>
                 <p>The best coding bootcamp in India</p>
-                <p>Data Structures | Algorithms | Full-Stack Development</p>
-                <p>Machine Learning | Data Science | DevOps</p>
+                <p>Data Structures | Competitive Programming | Full-Stack Development</p>
+                <p>System Design | Data Science | Algorithms</p>
                 <ModalPhone />
                 <a href="#CoursesSection"><button className={classes.ApplyButton} >Explore</button></a>
                 

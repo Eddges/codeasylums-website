@@ -39,10 +39,10 @@ class Navbar extends React.Component {
             <nav className="Navbar">
                 
                 <div className="imageDiv">
-                    <img src={LogoWhite} alt="Logo" />
+                    <a href="/"><img src={LogoWhite} alt="Logo" /></a>
                 </div>
                 <div className="imageDiv1">
-                    <img src={Logo} alt="Logo" />
+                    <a href="/"><img src={Logo} alt="Logo" /></a>
                 </div>
     
                 <ul>

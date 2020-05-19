@@ -7,20 +7,20 @@ const FeedbackSlider = (props) => {
 
     const feedbacks = [
         {
-            name : "ANKUR KUMAR SINGH",
+            name : "Ankur Kumar Singh",
             feedback : "It has been a wonderful experience. Mentors are very good,they teach you from basics to advanced concepts very well. There are conceptual classes, doubt classes & timely contests to strengthen your knowledge."
         },
         {
-            name : "ABHISHEK KUMAR",
-            feedback : "So far so good. I'm learning new concepts everyday. Mentors are top notch and their and their teaching style makes it easier to grasp concepts"
+            name : "Abhishek Kumar",
+            feedback : "So far so good. I'm learning new concepts everyday. Mentors are top notch and their teaching style makes it easier to grasp concepts"
         },
         {
-            name : "AKSHAY GUPTA",
+            name : "Akshay Gupta",
             feedback : "It has been a great experience. Teachers are very supportive here. Codeasylums is doing a good job in creating a community of people working towards a similar goal."
         },
         {
-            name : "SWARNENDU GANGULI",
-            feedback : "Classes are excellent here and also the teaching of mentors. I am very thankful to everyone here for guiding me throughout the course as I have learnt so many new things over here and will look forward to learn as much as I can. You guys are great."
+            name : "Swarnendu Ganguli",
+            feedback : "Classes are excellent here and also the teaching of mentors. I am very thankful to everyone here for guiding me throughout the course as I have learnt so many new things and look forward to learn as much as I can. You guys are great."
         }
     ]
 

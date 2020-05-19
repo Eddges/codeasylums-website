@@ -104,8 +104,8 @@ box-shadow: 10px 10px 10px 10px rgba(2,17,79,0.69);
 
 @media screen and (max-width: 796px){
   .testimonials_section{
-    height: 60vh;
-
+    height: auto;
+    padding : 20px 0px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -136,6 +136,7 @@ box-shadow: 10px 10px 10px 10px rgba(2,17,79,0.69);
 }
 
 .section {
+  /* margin-top: 30px; */
   flex-basis: 20%;
   /* flex-shrink: 0; */
   display: flex;
@@ -154,18 +155,24 @@ box-shadow: 10px 10px 10px 10px rgba(2,17,79,0.69);
   border-radius: 65px;
   margin-top: 2em;
 }
+.section .rightfeedbackCard {
+  font-size: 0.8rem;
+}
 
 }
 
-@media screen and (max-width: 496px){
+@media screen and (max-width: 496px) and (max-height : 680px){
   .testimonials_section{
     height: auto;
-
+    padding : 30px 0px;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgb(14, 2, 80);
+}
+.testimonials_section_main{
+  height: 80vh;
 }
 .containerSlider {
   width: 95%;

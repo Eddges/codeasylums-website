@@ -3,7 +3,7 @@ import './../FeedbackSlider/FeedbackSlider.css'
 
 const FeedbackSliderCard = (props) => {
     return(
-        <section class="section">
+        <section className="section">
             <div className = "leftfeedbackCard">
             <span className = "img">
             {/* <img src="https://img.icons8.com/bubbles/200/000000/user-female.png"/> */}

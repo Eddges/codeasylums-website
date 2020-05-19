@@ -37,12 +37,15 @@
 
 .Advantage .BG {
   width: 100%;
-  height: 60vh;
+  height: 55vh;
   margin-top: 0%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   padding: 0px 10%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .Advantage .BG ul {
@@ -66,7 +69,7 @@
 .Advantage .BG ul li {
   font-family: 'Open Sans';
   font-weight: 500;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   color: white;
 }
 
@@ -112,54 +115,13 @@
   }
 }
 
-@media (min-width: 1800px) {
+@media (max-width: 576px) {
+  .Advantage {
+    text-align: center;
+  }
   .Advantage .Heading {
-    font-size: 6rem;
-  }
-  .Advantage .BG {
-    background-color: #F9F9F9;
-    width: 100%;
-    height: 70vh;
-    margin-top: 4%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    padding: 0px 100px;
-  }
-  .Advantage .BG ul {
-    text-align: left;
-    margin: 10px;
-    padding: 5px;
-    width: 25%;
-    height: 90%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
-  }
-  .Advantage .BG ul li {
-    color: black;
-    font-weight: 300;
-    font-size: 1.4rem;
-  }
-  .Advantage .BG .divTestimonial {
-    width: 40%;
-    padding: 5% 2%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    padding: 0px 20px;
+    text-align: center;
   }
 }
 /*# sourceMappingURL=CodeAsylumsAdvantageSystems.module.css.map */

@@ -6,18 +6,18 @@ const CodeAsylumsAdvantageFullStack = (props) => {
     return(
         <div className={classes.Advantage}>
         <div className={classes.Line}></div>
-            <div className={classes.Line}></div>
             <p className={classes.Heading} >The CodeAsylums Advantage</p>
             <div className={classes.BG}>
                 <ul>
                     <li>60+ Hrs of dedicated professional mentoring</li>
-                    <li>Online Live interactive coding</li>
+                    <li>Collaborative and Interactive Environment using Community Channels</li>
                     <li>Fully supported by Teaching Assistants</li>
                     <li>5+ Mentored Hackathons for Project Building</li>
                 </ul>
                 <ul>
                     <li>Developing Product by Mentored Week Long Challenge</li>
-                    <li>Collaborative and Interactive Environment using Community Channels</li>
+                    
+                    <li>Online Live interactive coding</li>
                     <li>Internal plus Competitive progress & reports for self-assessments</li>
                     <li>Placement Assistance and Referrals for Job Opportunities</li>
                 </ul>

@@ -5,15 +5,7 @@
     // background-color: #f2f7fe;
     // background-color: #d64045;
     background-color : rgb(14, 2, 80);
-    position : relative;
-    .Line{
-        position : absolute;
-        top : 0%;
-        width : 100%;
-        height : 2%;
-        background-color: #dd272d;
-        z-index : 20;
-    }
+
     .Heading {
         
         text-align: left;
@@ -72,11 +64,15 @@
     .Job{
         width : 100vw;
         .Heading {
+            text-align: center;
             font-size: 2rem;
-            padding : 20px 15%;
+            padding : 20px 5%;
+        
         }
         .Opportunities {
             font-size: 1.1rem;
+            text-align: center;
+            padding : 10px 5%;
         }
         .BG {
             // background-color: #DEF3FF;
@@ -117,24 +113,24 @@
     }
 }
 
-@media(min-width : 1800px) {
-    .Job{
-        .Heading{
-            font-size: 6rem;
-        }
-        .Opportunities{
-            font-size: 2rem;
-        }
-        .BG{
-            ul{
-                li{
-                    font-size: 1.5rem;
-                }
-            }
-        }
-    }
-}
+// @media(min-width : 1800px) {
+//     .Job{
+//         .Heading{
+//             font-size: 6rem;
+//         }
+//         .Opportunities{
+//             font-size: 2rem;
+//         }
+//         .BG{
+//             ul{
+//                 li{
+//                     font-size: 1.5rem;
+//                 }
+//             }
+//         }
+//     }
+// }
 
-.Job{
-    margin-top : 0px;
-}
+// .Job{
+//     margin-top : 0px;
+// }

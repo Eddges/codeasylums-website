@@ -3,16 +3,6 @@
   text-align: center;
   width: 100%;
   background-color: #0e0250;
-  position: relative;
-}
-
-.Job .Line {
-  position: absolute;
-  top: 0%;
-  width: 100%;
-  height: 2%;
-  background-color: #dd272d;
-  z-index: 20;
 }
 
 .Job .Heading {
@@ -85,11 +75,14 @@
     width: 100vw;
   }
   .Job .Heading {
+    text-align: center;
     font-size: 2rem;
-    padding: 20px 15%;
+    padding: 20px 5%;
   }
   .Job .Opportunities {
     font-size: 1.1rem;
+    text-align: center;
+    padding: 10px 5%;
   }
   .Job .BG {
     width: 100%;
@@ -146,21 +139,5 @@
         -ms-flex-pack: center;
             justify-content: center;
   }
-}
-
-@media (min-width: 1800px) {
-  .Job .Heading {
-    font-size: 6rem;
-  }
-  .Job .Opportunities {
-    font-size: 2rem;
-  }
-  .Job .BG ul li {
-    font-size: 1.5rem;
-  }
-}
-
-.Job {
-  margin-top: 0px;
 }
 /*# sourceMappingURL=JobReadyDataScience.module.css.map */

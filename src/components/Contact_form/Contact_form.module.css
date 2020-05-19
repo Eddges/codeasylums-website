@@ -249,3 +249,12 @@
         text-align: left;
     }
 }
+
+@media(max-width : 576px) and (max-height : 700px){
+    .contact_container .left_container{
+        height : 45vh;
+    }
+    .contact_container .right_container{
+        height : 80vh;
+    }
+}

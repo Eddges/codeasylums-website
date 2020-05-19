@@ -2,12 +2,24 @@
     height: 10vh;
     width: 100%;
     font-family: 'Raleway';
-    font-size: 1.6em;
+    font-size: 1.4em;
     text-align: center;
     /* margin-top: 2em; */
     font-weight: 500;
     background-color: rgb(14, 2, 80);
     /* background-color: #d64045; */
     color: white;
-    padding-top: 2em;
+    display : flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-bottom: 20px; */
+    padding : 0px 30px;
+    padding-top : 2rem;
+  }
+
+  @media(max-width : 798px){
+    .headertestimonial{
+      height : 15vh;
+      padding : 0px 30px;
+    }
   }

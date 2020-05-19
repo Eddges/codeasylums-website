@@ -226,10 +226,4 @@
     text-align: center;
   }
 }
-
-@media (min-width: 1800px) {
-  .container .timeline .timeline-nav div {
-    font-size: 1.3rem;
-  }
-}
 /*# sourceMappingURL=SC.css.map */
