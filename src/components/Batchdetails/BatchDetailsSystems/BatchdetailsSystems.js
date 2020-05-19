@@ -13,14 +13,14 @@ const BatchdetailsSystems = () => {
             <div className={styles.wrapper}>
         
         
-        {/* <Box date = "16"  month = "May" time="18:00-22:00" coursename = "Platform Development with Scalability" status = "Seats Filling" count = "10/15 students"/> */}
+        {/* <Box date = "16"  month = "May"  coursename = "Platform Development with Scalability" status = "Seats Filling" count = "10/15 students"/> */}
         {/* <!-- 2 --> */}
-        <Box date = "21" month = "May" time="18:00-22:00" coursename = "Platform Development with Scalability" status = "Seats Filling" count = "8/15 students"/>
+        <Box date = "21" month = "May"  coursename = "Platform Development with Scalability" status = "Seats Filling" count = "8/15 students"/>
         {/* <!-- 3 -FullStack-> */}
-        <Box date = "30" month = "May" time="18:00-22:00" coursename = "Platform Development with Scalability" status = "Open" count = "4/15 students"/>
+        <Box date = "30" month = "May"  coursename = "Platform Development with Scalability" status = "Open" count = "4/15 students"/>
         {/* <!-- 4 --> */}
-        <Box date = "6" month = "June" time="18:00-22:00" coursename = "Platform Development with Scalability" status = "Open" count = "3/15 students"/>
-        {/* <Box date = "19" month = "February" time="18:00-22:00" coursename = "Machine Learning Lessson #43" status = "Booking Ended" count = "200/200tickets sold"/> */}
+        <Box date = "6" month = "June"  coursename = "Platform Development with Scalability" status = "Open" count = "3/15 students"/>
+        {/* <Box date = "19" month = "February"  coursename = "Machine Learning Lessson #43" status = "Booking Ended" count = "200/200tickets sold"/> */}
 
 
         

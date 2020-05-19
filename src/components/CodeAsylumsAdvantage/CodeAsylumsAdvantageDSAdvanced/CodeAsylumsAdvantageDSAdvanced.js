@@ -1,8 +1,8 @@
 import React from 'react'
 import Testimonial from '../../Testimonial/Testimonial'
-import classes from './CodeAsylumsAdvantageFullStack.module.css'
+import classes from './CodeAsylumsAdvantageDSAdvanced.module.css'
 
-const CodeAsylumsAdvantageFullStack = (props) => {
+const CodeAsylumsAdvantageDSAdvanced = (props) => {
     return(
         <div className={classes.Advantage}>
         <div className={classes.Line}></div>
@@ -10,23 +10,23 @@ const CodeAsylumsAdvantageFullStack = (props) => {
             <p className={classes.Heading} >The CodeAsylums Advantage</p>
             <div className={classes.BG}>
                 <ul>
-                    <li>60+ Hrs of dedicated professional mentoring</li>
+                    <li>80+ Hrs of dedicated professional mentoring</li>
                     <li>Online Live interactive coding</li>
                     <li>Fully supported by Teaching Assistants</li>
-                    <li>5+ Mentored Hackathons for Project Building</li>
+                    <li>Coding Contest and Contest Discussions</li>
                 </ul>
                 <ul>
-                    <li>Developing Product by Mentored Week Long Challenge</li>
+                    <li>Problem Solving Sharpening with Intuitive Learning </li>
                     <li>Collaborative and Interactive Environment using Community Channels</li>
                     <li>Internal plus Competitive progress & reports for self-assessments</li>
                     <li>Placement Assistance and Referrals for Job Opportunities</li>
                 </ul>
                 <div className={classes.divTestimonial}>
-                    <Testimonial showCircle={false} showAbout={true} name="Rajat Jain" about="Engineer, Microsoft" content="I feel the curriculum is very extensive and covers everything from the basics in backend and frontend technologies. The program will be very helpful for anyone who’s looking to start their career as a full-stack developer." />
+                    <Testimonial showCircle={false} showAbout={true} name="Sandeep Alajangi" about="Software Engineer, Google" content="Solving competitive programming questions requires a lot of patience, determination and skills. It also requires a solid grasp over Data Structures. It requires persistence and hard work to get into the A-Listers. And that makes me excited to be mentoring prospective professionals and helping them land their dream job." />
                 </div>
             </div>
         </div>
     )
 }
 
-export default CodeAsylumsAdvantageFullStack
+export default CodeAsylumsAdvantageDSAdvanced

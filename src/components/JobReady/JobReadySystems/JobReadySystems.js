@@ -9,7 +9,7 @@ const JobReadySystems = (props) => {
             <p className={classes.Opportunities}>Accelerate your scale with CodeAsylums Platform Development with Scalability Professional Bootcamp</p>
             <div className={classes.BG}>
                 <div className={classes.divTestimonial}>
-                    <Testimonial showCircle={false} showAbout={true} name="Shivam Shekhar" about="-CEO/CTO Google" content="...and I must say that the CodeAsylums Data Structures and algorithms has truly been a life-changer!" />
+                    <Testimonial showCircle={false} showAbout={true} content="I could have saved collosal amount of my time and energy only if I had such mentors to guide me right from the start. Teaching complicated topics with such ease is a rare skill. I am completely satisfied with my experience." />
                 </div>
                 <ul>
                     <li>FullStack Developer</li>

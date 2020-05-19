@@ -5,6 +5,7 @@ import classes from './CodeAsylumsAdvantageSystems.module.css'
 const CodeAsylumsAdvantageSystems = (props) => {
     return(
         <div className={classes.Advantage}>
+        <div className={classes.Line}></div>
             <div className={classes.Line}></div>
             <p className={classes.Heading} >The CodeAsylums Advantage</p>
             <div className={classes.BG}>
@@ -21,7 +22,7 @@ const CodeAsylumsAdvantageSystems = (props) => {
                     <li>Placement Assistance and Referrals for Job Opportunities</li>
                 </ul>
                 <div className={classes.divTestimonial}>
-                    <Testimonial showCircle={false} showAbout={true} name="Shivam Shekhar" about="-CEO/CTO Google" content="I feel the curriculum is very extensive and covers everything from the basics in backend and frontend technologies. The program will be very helpful for anyone who’s looking to start their career as a full-stack developer." />
+                    <Testimonial showCircle={false} showAbout={true} name="C S Madhav" about="Platform Engineer, Paysafe" content="Stepping into the world of development can be a daunting task for many, given the sheer number of tools and technologies available at one's disposal to choose from. I am so glad to be a part of this program and to be able to help developers make right decisions in their coding journey." />
                 </div>
             </div>
         </div>

@@ -1,15 +1,15 @@
 import React from 'react'
 import Testimonial from '../../Testimonial/Testimonial'
-import classes from './JobReadyDSA.module.css'
+import classes from './JobReadyDSAdvanced.module.css'
 
-const JobReadyDSA = (props) => {
+const JobReadyDSAdvanced = (props) => {
     return(
         <div className={classes.Job}>
             <p className={classes.Heading} >Be Job Ready</p>
             <p className={classes.Opportunities}>Accelerate your coding skills with CodeAsylums to Crack Coding Interviews</p>
             <div className={classes.BG}>
                 <div className={classes.divTestimonial}>
-                    <Testimonial showCircle={false} showAbout={true}  content="I'm honestly glad that I didn't look further and decided enroll myself into this program for my training and education. The benefits have been immense. I was amazed by the sheer quality of content being taught. Looking back, I can see that my coding skills have improved drastically." />
+                    <Testimonial showCircle={false} showAbout={true}  content="The Competitive Programming course was surely one great eye opener for someone who has always wanted to get into the big name companies. The program not only helped me conquer my fears over Trees and Graphs, but also helped me develop the right approach to tackle programming problems." />
                 </div>
                 <ul>
                     <li>Software developer</li>
@@ -29,4 +29,4 @@ const JobReadyDSA = (props) => {
     )
 }
 
-export default JobReadyDSA
+export default JobReadyDSAdvanced

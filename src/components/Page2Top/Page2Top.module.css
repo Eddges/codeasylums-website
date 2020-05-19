@@ -18,7 +18,7 @@
   z-index: 50;
   width: 100%;
   height: 100px;
-  margin-bottom: -50px;
+  margin-bottom: 0px;
 }
 
 .Wrapper .bar .barContent {
@@ -70,7 +70,6 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-bottom: -50px;
 }
 
 .Page2Top img {
@@ -159,12 +158,9 @@
 }
 
 .Page2Top .container .text :nth-child(4) {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: end;
+  font-size: 1.3rem;
+  font-family: 'Open Sans';
+  font-weight: 500;
 }
 
 .Page2Top .container .text .alumni {
@@ -313,88 +309,13 @@
 
 @media (max-width: 576px) {
   .Wrapper {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .Wrapper .bar {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    z-index: 50;
-    width: 100%;
-    height: 200px;
-  }
-  .Wrapper .bar .barContent {
-    text-align: center;
-    font-family: 'Open Sans';
-    width: 70%;
-    height: 100%;
-    background-color: white;
-    border-radius: 3px;
-    -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-    padding: 5px;
-  }
-  .Wrapper .bar .barContent .alumniWork {
-    display: block;
-    color: #002366;
-    font-weight: 700;
-    padding: 1%;
-    padding-bottom: 5%;
-    font-size: 0.8rem;
-  }
-  .Wrapper .bar .barContent .barIcons {
-    width: 100%;
-    height: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
-  }
-  .Wrapper .bar .barContent .barIcons div {
-    width: 15%;
-    margin: 0 10%;
-  }
-  .Page2Top {
-    padding: 0% 0% 20% 0%;
     height: auto;
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    position: relative;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    margin-bottom: -50px;
+    margin: 0px;
   }
-  .Page2Top .container {
-    z-index: 10;
-    width: 100%;
-    height: 70%;
-    color: white;
-    font-family: 'Open Sans';
+  .Wrapper .Page2Top {
+    height: auto;
+    margin: 0px;
+    padding: 0px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -402,153 +323,68 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+  }
+  .Wrapper .Page2Top .container {
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+  }
+  .Wrapper .Page2Top .container .text {
+    padding: 0px;
+    margin: 0px;
+  }
+  .Wrapper .Page2Top .container .text p {
+    padding: 20px 10%;
     text-align: center;
   }
-  .Page2Top .container .text {
-    padding-top: 50%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    width: 100%;
-  }
-  .Page2Top .container .text p {
-    width: 100%;
-    text-align: left;
-    padding: 0px 10%;
-    padding-bottom: 2%;
-  }
-  .Page2Top .container .text :nth-child(1) {
-    margin-top: 30px;
-    font-weight: 700;
+  .Wrapper .Page2Top .container .text :nth-child(1) {
     font-size: 0.8rem;
+    margin-top: 100px;
   }
-  .Page2Top .container .text :nth-child(2) {
-    font-size: 1.2rem;
-    font-family: 'Open Sans';
-    letter-spacing: 1px;
-  }
-  .Page2Top .container .text :nth-child(3) {
-    font-size: 1.1rem;
-    font-family: 'Open Sans';
-    font-weight: 300;
-  }
-  .Page2Top .container .text :nth-child(4) {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: end;
-  }
-  .Page2Top .container .text :nth-child(6) {
-    display: none;
-  }
-  .Page2Top .container .text .stars {
-    width: 100%;
-    position: relative;
-    height: 40px;
-    text-align: left;
-    padding-left: 12%;
-    margin: 30px 0px;
-  }
-  .Page2Top .container .text .stars img {
-    max-width: 20%;
-    max-height: 100%;
-    -o-object-fit: contain;
-       object-fit: contain;
-  }
-  .Page2Top .Form {
+  .Wrapper .Page2Top .container .text :nth-child(2) {
+    padding: auto 20px;
     margin-top: 20px;
+    font-size: 1.8rem;
+  }
+  .Wrapper .Page2Top .container .text :nth-child(4) {
+    margin-top: 20px;
+    font-size: 1.1rem;
+    padding: 0px 50px;
+  }
+  .Wrapper .Page2Top .container .text :nth-child(5) {
     width: 100%;
-    height: 30%;
-    z-index: 10;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1rem;
+    padding: 0px;
+    text-align: center;
+    padding-left: auto;
+    margin-bottom: 30px;
   }
-  .Page2Top .Form .Container {
+  .Wrapper .Page2Top .Form {
+    width: 100%;
+    height: 50vh;
+    margin: 0px;
+    padding: 0px;
+  }
+  .Wrapper .Page2Top .Form .Container {
+    margin: 0px;
+    height: 95%;
     width: 80%;
-    height: 70%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    padding: 5%;
-    background-color: whitesmoke;
-    border-radius: 3px;
   }
-  .Page2Top .Form .Container form {
-    padding: 2%;
-    font-family: 'Roboto';
-    height: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+  .Wrapper .Page2Top .Form .Container form span {
+    font-size: 1rem;
   }
-  .Page2Top .Form .Container form span {
-    font-weight: 500;
-    font-size: 1.1rem;
-    padding-bottom: 5px;
-    color: #4b4b4b;
-  }
-  .Page2Top .Form .Container form input {
-    height: 32px;
+  .Wrapper .Page2Top .Form .Container form select {
     background-color: white;
-    margin: 1% 0px;
     border-radius: 3px;
-    border: none;
-    padding: 0px 10px;
-    -webkit-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
-            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    color: #838383;
+    height: 15%;
   }
-  .Page2Top .Form .Container form button {
-    height: 50px;
-    background-color: #ff0027;
-    border: none;
-    border-radius: 5px;
-    color: white;
-    font-size: 1.1rem;
-    margin-top: 10px;
-  }
-  .Page2Top .Form .Container form button:hover {
-    cursor: pointer;
-    -webkit-animation: callback 1s;
-            animation: callback 1s;
+  .Wrapper .Page2Top .Form .Container form button {
+    margin: 10px 0px;
   }
 }
 /*# sourceMappingURL=Page2Top.module.css.map */
