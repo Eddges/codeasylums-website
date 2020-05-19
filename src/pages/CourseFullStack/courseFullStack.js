@@ -32,10 +32,10 @@ const CourseFullStack = (props) => {
             <MenuModal />
             <Navbar />
             <BGClick />
-            <Page2Top course="fullstack" title="Full-Stack Web Development (From Scratch)" top="Online | 6 Weeks | Lively Mentorship | 4 Weeks Job Assistance" line1="Become a Full-Stack developer to skill up & get a job" line2="Rated by students" type="fullstack" illustration={fullStackBG} />
+            <Page2Top course="fullstack" title="Full-Stack Web Development (From Scratch)" top="Online | 6 Weeks | Lively Mentorship | 4 Weeks Job Assistance" line1="Become a Full-Stack developer to skill up & get a job" line2="Professional Conduction with TA support" type="fullstack" illustration={fullStackBG} />
             <CodeAsylumsAdvantageFullStack />
-            <Parallax1 />
-            <MentorsFullStack />
+            {/* <Parallax1 /> */}
+            {/* <MentorsFullStack /> */}
             <JobReadyFullStack />
             <FeedbackSliderFullStack />
             <CurriculumFullStack/>

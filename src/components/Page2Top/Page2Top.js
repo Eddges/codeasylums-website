@@ -84,6 +84,7 @@ class Page2Top extends React.Component {
         else{
             axios.get(`http://localhost:4001/api/saveLead?fname=${this.state.fname}&lname=${this.state.lname}&email=${this.state.email}&phone=${this.state.phone}&course=${this.state.course}&exp=${this.state.exp}`)
             .then((response, reject) => {
+                alert("Thanks, Will get back to you soon.");
                 console.log(response.data)
                 console.log(`First Name : ${this.state.fname}`)
                 console.log(`Last Name : ${this.state.lname}`)
@@ -105,21 +106,22 @@ class Page2Top extends React.Component {
                     <div className={classes.container}>
                         <div className={classes.text}>
                             <p>{this.props.top}</p>
-                            <p>{this.state.title}</p>   
+                            <p>{this.state.title}</p> 
+                            <div className="introSS"></div>  
                             <p>{this.state.line1}</p>
                             
-                            <div className={classes.stars}>
+                            {/* <div className={classes.stars}>
                                 <img src={stars} alt="5 Stars" />
-                            </div>
+                            </div> */}
                             <p>{this.state.line2}</p>
-                            <p className={classes.alumni}>Our alumni work at : </p>
-                            <div className="introSS"></div>
+                            {/* <p className={classes.alumni}>Our alumni work at : </p> */}
+                            
                         </div>
                     </div>
-                    <div className={classes.Form}>
+                    <div className={classes.Form} id="formApply">
                         <div className={classes.Container}>
                             <form>
-                                <span>REQUEST A CALLBACK</span>
+                                <span>Request a Callback</span>
                                 <input type="text" placeholder="Name" onChange={(e) => this.changeName(e)} />
                                 <input type="email" placeholder="e-Mail" onChange={(e) => {this.changeEmail(e)}} />
                                 <input type="text" placeholder="Phone" onChange={(e) => {this.changePhone(e)}} />
@@ -136,7 +138,7 @@ class Page2Top extends React.Component {
                         </div>
                     </div>
                 </div>  
-                <div className={classes.bar}>
+                {/* <div className={classes.bar}>
                     <div className={classes.barContent}>
                         <p className={classes.alumniWork}>Our alumni work at : </p>
                         <div className={classes.barIcons}>
@@ -160,7 +162,7 @@ class Page2Top extends React.Component {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>         
         )
     }

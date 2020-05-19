@@ -19,6 +19,8 @@ import StudentCarouselDSA from '../../components/StudentCarousel/StudentCarousel
 import dsAdvancedBG from '../../assets/fullstackadvanced.jpg'
 import CurriculumDSAdvanced from '../../components/CourseCurriculum/CurriculumDSAdvanced/CurriculumDSAdvanced'
 import MentorsDSAdvanced from '../../components/mentorsPage2/MentorsDSAdvanced/MentorsDSAdvanced'
+import JobReadyDSAdvanced from '../../components/JobReady/JobReadyDSAdvanced/JobReadyDSAdvanced'
+import CodeAsylumsAdvantageDSAdvanced from '../../components/CodeAsylumsAdvantage/CodeAsylumsAdvantageDSAdvanced/CodeAsylumsAdvantageDSAdvanced'
 
 
 const CourseDSAdvanced = (props) => {
@@ -27,11 +29,11 @@ const CourseDSAdvanced = (props) => {
             <MenuModal />
             <Navbar />
             <BGClick />
-            <Page2Top course="dsa-advanced" title="Competitive Programming with Advanced DSA" top="Online | 8 Weeks | Lively Mentorship | 4 Weeks Job Assistance" line1="Crack the coding interviews of Tier-1 Product based companies" line2="Rated by students" type="fullstack" illustration={dsAdvancedBG} />
-            <CodeAsylumsAdvantageDSA />
-            <Parallax1 />
-            <MentorsDSAdvanced />
-            <JobReadyDSA />
+            <Page2Top course="dsa-advanced" title="Competitive Programming with Advanced DSA" top="Online | 8 Weeks | Lively Mentorship | 4 Weeks Job Assistance" line1="Crack the coding interviews of Tier-1 Product based companies" line2="Best Assistance for Cracking Coding Interviews" type="fullstack" illustration={dsAdvancedBG} />
+            <CodeAsylumsAdvantageDSAdvanced />
+            {/* <Parallax1 /> */}
+            {/* <MentorsDSAdvanced /> */}
+            <JobReadyDSAdvanced />
             <FeedbackSliderDSA />
             <CurriculumDSAdvanced />
             <StudentCarouselDSA />

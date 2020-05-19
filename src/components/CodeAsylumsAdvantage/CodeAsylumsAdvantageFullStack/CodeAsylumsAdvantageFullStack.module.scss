@@ -8,6 +8,16 @@
     background-color: rgb(14, 2, 80);
     color : rgb(51, 51, 51);
     position: relative;
+    // margin-top: 200px;
+    // margin-top: 10px;
+    .Line{
+        position : absolute;
+        top : 0%;
+        width : 100%;
+        height : 2%;
+        background-color: #dd272d;
+        z-index : 20;
+    }
     .Heading {
 
         color : white;

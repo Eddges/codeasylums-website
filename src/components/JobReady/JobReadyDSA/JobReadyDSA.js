@@ -9,7 +9,7 @@ const JobReadyDSA = (props) => {
             <p className={classes.Opportunities}>Accelerate your coding skills with CodeAsylums to Crack Coding Interviews</p>
             <div className={classes.BG}>
                 <div className={classes.divTestimonial}>
-                    <Testimonial showCircle={false} showAbout={true} name="Shivam Shekhar" about="-CEO/CTO Google" content="...and I must say that the CodeAsylums Data Structures and algorithms has truly been a life-changer!" />
+                    <Testimonial showCircle={false} showAbout={true}  content="I'm honestly glad that I didn't look further and decided enroll myself into this program for my training and education. The benefits have been immense. I was amazed by the sheer quality of content being taught. Looking back, I can see that my coding skills have improved drastically." />
                 </div>
                 <ul>
                     <li>Software developer</li>

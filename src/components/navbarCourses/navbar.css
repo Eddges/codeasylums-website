@@ -160,6 +160,11 @@
           justify-content: center;
 }
 
+.btnHire a {
+  text-decoration: none;
+  color: white;
+}
+
 .btnHire:hover {
   cursor: pointer;
 }
@@ -311,6 +316,9 @@
   .NavMobile .NavItems li a {
     color: white;
     text-decoration: none;
+  }
+  .NavMobile .NavItems li .linkApply {
+    color: #d64045;
   }
   .NavMobileVisible {
     -webkit-transform: translateX(30%);

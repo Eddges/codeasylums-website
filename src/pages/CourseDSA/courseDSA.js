@@ -25,10 +25,10 @@ const CourseDSA = (props) => {
             <MenuModal />
             <Navbar />
             <BGClick />
-            <Page2Top course="dsa" title="Data Structures and Algorithms (From scratch)" top="Online | 8 Weeks | Lively Mentorship | 4 Weeks Job Assistance" line1="Implement Data Structures and crack coding interviews" line2="Rated by students" type="fullstack" illustration={dsaBG} />
+            <Page2Top course="dsa" title="Data Structures and Algorithms (From scratch)" top="Online | 8 Weeks | Lively Mentorship | 4 Weeks Job Assistance" line1="Implement Data Structures and crack coding interviews" line2="Best Assistance for Cracking Coding Interviews" type="fullstack" illustration={dsaBG} />
             <CodeAsylumsAdvantageDSA />
-            <Parallax1 />
-            <MentorsDSA />
+            {/* <Parallax1 /> */}
+            {/* <MentorsDSA /> */}
             <JobReadyDSA />
             <FeedbackSliderDSA />
             <CurriculumDSA/>

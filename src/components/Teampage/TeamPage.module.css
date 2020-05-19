@@ -755,3 +755,21 @@
       font-weight: 300;
     }
   }
+
+  @media(max-height : 700px) {
+    .wrapper .card{
+      height : 60vh;
+    }
+    .wrapper .card1{
+      height : 60vh;
+    }
+    .wrapper .card2{
+      height : 60vh;
+    }
+    .wrapper .card3{
+      height : 60vh;
+    }
+    .wrapper .card4{
+      height : 60vh;
+    }
+  }

@@ -310,10 +310,14 @@
     font-weight: bold;
     font-size: 1rem;
     letter-spacing: 2px;
+    width: 100%;
   }
   .NavMobile .NavItems li a {
     color: white;
     text-decoration: none;
+  }
+  .NavMobile .NavItems li .linkApply {
+    color: #d64045;
   }
   .NavMobileVisible {
     -webkit-transform: translateX(30%);

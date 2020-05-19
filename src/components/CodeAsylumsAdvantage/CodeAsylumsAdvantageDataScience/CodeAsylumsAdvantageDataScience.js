@@ -21,7 +21,7 @@ const CodeAsylumsAdvantageDataScience = (props) => {
                     <li>Placement Assistance and Referrals for Job Opportunities</li>
                 </ul>
                 <div className={classes.divTestimonial}>
-                    <Testimonial showCircle={false} showAbout={true} name="Shivam Shekhar" about="-CEO/CTO Google" content="I feel the curriculum is very extensive and covers everything from the basics in backend and frontend technologies. The program will be very helpful for anyone who’s looking to start their career as a full-stack developer." />
+                    <Testimonial showCircle={false} showAbout={true} name="Rahul Kumar" about="Data Scientist, Future First" content="There is nothing more promising in the world of technology right now than Data Science and Machine Learning. To put it simply, the future is data. It's really unfortunate that most courses and professors do not do justice to the beauty of this field. The Data Science Track from CodeAsylums is an excellent opportunity to truly dive deeply into the world of data and numbers." />
                 </div>
             </div>
         </div>
