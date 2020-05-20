@@ -8,7 +8,7 @@ const FeedbackSliderCard = (props) => {
             <span className = "img">
             {/* <img src="https://img.icons8.com/bubbles/200/000000/user-female.png"/> */}
             {/* <img src = "https://randomuser.me/api/portraits/men/1.jpg"/> */}
-            <img src="https://img.icons8.com/bubbles/150/000000/man-in-red-shirt.png"/>
+            <img src={props.image}/>
             </span>
             </div>
             <div className = "rightfeedbackCard">

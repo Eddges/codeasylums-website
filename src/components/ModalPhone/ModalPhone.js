@@ -110,23 +110,22 @@ function ModalPhone(){
               <input type="text" placeholder="Phone" onChange={(e)=> phoneChange(e)} />
               <label>Course</label>
               <select onChange={(e)=> courseChange(e)}>
-
-                                    <option>Select Course</option>
-                                    <option>Fullstack Web Development</option>
-                                    <option>Fullstack Web Development (Advanced)</option>
-                                    <option>Data Science Track</option>
-                                    <option>Data Structures and Algorithms</option>
-                                    <option>Competitive Programming & Advanced DSA</option>
-                                </select>
-                                <label>Work Experience</label>
+                  <option>Select Course</option>
+                  <option>Fullstack Web Development</option>
+                  <option>Fullstack Web Development (Advanced)</option>
+                  <option>Data Science Track</option>
+                  <option>Data Structures and Algorithms</option>
+                  <option>Competitive Programming & Advanced DSA</option>
+              </select>
+              <label>Work Experience</label>
               <select onChange={(e)=>expChange(e)}>
-                                    <option>Work Experience</option>
-                                    <option>Student</option>
-                                    <option>0-1 Years</option>
-                                    <option>1-3 Years</option>
-                                    <option>3-5 Years</option>
-                                    <option>More than 5 Years</option>
-                                </select>
+                  <option>Work Experience</option>
+                  <option>Student</option>
+                  <option>0-1 Years</option>
+                  <option>1-3 Years</option>
+                  <option>3-5 Years</option>
+                  <option>More than 5 Years</option>
+              </select>
               <button type="button" className = "btn" onClick={handleClick} >Request Callback</button>
             </form>
             <button className = "btnClose" onClick={() => setModalIsOpen(false)}>
