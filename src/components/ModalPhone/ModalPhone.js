@@ -86,6 +86,7 @@ function ModalPhone(){
   else{
       axios.get(`http://localhost:4001/api/saveLead?fname=${fname}&lname=${lname}&email=${email}&phone=${phone}&course=${course}&exp=${exp}`)
       .then((response, reject) => {
+        alert("Thanks, Will get back to you soon.");
       })
   }
   }

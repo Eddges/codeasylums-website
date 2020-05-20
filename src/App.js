@@ -7,7 +7,7 @@ import DeciderPage from './pages/DeciderPage/DeciderPage'
 import CourseDSA from './pages/CourseDSA/courseDSA'
 import CourseFullStack from './pages/CourseFullStack/courseFullStack'
 import CourseSystems from './pages/CourseSystems/courseSystems'
-import CourseFullStackAdvanced from './pages/CourseFullStackAdvanced/courseFullStackAdvanced'
+// import CourseFullStackAdvanced from './pages/CourseFullStackAdvanced/courseFullStackAdvanced'
 import CourseDSAdvanced from './pages/CourseDSAdvanced/courseDSAdvanced'
 import CourseDataScience from './pages/CourseDataScience/courseDataScience'
 

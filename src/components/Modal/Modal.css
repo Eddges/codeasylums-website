@@ -41,29 +41,31 @@ cursor : pointer;
   
 }
 
-.wrapper_modal .left{
+.wrapper_modal .desktop-left{
   display: flex;
-  height: 65vh;
+  height: 75vh;
   flex-basis: 50%;
   justify-content: center;
   align-items: center;
   background-color: rgb(66, 125, 235);
 }
 
-.wrapper_modal .left img{
+.wrapper_modal .desktop-left img{
   height: 400px;
   width: 400px;
 }
 
-.wrapper_modal .right{
+.wrapper_modal .desktop-right{
   display: flex;
   flex-direction: column;
   flex-basis: 50%;
   justify-content: center;
   /* align-items: center; */
+  height : 75vh;
+  background-color: white;
 }
 
-.wrapper_modal .right p{
+.wrapper_modal .desktop-right p{
   font-family: 'Raleway';
   font-size: 1em;
   font-weight: 600;
@@ -73,26 +75,27 @@ cursor : pointer;
   text-align: center;
 }
 
-.wrapper_modal .right .btnClose{
+.wrapper_modal .desktop-right .btnClose{
   position: absolute;
   top: 2px;
   right: 2px;
   background-color: white;
   border: none;
 }
-.wrapper_modal .right .btnClose:hover{
+.wrapper_modal .desktop-right .btnClose:hover{
   cursor: pointer;
 }
 
-.wrapper_modal .right form{
+.wrapper_modal .desktop-right form{
   display: flex;
   flex-direction: column;
   margin-left: 3em;
   margin-bottom: 1em;
   padding-bottom: 0.5em;
+  height : 75vh;
 }
 
-.wrapper_modal .right form label{
+.wrapper_modal .desktop-right form label{
   font-family: 'Roboto';
   font-size: 0.9em;
   font-weight: 500;
@@ -100,7 +103,7 @@ cursor : pointer;
   color : rgb(44, 44, 44);
 }
 
-.wrapper_modal .right form input{
+.wrapper_modal .desktop-right form input{
   height: 2.5em;
   width: 70%;
   margin-bottom: 1em;
@@ -109,7 +112,7 @@ cursor : pointer;
   border-radius: 2px;
 }
 
-.wrapper_modal .right form select{
+.wrapper_modal .desktop-right form select{
   height: 3.5em;
  
   margin-bottom: 1em;
@@ -123,7 +126,7 @@ cursor : pointer;
   font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif;
 }
 
-.wrapper_modal .right form .btn{
+.wrapper_modal .desktop-right form .btn{
   width: 40%;
   height: 2.5em;
   border: 1px solid #eee;
@@ -136,11 +139,11 @@ cursor : pointer;
   border-radius: 5px;
   margin-top: 5px;
 }
-.wrapper_modal .right form .btn:hover{
+.wrapper_modal .desktop-right form .btn:hover{
   cursor : pointer;
 }
 
-.wrapper_modal .right form input[type="text"], .wrapper_modal .right form input[type="email"], .wrapper_modal .right form input[type="select"], .wrapper_modal .right form input[type="url"], #contact textarea {
+.wrapper_modal .desktop-right form input[type="text"], .wrapper_modal .right form input[type="email"], .wrapper_modal .right form input[type="select"], .wrapper_modal .right form input[type="url"], #contact textarea {
   width:80%;
   border:1px solid #CCC;
   background:#FFF;
@@ -148,10 +151,10 @@ cursor : pointer;
   padding:10px;
 }
 
-.wrapper_modal .right form input[type="text"], .wrapper_modal .right form input[type="email"], .wrapper_modal .right form input[type="select"], .wrapper_modal .right form input[type="url"], #contact textarea { 
+.wrapper_modal .desktop-right form input[type="text"], .wrapper_modal .right form input[type="email"], .wrapper_modal .right form input[type="select"], .wrapper_modal .right form input[type="url"], #contact textarea { 
 font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
 
-.wrapper_modal .right form input[type="text"]:hover, .wrapper_modal .right form input[type="email"]:hover, .wrapper_modal .right form input[type="select"]:hover, .wrapper_modal .right form input[type="url"], #contact textarea {
+.wrapper_modal .desktop-right form input[type="text"]:hover, .wrapper_modal .right form input[type="email"]:hover, .wrapper_modal .right form input[type="select"]:hover, .wrapper_modal .right form input[type="url"], #contact textarea {
   -webkit-transition:border-color 0.3s ease-in-out;
   -moz-transition:border-color 0.3s ease-in-out;
   transition:border-color 0.3s ease-in-out;
@@ -178,7 +181,7 @@ font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
     
   }
 
-  .wrapper_modal .left{
+  .wrapper_modal .desktop-left{
     /* display: flex; */
     height: 0;
     /* flex-basis: 50%; */
@@ -187,21 +190,21 @@ font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
     display: none;
     /* background-color: rgb(66, 125, 235); */
   }
-  .wrapper_modal .left img{
+  .wrapper_modal .destktop-left img{
     height: 0;
     width: 0;
   }
 
-  .wrapper_modal .right p{
-    font-family: monospace;
-    font-size: 2.3em;
+  .wrapper_modal .desktop-right p{
+    font-family: 'Roboto';
+    font-size: 2em;
     font-weight: 800;
     margin-left: 1em;
     padding-top: 0.5em;
     padding-bottom: 1em;
   }
 
-  .wrapper_modal .right{
+  .wrapper_modal .desktop-right{
     display: flex;
     flex-direction: column;
     flex-basis: 50%;
@@ -210,7 +213,7 @@ font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
     /* align-items: center; */
   }
 
-  .wrapper_modal .right form .btn{
+  .wrapper_modal .desktop-right form .btn{
     width: 40%;
     height: 2.5em;
     border: 1px solid #eee;
@@ -251,7 +254,7 @@ font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
     
   }
 
-  .wrapper_modal .left{
+  .wrapper_modal .desktop-left{
     /* display: flex; */
     height: 0;
     /* flex-basis: 50%; */
@@ -260,13 +263,13 @@ font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
     display: none;
     /* background-color: rgb(66, 125, 235); */
   }
-  .wrapper_modal .left img{
+  .wrapper_modal .desktop-left img{
     height: 0;
     width: 0;
   }
 
-  .wrapper_modal .right p{
-    font-family: monospace;
+  .wrapper_modal .desktop-right p{
+    font-family: 'Roboto';
     font-size: 1.75em;
     font-weight: 800;
     margin-left: 0em;
@@ -274,7 +277,7 @@ font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
     padding: 1em;
   }
 
-  .wrapper_modal .right form{
+  .wrapper_modal .desktop-right form{
     display: flex;
     flex-direction: column;
     margin-top: 1em;
@@ -283,7 +286,7 @@ font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
     padding-bottom: 1em;
   }
 
-  .wrapper_modal .right form input{
+  .wrapper_modal .desktop-right form input{
     height: 2.5em;
     width: 80%;
     margin-bottom: 1em;
@@ -291,7 +294,7 @@ font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
     border: 1px solid #eeeeee;
     border-radius: 2px;
   }
-  .wrapper_modal .right form select{
+  .wrapper_modal .desktop-right form select{
     height: 3.5em;
     width: 80%;
     margin-bottom: 1em;
@@ -300,7 +303,7 @@ font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
     border-radius: 2px;
   }
 
-  .wrapper_modal .right form .btn{
+  .wrapper_modal .desktop-right form .btn{
     width: 40%;
     height: 2em;
     border: 1px solid #eee;

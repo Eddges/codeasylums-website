@@ -23,6 +23,7 @@ import BGClick from '../../components/BGClick/BGClick'
 import Mission from '../../components/Mission/Mission'
 import SupportBanner from '../../components/SupportBanner/SupportBanner'
 import Lead from '../../components/Lead/Lead'
+import Modalpop from '../../components/Modal/Modal'
 
 class LandPage extends React.Component {
     render() {
@@ -39,7 +40,7 @@ class LandPage extends React.Component {
                     <Companies />
                     <SupportBanner />
                     {/* <Expectations /> */}
-                    
+                    {/* <Modalpop /> */}
                     {/* <Placements /> */}
                     {/* <Team /> */}
                     {/* <CoreTeam /> */}
