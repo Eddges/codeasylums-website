@@ -210,6 +210,10 @@
   border-radius: 5px;
 }
 
+a:hover{
+  cursor: pointer !important;
+}
+
 @media (max-width: 576px) {
   .Navbar {
     width: 100%;
@@ -343,6 +347,7 @@
 }
 
 @media (min-width: 1800px) {
+
   .Navbar ul li {
     font-size: 1.2rem;
   }
