@@ -12,7 +12,7 @@
   font-weight: 500;
   padding-top: 5%;
   color: white;
-  padding-left: 15%;
+  padding-left: 10%;
 }
 
 .Job .Opportunities {
@@ -20,7 +20,7 @@
   color: white;
   font-size: 1.2rem;
   font-weight: 300;
-  padding-left: 15%;
+  padding-left: 10%;
 }
 
 .Job .BG {
@@ -29,7 +29,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 0px 10%;
+  padding-left:7%;
 }
 
 .Job .BG ul {

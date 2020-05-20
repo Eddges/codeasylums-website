@@ -91,7 +91,7 @@ class Contact_form extends React.Component {
                 <div className = {styles.contact_container}>
                     <div className = {styles.left_container}>
                         <p className={styles.heading}>Have a query?</p>
-                        <p className={styles.text}>“The environment provided by Codeasylums is excellent. Great for college students who are looking to learn new things and utilise their vacations productively. The mentors provide 24*7 guidance. Hackathons are a fun way of implementing.”</p>
+                        <p className={styles.text}>“The environment provided by Codeasylums is excellent. The mentors provide 24*7 guidance. Hackathons are a fun way of implementing.”</p>
                         <p className={styles.label}>Mohak Jain</p>
                         <p className={styles.textCredential}>Placed at Salesforce</p> 
                     </div>

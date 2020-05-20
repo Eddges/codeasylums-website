@@ -14,7 +14,7 @@ const Accordion = (props) => {
                         <span>-</span>
                     </a>
                     <div className="accanswer">
-                        <p>You will get around 10-12 hours of live mentored classes. Apart from the classes, you will also be given plenty of assignments and challenges.
+                        <p>Around 10-12 Hrs of Mentorship per week plus assignments and challenges.
                         </p>
                     </div>
                 </div>
@@ -25,7 +25,7 @@ const Accordion = (props) => {
                         <span>-</span>
                     </a>
                     <div className="accanswer">
-                        <p>Yes, you will. In the current day and age, employers have an eye for actual talent and skill and a certificate of completion of one of our professional courses does indeed affirm your skills.
+                        <p>In the professional industry, people are looking for skills for now, but still you will be getting a completion certificate with the speciations of your performance and analysis by CodeAsylums.
                         </p>
                     </div>
                 </div>
@@ -36,7 +36,7 @@ const Accordion = (props) => {
                         <span>-</span>
                     </a>
                     <div className="accanswer">
-                        <p> We believe in 100% refund policy in case of disconnectivity. But due to payment processing and extra services of onboarding, we will deduct 5% for the same.
+                        <p> We believe in 100% refund policy in case of disconnectivity, but due to payment processing and extra services of onboarding we will deduct 5% for the same. We believe in long connectivity and will be always there for you.
                         </p>
                     </div>
                 </div>
@@ -47,7 +47,7 @@ const Accordion = (props) => {
                         <span>-</span>
                     </a>
                     <div className="accanswer">
-                        <p>You certainly can. Although owing to the rigorous curriculum of the courses, we would advise you to stick to one course at a time, finish it and apply for the next one afterwards.
+                        <p>We will be here always, start with one and can move to another after at least starting one.
                         </p>
                     </div>
                 </div>
@@ -58,7 +58,7 @@ const Accordion = (props) => {
                         <span>-</span>
                     </a>
                     <div className="accanswer">
-                        <p> We have great counselling support for the conduction related doubts as well as a TA support for 24x7 teaching assistance.
+                        <p> We have a great counselling support for your conduction related doubts and TA support for 24x7 teaching assistance.
                         </p>
                     </div>
                 </div>
@@ -69,7 +69,7 @@ const Accordion = (props) => {
                         <span>-</span>
                     </a>
                     <div className="accanswer">
-                        <p>We don’t believe in grades. We look for implementation, applications and creativity which we try to inculcate among our students through coding challenges and Hackathons.
+                        <p> We don’t believe in grades, we look for implementation and applications which we motivates through coding challenges and Hackathons.
                         </p>
                     </div>
                 </div>
