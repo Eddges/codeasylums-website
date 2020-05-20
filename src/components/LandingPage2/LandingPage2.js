@@ -11,7 +11,8 @@ const LandingPage2 = () => (
         <div className={classes.content}>
             <div className={classes.left}>
                 <p>Welcome to</p>
-                <p>CodeAsylums</p>
+                <p>CodeAsylums | Ace</p>
+                <p>Live Mentoring | Online | Career Focused</p>
                 <p>The best coding bootcamp in India</p>
                 <p>Data Structures | Competitive Programming | Full-Stack Development</p>
                 <p>System Design | Data Science | Algorithms</p>

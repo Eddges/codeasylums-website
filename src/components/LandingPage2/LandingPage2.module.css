@@ -71,6 +71,11 @@
 }
 
 .Header .content .left :nth-child(5) {
+  margin-top: 15px;
+  color: white;
+  font-size: 1rem;
+}
+.Header .content .left :nth-child(6) {
   color: white;
   font-size: 1rem;
 }
