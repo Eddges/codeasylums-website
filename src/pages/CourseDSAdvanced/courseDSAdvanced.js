@@ -36,7 +36,7 @@ const CourseDSAdvanced = (props) => {
             <JobReadyDSAdvanced />
             <FeedbackSliderDSA />
             <CurriculumDSAdvanced />
-            <StudentCarouselDSA />
+            {/*  <StudentCarouselDSA />*/}
             
             <BatchdetailsDSA/>
             {/* <CourseTestimonials /> */}

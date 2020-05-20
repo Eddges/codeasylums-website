@@ -39,7 +39,7 @@ const CourseDataScience = (props) => {
             <JobReadyDataScience />
             <FeedbackSliderDataScience />
             <CurriculumDataScience/>
-            <StudentCarouselDataScience />
+            {/*<StudentCarouselDataScience />*/}
             
             <BatchdetailsDataScience />
             {/* <CourseTestimonials /> */}

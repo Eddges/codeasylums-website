@@ -38,7 +38,7 @@ const CourseFullStackAdvanced = (props) => {
             <MentorsFullStack />
             <CurriculumFullStack/>
             <JobReadyFullStack />
-            <FeedbackSliderFullStack />
+             <FeedbackSliderFullStack />
             <BatchdetailsFullStack/>
             {/* <CourseTestimonials /> */}
             <StudentCarouselFullStack />

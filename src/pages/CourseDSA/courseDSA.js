@@ -33,7 +33,7 @@ const CourseDSA = (props) => {
             <FeedbackSliderDSA />
             <CurriculumDSA/>
             
-            <StudentCarouselDSA />
+            {/*  <StudentCarouselDSA />*/}
             <BatchdetailsDSA/>
             {/* <CourseTestimonials /> */}
             

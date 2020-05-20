@@ -32,7 +32,7 @@ const CourseSystems = (props) => {
             <FeedbackSliderSystems />
             <CurriculumSystems/>
             
-            <StudentCarouselSystems />
+             {/*<StudentCarouselSystems />*/}
             <BatchdetailsSystems/>
             {/* <CourseTestimonials /> */}
             
