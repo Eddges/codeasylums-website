@@ -86,6 +86,7 @@
     display : flex;
     align-items : center;
     justify-content: center;
+    
 }
 .btnHire:hover{
     background-color: white;
