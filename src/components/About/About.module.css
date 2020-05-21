@@ -1,0 +1,181 @@
+.MarginTop {
+  height: 12vh;
+  width: 100%;
+}
+
+.bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -10;
+}
+
+.bg .gradient {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.bg video {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 120%;
+  height: 130%;
+}
+
+.About {
+  background-color: #f2f7fe;
+  height: 40vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Open Sans';
+  text-align: center;
+  color: #2f2f2f;
+}
+
+.About .Title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #0e0250;
+}
+
+.About .Content h1 {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.About .Content p {
+  font-size: 0.9rem;
+  padding: 1% 20%;
+}
+
+.About .Values h1 {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.About .Values p {
+  font-size: 0.9rem;
+  padding: 1% 10%;
+}
+
+.About .Culture h1 {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.About .Culture p {
+  font-size: 0.9rem;
+  padding: 1% 10%;
+}
+
+.Video {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 58vh;
+  background-color: #0e0250;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.Video .left {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: left;
+  color: white;
+  font-weight: 'Roboto';
+  padding: 10%;
+  font-size: 2rem;
+}
+
+.Video .right {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5%;
+  position: relative;
+}
+
+.Video .right iframe {
+  position: absolute;
+}
+
+@media (max-width: 798px) {
+  .MarginTop {
+    height: 10vh;
+  }
+  .About .Content p {
+    padding: 10px 50px;
+    text-align: left;
+  }
+  .Video {
+    height: 90vh;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .Video .left {
+    width: 100%;
+    height: 40vh;
+  }
+  .Video .right {
+    width: 100%;
+    height: 40vh;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .Video .right iframe {
+    width: 90%;
+  }
+}
+
+@media (max-width: 798px) and (max-height: 700px) {
+  .About {
+    height: 55vh;
+  }
+}
+/*# sourceMappingURL=About.module.css.map */

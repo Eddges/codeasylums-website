@@ -10,6 +10,8 @@ import CourseSystems from './pages/CourseSystems/courseSystems'
 // import CourseFullStackAdvanced from './pages/CourseFullStackAdvanced/courseFullStackAdvanced'
 import CourseDSAdvanced from './pages/CourseDSAdvanced/courseDSAdvanced'
 import CourseDataScience from './pages/CourseDataScience/courseDataScience'
+import'./App.css'
+import About from './components/About/About'
 
 
 class App extends React.Component {
@@ -25,6 +27,7 @@ class App extends React.Component {
                 {/* <Route path="/fullstackadvanced" exact component={CourseFullStackAdvanced} /> */}
                 <Route path="/dsadvanced" exact component={CourseDSAdvanced} />
                 <Route path="/datascience" exact component={CourseDataScience} />
+                <Route path="/about" exact component={About} />
             </Switch>
                 
 

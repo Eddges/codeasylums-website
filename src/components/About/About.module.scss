@@ -1,0 +1,148 @@
+.MarginTop{
+    height : 12vh;
+    width: 100%;
+}
+.bg{
+    position: absolute;
+    width : 100%;
+    height : 100%;
+    overflow: hidden;
+    z-index : -10;
+    .gradient{
+        position : absolute;
+        width: 100%;
+        height : 100%;
+        background-color: rgba(0,0,0,0.9);
+        // background-color: #002366ee;
+    }
+    video{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        object-fit: cover;
+        width : 120%;
+        height : 130%;
+    }
+}
+.About{
+    background-color: #f2f7fe;
+    // color : white;
+    height : 40vh;
+    width: 100%;
+    display : flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Open Sans';
+    text-align: center;
+    color : rgb(47, 47, 47);
+    .Title{
+        font-size: 2rem;
+        font-weight: 600;
+        color : #0e0250;
+        
+    }
+    .Content{
+        h1{
+            font-size: 1.2rem;
+            font-weight: 700;
+            // color : #0e0250;
+        }
+        p{
+            font-size: 0.9rem;
+            padding : 1% 20%;
+        }
+    }
+    .Values{
+        h1{
+            font-size: 1.2rem;
+            font-weight: 500;
+        }
+        p{
+            font-size: 0.9rem;
+            padding : 1% 10%;
+        }
+    }
+    .Culture{
+        h1{
+            font-size: 1.2rem;
+            font-weight: 500;
+        }
+        p{
+            font-size: 0.9rem;
+            padding : 1% 10%;
+        }
+    }
+}
+
+.Video{
+    display : flex;
+    height : 58vh;
+    // background-color: rgb(12, 12, 12);
+    background-color: #0e0250;
+    flex-wrap: wrap;
+    .left{
+        width : 50%;
+        display : flex;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+        color : white;
+        font-weight: 'Roboto';
+        padding : 10%;
+        font-size: 2rem;
+    }
+    .right{
+        width : 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding : 5%;
+        position : relative;
+        iframe{
+            position : absolute;
+            // height : 100%;
+        }
+    }
+}
+
+@media(max-width : 798px) {
+    .MarginTop{
+        height : 10vh;
+    }
+    .About{
+        .Content{
+            p{
+                padding : 10px 50px;
+                text-align: left;
+            }
+        }
+    }
+    .Video{
+        height : 90vh;
+        flex-direction: column-reverse;
+        .left{
+            width : 100%;
+            height : 40vh;
+        }
+        .right{
+            width : 100%;
+            height : 40vh;
+            justify-content: center;
+            align-items: center;
+            // background-color: coral;
+            //     width : 80%;
+            //     height : 100%;
+            // }
+            iframe{
+                width : 90%;
+            }
+        }
+    }
+}
+
+@media(max-width : 798px) and (max-height : 700px){
+    .About{
+        height : 55vh;
+    }
+}

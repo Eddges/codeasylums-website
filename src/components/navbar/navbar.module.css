@@ -1,128 +1,381 @@
 .Navbar {
-    position : fixed;
-    display : flex;
-    width : 100%;
-    height : 12vh;
-    background-color: white;
-    box-shadow: 0px 1px 8px rgba(0,0,0,0.3);
-    align-items: center;
+    position: fixed;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 12vh;
+    background-color: transparent;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     font-family: 'Roboto', sans-serif;
-    z-index : 100;
-}
-
-.Navbar .imageDiv {
-    height : 60%;
-    flex : 1;
+    z-index: 100;
+    -webkit-transition: background-color 0.2s ease-in-out;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .NavMobile {
+    display: none;
+  }
+  
+  .Navbar .imageDiv {
+    height: 90%;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
     text-align: center;
-}
-
-.Navbar .imageDiv img {
-    height : 100%;
-}
-.Navbar .imageDiv img:hover {
-    cursor : pointer;
-    height : 105%;
-}
-
-.Navbar ul {
-    flex : 4;
-    display : flex;
-    justify-content: space-evenly;
+    /* background-color: white; */
+    border-radius: 0px 5px 5px 0px;
+  }
+  
+  .Navbar .imageDiv img {
+    height: 100%;
+    /* background-color: white; */
+    padding: 5px;
+    border-radius: 4px;
+  }
+  
+  .Navbar .imageDiv1 {
+    height: 90%;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    text-align: center;
+    /* background-color: white; */
+    border-radius: 0px 5px 5px 0px;
+    display: none;
+  }
+  
+  .Navbar .imageDiv1 img {
+    height: 100%;
+    /* background-color: white; */
+    padding: 5px;
+    border-radius: 4px;
+  }
+  
+  .Navbar .imageDiv img:hover {
+    cursor: pointer;
+    height: 105%;
+  }
+  
+  .Navbar ul {
+    -webkit-box-flex: 4;
+        -ms-flex: 4;
+            flex: 4;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
     font-weight: bold;
     font-size: 0.8rem;
-    color : #B7ACAC;
-}
-
-.Navbar ul li{
+    /* color : #B7ACAC; */
+    color: white;
+  }
+  
+  .Navbar ul li {
     display: inline;
     text-decoration: none;
     list-style: none;
-    padding : 5px;
-    text-align : center
-}
-.Navbar ul li:hover{
-    cursor : pointer;
-    color : black;
-}
-
-.Navbar .btnDiv {
-    flex : 3;
-    display: flex;
-    justify-content: right;
-    height : 100%;
-    align-items: center;
-}
-
-.btnApply {
-    font-family: 'Roboto';
-    font-weight: bold;
-    font-size: 1.1rem;
-    background-color: transparent;
-    border: 2px solid black;
-    border-radius : 5px;
-    color : black;
     padding: 5px;
-    width : 20%;
-    
-}
-.btnApply:hover {
-    background-color: black;
-    color : white;
-    cursor : pointer;
-}
-
-.btnHire {
+    text-align: center;
+  }
+  
+  .Navbar ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .Navbar ul li:hover {
+    cursor: pointer;
+    /* color : black; */
+    color: #d64045;
+  }
+  
+  .Navbar .btnDiv {
+    -webkit-box-flex: 3;
+        -ms-flex: 3;
+            flex: 3;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    height: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .btnMentor {
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 1rem;
-    background-color: black;
+    background-color: #d64045;
+    /* border: 2px solid black; */
+    border: 2px solid #d64045;
+    border-radius: 5px;
+    /* color : black; */
+    color: white;
+    padding: 5px;
+    width: 30%;
+  }
+  
+  .btnMentor a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .btnMentor:hover {
+    background-color: #d64045;
+    border: solid 2px #d64045;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .btnHire {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 1rem;
+    /* background-color: black; */
+    background-color: #d64045;
     border-radius: 5px;
     border: none;
-    color : white;
+    color: white;
     padding: 8px;
-    width : 30%;
-    margin : 0 4%;
-    height : 40;
-    display : flex;
-    align-items : center;
-    justify-content: center;
-}
-.btnHire:hover{
-    background-color: white;
-    color : black;
-    cursor : pointer;
-    border : 2px solid black;
-}
-
-@media (max-width : 576px) {
-    .Navbar{
-        width : 100%;
-        height : 80px;
+    width: 30%;
+    margin: 0 4%;
+    height: 40;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  
+  .btnHire:hover {
+    cursor: pointer;
+  }
+  
+  .Navbar .btnDiv .Hamburger {
+    width: 30px;
+    height: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-right: 20px;
+    display: none;
+  }
+  
+  .Navbar .btnDiv .Hamburger .HamburgerTop {
+    width: 90%;
+    height: 15%;
+    background-color: #d64045;
+    border-radius: 5px;
+  }
+  
+  .Navbar .btnDiv .Hamburger .HamburgerMiddle {
+    width: 90%;
+    height: 15%;
+    background-color: #d64045;
+    border-radius: 5px;
+  }
+  
+  .Navbar .btnDiv .Hamburger .HamburgerBottom {
+    width: 90%;
+    height: 15%;
+    background-color: #d64045;
+    border-radius: 5px;
+  }
+  
+  @media (max-width: 576px) {
+    .Navbar {
+      width: 100%;
+      height: 10vh;
     }
     .Navbar .imageDiv {
-        height : 40%;
+      margin-left: 40px;
+      height: 70%;
     }
-    .Navbar ul{
-        display : none;
+    .Navbar .imageDiv1 {
+      margin-left: 40px;
+      height: 70%;
     }
-    .btnApply{
-        font-size: 0.8rem;
-        width : 100px;
+    .Navbar ul {
+      display: none;
+    }
+    .btnMentor {
+      font-size: 0.8rem;
+      width: 100px;
     }
     .btnHire {
-        font-size: 0.8rem;
-        width : 120px;
+      font-size: 0.8rem;
+      width: 120px;
     }
-}
-
-@media (min-width : 1800px) {
+    .NavMobile {
+      -webkit-transform: translateX(150%);
+              transform: translateX(150%);
+      position: fixed;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-pack: start;
+          -ms-flex-pack: start;
+              justify-content: flex-start;
+      -webkit-box-align: start;
+          -ms-flex-align: start;
+              align-items: flex-start;
+      height: 100vh;
+      margin: 0px;
+      z-index: 2000;
+      background-color: #0e0750;
+      width: 100%;
+      font-family: 'Roboto';
+      -webkit-transition: all 0.6s;
+      transition: all 0.6s;
+    }
+    .NavMobile .NavItems {
+      height: 100vh;
+      width: 100%;
+      color: white;
+      list-style: none;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-pack: start;
+          -ms-flex-pack: start;
+              justify-content: flex-start;
+      -webkit-box-align: start;
+          -ms-flex-align: start;
+              align-items: flex-start;
+      margin-top: 10vh;
+    }
+    .NavMobile .NavItems .CloseNavMobile {
+      width: 45px;
+      height: 45px;
+      color: #0e0750;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      margin: 30px 20%;
+      -webkit-transform: translateX(-10%);
+              transform: translateX(-10%);
+    }
+    .NavMobile .NavItems .CloseNavMobile img {
+      width: 100%;
+    }
+    .NavMobile .NavItems .CloseNavMobile:hover {
+      cursor: pointer;
+    }
+    .NavMobile .NavItems li {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      margin-left: 20%;
+      height: 7%;
+      font-weight: bold;
+      font-size: 1rem;
+      letter-spacing: 2px;
+      width: 100%;
+    }
+    .NavMobile .NavItems li a {
+      color: white;
+      text-decoration: none;
+    }
+    .NavMobile .NavItems li .linkApply {
+      color: #d64045;
+    }
+    .NavMobileVisible {
+      -webkit-transform: translateX(30%);
+              transform: translateX(30%);
+      z-index: 500;
+    }
+    .Navbar .btnDiv .btnMentor {
+      display: none;
+    }
+    .Navbar .btnDiv .btnHire {
+      display: none;
+    }
+    .Navbar .btnDiv .Hamburger {
+      margin-right: 30px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+    }
+    .Navbar .btnDiv .Hamburger:hover {
+      cursor: pointer;
+    }
+  }
+  
+  @media (min-width: 1800px) {
     .Navbar ul li {
-        font-size: 1.2rem;
+      font-size: 1.2rem;
     }
-    .btnApply{
-        font-size: 1.6rem;
+    .btnMentor {
+      font-size: 1.6rem;
     }
-    .btnHire{
-        font-size: 1.4rem;
+    .btnHire {
+      font-size: 1.4rem;
     }
-}
+  }
+  
+  .nav-scrolled {
+    background-color: white;
+  }
+  
+  .nav-scrolled {
+    background-color: white;
+    -webkit-box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+            box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+    color: #3a3a3a;
+  }
+  
+  .nav-scrolled ul li a {
+    color: #585858;
+  }
+  
+  /* .navbar_imageDiv__20BrS{
+      display : none;
+  } */
+  .nav-scrolled .imageDiv {
+    display: none;
+  }
+  
+  .nav-scrolled .imageDiv1 {
+    display: block;
+  }
+  /*# sourceMappingURL=navbar.css.map */

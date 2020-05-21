@@ -24,6 +24,7 @@ import Mission from '../../components/Mission/Mission'
 import SupportBanner from '../../components/SupportBanner/SupportBanner'
 import Lead from '../../components/Lead/Lead'
 import Modalpop from '../../components/Modal/Modal'
+import FeedbackSliderFullStack from '../../components/FeedbackSlider/FeedbackSliderFullStack/FeedbackSliderFullStack'
 
 class LandPage extends React.Component {
     render() {
@@ -35,7 +36,7 @@ class LandPage extends React.Component {
                     <BGClick />
                     <LandingPage2 />
                     <Courses />
-                    <FeedbackSlider />
+                    <FeedbackSliderFullStack />
                     {/* <Mission /> */}
                     <Companies />
                     <SupportBanner />
