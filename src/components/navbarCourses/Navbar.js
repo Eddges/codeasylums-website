@@ -23,6 +23,8 @@ class Navbar extends React.Component {
                             <div className="navLine"></div>
                             <li><a href="/#CoursesSection">COURSES</a></li>
                             <div className="navLine"></div>
+                            <li><a href="/about">ABOUT US</a></li>
+                            <div className="navLine"></div>
                             <li><a href="#curriculum">CURRICULUM</a></li>
                             <div className="navLine"></div>
                             <li><a href="#batches">BATCHES</a></li>
@@ -53,6 +55,7 @@ class Navbar extends React.Component {
                     <li><a href="#curriculum">CURRICULUM</a></li>
                     <li><a href="#batches">BATCHES</a></li>
                     <li><a href="#faq">FAQ</a></li>
+                    <li><a href="/about">ABOUT US</a></li>
 
                 </ul>
     
