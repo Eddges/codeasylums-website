@@ -29,7 +29,7 @@ const Footer = () => {
             <p>Email us:</p>
             <p>info@codeasylums.com</p>
             <p>Call us:</p>
-            <p>+918971555493</p>
+            <p>+918884404844</p>
             
         </div>
         <div class={styles.col}>
