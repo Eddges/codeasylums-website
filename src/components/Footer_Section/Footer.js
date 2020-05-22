@@ -20,7 +20,7 @@ const Footer = () => {
         <div class={styles.col}>
             <h1>ABOUT US</h1>
             <p><a href="/about">About CodeAsylums</a></p>
-            <p>Meet the Team</p>
+            <p><a href="/team">Meet the Team</a></p>
             <p>Jobs</p>
             <p><a href="mailto:saurav@codeasylums.com">Become a Mentor</a></p>
         </div>
