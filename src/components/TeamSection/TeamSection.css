@@ -104,6 +104,12 @@
     margin-top: 1.2em;
 }
 
+.parent_team .team_member .social_icon img{
+    width: 30%;
+    margin-left: 35%;
+}
+
+
 @media screen and (max-width: 796px){
     .wrapper_team{
         display: flex;

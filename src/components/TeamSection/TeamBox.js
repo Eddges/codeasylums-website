@@ -11,7 +11,7 @@ const TeamBox = (props) => {
                 {/* <p class="designation">CEO</p> */}
                 <div class="social_icon">
                     <a href={props.link} target = "_blank">
-                        <img src="https://img.icons8.com/plasticine/30/000000/linkedin.png"/>
+                    <img src="https://img.icons8.com/color/144/000000/linkedin.png"/>
     
                     </a>
                 
