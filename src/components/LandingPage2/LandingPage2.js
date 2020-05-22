@@ -12,10 +12,10 @@ const LandingPage2 = () => (
             <div className={classes.left}>
             
                 <p>CodeAsylums | <span>Ace</span></p>
-                <p>Live Mentoring | Online | Career Focused</p>
+                <p>Live Mentoring | Career Focused | Online</p>
                 <p>The best coding bootcamp in India</p>
-                <p>Data Structures | Competitive Programming | Full-Stack Development</p>
-                <p>System Design | Data Science | Algorithms</p>
+                <p>Data Structures | Algorithms | System Design  | Competitive Programming | Data Science | </p>
+                <p> Full-Stack Development </p>
                 <ModalPhone />
                 <a href="#CoursesSection"><button className={classes.ApplyButton} >Explore</button></a>
                 
