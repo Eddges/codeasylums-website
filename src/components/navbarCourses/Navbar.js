@@ -56,6 +56,7 @@ class Navbar extends React.Component {
                     <li><a href="#batches">BATCHES</a></li>
                     <li><a href="#faq">FAQ</a></li>
                     <li><a href="/about">ABOUT US</a></li>
+                    <li><a href="/team">OUT TEAM</a></li>
 
                 </ul>
     

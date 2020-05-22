@@ -12,6 +12,7 @@ import CourseDSAdvanced from './pages/CourseDSAdvanced/courseDSAdvanced'
 import CourseDataScience from './pages/CourseDataScience/courseDataScience'
 import'./App.css'
 import About from './components/About/About'
+import TeamSection from './components/TeamSection/TeamSection'
 
 
 class App extends React.Component {
@@ -28,6 +29,7 @@ class App extends React.Component {
                 <Route path="/dsadvanced" exact component={CourseDSAdvanced} />
                 <Route path="/datascience" exact component={CourseDataScience} />
                 <Route path="/about" exact component={About} />
+                <Route path="/team" exact component={TeamSection} />
             </Switch>
                 
 

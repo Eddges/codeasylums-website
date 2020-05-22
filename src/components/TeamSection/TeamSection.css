@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    height: 15vh;
+    background-color: rgb(240, 244, 248);
+}
+
+.header .redtext{
+    color: red;
+    background-color: red;
+}
+
+.wrapper-heading{
+    display: flex;
+    height: 10vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(240, 244, 248);
+    padding-bottom: 1em;
+}
+
+.wrapper-heading .heading{
+    font-family: monospace;
+    font-size:2.5em;
+    font-weight: 700;
+    color: rgb(59, 59, 58);
+}
+
+.wrapper_team{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(240, 244, 248);
+}
+
+
+
+.parent_team{
+    display: flex;
+    width: 90%;
+    height: auto;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(240, 244, 248);
+    /* margin-left: 10px; */
+}
+
+.parent_team .team_member{
+    display: flex;
+    flex-direction: column;
+    width: 310px;
+    height: 280px;
+    /* justify-content: space-between; */
+    align-items: center;
+    background-color: white;
+    font-family: monospace;
+    border: 1.2px solid #eee;
+    margin-bottom: 1em;
+    /* margin: 1em; */
+
+}
+
+/* .parent_team .team_member:hover{
+    border: 3px solid rgb(248, 123, 123);
+} */
+
+.parent_team .team_member .name{
+    font-size: 1.5em;
+    font-weight: 540;
+    color: #1E2D7D;
+    margin-top: 1em;
+}
+
+.parent_team .team_member .designation{
+    font-size: 1.5em;
+    font-weight: 500;
+    margin-top: 1em;
+}
+
+.parent_team .team_member .avatar{
+    display: flex;
+    width: 130px;
+    height: 130px;
+    justify-content: center;
+    align-items: center;
+    background-color: #F3F5F6;
+    border-radius: 65px;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+.parent_team .team_member .avatar img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.parent_team .team_member .social_icon{
+    margin-top: 1.2em;
+}
+
+@media screen and (max-width: 796px){
+    .wrapper_team{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(240, 244, 248);
+        height: auto;
+    }
+
+    .parent_team{
+        display: flex;
+        width: 90%;
+        height: auto;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        background-color: rgb(240, 244, 248);
+        /* margin-left: 10px; */
+    }
+
+    .parent_team .team_member{
+        display: flex;
+        flex-direction: column;
+        width: 310px;
+        height: 280px;
+        /* justify-content: space-between; */
+        align-items: center;
+        background-color: white;
+        font-family: monospace;
+        border: 1.2px solid #eee;
+        margin-top: 1em;
+        /* margin: 1em; */
+    
+    }
+    
+}
+

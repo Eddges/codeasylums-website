@@ -57,6 +57,7 @@ class Navbar extends React.Component {
                     <li><a href="#protestimonials">TESTIMONIALS</a></li>
                     <li><a href="/about">ABOUT US</a></li>
                     <li><a href="#procallback">CONTACT</a></li>
+                    <li><a href="/team">OUR TEAM</a></li>
 
                     
                 </ul>
