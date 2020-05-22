@@ -25,7 +25,17 @@ import SupportBanner from '../../components/SupportBanner/SupportBanner'
 import Lead from '../../components/Lead/Lead'
 import Modalpop from '../../components/Modal/Modal'
 import FeedbackSliderFullStack from '../../components/FeedbackSlider/FeedbackSliderFullStack/FeedbackSliderFullStack'
-
+import ReactPixel from 'react-facebook-pixel';
+//import ReactPixel from 'react-facebook-pixel';
+const advancedMatching = {};
+const options = {
+    autoConfig: true, // set pixel's autoConfig
+    debug: false, // enable logs
+  };
+  ReactPixel.init('2710640059047495', advancedMatching, options);
+  
+  ReactPixel.pageView(); // For tracking page view
+       
 class LandPage extends React.Component {
     render() {
         return(
@@ -57,6 +67,7 @@ class LandPage extends React.Component {
                     {/* <Footer /> */}
                     {/* <Lead /> */}
                 </Layout>
+                
             </div>
         )
     }

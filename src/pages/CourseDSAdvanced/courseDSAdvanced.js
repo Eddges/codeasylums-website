@@ -21,7 +21,27 @@ import CurriculumDSAdvanced from '../../components/CourseCurriculum/CurriculumDS
 import MentorsDSAdvanced from '../../components/mentorsPage2/MentorsDSAdvanced/MentorsDSAdvanced'
 import JobReadyDSAdvanced from '../../components/JobReady/JobReadyDSAdvanced/JobReadyDSAdvanced'
 import CodeAsylumsAdvantageDSAdvanced from '../../components/CodeAsylumsAdvantage/CodeAsylumsAdvantageDSAdvanced/CodeAsylumsAdvantageDSAdvanced'
+import ReactPixel from 'react-facebook-pixel';
+import TagManager from 'react-gtm-module'
 
+import ReactGA from 'react-ga';
+ReactGA.initialize('AW-641934799');
+ReactGA.pageview(window.location.pathname + window.location.search);
+
+/*const tagManagerArgs = {
+    gtmId: 'AW-641934799'
+}
+
+TagManager.initialize(tagManagerArgs)*/
+//import ReactPixel from 'react-facebook-pixel';
+const advancedMatching = {};
+const options = {
+    autoConfig: true, // set pixel's autoConfig
+    debug: false, // enable logs
+  };
+  ReactPixel.init('2710640059047495', advancedMatching, options);
+  
+  ReactPixel.pageView(); // For tracking page view
 
 const CourseDSAdvanced = (props) => {
     return(

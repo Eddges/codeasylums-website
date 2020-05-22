@@ -25,7 +25,27 @@ import FeedbackSliderFullStack from '../../components/FeedbackSlider/FeedbackSli
 import BatchdetailsFullStack from '../../components/Batchdetails/BatchDetailsFullStack/BatchdetailsFullStack'
 import StudentCarouselFullStack from '../../components/StudentCarousel/StudentCarouselFullStack/StudentCarouseFullStack'
 import fullStackBG from '../../assets/fullStackBG.jpg'
+import ReactPixel from 'react-facebook-pixel';
+import TagManager from 'react-gtm-module'
 
+import ReactGA from 'react-ga';
+ReactGA.initialize('AW-641934799');
+ReactGA.pageview(window.location.pathname + window.location.search);
+
+/*const tagManagerArgs = {
+    gtmId: 'AW-641934799'
+}
+
+TagManager.initialize(tagManagerArgs)*/
+//import ReactPixel from 'react-facebook-pixel';
+const advancedMatching = {};
+const options = {
+    autoConfig: true, // set pixel's autoConfig
+    debug: false, // enable logs
+  };
+  ReactPixel.init('2710640059047495', advancedMatching, options);
+  
+  ReactPixel.pageView(); // For tracking page view
 const CourseFullStack = (props) => {
     return(
         <Layout>
