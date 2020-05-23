@@ -241,7 +241,7 @@
 }
 
 .Page2Top .Form .Container form input {
-  height: 15%;
+  height: 35px;
   background-color: white;
   margin: 0.5% 0px;
   border-radius: 3px;
@@ -389,7 +389,7 @@
     background-color: white;
     border-radius: 3px;
     color: #838383;
-    height: 15%;
+    height: 35px;
   }
   .Wrapper .Page2Top .Form .Container form button {
     margin: 10px 0px;

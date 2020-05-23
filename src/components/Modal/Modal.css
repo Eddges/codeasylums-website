@@ -104,7 +104,7 @@ cursor : pointer;
 }
 
 .wrapper_modal .desktop-right form input{
-  height: 2.5em;
+  height: 30px;
   width: 70%;
   margin-bottom: 1em;
   background-color: aliceblue;
@@ -113,7 +113,7 @@ cursor : pointer;
 }
 
 .wrapper_modal .desktop-right form select{
-  height: 3.5em;
+  height: 40px;
  
   margin-bottom: 1em;
   background-color: aliceblue;
@@ -128,7 +128,7 @@ cursor : pointer;
 
 .wrapper_modal .desktop-right form .btn{
   width: 40%;
-  height: 2.5em;
+  height: 45px;
   border: 1px solid #eee;
   background-color: rgb(37, 56, 221);
   color: white;
@@ -233,7 +233,7 @@ font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
 
 
 
-@media screen and (max-width: 496px){
+@media screen and (max-width: 576px){
   
   .wrapper_modal {
     display: flex;
@@ -287,7 +287,7 @@ font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
   }
 
   .wrapper_modal .desktop-right form input{
-    height: 2.5em;
+    height: 30px;
     width: 80%;
     margin-bottom: 1em;
     /* background-color: aliceblue; */
@@ -295,7 +295,7 @@ font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
     border-radius: 2px;
   }
   .wrapper_modal .desktop-right form select{
-    height: 3.5em;
+    height: 40px;
     width: 80%;
     margin-bottom: 1em;
     /* background-color: aliceblue; */
