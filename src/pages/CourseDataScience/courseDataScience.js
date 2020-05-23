@@ -1,22 +1,22 @@
 import React from 'react'
 import Layout from '../../components/Layout/Layout'
 import Navbar from '../../components/navbarCourses/Navbar'
-import MentorsDSA from '../../components/mentorsPage2/MentorsDSA/MentorsDSA'
+// import MentorsDSA from '../../components/mentorsPage2/MentorsDSA/MentorsDSA'
 import Footer from '../../components/Footer_Section/Footer'
 import MenuModal from '../../components/MenuModal/MenuModal'
 import Accordion from '../../components/accordion/Accordion'
 import Page2Top from '../../components/Page2Top/Page2Top'
-import Parallax1 from '../../components/Parallax1/Parallax1'
+// import Parallax1 from '../../components/Parallax1/Parallax1'
 import Banner from '../../components/Banner/Banner';
 import datascienceBG from '../../assets/data-science.jpg'
 import BGClick from '../../components/BGClick/BGClick'
-import CurriculumDSA from '../../components/CourseCurriculum/CurriculumDSA/CurriculumDSA'
-import FeedbackSliderDSA from '../../components/FeedbackSlider/FeedbackSliderDSA/FeedbackSliderDSA'
-import BatchdetailsDSA from '../../components/Batchdetails/BatchDetailsDSA/BatchdetailsDSA'
-import JobReadyDSA from '../../components/JobReady/JobReadyDSA/JobReadyDSA'
-import CodeAsylumsAdvantageDSA from '../../components/CodeAsylumsAdvantage/CodeAsylumsAdvantageDSA/CodeAsylumsAdvantageDSA'
-import StudentCarouselDSA from '../../components/StudentCarousel/StudentCarouselDSA/StudentCarouselDSA'
-import BubblesDSA from '../../components/Bubbles/BubblesDSA/BubblesDSA'
+// import CurriculumDSA from '../../components/CourseCurriculum/CurriculumDSA/CurriculumDSA'
+// import FeedbackSliderDSA from '../../components/FeedbackSlider/FeedbackSliderDSA/FeedbackSliderDSA'
+// import BatchdetailsDSA from '../../components/Batchdetails/BatchDetailsDSA/BatchdetailsDSA'
+// import JobReadyDSA from '../../components/JobReady/JobReadyDSA/JobReadyDSA'
+// import CodeAsylumsAdvantageDSA from '../../components/CodeAsylumsAdvantage/CodeAsylumsAdvantageDSA/CodeAsylumsAdvantageDSA'
+// import StudentCarouselDSA from '../../components/StudentCarousel/StudentCarouselDSA/StudentCarouselDSA'
+// import BubblesDSA from '../../components/Bubbles/BubblesDSA/BubblesDSA'
 import CodeAsylumsAdvantageDataScience from '../../components/CodeAsylumsAdvantage/CodeAsylumsAdvantageDataScience/CodeAsylumsAdvantageDataScience'
 import MentorsDataScience from '../../components/mentorsPage2/MentorsDataScience/MentorsDataScience'
 import CurriculumDataScience from '../../components/CourseCurriculum/CurriculumDataScience/CurriculumDataScience'
@@ -28,6 +28,7 @@ import ReactPixel from 'react-facebook-pixel';
 import TagManager from 'react-gtm-module'
 
 import ReactGA from 'react-ga';
+import StudentCarousel from '../../components/StudentCarousel/StudentCarousel'
 ReactGA.initialize('AW-641934799');
 ReactGA.pageview(window.location.pathname + window.location.search);
 
@@ -59,7 +60,8 @@ const CourseDataScience = (props) => {
             <JobReadyDataScience />
             <FeedbackSliderDataScience />
             <CurriculumDataScience/>
-            {/*<StudentCarouselDataScience />*/}
+            {/* <StudentCarouselDataScience /> */}
+            {/* <StudentCarousel /> */}
             
             <BatchdetailsDataScience />
             {/* <CourseTestimonials /> */}

@@ -115,7 +115,7 @@
           align-items: center;
   text-align: left;
   color: white;
-  font-weight: 'Roboto';
+  font-family: 'Roboto';
   padding: 10%;
   font-size: 2rem;
 }
