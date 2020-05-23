@@ -284,7 +284,7 @@ font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
   }
 
   .wrapper_modal .right form input{
-    height: 2.5em;
+    height: 35px;
     width: 80%;
     margin-bottom: 1em;
     /* background-color: aliceblue; */
@@ -292,23 +292,24 @@ font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
     border-radius: 2px;
   }
   .wrapper_modal .right form select{
-    height: 3.5em;
+    height: 40px;
     width: 80%;
     margin-bottom: 1em;
-    /* background-color: aliceblue; */
+    background-color: aliceblue;
     border: 1px solid #eeeeee;
     border-radius: 2px;
   }
 
   .wrapper_modal .right form .btn{
     width: 40%;
-    height: 2em;
+    height: 50px;
     border: 1px solid #eee;
     background-color: rgb(37, 56, 221);
+    /* background-color: black; */
     color: white;
     text-align: center;
     font-family: 'Roboto';
-    font-size: 1em;
+    font-size: 0.8em;
     font-weight: 500;
     border-radius: 5px;
     display: absolute;
