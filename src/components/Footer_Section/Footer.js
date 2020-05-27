@@ -60,7 +60,7 @@ const Footer = () => {
     <div class={styles.footer_down}>
        
         <div class={styles.col2}>
-            <p>Copyright 2020</p>
+            <p>CodeAsylums 2020</p>
         </div>
        
         </div>
