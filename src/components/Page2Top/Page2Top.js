@@ -82,7 +82,7 @@ class Page2Top extends React.Component {
             alert("All the fields are required to proceed. Kindly make sure no field is left blank.")
         }
         else{
-            axios.get(`http://localhost:4001/api/saveLead?fname=${this.state.fname}&lname=${this.state.lname}&email=${this.state.email}&phone=${this.state.phone}&course=${this.state.course}&exp=${this.state.exp}`)
+            axios.get(`http://ace.codeasylums.com:4001/api/saveLead?fname=${this.state.fname}&lname=${this.state.lname}&email=${this.state.email}&phone=${this.state.phone}&course=${this.state.course}&exp=${this.state.exp}`)
             .then((response, reject) => {
                 alert("Thanks, Will get back to you soon.");
                 console.log(response.data)
