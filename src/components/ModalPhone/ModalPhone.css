@@ -202,7 +202,7 @@ font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
   }
 
   .wrapper_modal .right{
-    display: flex;
+    display: block;
     flex-direction: column;
     flex-basis: 50%;
     height: auto;
@@ -275,7 +275,7 @@ font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
   }
 
   .wrapper_modal .right form{
-    display: flex;
+    display: grid;
     flex-direction: column;
     margin-top: 1em;
     margin-left: 3em;
@@ -298,6 +298,7 @@ font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
     background-color: aliceblue;
     border: 1px solid #eeeeee;
     border-radius: 2px;
+    -webkit-appearance:none;
   }
 
   .wrapper_modal .right form .btn{
