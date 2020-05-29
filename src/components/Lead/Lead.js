@@ -7,7 +7,7 @@ class Lead extends React.Component{
     }
 
     clickHandler = () => {
-        axios.get("/api/saveLead?fname=Saurav&lname=Suman&email=jnu.saurav@ggmail.com&phone=8505885571&course=fullstaack&exp=1-2")
+        axios.get("https://apiace.codeasylums.com/api/saveLead?fname=Saurav&lname=Suman&email=jnu.saurav@ggmail.com&phone=8505885571&course=fullstaack&exp=1-2")
         .then((response, reject) => {
             console.log(response.data)
         })
