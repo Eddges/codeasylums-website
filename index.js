@@ -2,10 +2,32 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const axios = require('axios');
 var cors = require('cors');
+const path = require('path')
 const app = express();
+app.use(express.static(path.join(__dirname, 'build')))
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cors());
-
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname,'..', 'build', 'index.html'))
+})
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname,'..', 'build', 'index.html'))
+})
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname,'..', 'build', 'index.html'))
+})
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname,'..', 'build', 'index.html'))
+})
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname,'..', 'build', 'index.html'))
+})
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname,'..', 'build', 'index.html'))
+})
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname,'..', 'build', 'index.html'))
+})
 app.get('/api/saveLead', (req, res) => {
   const fname = req.query.fname || 'Missing';
   const lname = req.query.lname || 'Missing';
@@ -54,5 +76,5 @@ app.get('/api/saveLead', (req, res) => {
 });
 
 app.listen(4001, () =>
-  console.log('Express server is running on localhost:4001')
+  console.log('Express server is running on localhost:4000')
 );

@@ -84,7 +84,7 @@ function ModalPhone(){
       alert("All the fields are required to proceed. Kindly make sure no field is left blank.")
   }
   else{
-      axios.get(`http://ace.codeasylums.com:4001/api/saveLead?fname=${fname}&lname=${lname}&email=${email}&phone=${phone}&course=${course}&exp=${exp}`)
+      axios.get(`/api/saveLead?fname=${fname}&lname=${lname}&email=${email}&phone=${phone}&course=${course}&exp=${exp}`)
       .then((response, reject) => {
         alert("Thanks, Will get back to you soon.");
       })

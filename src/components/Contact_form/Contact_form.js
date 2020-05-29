@@ -70,7 +70,7 @@ class Contact_form extends React.Component {
 
             // console.log(`http://localhost:4001/api/saveLead?fname=${this.state.fname}&lname=${this.state.lname}&email=${this.state.email}&phone=${this.state.phone}&course=fullstaack&exp=1-2`)
             // axios.get(`http://localhost:4001/api/saveLead?fname=${this.state.fname}&lname=${this.state.lname}&email=${this.state.email}&phone=${this.state.phone}&course=fullstaack&exp=1-2`)
-            axios.get(`http://ace.codeasylums.com:4001/api/saveLead?fname=${this.state.fname}&lname=${this.state.lname}&email=${this.state.email}&phone=${this.state.phone}&course=${this.state.course}&exp=${this.state.exp}`)
+            axios.get(`/api/saveLead?fname=${this.state.fname}&lname=${this.state.lname}&email=${this.state.email}&phone=${this.state.phone}&course=${this.state.course}&exp=${this.state.exp}`)
             .then((response, reject) => {
                 alert("Thanks, Will get back to you soon.");
                 console.log(response.data)
