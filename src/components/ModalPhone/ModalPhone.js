@@ -87,6 +87,8 @@ function ModalPhone(){
       axios.get(`https://apiace.codeasylums.com/api/saveLead?fname=${fname}&lname=${lname}&email=${email}&phone=${phone}&course=${course}&exp=${exp}`)
       .then((response, reject) => {
         alert("Thanks, Will get back to you soon.");
+        document.getElementById('processing').style.display='block';
+        setModalIsOpen(false);
       })
   }
   }
@@ -126,6 +128,7 @@ function ModalPhone(){
                   <option>3-5 Years</option>
                   <option>More than 5 Years</option>
               </select>
+              <div id="processing" class="process">processing..</div>
               <button type="button" className = "btn" onClick={handleClick} >Request Callback</button>
             </form>
             <button className = "btnClose" onClick={() => setModalIsOpen(false)}>
