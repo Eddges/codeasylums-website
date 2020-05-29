@@ -15,11 +15,11 @@ const BatchdetailsDataScience = () => {
         
         {/* <Box date = "16"  month = "May"  coursename = "Data Science Track" status = "Seats Filling" count = "10/15 students"/> */}
         {/* <!-- 2 --> */}
-        <Box date = "23" month = "May"  coursename = "Data Science Track" status = "Seats Filling" count = "13/15 students"/>
+        <Box date = "20" month = "June"  coursename = "Data Science Track" status = "Seats Filling" count = "13/15 students"/>
         {/* <!-- 3 --> */}
-        <Box date = "30" month = "May"  coursename = "Data Science Track" status = "Open" count = "7/15 students"/>
+        <Box date = "18" month = "July"  coursename = "Data Science Track" status = "Open" count = "7/15 students"/>
         {/* <!-- 4 --> */}
-        <Box date = "6" month = "June"  coursename = "Data Science Track" status = "Open" count = "5/15 students"/>
+        <Box date = "16" month = "Aug"  coursename = "Data Science Track" status = "Open" count = "5/15 students"/>
         {/* <Box date = "19" month = "February"  coursename = "Machine Learning Lessson #43" status = "Booking Ended" count = "200/200tickets sold"/> */}
 
 

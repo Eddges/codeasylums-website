@@ -15,11 +15,11 @@ const BatchdetailsSystems = () => {
         
         {/* <Box date = "16"  month = "May"  coursename = "Fullstack Development with Scalability" status = "Seats Filling" count = "10/15 students"/> */}
         {/* <!-- 2 --> */}
-        <Box date = "23" month = "May"  coursename = "Fullstack Development with Scalability" status = "Seats Filling" count = "13/15 students"/>
+        <Box date = "20" month = "June"  coursename = "Fullstack Development with Scalability" status = "Seats Filling" count = "13/15 students"/>
         {/* <!-- 3 -FullStack-> */}
-        <Box date = "30" month = "May"  coursename = "Fullstack Development with Scalability" status = "Open" count = "7/15 students"/>
+        <Box date = "18" month = "July"  coursename = "Fullstack Development with Scalability" status = "Open" count = "7/15 students"/>
         {/* <!-- 4 --> */}
-        <Box date = "6" month = "June"  coursename = "Fullstack Development with Scalability" status = "Open" count = "5/15 students"/>
+        <Box date = "16" month = "Aug"  coursename = "Fullstack Development with Scalability" status = "Open" count = "5/15 students"/>
         {/* <Box date = "19" month = "February"  coursename = "Machine Learning Lessson #43" status = "Booking Ended" count = "200/200tickets sold"/> */}
 
 
