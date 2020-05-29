@@ -86,8 +86,9 @@ function ModalPhone(){
   else{
       axios.get(`https://apiace.codeasylums.com/api/saveLead?fname=${fname}&lname=${lname}&email=${email}&phone=${phone}&course=${course}&exp=${exp}`)
       .then((response, reject) => {
-        alert("Thanks, Will get back to you soon.");
         document.getElementById('processing').style.display='block';
+        alert("Thanks, Will get back to you soon.");
+        
         setModalIsOpen(false);
       })
   }
