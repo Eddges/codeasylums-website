@@ -7,27 +7,7 @@ const app = express();
 app.use(express.static(path.join(__dirname, 'build')))
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cors());
-app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname,'..', 'build', 'index.html'))
-})
-app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname,'..', 'build', 'index.html'))
-})
-app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname,'..', 'build', 'index.html'))
-})
-app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname,'..', 'build', 'index.html'))
-})
-app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname,'..', 'build', 'index.html'))
-})
-app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname,'..', 'build', 'index.html'))
-})
-app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname,'..', 'build', 'index.html'))
-})
+
 app.get('/api/saveLead', (req, res) => {
   const fname = req.query.fname || 'Missing';
   const lname = req.query.lname || 'Missing';
