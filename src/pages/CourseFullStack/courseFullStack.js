@@ -29,11 +29,11 @@ import ReactPixel from 'react-facebook-pixel';
 import TagManager from 'react-gtm-module'
 
 import ReactGA from 'react-ga';
-ReactGA.initialize('AW-641934799');
+ReactGA.initialize('UA-135901251-1');
 ReactGA.pageview(window.location.pathname + window.location.search);
 
 /*const tagManagerArgs = {
-    gtmId: 'AW-641934799'
+    gtmId: 'UA-135901251-1'
 }
 
 TagManager.initialize(tagManagerArgs)*/
