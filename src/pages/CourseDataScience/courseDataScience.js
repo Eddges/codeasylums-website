@@ -29,11 +29,11 @@ import TagManager from 'react-gtm-module'
 
 import ReactGA from 'react-ga';
 import StudentCarousel from '../../components/StudentCarousel/StudentCarousel'
-ReactGA.initialize('UA-135901251-1');
+ReactGA.initialize('UA-135901251-2');
 ReactGA.pageview(window.location.pathname + window.location.search);
 
 /*const tagManagerArgs = {
-    gtmId: 'UA-135901251-1'
+    gtmId: 'UA-135901251-2'
 }
 
 TagManager.initialize(tagManagerArgs)*/
