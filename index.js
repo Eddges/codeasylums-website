@@ -9,12 +9,12 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cors());
 
 app.get('/api/saveLead', (req, res) => {
-  const fname = req.query.fname || 'Missing';
-  const lname = req.query.lname || 'Missing';
-  const email = req.query.email || 'Missing';
+  const fname = req.query.fname || 'N/A';
+  const lname = req.query.lname || 'N/A';
+  const email = req.query.email || 'N/A';
   const phone = req.query.phone || 123234345679;
-  const course = req.query.course || 'Missing';
-  const experience = req.query.exp || 'Missing';
+  const course = req.query.course || 'N/A';
+  const experience = req.query.exp || 'N/A';
   var data=[
     {
         "Attribute": "FirstName",
@@ -33,11 +33,11 @@ app.get('/api/saveLead', (req, res) => {
         "Value": phone
     },
     {
-        "Attribute": "Course",
+        "Attribute": "mx_Courses",
         "Value": course
     },
     {
-        "Attribute": "Experience",
+        "Attribute": "mx_Experience",
         "Value": experience
     }
 ];
