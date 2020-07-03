@@ -1,6 +1,14 @@
 import React from 'react';
 import styles from './Contact_form.module.css';
 import axios from 'axios'
+import ReactPixel from 'react-facebook-pixel';
+const advancedMatching = {}; // optional, more info: https://developers.facebook.com/docs/facebook-pixel/advanced/advanced-matching
+const options = {
+autoConfig: true, // set pixel's autoConfig
+debug: false, // enable logs
+};
+ReactPixel.init('2710640059047495', advancedMatching, options);
+
 // import './Contact_form.css'
 
 class Contact_form extends React.Component {
@@ -73,13 +81,10 @@ class Contact_form extends React.Component {
             axios.get(`https://apiace.codeasylums.com/api/saveLead?fname=${this.state.fname}&lname=${this.state.lname}&email=${this.state.email}&phone=${this.state.phone}&course=${this.state.course}&exp=${this.state.exp}`)
             .then((response, reject) => {
                 alert("Thanks, Will get back to you soon.");
-                console.log(response.data)
-                console.log(`First Name : ${this.state.fname}`)
-                console.log(`Last Name : ${this.state.lname}`)
-                console.log(`email : ${this.state.email}`)
-                console.log(`Phone: ${this.state.phone}`)
-                console.log(`course : ${this.state.course}`)
-                console.log(`exp: ${this.state.exp}`)
+               
+                ReactPixel.track('SubmitButton', {
+                    email: this.state.email,
+                  });
             })
         }
     }

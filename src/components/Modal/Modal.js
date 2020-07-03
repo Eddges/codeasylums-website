@@ -3,7 +3,13 @@ import './Modal.css'
 import Modal from 'react-modal'
 import logo from './illustration.png'
 import axios from 'axios'
-
+import ReactPixel from 'react-facebook-pixel';
+const advancedMatching = {}; // optional, more info: https://developers.facebook.com/docs/facebook-pixel/advanced/advanced-matching
+const options = {
+autoConfig: true, // set pixel's autoConfig
+debug: false, // enable logs
+};
+ReactPixel.init('2710640059047495', advancedMatching, options);
 
 function Modalpop(){
 
@@ -79,7 +85,11 @@ function Modalpop(){
       .then((response, reject) => {
        // document.getElementById('processing').style.display='block';
         alert("Thanks, Will get back to you soon.");
+        ReactPixel.track('SubmitButton', {
+          email: email,
+        });
         setModalIsOpen(false);
+       
       })
   }
   }
