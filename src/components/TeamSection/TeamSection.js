@@ -40,7 +40,6 @@ const TeamSection = () => {
            
             <TeamBox imageavatar = {pratsy} name = "PRATYUSH AGARWAL" link = "https://www.linkedin.com/in/pratsy/"/>
             <TeamBox imageavatar = {rahulkumar} name = "RAHUL KUMAR"  link = "https://www.linkedin.com/in/rahul-kumar-501776504/"/>
-            <TeamBox imageavatar = {suman} name = "SAURAV SUMAN"  link = "https://www.linkedin.com/in/sauravsumn/"/>
             <TeamBox imageavatar = {rajatjain} name = "RAJAT JAIN"  link = "https://www.linkedin.com/in/rajatjain-21/"/>
             <TeamBox imageavatar = {sourabhmishra} name = "SAURABH MISHRA"  link = "https://www.linkedin.com/in/saurabhmishra2/"/>
             <TeamBox imageavatar = {amanagarwal} name = "AMAN AGARWAL"  link = "https://www.linkedin.com/in/amana632/"/>
