@@ -49,7 +49,7 @@ const CourseDSAdvanced = (props) => {
             <MenuModal />
             <Navbar />
             <BGClick />
-            <Page2Top course="dsa-advanced" title="Competitive Programming with Advanced DSA" top="Online | 8 Weeks | Lively Mentorship | 4 Weeks Job Assistance" line1="Crack the coding interviews of Tier-1 Product based companies" line2="Best Assistance for Cracking Coding Interviews" type="fullstack" illustration={dsAdvancedBG} />
+            <Page2Top course="dsa-advanced" title="Competitive Programming with Advanced DSA" top="Online | 8 Weeks | Lively Mentorship | 4 Weeks Job Assistance" line1="Crack the coding interviews of Tier-1 Product based companies" line2="Best Assistance for Cracking Coding Interviews" line3_1 = "₹ 72,000" line3_2 = "₹ 75,000" type="fullstack" illustration={dsAdvancedBG} />
             <CodeAsylumsAdvantageDSAdvanced />
             {/* <Parallax1 /> */}
             {/* <MentorsDSAdvanced /> */}

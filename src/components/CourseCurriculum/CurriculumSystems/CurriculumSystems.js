@@ -101,16 +101,16 @@ class CurriculumSystems extends React.Component{
             <div className={classes.CurriculumFullStack} id="curriculum">
                 <p className={classes.title}>Course Curriculum</p>
                 <p className={classes.Description}>There are professionals who are working in making web and mobile-based applications from scratch and looking for a framework based development and development</p>
-                <Curriculum2Item title="Week1" topic1="Array-Based Problems" topic2="Linked lists" section={section1} />
-                <Curriculum2Item title="Week 2" topic1="ReactJS" topic2="ExpressJS" section={section2} />
-                <Curriculum2Item title="Week 3" topic1="NodeJS" topic2="MongoDB" section={section3} />
-                <Curriculum2Item title="Week 4" topic1="NodeJS" topic2="MongoDB" section={section4} />
-                <Curriculum2Item title="Week 5" topic1="NodeJS" topic2="MongoDB" section={section5} />
-                <Curriculum2Item title="Week 6" topic1="NodeJS" topic2="MongoDB" section={section6} />
-                <Curriculum2Item title="Week 7" topic1="NodeJS" topic2="MongoDB" section={section7} />
-                <Curriculum2Item title="Week 8" topic1="NodeJS" topic2="MongoDB" section={section8} />
-                <Curriculum2Item title="Week 9" topic1="NodeJS" topic2="MongoDB" section={section9} />
-                <Curriculum2Item title="Week 10" topic1="NodeJS" topic2="MongoDB" section={section10} />
+                <Curriculum2Item title="Module 1" topic1="Array-Based Problems" topic2="Linked lists" section={section1} />
+                <Curriculum2Item title="Module 2" topic1="ReactJS" topic2="ExpressJS" section={section2} />
+                <Curriculum2Item title="Module 3" topic1="NodeJS" topic2="MongoDB" section={section3} />
+                <Curriculum2Item title="Module 4" topic1="NodeJS" topic2="MongoDB" section={section4} />
+                <Curriculum2Item title="Module 5" topic1="NodeJS" topic2="MongoDB" section={section5} />
+                <Curriculum2Item title="Module 6" topic1="NodeJS" topic2="MongoDB" section={section6} />
+                <Curriculum2Item title="Module 7" topic1="NodeJS" topic2="MongoDB" section={section7} />
+                <Curriculum2Item title="Module 8" topic1="NodeJS" topic2="MongoDB" section={section8} />
+                <Curriculum2Item title="Module 9" topic1="NodeJS" topic2="MongoDB" section={section9} />
+                <Curriculum2Item title="Module 10" topic1="NodeJS" topic2="MongoDB" section={section10} />
             </div>
             
         )

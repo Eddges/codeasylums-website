@@ -87,14 +87,14 @@ class CurriculumDSAdvanced extends React.Component{
             <div className={classes.CurriculumFullStack} id="curriculum">
                 <p className={classes.title}>Course Curriculum</p>
                 <p className={classes.Description}>This course is majorly for the professionals who are looking forward to cracking coding interviews for tier - 1 product-based companies</p>
-                <Curriculum2Item title="Week1" topic1="Array-Based Problems" topic2="Linked lists" section={section1} />
-                <Curriculum2Item title="Week 2" topic1="ReactJS" topic2="ExpressJS" section={section2} />
-                <Curriculum2Item title="Week 3" topic1="NodeJS" topic2="MongoDB" section={section3} />
-                <Curriculum2Item title="Week 4" topic1="NodeJS" topic2="MongoDB" section={section4} />
-                <Curriculum2Item title="Week 5" topic1="NodeJS" topic2="MongoDB" section={section5} />
-                <Curriculum2Item title="Week 6" topic1="NodeJS" topic2="MongoDB" section={section6} />
-                <Curriculum2Item title="Week 7" topic1="NodeJS" topic2="MongoDB" section={section7} />
-                <Curriculum2Item title="Week 8" topic1="NodeJS" topic2="MongoDB" section={section8} />
+                <Curriculum2Item title="Module 1" topic1="Array-Based Problems" topic2="Linked lists" section={section1} />
+                <Curriculum2Item title="Module 2" topic1="ReactJS" topic2="ExpressJS" section={section2} />
+                <Curriculum2Item title="Module 3" topic1="NodeJS" topic2="MongoDB" section={section3} />
+                <Curriculum2Item title="Module 4" topic1="NodeJS" topic2="MongoDB" section={section4} />
+                <Curriculum2Item title="Module 5" topic1="NodeJS" topic2="MongoDB" section={section5} />
+                <Curriculum2Item title="Module 6" topic1="NodeJS" topic2="MongoDB" section={section6} />
+                <Curriculum2Item title="Module 7" topic1="NodeJS" topic2="MongoDB" section={section7} />
+                <Curriculum2Item title="Module 8" topic1="NodeJS" topic2="MongoDB" section={section8} />
             </div>
             
         )

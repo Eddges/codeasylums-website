@@ -163,6 +163,28 @@
   font-weight: 500;
 }
 
+.Page2Top .container .text :nth-child(5) {
+  font-size: 1em;
+  font-family: 'Open Sans';
+  font-weight: 500;
+}
+
+/* .Page2Top .container .text :nth-child(6) :nth-child(1) { */
+  /* font-size: 1em; */
+  /* text-decoration: line-through; */
+/* } */
+
+.Page2Top .container .text :nth-child(6) :nth-child(1) {
+  font-size: 2em;
+  /* text-decoration: line-through; */
+}
+
+.Page2Top .container .text :nth-child(6) :nth-child(2) {
+  font-size: 2em;
+  text-decoration: line-through;
+  color: yellow;
+}
+
 .Page2Top .container .text .alumni {
   margin-top: 40px;
   font-weight: 700;

@@ -45,7 +45,7 @@ const CourseDSA = (props) => {
             <MenuModal />
             <Navbar />
             <BGClick />
-            <Page2Top course="dsa" title="Data Structures and Algorithms " top="Online | 8 Weeks | Lively Mentorship | 4 Weeks Job Assistance" line1="(From scratch)" line2="Implement Data Structures and crack coding interviews" type="fullstack" illustration={dsaBG} />
+            <Page2Top course="dsa" title="Data Structures and Algorithms " top="Online | 8 Weeks | Lively Mentorship | 4 Weeks Job Assistance" line1="(From scratch)" line2="Implement Data Structures and crack coding interviews"  line3_1 = "₹ 42,000" line3_2 = "₹ 45,000" type="fullstack" illustration={dsaBG} />
             <CodeAsylumsAdvantageDSA />
             {/* <Parallax1 /> */}
             {/* <MentorsDSA /> */}
