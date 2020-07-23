@@ -23,8 +23,8 @@ class Page2Top extends React.Component {
         title : this.props.title,
         line1 : this.props.line1,
         line2 : this.props.line2,
-        line3_1: this.props.line3_1,
-        line3_2: this.props.line3_2,
+        // line3_1: this.props.line3_1,
+        // line3_2: this.props.line3_2,
         course : this.props.course,
         duration : this.props.duration,
         illustration : this.props.illustration,
@@ -121,7 +121,7 @@ class Page2Top extends React.Component {
                                 <img src={stars} alt="5 Stars" />
                             </div> */}
                             <p>{this.state.line2}</p>
-                            <p> <span> {this.state.line3_1} </span> <span> {this.state.line3_2} </span> </p>
+                            {/* <p> <span> {this.state.line3_1} </span> <span> {this.state.line3_2} </span> </p> */}
                             {/* <p className={classes.alumni}>Our alumni work at : </p> */}
                             
                         </div>

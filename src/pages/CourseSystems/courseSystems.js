@@ -58,7 +58,7 @@ const CourseSystems = (props) => {
             
             {/* <BubblesDSA /> */}
             <Accordion />
-            <Banner/>
+            <Banner rPrice = "₹72,000" oPrice = "₹75,000"/>
 
             <Footer/>
         </Layout>

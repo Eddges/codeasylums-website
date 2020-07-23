@@ -62,7 +62,7 @@ const CourseDSAdvanced = (props) => {
             {/* <CourseTestimonials /> */}
             
             {/* <BubblesDSA /> */}
-            <Banner/>
+            <Banner rPrice = "₹72,000" oPrice = "₹75,000"/>
             <Accordion />
             
 

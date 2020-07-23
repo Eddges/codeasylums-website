@@ -34,12 +34,29 @@
 
 .wrapper .banner .left {
     display: flex;
+    flex-direction: column;
     flex-basis: 50%;
     justify-content: center;
     align-items: center;
     /* letter-spacing: 0.1em; */
 }
 
+.wrapper .banner .left p{
+    color: white;
+    font-size: 1.7em;
+    font-family: 'Open Sans';
+}
+
+.wrapper .banner .left p :nth-child(1) {
+    font-weight: 700;
+}
+
+.wrapper .banner .left p :nth-child(2) {
+    font-weight: 600;
+    text-decoration: line-through;
+    color: yellow;
+    margin-left: 0.4em;
+}
 .wrapper .banner .left h2{
     color: white;
     /* font-family: monospace; */
