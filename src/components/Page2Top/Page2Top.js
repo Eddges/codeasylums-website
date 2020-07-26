@@ -33,7 +33,10 @@ class Page2Top extends React.Component {
         email : "",
         phone : "",
         course : this.props.course,
-        exp : ""
+        exp : "",
+        city : "",
+        designation : "",
+        company : ""
     }
 
     changeExp = (e) => {
@@ -86,9 +89,24 @@ class Page2Top extends React.Component {
             phone : e.target.value
         })
     }
+    changeCity = (e) => {
+        this.setState({
+            city : e.target.value
+        })
+    }
+    changeDesignation = (e) => {
+        this.setState({
+            designation : e.target.value
+        })
+    }
+    changeCompany = (e) => {
+        this.setState({
+            company : e.target.value
+        })
+    }
 
     handleClick = () => {
-        if(this.state.fname==="" || this.state.email==="" || this.state.phone==="" || this.state.exp===""){
+        if(this.state.fname==="" || this.state.email==="" || this.state.phone==="" || this.state.exp==="" || this.state.city===""){
             alert("All the fields are required to proceed. Kindly make sure no field is left blank.")
         }
         else{
@@ -133,6 +151,9 @@ class Page2Top extends React.Component {
                                 <input type="text" placeholder="Name" onChange={(e) => this.changeName(e)} />
                                 <input type="email" placeholder="e-Mail" onChange={(e) => {this.changeEmail(e)}} />
                                 <input type="text" placeholder="Phone" onChange={(e) => {this.changePhone(e)}} />
+                                <input type="text" placeholder="City" onChange={(e) => {this.changeCity(e)}} />
+                                <input type="text" placeholder="Designation" onChange={(e) => {this.changeDesignation(e)}} />
+                                <input type="text" placeholder="Company" onChange={(e) => {this.changeCompany(e)}} />
                                 <select onChange={(e)=> this.changeExp(e)}>
                                     <option>Work Experience</option>
                                     <option>Student</option>
