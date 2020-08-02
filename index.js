@@ -15,6 +15,9 @@ app.get('/api/saveLead', (req, res) => {
   const phone = req.query.phone || 123234345679;
   const course = req.query.course || 'N/A';
   const experience = req.query.exp || 'N/A';
+  const city = req.query.city || 'N/A';
+  const designation = req.query.designation || 'N/A';
+  const company = req.query.company || 'N/A';
   var data=[
     {
         "Attribute": "FirstName",
@@ -39,6 +42,19 @@ app.get('/api/saveLead', (req, res) => {
     {
         "Attribute": "mx_Experience",
         "Value": experience
+    }
+    ,
+    {
+        "Attribute": "mx_City",
+        "Value": city
+    },
+    {
+        "Attribute": "mx_Company",
+        "Value": company
+    },
+    {
+        "Attribute": "mx_Designation",
+        "Value": designation
     }
 ];
   axios
