@@ -28,6 +28,9 @@ function ModalPhone(){
   let phone = "";
   let course = "";
   let exp = "";
+  let city = "";
+  let designation = "";
+  let company = "";
 
   const nameChange = (e) =>{
     const name = e.target.value.split(" ")
@@ -49,6 +52,15 @@ function ModalPhone(){
   }
   const phoneChange = (e) =>{
     phone = e.target.value;
+  }
+  const companyChange = (e) =>{
+    company = e.target.value;
+  }
+  const cityChange = (e) =>{
+    city = e.target.value;
+  }
+  const designationChange = (e) =>{
+    designation = e.target.value;
   }
   const courseChange = (e) =>{
     if(e.target.value=="Fullstack Web Development") {
@@ -86,7 +98,7 @@ function ModalPhone(){
   }
 
   const handleClick = () => {
-    if(fname==="" || email==="" || phone==="" || exp==="" || course===""){
+    if(fname==="" || email==="" || phone==="" || exp==="" || course==="" || city==="" || company==="" || designation===""){
       alert("All the fields are required to proceed. Kindly make sure no field is left blank.")
   }
   else{
@@ -122,6 +134,13 @@ function ModalPhone(){
               <input type="text" placeholder="Email" onChange={(e)=> emailChange(e)} />
               <label>Phone</label>
               <input type="text" placeholder="Phone" onChange={(e)=> phoneChange(e)} />
+              <label>Company</label>
+              <input type="text" placeholder="Company" onChange={(e)=> companyChange(e)} />
+              <label>City</label>
+              <input type="text" placeholder="City" onChange={(e)=> cityChange(e)} />
+              <label>Designation</label>
+              <input type="text" placeholder="Designation" onChange={(e)=> designationChange(e)} />
+
               <label>Course</label>
               <select onChange={(e)=> courseChange(e)}>
                   <option>Select Course</option>

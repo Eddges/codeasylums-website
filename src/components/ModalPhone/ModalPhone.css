@@ -114,8 +114,7 @@ cursor : pointer;
 }
 
 .wrapper_modal .right form select{
-  height: 3.5em;
- 
+  height: 3em;
   margin-bottom: 1em;
   background-color: aliceblue;
   border: 1px solid #eeeeee;
@@ -123,12 +122,12 @@ cursor : pointer;
   border:1px solid #CCC;
   background:#FFF;
   margin:0 0 5px;
-  padding:10px;
+  padding-left :10px;
   font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif;
 }
 
 .wrapper_modal .right form .btn{
-  width: 40%;
+  width: 150px;
   height: 2.5em;
   border: 1px solid #eee;
   background-color: rgb(37, 56, 221);
@@ -179,7 +178,7 @@ font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
     margin-bottom: auto;
     left: 5em;
     z-index: 100;
-    
+    overflow : auto;
   }
 
   .wrapper_modal .left{
@@ -198,7 +197,7 @@ font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
 
   .wrapper_modal .right p{
     font-family: 'Raleway';
-    font-size: 2em !important;
+    font-size: 1.5em !important;
     font-weight: 500;
     margin-left: 1em;
     padding-top: 0.5em;
@@ -208,9 +207,10 @@ font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
   .wrapper_modal .right{
     display: block;
     flex-direction: column;
-    flex-basis: 50%;
+    flex-basis: 100%;
     height: auto;
     justify-content: center;
+    overflow: auto;
     /* align-items: center; */
   }
 
@@ -274,31 +274,35 @@ font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
     font-size: 1em !important;
     font-weight: 500;
     margin-left: 0em;
-    margin-top: 50px;
+    margin-top: 10px;
     padding: 1em;
   }
-
+  /* .wrapper_modal .right{
+    height : 50px;
+    margin : 0px;
+    padding : 0px;
+  } */
   .wrapper_modal .right form{
     display: grid;
     flex-direction: column;
-    margin-top: 1em;
+    margin-top: 0.4em;
     margin-left: 3em;
-    margin-bottom: 1em;
-    padding-bottom: 1em;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
   }
 
   .wrapper_modal .right form input{
-    height: 35px;
+    height: 30px;
     width: 80%;
-    margin-bottom: 1em;
+    margin-bottom: 5px;
     /* background-color: aliceblue; */
     border: 1px solid #eeeeee;
     border-radius: 2px;
   }
   .wrapper_modal .right form select{
-    height: 40px;
+    height: 30px;
     width: 80%;
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
     background-color: aliceblue;
     border: 1px solid #eeeeee;
     border-radius: 2px;

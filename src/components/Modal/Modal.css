@@ -66,6 +66,9 @@ cursor : pointer;
   /* align-items: center; */
   height : 75vh;
   background-color: white;
+  /* background-color: coral; */
+  padding-top: 20px;
+  /* overflow: hidden; */
 }
 
 .wrapper_modal .desktop-right p{
@@ -76,6 +79,18 @@ cursor : pointer;
   padding-bottom: 0.4em;
   margin-top: 5px;
   text-align: center;
+}
+
+.modalRow{
+  width : 80%;
+  height : 60px;
+  display : flex;
+  /* background-color: black; */
+}
+
+.modalRow section{
+  display : flex;
+  flex-direction: column;
 }
 
 .wrapper_modal .desktop-right .btnClose{
@@ -100,44 +115,44 @@ cursor : pointer;
 
 .wrapper_modal .desktop-right form label{
   font-family: 'Roboto';
-  font-size: 0.9em;
+  font-size: 0.8em;
   font-weight: 500;
-  margin-bottom: 0.5em;
+  margin-bottom: 5px;
   color : rgb(44, 44, 44);
 }
 
 .wrapper_modal .desktop-right form input{
-  height: 30px;
+  height: 28px;
   width: 70%;
-  margin-bottom: 1em;
+  margin-bottom: 0px;
   background-color: aliceblue;
   border: 1px solid #eeeeee;
   border-radius: 2px;
 }
 
 .wrapper_modal .desktop-right form select{
-  height: 40px;
+  height: 30px;
  
-  margin-bottom: 1em;
+  margin-bottom: 0em;
   background-color: aliceblue;
   border: 1px solid #eeeeee;
  width:80%;
   border:1px solid #CCC;
   background:#FFF;
   margin:0 0 5px;
-  padding:10px;
+  padding:0px;
   font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif;
 }
 
 .wrapper_modal .desktop-right form .btn{
-  width: 40%;
+  width: 150px;
   height: 45px;
   border: 1px solid #eee;
   background-color: rgb(37, 56, 221);
   color: white;
   text-align: center;
   font-family: 'Roboto';
-  font-size: 1em;
+  font-size: 0.8em;
   font-weight: 500;
   border-radius: 5px;
   margin-top: 5px;

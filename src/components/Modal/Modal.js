@@ -19,6 +19,9 @@ function Modalpop(){
   let phone = "";
   let course = "";
   let exp = "";
+  let city = "";
+  let designation = "";
+  let company = "";
 
   const nameChange = (e) =>{
     const name = e.target.value.split(" ")
@@ -40,6 +43,15 @@ function Modalpop(){
   }
   const phoneChange = (e) =>{
     phone = e.target.value;
+  }
+  const companyChange = (e) =>{
+    company = e.target.value;
+  }
+  const cityChange = (e) =>{
+    city = e.target.value;
+  }
+  const designationChange = (e) =>{
+    designation = e.target.value;
   }
   const courseChange = (e) =>{
     if(e.target.value=="Fullstack Web Development") {
@@ -77,7 +89,7 @@ function Modalpop(){
   }
 
   const handleClick = () => {
-    if(fname==="" || email==="" || phone==="" || exp==="" || course===""){
+    if(fname==="" || email==="" || phone==="" || exp==="" || course==="" || designation==="" || city==="" || company===""){
       alert("All the fields are required to proceed. Kindly make sure no field is left blank.")
   }
   else{
@@ -107,7 +119,7 @@ function Modalpop(){
           <img src = {logo}/>
           </div>
           <div className = "desktop-right">
-            { <p>Contact us today <br></br>and get reply with in 24 hours!</p> }
+            {/* { <p>Contact us today <br></br>and get reply with in 24 hours!</p> } */}
             <form>
               <label>Name</label>
               <input type="text" placeholder="Name" onChange={(e)=>nameChange(e)} />
@@ -115,6 +127,19 @@ function Modalpop(){
               <input type="text" placeholder="Email" onChange={(e)=> emailChange(e)} />
               <label>Phone</label>
               <input type="text" placeholder="Phone" onChange={(e)=> phoneChange(e)} />
+              <label>Company</label>
+              <input type="text" placeholder="Company" onChange={(e)=> companyChange(e)} />
+              <div class="modalRow">
+                <section>
+                  <label>City</label>
+                  <input type="text" placeholder="City" onChange={(e)=> cityChange(e)} />
+                </section>
+                <section>
+                  <label>Designation</label>
+                  <input type="text" placeholder="Designation" onChange={(e)=> designationChange(e)} />
+                </section>
+              </div>
+
               <label>Course</label>
               <select onChange={(e)=> courseChange(e)}>
 

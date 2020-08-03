@@ -10,6 +10,11 @@ import FeedbackSliderCard from '../../FeedbackSliderCard/FeedbackSliderCard'
 const FeedbackSliderFullStack = (props) => {
 
     const feedbacks = [
+        {
+            image : ayushi,
+            name : "Ayushi",
+            feedback : "The experience is totally worth it, and I would definitely recommend it to my juniors, just go there, and experience it."
+        },
         {   
             image : amanAryan,
             name : "Aman Aryan",
@@ -20,11 +25,7 @@ const FeedbackSliderFullStack = (props) => {
             name : "Omkar Jai",
             feedback : "Great place to learn and improve your techy skills ! Great mentors and great community as well. Would definitely recommend!"
         },
-        {
-            image : ayushi,
-            name : "Ayushi",
-            feedback : "The experience is totally worth it, and I would definitely recommend it to my juniors, just go there, and experience it."
-        },
+        
         {
             image : raunak,
             name : "Raunak Agrawal",
