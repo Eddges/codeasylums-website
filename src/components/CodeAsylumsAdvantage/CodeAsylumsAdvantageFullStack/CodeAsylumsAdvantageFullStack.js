@@ -9,17 +9,17 @@ const CodeAsylumsAdvantageFullStack = (props) => {
             <p className={classes.Heading} >The CodeAsylums Advantage</p>
             <div className={classes.BG}>
                 <ul>
-                    <li>60+ Hrs of dedicated professional mentoring</li>
-                    <li>Collaborative and Interactive Environment using Community Channels</li>
-                    <li>Fully supported by Teaching Assistants</li>
-                    <li>5+ Mentored Hackathons for Project Building</li>
+                    <li>45+ Live Sessions</li>
+                    <li>Alternate Days Live Sessions - in sync with your job work</li>
+                    <li>Concept Building Sessions</li>
+                    <li>Doubt Clearing Sessions</li>
                 </ul>
                 <ul>
-                    <li>Developing Product by Mentored Week Long Challenge</li>
+                    <li>Hand-On-Live Coding with Mentors</li>
                     
-                    <li>Online Live interactive coding</li>
-                    <li>Internal plus Competitive progress & reports for self-assessments</li>
-                    <li>Placement Assistance and Referrals for Job Opportunities</li>
+                    <li>Forums for discussions, assignment, and doubts</li>
+                    <li>Tech Talks and Awareness sessions by Industry Experts</li>
+                    <li>Placement Assistance and Mock Interviews by Industry Experts</li>
                 </ul>
                 <div className={classes.divTestimonial}>
                     <Testimonial showCircle={false} showAbout={true} name="Rajat Jain" about="Engineer, Microsoft" content="I feel the curriculum is very extensive and covers everything from the basics in backend and frontend technologies. The program will be very helpful for anyone who’s looking to start their career as a full-stack developer." />

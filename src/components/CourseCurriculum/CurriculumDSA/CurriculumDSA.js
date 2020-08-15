@@ -8,79 +8,104 @@ class CurriculumDSA extends React.Component{
 
         const section1 = [
             {
-                link : "Array Based Problems",
-                details : "An array is a container object that holds a fixed number of values of a single type. The length of an array is established when the array is created. After creation, its length is fixed."
-            },
-            {
-                link : "Linked lists",
-                details : "A linked list is a linear data structure where each element is a separate object. Linked list elements are not stored at contiguous location; the elements are linked using pointers. Each node of a list is made up of two items - the data and a reference to the next node."
+                link : "Python - 7 Sessions",
+                details : "Keywords, Identifiers, Variables, Standard Input & Output, Operators, Control Flow, Strings, Loops, Lists, Tuples, Dictionary, Functions, Lambda, Module, Packages, Error Handling, Map, Reduce, Filter, OOPS, Bitwise operators, Range, Pattern formation, Analysis of Algorithms, Time Complexity, Space Complexity, Analysis of Loops, Lower bound and upper Bound theory, Amortised Analysis, Asymptotic Analysis, Recursion."
             }
         ]
 
         const section2 = [
             {
-                link : "Stacks",
-                details : "A stack is an abstract data type that serves as a collection of elements, with two principal operations: push, which adds an element to the collection, and pop, which removes the most recently added element that was not yet removed."
-            },
-            {
-                link : "Queues",
-                details : "A queue is a collection of entities that are maintained in a sequence and can be modified by the addition of entities at one end of the sequence and the removal of entities from the other end of the sequence."
+                link : "Number Theory- 4 Sessions",
+                details : "GCD-LCM, Factorials, Fibonacci, Prime Factors, Euler’s Totient Function,  Primirality Test, Modular Exponentiation, Sieve of Eratosthenes, Minmax Game, Nim Game, Bit Manipulation, Bit Masking."
             }
         ]
 
         const section3 = [
             {
-                link : "Number Theory",
-                details : "Problems in competitive programming which involve Mathematics are are usually about number theory. If you know number theory, that increases your ammo heavily in solving a lot of tougher problems, and helps you in getting a strong hold on a lot of other problems, too."
-            },
-            {
-                link : "Recursion",
-                details : "Recursion is a method of solving a problem where the solution depends on solutions to smaller instances of the same problem. Such problems can generally be solved by iteration, but this needs to identify and index the smaller instances at programming time."
+                link : "Arrays -  4 Sessions",
+                details : "Two pointer approach, Three pointer approach, Sliding window technique, Kadane’s Algorithm, Linear Search, Binary Search, Discrete Binary Search."
             }
         ]
 
         const section4 = [
             {
-                link : "Trees",
-                details : "A tree is a widely used abstract data type that simulates a hierarchical tree structure, with a root value and subtrees of children with a parent node, represented as a set of linked nodes."
+                link : "Sorting- 3 Sessions",
+                details : "Bubble Sort,Selection Sort, Insertion Sort, Quick Sort, Merge Sort, Heap Sort."
             }
         ]
         const section5 = [
             {
-                link : "Binary Search Trees",
-                details : "Binary search trees, sometimes called ordered or sorted binary trees, are a particular type of container: a data structure that stores items in memory."
-            },
-            {
-                link : "Heaps",
-                details : "A heap is a tree-based data structure in which all the nodes of the tree are in a specific order. For example, if is the parent node of , then the value of follows a specific order with respect to the value of and the same order will be followed across the tree."
+                link : "Linked-Lists- 4 Sessions",
+                details : "Insertion,Updation, Deletion in a linked list, Finding and Removing loop in a Linked list, Sorting in Linked list, Doubly Linked List, Circular Linked List Josephus Problem."
             }
         ]
         const section6 = [
             {
-                link : "Sorting - Quick Sort and Merge Sort",
-                details : "Sorting refers to arranging data in a particular format. Sorting algorithm specifies the way to arrange data in a particular order."
-            },
-            {
-                link : "D&C and Backtracking",
-                details : "Divide and conquer (D&C) is an algorithm design paradigm based on multi-branched recursion. Backtracking is a general algorithm for finding all solutions to some computational problems, notably constraint satisfaction problems, that incrementally builds candidates to the solutions, and abandons a candidate as soon as it determines that the candidate cannot possibly be completed to a valid solution."
+                link : "Stack and Queue- 6 Sessions",
+                details : "Insertion and deletion in Stacks, Stock Span Problem, Histogram Program, Balanced Parentheses Problem, Insertion and Deletion in Queue, Stack using Queues, Queue using Stacks, STL implementation for Stack and Queues."
             }
         ]
         const section7 = [
             {
-                link : "Basic Dynamic Programming",
-                details : "Dynamic programming is used where we have problems, which can be divided into similar sub-problems, so that their results can be re-used. Mostly, these algorithms are used for optimization. Before solving the in-hand sub-problem, dynamic algorithm will try to examine the results of the previously solved sub-problems."
-            },
-            {
-                link : "Graphs",
-                details : "In computer science, a graph is an abstract data type that is meant to implement the undirected graph and directed graph concepts from the field of graph theory within mathematics."
+                link : "Trees- Binary Tree and Binary Search Tree- 6 Sessions",
+                details : "Insertion, Updation, Deletion in a Tree, Pre-order traversal, Post-order Traversal, In-order Traversal, Level Order Traversal, Boundary Traversal, Diagonal Traversal, Reverse Traversal, Lowest Common Ancestor problem, Mirror of a tree, Binary tree to Linked List and vice-versa."
             }
         ]
         const section8 = [
             {
-                link : "System Design",
-                details : "Systems design is the process of defining the architecture, modules, interfaces, and data for a system to satisfy specified requirements. Systems design could be seen as the application of systems theory to product development."
+                link : "Graphs- 6 Sessions",
+                details : "Graph Representation, Insertion, Updation and Deletion in a Graph, Breadth-first Search, Depth-first Search, Minimum Spanning Tree, Dijkstra’s Algorithm,  Prim’s Algorithm, Kruskal’s Algorithm, Topological Sort."
             }
         ]
+        const section9 = [
+            {
+                link : "Recursion and Backtracking- 3 Sessions",
+                details : "Backtracking vs DFS, N-Queens Problem, Knight’s Tour Problem, Sudoku Solving Problem, Rat in Maze Problem."
+            }
+        ]
+        const section10 = [
+            {
+                link : "Greedy Algorithm- 3 Sessions",
+                details : "Activity Selection Problem, Job Sequencing Problem, Egyptian Fraction, Fractional Knapsack Problem, Huffman Coding."
+            }
+        ]
+        const section11 = [
+            {
+                link : "Dynamic Programming- 6 Sessions",
+                details : "Top-Down approach, Bottom-up approach, Fibonacci Problem, Knapsack Problem, Egg Dropping Puzzle, Longest Increasing Subsequence, Longest Common Subsequence, Edit Distance, Minimum Cost Path, Cutting Rod Problem. Staircase Problem."
+            }
+        ]
+        const section12 = [
+            {
+                link : "Strings- 4 Sessions",
+                details : "KMP Algorithm, Z Algorithm, Tries, String Manipulation(Palindrome check, Substring check)."
+            }
+        ]
+        const section13 = [
+            {
+                link : "Mock Interviews - 2 Sessions",
+                details : "Activity Selection Problem, Job Sequencing Problem, Egyptian Fraction, Fractional Knapsack Problem, Huffman Coding."
+            }
+        ]
+        const section14 = [
+            {
+                link : "Coding Competitions - 15 Tests",
+                details : "Coding tests from various algorithms, for pressure handling experience for company interviews."
+            }
+        ]
+        const section15 = [
+            {
+                link : "Assignment Discussion- 15 Sessions",
+                details : "Each topic consists of proper assignment questions for which detailed discussion classes will be hosted."
+            }
+        ]
+        const section16 = [
+            {
+                link : "Placement Assistance - 2 Sessions",
+                details : "Tech talks and discussions around the tech and industry culture. Also, resume consultation by the industry panel."
+            }
+        ]
+
 
         return(
             <div className={classes.CurriculumFullStack} id="curriculum">
@@ -94,6 +119,15 @@ class CurriculumDSA extends React.Component{
                 <Curriculum2Item title="Module 6" topic1="NodeJS" topic2="MongoDB" section={section6} />
                 <Curriculum2Item title="Module 7" topic1="NodeJS" topic2="MongoDB" section={section7} />
                 <Curriculum2Item title="Module 8" topic1="NodeJS" topic2="MongoDB" section={section8} />
+                <Curriculum2Item title="Module 9" topic1="NodeJS" topic2="MongoDB" section={section9} />
+                <Curriculum2Item title="Module 10" topic1="NodeJS" topic2="MongoDB" section={section10} />
+                <Curriculum2Item title="Module 11" topic1="NodeJS" topic2="MongoDB" section={section11} />
+                <Curriculum2Item title="Module 12" topic1="NodeJS" topic2="MongoDB" section={section12} />
+                <Curriculum2Item title="Module 13" topic1="NodeJS" topic2="MongoDB" section={section13} />
+                <Curriculum2Item title="Module 14" topic1="NodeJS" topic2="MongoDB" section={section14} />
+                <Curriculum2Item title="Module 15" topic1="NodeJS" topic2="MongoDB" section={section15} />
+                <Curriculum2Item title="Module 16" topic1="NodeJS" topic2="MongoDB" section={section16} />
+
             </div>
             
         )

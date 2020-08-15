@@ -145,10 +145,10 @@ function ModalPhone(){
               <select onChange={(e)=> courseChange(e)}>
                   <option>Select Course</option>
                   <option>Fullstack Web Development</option>
-                  <option>Fullstack Web Development (Advanced)</option>
-                  <option>Data Science Track</option>
+                  {/* <option>Fullstack Web Development (Advanced)</option> */}
+                  <option>Data Science with Machine Learning</option>
                   <option>Data Structures and Algorithms</option>
-                  <option>Competitive Programming & Advanced DSA</option>
+                  {/* <option>Competitive Programming & Advanced DSA</option> */}
               </select>
               <label>Work Experience</label>
               <select onChange={(e)=>expChange(e)}>

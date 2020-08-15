@@ -24,9 +24,9 @@ class App extends React.Component {
                 <Route path="/fullstack" exact component={CourseFullStack} />
                 <Route path="/decide" exact component={DeciderPage} />
                 <Route path="/dsa" exact component={CourseDSA} />
-                <Route path="/fullstackadvanced" exact component={CourseSystems} />
+                {/* <Route path="/fullstackadvanced" exact component={CourseSystems} /> */}
                 {/* <Route path="/fullstackadvanced" exact component={CourseFullStackAdvanced} /> */}
-                <Route path="/dsadvanced" exact component={CourseDSAdvanced} />
+                {/* <Route path="/dsadvanced" exact component={CourseDSAdvanced} /> */}
                 <Route path="/datascience" exact component={CourseDataScience} />
                 <Route path="/about" exact component={About} />
                 <Route path="/team" exact component={TeamSection} />

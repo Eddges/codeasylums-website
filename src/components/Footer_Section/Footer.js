@@ -11,11 +11,11 @@ const Footer = () => {
         <div class={styles.footer_section}>
         <div class={styles.col}>
             <h1>COURSES</h1>
-            <a href="/fullstack"><p>Full Stack Development</p></a>
-            <a href="/fullstackadvanced"><p>Advanced Full Stack Development</p></a>
+            <a href="/fullstack"><p>Full Stack Web Development</p></a>
+            {/* <a href="/fullstackadvanced"><p>Advanced Full Stack Development</p></a> */}
             <a href="/dsa"><p>Data Structures & Algorithms</p></a>
-            <a href="/dsadvanced"><p>Competitive Programming & Advanced DSA</p></a>
-            <a href="/datascience"><p>Data Science & Engineering</p></a>
+            {/* <a href="/dsadvanced"><p>Competitive Programming & Advanced DSA</p></a> */}
+            <a href="/datascience"><p>Data Science with Machine Learning</p></a>
         </div>
         <div class={styles.col}>
             <h1>ABOUT US</h1>
