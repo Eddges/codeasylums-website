@@ -8,13 +8,14 @@ class CurriculumFullStack extends React.Component{
 
         const section1 = [
             {
-                link : "HTML, CSS, Bootstrap - 5 Sessions",
-                details : "Basic HTML syntax, Basic CSS syntax, Basic Layout, Header, Footer, Contents, Forms, Responsive Web Design, Media Queries, Making Your Page Responsive, Implementing Flexbox, Responsive Design, Bootstrap Templates and Components"
+                link : "Very basic starting implementation of HTML, CSS, JavaScript, Nodejs",
+                details : "Progate Subscription (3 Months)"
             },
             {
-                link : "36Hrs Hackathon (Project)",
-                details : "Hackathons are great opportunities to implement whatever you have learnt. You will create your first Web based product using the above mentioned technologies while implementing version control using Git and Github."
+                link : "HTML, CSS, Bootstrap - 5 Sessions",
+                details : "Basic HTML syntax, Basic CSS syntax, Basic Layout, Header, Footer, Contents, Forms, Responsive Web Design, Media Queries, Making Your Page Responsive, Implementing Flexbox, Responsive Design, Bootstrap Templates and Components"
             }
+
         ]
 
         const section2 = [
