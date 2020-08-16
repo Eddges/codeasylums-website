@@ -67,7 +67,7 @@ const CourseDataScience = (props) => {
             {/* <CourseTestimonials /> */}
             
             {/* <BubblesDSA /> */}
-            <Banner rPrice = "₹42,000" oPrice = "₹45,000"/>
+            <Banner rPrice = "₹29,899" oPrice = "₹45,000"/>
             <Accordion />
            
 

@@ -65,7 +65,7 @@ const CourseFullStack = (props) => {
             {/* <CourseTestimonials /> */}
             
             {/* <BubblesDSA /> */}
-            <Banner rPrice = "₹37,000" oPrice = "₹40,000"/>
+            <Banner rPrice = "₹29,899" oPrice = "₹40,000"/>
             <Accordion />
            
 
