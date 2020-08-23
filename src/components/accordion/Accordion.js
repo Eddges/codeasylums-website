@@ -29,17 +29,7 @@ const Accordion = (props) => {
                         </p>
                     </div>
                 </div>
-                <div className="accitem" id="item3">
-                    <a className="acclink" >
-                        What is the refund and cancellation policy?
-                        <span>+</span>
-                        <span>-</span>
-                    </a>
-                    <div className="accanswer">
-                        <p> We believe in 100% refund policy in case of disconnectivity, but due to payment processing and extra services of onboarding we will deduct 5% for the same. We believe in long connectivity and will be always there for you.
-                        </p>
-                    </div>
-                </div>
+              
                 <div className="accitem" id="item4">
                     <a className="acclink" >
                         Can I apply for more than one course at a time?
