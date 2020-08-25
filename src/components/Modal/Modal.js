@@ -60,7 +60,7 @@ function Modalpop(){
     if(e.target.value=="Fullstack Web Development (Advanced)") {
       course = "fullstack-advanced"
     }
-    if(e.target.value=="Data Science Track") {
+    if(e.target.value=="Data Science with Machine Learning") {
       course = "datascience"
     }
     if(e.target.value=="Data Structures and Algorithms") {
@@ -89,8 +89,8 @@ function Modalpop(){
   }
 
   const handleClick = () => {
-    if(fname==="" || email==="" || phone==="" || exp==="" || course==="" || designation==="" || city==="" || company===""){
-      alert("All the fields are required to proceed. Kindly make sure no field is left blank.")
+    if(phone===""){
+      alert("Email and Phone Number are required fields. Kindly make sure to fill them!")
   }
   else{
       axios.get(`https://apiace.codeasylums.com/api/saveLead?fname=${fname}&lname=${lname}&email=${email}&phone=${phone}&course=${course}&exp=${exp}`)
