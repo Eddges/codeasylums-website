@@ -8,78 +8,88 @@ class CurriculumDSAdvanced extends React.Component{
 
         const section1 = [
             {
-                link : "Advanced Trees + Binary Search Trees",
-                details : "A tree is a widely used abstract data type that simulates a hierarchical tree structure, with a root value and subtrees of children with a parent node, represented as a set of linked nodes. Binary search trees, sometimes called ordered or sorted binary trees, are a particular type of container: a data structure that stores items in memory."
+                link : "Python",
+                details : "Keywords, Identifiers, Variables, Standard Input & Output,operators, Control Flow, Strings, Loops, Lists, Tuples, Dictionary, Functions, Lambda, Module, Packages, File Handling, Error Handling, Map, Reduce, Filter, Zip."
             },
         ]
 
         const section2 = [
             {
-                link : "Recursion",
-                details : "Recursion is a method of solving a problem where the solution depends on solutions to smaller instances of the same problem. Such problems can generally be solved by iteration, but this needs to identify and index the smaller instances at programming time."
+                link : "Linear Algebra",
+                details : "Scalars, Vectors, Matrices, Tensors, Determinant, Dot Product, Hyperplane, Linear Dependence, and Span, Norms, Eigen decomposition, Singular Value Decomposition"
             },
             {
-                link : "Backtracking",
-                details : "Backtracking is a general algorithm for finding all solutions to some computational problems, notably constraint satisfaction problems, that incrementally builds candidates to the solutions, and abandons a candidate as soon as it determines that the candidate cannot possibly be completed to a valid solution."
+                link : "Statistics",
+                details : "PDF, CDF, Bayes’ Rule, Expectations, Variance, Covariance, Kernel Density Estimation, Kernel Density Classification, Central Limit Theorem, Chebyshev’s Inequality, Continuous Probability Distribution, and its Significance, Correlation, Confidence Interval, Hypothesis Testing, Conditional Probability"
+            },
+            {
+                link : "Calculus",
+                details : "Differentiation, Maxima-Minima Concepts, Gradient Descent, Stochastic Gradient Descent"
             }
         ]
 
         const section3 = [
             {
-                link : "Dynamic Programing",
-                details : "Dynamic programming is used where we have problems, which can be divided into similar sub-problems, so that their results can be re-used. Mostly, these algorithms are used for optimization. Before solving the in-hand sub-problem, dynamic algorithm will try to examine the results of the previously solved sub-problems."
+                link : "Data Analysis",
+                details : "DVariable Identification, Univariate Analysis, Bivariate Analysis, Missing Value Imputation, Outlier Detection, Feature Engineering, Variable Transformation, Numpy, Pandas, Matplotlib, SciPy, Seaborn, Bar Plot, Histograms, Contingency Table, Heat Map, Scatter Plot, Correlation Matrix, Violin Plot, Line Plots"
             }
         ]
 
         const section4 = [
             {
-                link : "Graphs",
-                details : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id lectus sed purus tristique sagittis. Aliquam molestie eu ligula eget bibendum. Nullam sapien nisi, varius a lacinia vel, posuere sit amet mi"
+                link : "Exploring Machine Learning",
+                details : "Linear Regression, Logistic Regression, KNN, Naive Bayes, Decision Tree, Random Forest, SVM, KMeans, PCA, Recommendation System, Accuracy Measurement Technique"
             }
         ]
         const section5 = [
             {
-                link : "Dynamic Programming",
-                details : "Dynamic programming is used where we have problems, which can be divided into similar sub-problems, so that their results can be re-used. Mostly, these algorithms are used for optimization. Before solving the in-hand sub-problem, dynamic algorithm will try to examine the results of the previously solved sub-problems."
-            },
-            {
-                link : "Graphs",
-                details : "In computer science, a graph is an abstract data type that is meant to implement the undirected graph and directed graph concepts from the field of graph theory within mathematics."
-            },
-            {
-                link : "BIT Masking",
-                details : "A bitmask is data that is used for bitwise operations, particularly in a bit field. Using a mask, multiple bits in a byte, nibble, word etc. can be set either on, off or inverted from on to off in a single bitwise operation."
+                link : "Fundamentals and Concepts of Neural Networks",
+                details : "Basic Awareness sessions on Neural Networks for Deep Learning, Introduction to Artificial Neural Network, Multi-Layer Perceptron & Activation Function."
             }
         ]
         
         const section6 = [
             {
-                link : "String",
-                details : "A string is a data type used in programming, such as an integer and floating point unit, but is used to represent text rather than numbers."
-            },
-            {
-                link : "KMP",
-                details : "Knuth-Morris-Pratt Algorithm. Knuth Morris Pratt (KMP) is an algorithm, which checks the characters from left to right. When a pattern has a sub-pattern appears more than one in the sub-pattern, it uses that property to improve the time complexity, also for in the worst case. The time complexity of KMP is O(n)."
-            },
-            {
-                link : "Tries",
-                details : "A trie is a tree-like data structure whose nodes store the letters of an alphabet. By structuring the nodes in a particular way, words and strings can be retrieved from the structure by traversing down a branch path of the tree. Tries in the context of computer science are a relatively new thing."
+                link : "Kaggle Based Contest",
+                details : "Teams based project development."
             }
         ]
         const section7 = [
             {
-                link : "Segmented Tree",
-                details : "A Segment Tree is a data structure that allows answering range queries over an array effectively, while still being flexible enough to allow modifying the array. This includes finding the sum of consecutive array elements a[l… r], or finding the minimum element in a such a range in O(logn) time."
+                link : "Project 1",
+                details : "Housing Price Prediction"
             },
             {
-                link : "Binary Indexed Trees",
-                details : "Binary Indexed trees are used to implement the arithmetic coding algorithm. Development of operations it supports were primarily motivated by use in that case. Binary Indexed Tree can be used to count inversions in an array in O(N*logN) time."
+                link : "Project 2",
+                details : "Credit Card Fraud Detection"
+            },
+            {
+                link : "Project 3",
+                details : "Detecting Parkinson's Disease with XGBoost"
+            },
+            {
+                link : "Project 4",
+                details : "Catching Illegal Fishing Projects"
+            },
+            {
+                link : "Project 5",
+                details : "Customer Segmentation"
+            },
+            {
+                link : "Project 6",
+                details : "Corona Research & Predictions"
             }
         ]
         const section8 = [
             {
-                link : "System Design",
-                details : "Systems design is the process of defining the architecture, modules, interfaces, and data for a system to satisfy specified requirements. Systems design could be seen as the application of systems theory to product development."
+                link : "Interview Preparation",
+                details : "Will be taken by the industry people who are working in startups and product-based Companies."
+            }
+        ]
+        const section9 = [
+            {
+                link : "Career and placement assistance",
+                details : "Tech talks and discussions around the tech and industry culture."
             }
         ]
 
@@ -87,14 +97,15 @@ class CurriculumDSAdvanced extends React.Component{
             <div className={classes.CurriculumFullStack} id="curriculum">
                 <p className={classes.title}>Course Curriculum</p>
                 <p className={classes.Description}>This course is majorly for the professionals who are looking forward to cracking coding interviews for tier - 1 product-based companies</p>
-                <Curriculum2Item title="Module 1" topic1="Array-Based Problems" topic2="Linked lists" section={section1} />
-                <Curriculum2Item title="Module 2" topic1="ReactJS" topic2="ExpressJS" section={section2} />
-                <Curriculum2Item title="Module 3" topic1="NodeJS" topic2="MongoDB" section={section3} />
-                <Curriculum2Item title="Module 4" topic1="NodeJS" topic2="MongoDB" section={section4} />
-                <Curriculum2Item title="Module 5" topic1="NodeJS" topic2="MongoDB" section={section5} />
-                <Curriculum2Item title="Module 6" topic1="NodeJS" topic2="MongoDB" section={section6} />
-                <Curriculum2Item title="Module 7" topic1="NodeJS" topic2="MongoDB" section={section7} />
-                <Curriculum2Item title="Module 8" topic1="NodeJS" topic2="MongoDB" section={section8} />
+                <Curriculum2Item title="Python - 5 Sessions" topic1="Array-Based Problems" topic2="Linked lists" section={section1} />
+                <Curriculum2Item title="Mathematics & Statistics - 10 Sessions" topic1="ReactJS" topic2="ExpressJS" section={section2} />
+                <Curriculum2Item title="Exploratory Data Analysis - 7 Sessions" topic1="NodeJS" topic2="MongoDB" section={section3} />
+                <Curriculum2Item title="Machine Learning - 15 Sessions" topic1="NodeJS" topic2="MongoDB" section={section4} />
+                <Curriculum2Item title="Introduction to Neural Networks - 5 Sessions" topic1="NodeJS" topic2="MongoDB" section={section5} />
+                <Curriculum2Item title="Mentored Kaggle Contest - 4 Sessions" topic1="NodeJS" topic2="MongoDB" section={section6} />
+                <Curriculum2Item title="Project Development Sessions - 7 Sessions" topic1="NodeJS" topic2="MongoDB" section={section7} />
+                <Curriculum2Item title="Mock Interviews - 2 Sessions" topic1="NodeJS" topic2="MongoDB" section={section8} />
+                <Curriculum2Item title="Placement Assistance- 2 Sessions" topic1="NodeJS" topic2="MongoDB" section={section9} />
             </div>
             
         )

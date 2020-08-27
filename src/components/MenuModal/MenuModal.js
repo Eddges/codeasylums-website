@@ -14,25 +14,25 @@ const MenuModal = () => {
             <div className="upperDiv">
             <div className="Courses">
                 <ul>
-                    <li>Full Stack Development Web/App </li>
+                    <li>Software Development Track </li>
                     <li><a href="/fullstack">Full Stack Web Development from Scratch</a> <span className="new">popular</span></li>
-                    {/* <li><a href="/fullstackadvanced">Advanced Full Stack Development </a><span className="new">popular</span></li> */}
+                    <li><a href="/dsa">Data Science and Algorithms </a><span className="new">new</span></li>
                 </ul>
             </div>
             <div className="Courses">
                 <ul>
-                    <li>Cracking Coding Interview</li>
-                    <li><a href="/dsa">Data Structures and Algorithms from Scratch</a> <span className="new">popular</span></li>
-                    {/* <li><a href="/dsadvanced">Competitive Programming & Advanced DSA</a> <span className="new">popular</span></li> */}
+                    <li>Data Science Track</li>
+                    <li><a href="/danalytics">Data Analysts with Business Analysts</a> <span className="new">new</span></li>
+                    <li><a href="/datascience">Data Science and Machine Learning</a> <span className="new">popular</span></li>
                 </ul>
             </div>
-            <div className="Courses">
+            {/* <div className="Courses">
                 <ul>
                     <li>Data Science</li>
                     <li><a href="/datascience">Data Science with Machine Learning from Scratch </a><span className="new">popular</span></li>
                     
                 </ul>
-            </div>
+            </div> */}
             </div>
             <div className="lineDiv"></div>
         <div className="lowerDiv">

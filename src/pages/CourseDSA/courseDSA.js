@@ -45,7 +45,7 @@ const CourseDSA = (props) => {
             <MenuModal />
             <Navbar />
             <BGClick />
-            <Page2Top course="dsa" title="Data Structures and Algorithms " top="Online | 8 Weeks | Lively Mentorship | 4 Weeks Job Assistance" line1="(From scratch)" line2="Implement Data Structures and crack coding interviews"  line3_1 = "₹ 42,000" line3_2 = "₹ 45,000" type="fullstack" illustration={dsaBG} />
+            <Page2Top course="dsa" title="Data Structures and Algorithms (from Scratch)" top="Online | 8 Weeks | Lively Mentorship | 4 Weeks Job Assistance" line1="(From scratch)" line2="Implement Data Structures and crack coding interviews"  line3_1 = "₹ 42,000" line3_2 = "₹ 45,000" type="fullstack" illustration={dsaBG} />
             <CodeAsylumsAdvantageDSA />
             {/* <Parallax1 /> */}
             {/* <MentorsDSA /> */}
@@ -58,7 +58,7 @@ const CourseDSA = (props) => {
             {/* <CourseTestimonials /> */}
             
             {/* <BubblesDSA /> */}
-            <Banner rPrice = "₹29,899" oPrice = "₹45,000"/>
+            <Banner rPrice = "₹35,000 + GST" oPrice = "₹45,000"/>
             <Accordion />
           
 

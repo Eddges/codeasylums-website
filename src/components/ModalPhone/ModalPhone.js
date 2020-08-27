@@ -78,9 +78,13 @@ function ModalPhone(){
     if(e.target.value=="Competitive Programming & Advanced DSA") {
       course = "dsa-advanced"
     }
+    if(e.target.value=="Data Analyst with Business Analysts") {
+      course = "data-analytics"
+    }
     if(e.target.value=="Select Course"){
       course = ""
     }
+    console.log('Course-selected : ', course)
   }
   const expChange = (e) =>{
     if(e.target.value==="More than 5 Years"){
@@ -145,9 +149,11 @@ function ModalPhone(){
               <select onChange={(e)=> courseChange(e)}>
                   <option>Select Course</option>
                   <option>Fullstack Web Development</option>
-                  {/* <option>Fullstack Web Development (Advanced)</option> */}
-                  <option>Data Science with Machine Learning</option>
                   <option>Data Structures and Algorithms</option>
+                  {/* <option>Fullstack Web Development (Advanced)</option> */}
+                  <option>Data Analyst with Business Analysts</option>
+                  <option>Data Science with Machine Learning</option>
+                  
                   {/* <option>Competitive Programming & Advanced DSA</option> */}
               </select>
               <label>Work Experience</label>

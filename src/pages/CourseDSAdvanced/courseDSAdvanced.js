@@ -43,13 +43,13 @@ const options = {
   
   ReactPixel.pageView(); // For tracking page view
 
-const CourseDSAdvanced = (props) => {
+const CourseDataScience = (props) => {
     return(
         <Layout>
             <MenuModal />
             <Navbar />
             <BGClick />
-            <Page2Top course="dsa-advanced" title="Competitive Programming with Advanced DSA" top="Online | 8 Weeks | Lively Mentorship | 4 Weeks Job Assistance" line1="Crack the coding interviews of Tier-1 Product based companies" line2="Best Assistance for Cracking Coding Interviews" line3_1 = "₹ 72,000" line3_2 = "₹ 75,000" type="fullstack" illustration={dsAdvancedBG} />
+            <Page2Top course="datascience" title="Data Science & Machine Learning" top="Online | 11 Weeks | Lively Mentorship | 2 Weeks Job Assistance" line1="Crack the coding interviews of Tier-1 Data Science based companies" line2="Best Assistance for Cracking Coding Interviews" line3_1 = "₹ 72,000" line3_2 = "₹ 75,000" type="fullstack" illustration={dsAdvancedBG} />
             <CodeAsylumsAdvantageDSAdvanced />
             {/* <Parallax1 /> */}
             {/* <MentorsDSAdvanced /> */}
@@ -62,7 +62,7 @@ const CourseDSAdvanced = (props) => {
             {/* <CourseTestimonials /> */}
             
             {/* <BubblesDSA /> */}
-            <Banner rPrice = "₹72,000" oPrice = "₹75,000"/>
+            <Banner rPrice = "₹35,000 + GST" oPrice = "₹45,000"/>
             <Accordion />
             
 
@@ -72,4 +72,4 @@ const CourseDSAdvanced = (props) => {
     )
 }
 
-export default CourseDSAdvanced
+export default CourseDataScience

@@ -14,7 +14,7 @@ const Footer = () => {
             <a href="/fullstack"><p>Full Stack Web Development</p></a>
             {/* <a href="/fullstackadvanced"><p>Advanced Full Stack Development</p></a> */}
             <a href="/dsa"><p>Data Structures & Algorithms</p></a>
-            {/* <a href="/dsadvanced"><p>Competitive Programming & Advanced DSA</p></a> */}
+            <a href="/danalytics"><p>Data Analytics</p></a>
             <a href="/datascience"><p>Data Science with Machine Learning</p></a>
         </div>
         <div class={styles.col}>

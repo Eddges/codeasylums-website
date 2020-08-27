@@ -43,56 +43,48 @@ class CurriculumDataScience extends React.Component{
 
         const section2 = [
             {
-                link : "Python - 5 Sessions",
+                link : "Python - 7 Sessions",
                 details : "Keywords, Identifiers, Variables, Standard Input & Output, Operators, Control Flow,Strings, Loops, Lists, Tuples, Dictionary, Functions, Lambda, Module, Packages, FileHandling, Error Handling, Map, Reduce, Filter, Zip"
             }
         ]
 
         const section3 = [
             {
-                link : "Linear Algebra ",
-                details : "Scalars, Vectors, Matrices, Tensors, Determinant, Dot Product, Hyperplane, Linear Dependence and Span, Norms, Eigen decomposition, SingularValue Decomposition"
-            },
-            {
-                link : "Statistics",
-                details : "PDF, CDF, Bayes’ Rule, Expectations, Variance, Covariance, Kernel Density Estimation, Kernel Density Classification, Central Limit Theorem, Chebyshev’s Inequality, Continuous Probability Distribution, and its Significance, Correlation, Confidence Interval, Hypothesis Testing, Conditional Probability"
-            },
-            {
-                link : "Calculus",
-                details : "Differentiation, Maxima-Minima Concepts, Gradient Descent, Stochastic Gradient Descent"
+                link : "Test, Assignments and Discussions",
+                details : "Hackerrank Tests for SQL & Python, Assignments for Tableau & R programming, Case Studies Discussions."
             }
         ]
 
         const section4 = [
             {
-                link : "Exploratory Analysis",
-                details : "Variable Identification, Univariate Analysis, Bivariate Analysis, Missing Value Imputation, Outlier Detection, Feature Engineering, Variable Transformation, Numpy, Pandas, Matplotlib, SciPy, Seaborn, Bar Plot, Histograms, Contingency Table, Heat Map, Scatter Plot, Correlation Matrix, Violin Plot, Line Plots"
+                link : "Case Study & Analysis Sessions - 5 Sessions (1 - 2 Case Studies)",
+                details : "Remote learning, distance education, and online learning during the COVID19 pandemic"
             }
         ]
         const section5 = [
             {
-                link : "Diving into Machine Learning",
-                details : "Linear Regression, Logistic Regression, KNN, Naive Bayes, Decision Tree, Random Forest, SVM, KMeans, PCA, Recommendation System, Accuracy Measurement Technique"
+                link : "Interview Preparation",
+                details : "Will be taken by the industry people who are working in startups and product-based Companies"
             }
         ]
-        const section5_1 = [
-            {
-                link : "Introduction to Neural Networks",
-                details : "A neural network is a series of algorithms that endeavors to recognize underlying relationships in a set of data through a process that mimics the way the human brain operates. In this sense, neural networks refer to systems of neurons, either organic or artificial in nature."
-            }
-        ]
-        const section6 = [
-            {
-                link : "Hackathon",
-                details : "Frontend Hackathon & Fullstack Hackathon - Teams based project development"
-            }
-        ]
-        const section7 = [
-            {
-                link : "Build a Project",
-                details : "Bootstrap-based responsive static web application for community profiling Integrating Bitcoin API to make a browser-based application  E-Commerce Web-Application using MERN stack (end-to-end)  "
-            }
-        ]
+        // const section5_1 = [
+        //     {
+        //         link : "Introduction to Neural Networks",
+        //         details : "A neural network is a series of algorithms that endeavors to recognize underlying relationships in a set of data through a process that mimics the way the human brain operates. In this sense, neural networks refer to systems of neurons, either organic or artificial in nature."
+        //     }
+        // ]
+        // const section6 = [
+        //     {
+        //         link : "Hackathon",
+        //         details : "Frontend Hackathon & Fullstack Hackathon - Teams based project development"
+        //     }
+        // ]
+        // const section7 = [
+        //     {
+        //         link : "Build a Project",
+        //         details : "Bootstrap-based responsive static web application for community profiling Integrating Bitcoin API to make a browser-based application  E-Commerce Web-Application using MERN stack (end-to-end)  "
+        //     }
+        // ]
         const section8 = [
             {
                 link : "Interview Preparations",
@@ -101,7 +93,7 @@ class CurriculumDataScience extends React.Component{
         ]
         const section9 = [
             {
-                link : "Guidance and support",
+                link : "Career and placement support",
                 details : "Tech talks and discussions around the tech and industry culture."
             }
         ]
@@ -113,14 +105,14 @@ class CurriculumDataScience extends React.Component{
                 <p className={classes.Description}>This course is for those people who are new to the world of data structures and looking forward to implementing data structures in depth to crack coding interviews of mainly tier-2 companies</p>
                 <Curriculum2Item title="Fundamentals - 25 sessions" topic1="Array-Based Problems" topic2="Linked lists" section={section1} />
                 <Curriculum2Item title="SQL - 10 sessions" topic1="Array-Based Problems" topic2="Linked lists" section={section1_1} />
-                <Curriculum2Item title="Python 5 sessions" topic1="ReactJS" topic2="ExpressJS" section={section2} />
-                <Curriculum2Item title="Mathematics & Statistics - 10 Sessions" topic1="NodeJS" topic2="MongoDB" section={section3} />
-                <Curriculum2Item title="Exploratory Data Analysis - 7 Sessions" topic1="NodeJS" topic2="MongoDB" section={section4} />
-                <Curriculum2Item title="Machine Learning - 15 Sessions" topic1="NodeJS" topic2="MongoDB" section={section5} />
-                <Curriculum2Item title="Neural Networks - 5 Sessions" topic1="NodeJS" topic2="MongoDB" section={section5_1} />
-                <Curriculum2Item title="Mentored Hackathon - 4 Sessions" topic1="NodeJS" topic2="MongoDB" section={section6} />
-                <Curriculum2Item title="Project Development Sessions - 7 Sessions" topic1="NodeJS" topic2="MongoDB" section={section7} />
-                <Curriculum2Item title="Mock Interviews - 2 Sessions" topic1="NodeJS" topic2="MongoDB" section={section8} />
+                <Curriculum2Item title="Python - 7 sessions" topic1="ReactJS" topic2="ExpressJS" section={section2} />
+                <Curriculum2Item title="Hands on problems and test" topic1="NodeJS" topic2="MongoDB" section={section3} />
+                <Curriculum2Item title="Case studies" topic1="NodeJS" topic2="MongoDB" section={section4} />
+                <Curriculum2Item title="Interview Preparation - 2 sessions" topic1="NodeJS" topic2="MongoDB" section={section5} />
+                {/* <Curriculum2Item title="Neural Networks - 5 Sessions" topic1="NodeJS" topic2="MongoDB" section={section5_1} /> */}
+                {/* <Curriculum2Item title="Mentored Hackathon - 4 Sessions" topic1="NodeJS" topic2="MongoDB" section={section6} /> */}
+                {/* <Curriculum2Item title="Project Development Sessions - 7 Sessions" topic1="NodeJS" topic2="MongoDB" section={section7} /> */}
+                {/* <Curriculum2Item title="Mock Interviews - 2 Sessions" topic1="NodeJS" topic2="MongoDB" section={section8} /> */}
                 <Curriculum2Item title= "Placement Assistance - 2 Sessions" topic1="NodeJS" topic2="MongoDB" section={section9} />
                 {/* <Curriculum2Item title="Week 12 - Week 13" topic1="NodeJS" topic2="MongoDB" section={section12} /> */}
             </div>

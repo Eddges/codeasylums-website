@@ -8,8 +8,8 @@ import CourseDSA from './pages/CourseDSA/courseDSA'
 import CourseFullStack from './pages/CourseFullStack/courseFullStack'
 import CourseSystems from './pages/CourseSystems/courseSystems'
 // import CourseFullStackAdvanced from './pages/CourseFullStackAdvanced/courseFullStackAdvanced'
-import CourseDSAdvanced from './pages/CourseDSAdvanced/courseDSAdvanced'
-import CourseDataScience from './pages/CourseDataScience/courseDataScience'
+import CourseDataScience from './pages/CourseDSAdvanced/courseDSAdvanced'
+import CourseDataAnalytics from './pages/CourseDataScience/courseDataScience'
 import'./App.css'
 import About from './components/About/About'
 import TeamSection from './components/TeamSection/TeamSection'
@@ -26,8 +26,8 @@ class App extends React.Component {
                 <Route path="/dsa" exact component={CourseDSA} />
                 {/* <Route path="/fullstackadvanced" exact component={CourseSystems} /> */}
                 {/* <Route path="/fullstackadvanced" exact component={CourseFullStackAdvanced} /> */}
-                {/* <Route path="/dsadvanced" exact component={CourseDSAdvanced} /> */}
                 <Route path="/datascience" exact component={CourseDataScience} />
+                <Route path="/danalytics" exact component={CourseDataAnalytics} />
                 <Route path="/about" exact component={About} />
                 <Route path="/team" exact component={TeamSection} />
             </Switch>

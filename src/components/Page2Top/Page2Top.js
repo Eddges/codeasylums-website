@@ -106,8 +106,8 @@ class Page2Top extends React.Component {
     }
 
     handleClick = () => {
-        if(this.state.fname==="" || this.state.email==="" || this.state.phone==="" || this.state.exp==="" || this.state.city===""){
-            alert("All the fields are required to proceed. Kindly make sure no field is left blank.")
+        if(this.state.email==="" || this.state.phone==="" ){
+            alert("Email and Phone are required. Kindly fill the details!")
         }
         else{
             axios.get(`https://apiace.codeasylums.com/api/saveLead?fname=${this.state.fname}&lname=${this.state.lname}&email=${this.state.email}&phone=${this.state.phone}&course=${this.state.course}&exp=${this.state.exp}&city=${this.state.city}&designation=${this.state.designation}&company=${this.state.company}`)
@@ -118,6 +118,10 @@ class Page2Top extends React.Component {
                   });
             })
         }
+    }
+
+    componentDidMount() {
+        console.log('Course : ', this.state.course)
     }
 
     render() {
