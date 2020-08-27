@@ -102,7 +102,7 @@ class CurriculumDataScience extends React.Component{
         return(
             <div className={classes.CurriculumFullStack} id="curriculum">
                 <p className={classes.title}>Course Curriculum</p>
-                <p className={classes.Description}>This course is for those people who are new to the world of data structures and looking forward to implementing data structures in depth to crack coding interviews of mainly tier-2 companies</p>
+                <p className={classes.Description}>Let Data do the talking for you. Derive insights, trends and inferences from real-world data using technologies like SQL, Python, Tableau. Join today to land exciting career opportunities in the hottest career prospect of the century. 3 Month intensive training on the latest Data Analytics tools and Technologies to make you learn Data Analytics from scratch!</p>
                 <Curriculum2Item title="Fundamentals - 25 sessions" topic1="Array-Based Problems" topic2="Linked lists" section={section1} />
                 <Curriculum2Item title="SQL - 10 sessions" topic1="Array-Based Problems" topic2="Linked lists" section={section1_1} />
                 <Curriculum2Item title="Python - 7 sessions" topic1="ReactJS" topic2="ExpressJS" section={section2} />

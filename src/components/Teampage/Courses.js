@@ -40,7 +40,7 @@ function Courses() {
       <div className={styles.card3}>
             <div className={styles.up}>
                 <div className={styles.gradient}></div>
-                <h3>FULLSTACK WEB DEVELOPMENT (from Scratch)</h3>
+                <h3>FULLSTACK WEB DEVELOPMENT FROM SCRATCH</h3>
             </div>
             <div className={styles.down}>
             <p>Made for those with a passion for design, development and programming expertise, this course enables the average working professional to learn FullStack from scratch, with Industry-relevant projects and live exposure to both Client & Server-side Technologies like React, JavaScript, NodeJs, AWS and Git</p>
@@ -53,7 +53,7 @@ function Courses() {
         <div className={styles.card}>
             <div className={styles.up}>
                 <div className={styles.gradient}></div>
-                <h3>DATA STRUCTURES AND ALGORITHMS (from Scratch)</h3>
+                <h3>DATA STRUCTURES AND ALGORITHMS FROM SCRATCH</h3>
             </div>
             <div className={styles.down}>
                 <p>Specifically tailored for those looking to boost their knowledge in Data Structures & Algorithms, our curated content takes a deep dive into algorithms like Trees, Graphs & Dynamic Programming. Supported with HackerRank Contests, Self Practice Material, and a Hands-On Coding Sessions and Pair Programming. We ensure that you'll be ready for every coding test.</p>

@@ -53,7 +53,7 @@ const CourseDataAnalytics = (props) => {
             <MenuModal />
             <Navbar />
             <BGClick />
-            <Page2Top course="data-analytics" title="Data Analyst with Business Analysts" top="Online | 11 Weeks | Lively Mentorship | 2 Weeks Job Assistance" line1="Become a Data Analyst in 91 days" line2="For budding Data Analysts" line3_1 = "₹ 42,000" line3_2 = "₹ 45,000" type="fullstack" illustration={datascienceBG} />
+            <Page2Top course="data-analytics" title="Data Analyst with Business Analysts" top="Online | 3 Months | Live Mentorship | Interview + Job Assistance" line1="Become a Data Analyst in 91 days" line2="For budding Data Analysts" line3_1 = "₹ 42,000" line3_2 = "₹ 45,000" type="fullstack" illustration={datascienceBG} />
             <CodeAsylumsAdvantageDataScience />
             {/* <Parallax1 /> */}
             {/* <MentorsDataScience /> */}

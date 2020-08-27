@@ -163,7 +163,7 @@
   
   .wrapper .card .up{
     display: flex;
-    height : 35%;
+    min-height : 160px;
     justify-content: center;
     align-items: center;
     background: url('../../assets/dsacard.jpg');
@@ -193,7 +193,7 @@
 
   .wrapper .card1 .up{
     display: flex;
-    height : 35%;
+    min-height : 160px;
     justify-content: center;
     align-items: center;
     /* background: linear-gradient(90deg, #3F2B96 0%, #A8C0FF 100%); */
@@ -224,7 +224,7 @@
 
   .wrapper .card2 .up{
     display: flex;
-    height : 35%;
+    min-height : 160px;
     justify-content: center;
     align-items: center;
     background:url('../../assets/datasciencecard.jpg');
@@ -253,7 +253,7 @@
 
   .wrapper .card3 .up{
     display: flex;
-    height : 35%;
+    min-height : 160px;
     justify-content: center;
     align-items: center;
     background: url('../../assets/fullstackcard.jpg');
@@ -373,7 +373,7 @@
     padding : 0px 15px;
   }
   .wrapper .card2 .down p{
-    font-size: 14px;
+    font-size: 16px;
     padding-left: 10px;
     padding-right: 10px;
     width: 100%;
@@ -532,69 +532,80 @@
     cursor: pointer;
   }
   
-  @media screen and (max-width: 576px) {
-    .wrapper{
-      height: auto;
-      display: flex;
+
+
+
+
+
+
+
+
+
+
+
+
+  @media(max-width : 798px) {
+    .App{
+      height : auto;
+    }
+    .App .Desc{
+      width : 100%;
+      height : auto;
+      display : flex;
       flex-direction: column;
+    }
+    .App .Desc .checks1{
+      display : flex;
+      width : 100%;
+      flex-wrap: wrap;
+    }
+    .App .Desc .DescP{
+      width : 100%;
+      text-align: center;
+      font-size: 1.2rem;
+      color : white;
+      font-family: 'Raleway';
+      height : 20vh;
+      display : flex;
+      align-items: center;
       justify-content: center;
-      align-content: center;
-      /* margin-left: 0; */
-      /* margin-top: 0; */
-      margin-bottom: 20px;
+      margin-top: 1%;
     }
   
-    .wrapper .card{
-      display: flex;
-      flex-direction: column;
-      width: 80%;
-      height: 50vh;
-      /* margin-left: 50px; */
-      margin-bottom: 20px;
-      background-color: white;
+    .App .Desc .check{
+      height : 15vh;
+      width : 100%;
+      display : flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding : 0px 40px;
     }
-
-    .wrapper .card1{
-      display: flex;
-      flex-direction: column;
-      width: 80%;
-      height: 50vh;
-      /* margin-left: 50px; */
-      margin-bottom: 20px;
-      background-color: white;
+    .App .Desc .check img{
+      width : 20%;
     }
-
-    .wrapper .card2{
-      display: flex;
-      flex-direction: column;
-      width: 80%;
-      height: 50vh;
-      /* margin-left: 50px; */
-      margin-bottom: 20px;
-      background-color: white;
-    }
-
-    .wrapper .card3{
-      display: flex;
-      flex-direction: column;
-      width: 80%;
-      height: 50vh;
-      /* margin-left: 50px; */
-      margin-bottom: 20px;
-      background-color: white;
-    }
-
-    .wrapper .card4{
-      display: flex;
-      flex-direction: column;
-      width: 80%;
-      height: 50vh;
-      /* margin-left: 50px; */
-      margin-bottom: 20px;
-      background-color: white;
+    .App .Desc .check p{
+      text-align: center;
+      color : white;
+      padding : 10px 20px;
+      font-size: 0.8rem;
+      font-weight: 300;
     }
   }
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   @media screen and (max-width: 796px) {
     .wrapper{
       height: inherit;
@@ -665,7 +676,7 @@
       padding-left: 10px;
       padding-right: 10px;
       width: 100%;
-      text-align: center;
+      text-align: justify;
       padding-top: 30px;
       height: 220px;
     }
@@ -674,7 +685,7 @@
       padding-left: 10px;
       padding-right: 10px;
       width: 100%;
-      text-align: center;
+      text-align: justify;
       padding-top: 30px;
       height: 220px;
     }
@@ -683,7 +694,7 @@
       padding-left: 10px;
       padding-right: 10px;
       width: 100%;
-      text-align: center;
+      text-align: justify;
       padding-top: 30px;
       height: 150px;
     }
@@ -692,7 +703,7 @@
       padding-left: 10px;
       padding-right: 10px;
       width: 100%;
-      text-align: center;
+      text-align: justify;
       padding-top: 30px;
       height: 220px;
     }
@@ -701,100 +712,54 @@
       padding-left: 10px;
       padding-right: 10px;
       width: 100%;
-      text-align: center;
+      text-align: justify;
       padding-top: 30px;
       height: 150px;
     }
   }
   
-  @media(max-width : 798px) {
-    .App{
-      height : auto;
-    }
-    .App .Desc{
-      width : 100%;
-      height : auto;
-      display : flex;
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media screen and (max-width: 576px) and (min-height : 800px) {
+    .wrapper{
+      height: auto;
+      display: flex;
       flex-direction: column;
-    }
-    .App .Desc .checks1{
-      display : flex;
-      width : 100%;
-      flex-wrap: wrap;
-    }
-    .App .Desc .DescP{
-      width : 100%;
-      text-align: center;
-      font-size: 1.2rem;
-      color : white;
-      font-family: 'Raleway';
-      height : 20vh;
-      display : flex;
-      align-items: center;
       justify-content: center;
-      margin-top: 1%;
+      align-content: center;
+      /* margin-left: 0; */
+      /* margin-top: 0; */
+      margin-bottom: 20px;
     }
   
-    .App .Desc .check{
-      height : 15vh;
-      width : 100%;
-      display : flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-      padding : 0px 40px;
-    }
-    .App .Desc .check img{
-      width : 20%;
-    }
-    .App .Desc .check p{
-      text-align: center;
-      color : white;
-      padding : 10px 20px;
-      font-size: 0.8rem;
-      font-weight: 300;
-    }
-  }
-
-  @media(max-height : 700px) {
-    .wrapper .card{
-      height : 60vh;
-    }
-    .wrapper .card1{
-      height : 60vh;
-    }
-    .wrapper .card2{
-      height : 60vh;
-    }
-    .wrapper .card3{
-      height : 60vh;
-    }
-    .wrapper .card4{
-      height : 60vh;
-    }
-  }
-
-  @media(max-width : 330px){
     .wrapper .card{
       display: flex;
       flex-direction: column;
       width: 80%;
-      height: 90vh;
-      /* margin: 20px; */
+      min-height: 510px;
+      /* margin-left: 50px; */
       margin-bottom: 20px;
-      margin-left: 0;
       background-color: white;
-      font-size : 12px;
     }
 
     .wrapper .card1{
       display: flex;
       flex-direction: column;
       width: 80%;
-      height: 90vh;
-      /* margin: 20px; */
+      min-height: 500px;
+      /* margin-left: 50px; */
       margin-bottom: 20px;
-      margin-left: 0;
       background-color: white;
     }
 
@@ -802,20 +767,19 @@
       display: flex;
       flex-direction: column;
       width: 80%;
-      height: 90vh;
-      /* margin: 20px; */
+      min-height : 450px;
+      /* margin-left: 50px; */
       margin-bottom: 20px;
-      margin-left: 0;
       background-color: white;
     }
+
     .wrapper .card3{
       display: flex;
       flex-direction: column;
       width: 80%;
-      height: 90vh;
-      /* margin: 20px; */
+      min-height: 500px;
+      /* margin-left: 50px; */
       margin-bottom: 20px;
-      margin-left: 0;
       background-color: white;
     }
 
@@ -824,54 +788,228 @@
       flex-direction: column;
       width: 80%;
       height: 50vh;
-      /* margin: 20px; */
+      /* margin-left: 50px; */
       margin-bottom: 20px;
-      margin-left: 0;
       background-color: white;
     }
-    .wrapper .card .down p{
-      font-size: 14px;
-      padding-left: 10px;
-      padding-right: 10px;
-      width: 100%;
-      text-align: center;
-      padding-top: 30px;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media screen and (max-width: 576px) and (max-height : 800px) {
+    .wrapper{
       height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+      /* margin-left: 0; */
+      /* margin-top: 0; */
+      margin-bottom: 20px;
     }
-    .wrapper .card1 .down p{
-      font-size: 14px;
-      padding-left: 10px;
-      padding-right: 10px;
-      width: 100%;
-      text-align: center;
-      padding-top: 30px;
-      height: auto;
+  
+    .wrapper .card{
+      display: flex;
+      flex-direction: column;
+      width: 80%;
+      min-height: 510px;
+      /* margin-left: 50px; */
+      margin-bottom: 20px;
+      background-color: white;
     }
-    .wrapper .card2 .down p{
-      font-size: 14px;
-      padding-left: 10px;
-      padding-right: 10px;
-      width: 100%;
-      text-align: center;
-      padding-top: 30px;
-      height: auto;
+
+
+
+    .wrapper .card1{
+      display: flex;
+      flex-direction: column;
+      width: 80%;
+      min-height: 500px;
+      /* margin-left: 50px; */
+      margin-bottom: 20px;
+      background-color: white;
     }
-    .wrapper .card3 .down p{
-      font-size: 14px;
-      padding-left: 10px;
-      padding-right: 10px;
-      width: 100%;
-      text-align: center;
-      padding-top: 30px;
-      height: auto;
+
+
+
+    .wrapper .card2{
+      display: flex;
+      flex-direction: column;
+      width: 80%;
+      min-height : 450px;
+      /* margin-left: 50px; */
+      margin-bottom: 20px;
+      background-color: white;
     }
-    .wrapper .card4 .down p{
-      font-size: 14px;
-      padding-left: 10px;
-      padding-right: 10px;
-      width: 100%;
-      text-align: center;
-      padding-top: 30px;
-      height: 150px;
+
+    .wrapper .card3{
+      display: flex;
+      flex-direction: column;
+      width: 80%;
+      min-height: 500px;
+      /* margin-left: 50px; */
+      margin-bottom: 20px;
+      background-color: white;
+    }
+
+    .wrapper .card4{
+      display: flex;
+      flex-direction: column;
+      width: 80%;
+      height: 50vh;
+      /* margin-left: 50px; */
+      margin-bottom: 20px;
+      background-color: white;
     }
   }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+  /* @media(max-height : 700px) {
+    .wrapper .card{
+      height : 60vh;
+    }
+    .wrapper .card1{
+      height : 60vh;
+    }
+    .wrapper .card2{
+      height : 60vh;
+    }
+    .wrapper .card3{
+      height : 60vh;
+    }
+    .wrapper .card4{
+      height : 60vh;
+    }
+  } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media screen and (max-width: 330px) and (max-height : 800px) {
+    .wrapper{
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+      /* margin-left: 0; */
+      /* margin-top: 0; */
+      margin-bottom: 20px;
+    }
+  
+    .wrapper .card{
+      display: flex;
+      flex-direction: column;
+      width: 80%;
+      min-height: 590px;
+      /* margin-left: 50px; */
+      margin-bottom: 20px;
+      /* background-color: coral; */
+    }
+
+    .wrapper .card1 .down p{
+      min-height : 250px;
+      /* background-color : coral; */
+    } 
+    .wrapper .card1{
+      display: flex;
+      flex-direction: column;
+      width: 80%;
+      min-height: 520px;
+      /* margin-left: 50px; */
+      margin-bottom: 20px;
+      background-color: white;
+    }
+
+
+    .wrapper .card .down p{
+      min-height : 280px;
+      /* background-color : coral; */
+    }
+
+    .wrapper .card2{
+      display: flex;
+      flex-direction: column;
+      width: 80%;
+      min-height : 480px;
+      /* margin-left: 50px; */
+      margin-bottom: 20px;
+      background-color: white;
+    }
+
+    .wrapper .card3{
+      display: flex;
+      flex-direction: column;
+      width: 80%;
+      min-height: 500px;
+      /* margin-left: 50px; */
+      margin-bottom: 20px;
+      background-color: white;
+    }
+
+    .wrapper .card4{
+      display: flex;
+      flex-direction: column;
+      width: 80%;
+      height: 50vh;
+      /* margin-left: 50px; */
+      margin-bottom: 20px;
+      background-color: white;
+    }
+    
+  }
+  

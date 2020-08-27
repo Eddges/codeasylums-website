@@ -96,7 +96,7 @@ class CurriculumDSAdvanced extends React.Component{
         return(
             <div className={classes.CurriculumFullStack} id="curriculum">
                 <p className={classes.title}>Course Curriculum</p>
-                <p className={classes.Description}>This course is majorly for the professionals who are looking forward to cracking coding interviews for tier - 1 product-based companies</p>
+                <p className={classes.Description}>For the people who are interested in extracting insightful information from structured as well as unstructured data and want to switch careers in Machine Learning to become a Data Scientist.</p>
                 <Curriculum2Item title="Python - 5 Sessions" topic1="Array-Based Problems" topic2="Linked lists" section={section1} />
                 <Curriculum2Item title="Mathematics & Statistics - 10 Sessions" topic1="ReactJS" topic2="ExpressJS" section={section2} />
                 <Curriculum2Item title="Exploratory Data Analysis - 7 Sessions" topic1="NodeJS" topic2="MongoDB" section={section3} />

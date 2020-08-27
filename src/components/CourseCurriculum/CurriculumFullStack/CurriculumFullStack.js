@@ -79,7 +79,7 @@ class CurriculumFullStack extends React.Component{
         return(
             <div className={classes.CurriculumFullStack} id="curriculum">
                 <p className={classes.title}>Course Curriculum</p>
-                <p className={classes.Description}>There are professionals in the industry who have worked in Testing, Maintenance, Ops, System Admin, who are looking forward to work in startups with good work in the field of full-stack web development</p>
+                <p className={classes.Description}>Made for those with a passion for design, development and programming expertise, this course enables the average working professional to learn FullStack from scratch, with Industry-relevant projects and live exposure to both Client & Server-side Technologies like React, JavaScript, NodeJs, AWS and Git.</p>
                 <Curriculum2Item title="Module 1"  section={section1} />
                 <Curriculum2Item title="Module 2"  section={section2} />
                 <Curriculum2Item title="Module 3"  section={section3} />
