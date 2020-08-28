@@ -6,7 +6,7 @@ import ModalPhoneBottom from '../ModalPhone/ModalPhoneBottom'
 const PhoneBottom  = (props) => {
     return(
         <div className={classes.Container}>
-            <a className={classes.Phone} href="tel:8884404844" >
+            <a className={classes.Phone} href="tel:8116029289" >
                 <ion-icon name="call"></ion-icon>
                 <span className={classes.LabelCall}>Call</span>
             </a>
