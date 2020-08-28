@@ -25,6 +25,7 @@ import ReactPixel from 'react-facebook-pixel';
 import TagManager from 'react-gtm-module'
 
 import ReactGA from 'react-ga';
+import PhoneBottom from '../../components/PhoneBottom/PhoneBottom'
 ReactGA.initialize('UA-135901251-2');
 ReactGA.pageview(window.location.pathname + window.location.search);
 
@@ -55,6 +56,7 @@ const CourseDataScience = (props) => {
             {/* <MentorsDSAdvanced /> */}
             <JobReadyDSAdvanced />
             <FeedbackSliderDSA />
+            <PhoneBottom />
             <CurriculumDSAdvanced />
             {/*  <StudentCarouselDSA />*/}
             

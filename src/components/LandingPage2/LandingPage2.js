@@ -14,8 +14,8 @@ const LandingPage2 = () => (
                 <p>CodeAsylums | <span>Ace</span></p>
                 <p>Live Mentoring | Career Focused | Online</p>
                 <p>The best coding bootcamp in India</p>
-                <p>Data Structures | Algorithms | System Design  | Competitive Programming | Data Science | </p>
-                <p> Full-Stack Development </p>
+                <p>Data Structures and Algorithms | Full Stack Web Development </p>
+                <p> Data Analytics | Data Science with Machine Learning </p>
                 
                 <ModalPhone />
                 <a href="#CoursesSection"><button className={classes.ApplyButton} >Explore</button></a>

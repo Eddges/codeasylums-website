@@ -15,8 +15,8 @@ const MenuModal = () => {
             <div className="Courses">
                 <ul>
                     <li>Software Development Track </li>
-                    <li><a href="/fullstack">Full Stack Web Development from Scratch</a> <span className="new">popular</span></li>
-                    <li><a href="/dsa">Data Science and Algorithms </a><span className="new">new</span></li>
+                    <li><a href="/fullstack">Full Stack Web Development from scratch</a> <span className="new">popular</span></li>
+                    <li><a href="/dsa">Data Structures and Algorithms from scratch </a><span className="new">new</span></li>
                 </ul>
             </div>
             <div className="Courses">
@@ -36,7 +36,7 @@ const MenuModal = () => {
             </div>
             <div className="lineDiv"></div>
         <div className="lowerDiv">
-            <p className="help">Want to know more about courses? Call us on <span className="explore">8505885570</span></p>
+            <p className="help">Want to know more about courses? Call us on <span className="explore">8884404844</span></p>
         </div>
         </div>
     )

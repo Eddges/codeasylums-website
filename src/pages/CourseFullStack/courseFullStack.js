@@ -29,6 +29,8 @@ import ReactPixel from 'react-facebook-pixel';
 import TagManager from 'react-gtm-module'
 
 import ReactGA from 'react-ga';
+import PhoneBottom from '../../components/PhoneBottom/PhoneBottom'
+// import PhoneBottomCourses from '../../components/PhoneBottom/PhoneBottomCourses'
 ReactGA.initialize('UA-135901251-2');
 ReactGA.pageview(window.location.pathname + window.location.search);
 
@@ -54,6 +56,7 @@ const CourseFullStack = (props) => {
             <BGClick />
             <Page2Top course="fullstack" title="Full-Stack Web Development" top="Online | 3 Months | Live Mentorship | Interview + Job Assistance" line1="From Scratch" line2="Become a Full-Stack developer to skill up & get a job" line3_1 = "₹ 37,000" line3_2 = "₹ 40,000" type="fullstack" illustration={fullStackBG} />
             <CodeAsylumsAdvantageFullStack />
+            <PhoneBottom />
             {/* <Parallax1 /> */}
             {/* <MentorsFullStack /> */}
             <JobReadyFullStack />

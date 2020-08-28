@@ -22,6 +22,7 @@ import goyal from './goyal.jpeg';
 import sureka from './sureka.jpg';
 import pathak from './pathak.jpg';
 import karan from './karan.jpg';
+import PhoneBottom from '../PhoneBottom/PhoneBottom';
 
 
 const TeamSection = () => {
@@ -31,6 +32,7 @@ const TeamSection = () => {
             <Navbar />
             <MenuModal />
             <BGClick />
+            <PhoneBottom />
             </div>
             <div class="wrapper-heading">
         <p class="heading">Meet Our <span className = "redtext">Team</span></p>

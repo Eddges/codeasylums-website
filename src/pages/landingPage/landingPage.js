@@ -26,6 +26,7 @@ import Lead from '../../components/Lead/Lead'
 import Modalpop from '../../components/Modal/Modal'
 import FeedbackSliderFullStack from '../../components/FeedbackSlider/FeedbackSliderFullStack/FeedbackSliderFullStack'
 import ReactPixel from 'react-facebook-pixel';
+import PhoneBottom from '../../components/PhoneBottom/PhoneBottom'
 //import ReactPixel from 'react-facebook-pixel';
 const advancedMatching = {};
 const options = {
@@ -47,6 +48,7 @@ class LandPage extends React.Component {
                     <LandingPage2 />
                     <Courses />
                     <FeedbackSliderFullStack />
+                    <PhoneBottom />
                     {/* <Mission /> */}
                     <Companies />
                     <SupportBanner />

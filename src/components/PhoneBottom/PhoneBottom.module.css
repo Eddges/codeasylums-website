@@ -1,0 +1,57 @@
+.Container{
+    display : none;
+}
+
+
+
+@media(max-width : 576px) {
+    .Container{
+        z-index: 1000;
+        display : flex;
+        position : fixed;
+        bottom : 0px;
+        width : 100%;
+        height : 40px;
+        background-color : white;
+        box-shadow : 0px 0px 8px rgba(0, 0, 0, 0.219);
+        color: #d64045;
+    }
+
+    .Container .Phone{
+        width : 40%;
+        display : flex;
+        align-items: center;
+        justify-content: center;
+        color: #d64045;
+        text-decoration: none;
+    }
+
+    .Container .Phone ion-icon{
+        margin-left : 10%;
+        font-size : 1.2rem;
+    }
+
+    .Container .Phone .LabelCall{
+        font-size : 1.2rem;
+        margin-left : 10px;
+    }
+
+
+    .Container .Callback{
+        width : 60%;
+        display : flex;
+        align-items: center;
+        justify-content: center;
+        color: #d64045;
+        text-decoration: none;
+    }
+    .Container .Callback ion-icon{
+        margin-left : 10%;
+        font-size : 1.2rem;
+    }
+
+    .Container .Callback .LabelCallback{
+        font-size : 1.2rem;
+        margin-left : 10px;
+    }
+}

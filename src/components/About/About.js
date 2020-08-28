@@ -6,6 +6,7 @@ import codebg from '../../assets/aboutvideo.webm'
 import MenuModal from '../MenuModal/MenuModal'
 import BGClick from '../BGClick/BGClick'
 import Footer from '../Footer_Section/Footer'
+import PhoneBottom from '../PhoneBottom/PhoneBottom'
 
 const About = (props) => {
     return(
@@ -13,6 +14,7 @@ const About = (props) => {
             <Navbar />
             <MenuModal />
             <BGClick />
+            <PhoneBottom />
             {/* <div className={classes.bg}>
                 <div className={classes.gradient}></div>
                 <video className={classes.bg} preload="auto" autobuffer="autobuffer" autoplay="autoplay" loop="loop" muted >

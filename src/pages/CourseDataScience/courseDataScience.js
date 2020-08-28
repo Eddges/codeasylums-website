@@ -29,6 +29,7 @@ import TagManager from 'react-gtm-module'
 
 import ReactGA from 'react-ga';
 import StudentCarousel from '../../components/StudentCarousel/StudentCarousel'
+import PhoneBottom from '../../components/PhoneBottom/PhoneBottom'
 ReactGA.initialize('UA-135901251-2');
 ReactGA.pageview(window.location.pathname + window.location.search);
 
@@ -60,6 +61,7 @@ const CourseDataAnalytics = (props) => {
             <JobReadyDataScience />
             <FeedbackSliderDataScience />
             <CurriculumDataScience/>
+            <PhoneBottom />
             {/* <StudentCarouselDataScience /> */}
             {/* <StudentCarousel /> */}
             
