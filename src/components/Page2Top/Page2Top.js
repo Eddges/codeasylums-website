@@ -110,6 +110,7 @@ class Page2Top extends React.Component {
             alert("Email and Phone are required. Kindly fill the details!")
         }
         else{
+            // console.log(`https://apiace.codeasylums.com/api/saveLead?fname=${this.state.fname}&lname=${this.state.lname}&email=${this.state.email}&phone=${this.state.phone}&course=${this.state.course}&exp=${this.state.exp}&city=${this.state.city}&designation=${this.state.designation}&company=${this.state.company}`)
             axios.get(`https://apiace.codeasylums.com/api/saveLead?fname=${this.state.fname}&lname=${this.state.lname}&email=${this.state.email}&phone=${this.state.phone}&course=${this.state.course}&exp=${this.state.exp}&city=${this.state.city}&designation=${this.state.designation}&company=${this.state.company}`)
             .then((response, reject) => {
                 alert("Thanks, Will get back to you soon.");

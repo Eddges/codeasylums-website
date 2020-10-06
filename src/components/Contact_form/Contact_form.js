@@ -75,6 +75,7 @@ class Contact_form extends React.Component {
         }
 
         else{
+            // console.log(`https://apiace.codeasylums.com/api/saveLead?fname=${this.state.fname}&lname=${this.state.lname}&email=${this.state.email}&phone=${this.state.phone}&course=${this.state.course}&exp=${this.state.exp}`)
 
             // console.log(`http://localhost:4001/api/saveLead?fname=${this.state.fname}&lname=${this.state.lname}&email=${this.state.email}&phone=${this.state.phone}&course=fullstaack&exp=1-2`)
             // axios.get(`http://localhost:4001/api/saveLead?fname=${this.state.fname}&lname=${this.state.lname}&email=${this.state.email}&phone=${this.state.phone}&course=fullstaack&exp=1-2`)
@@ -120,7 +121,7 @@ class Contact_form extends React.Component {
                                 </div>
                                 <div className = {styles.phonearea}>
                                     <label>Phone</label>
-                                    <input type = "text" placeholder="+91 8116029289" onChange={(e)=> this.phoneChange(e)} />
+                                    <input type = "text" placeholder="+91 7406777765" onChange={(e)=> this.phoneChange(e)} />
                                 </div>
                             </div>
                             <button type="button" className={styles.time} onClick={this.handleClick}>Submit</button>

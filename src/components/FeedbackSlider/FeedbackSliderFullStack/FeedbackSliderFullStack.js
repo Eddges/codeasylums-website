@@ -41,7 +41,7 @@ const FeedbackSliderFullStack = (props) => {
             {/* <div class ="headertestimonial">
                 <p>OUR TESTIMONIALS</p>
             </div> */}
-            <div class="testimonials_section" id="testimonials">
+            <div class="testimonials_section" id="protestimonials">
 
         <div class="containerSlider">
             <div class="carouselSlider">

@@ -36,7 +36,7 @@ const MenuModal = () => {
             </div>
             <div className="lineDiv"></div>
         <div className="lowerDiv">
-            <p className="help">Want to know more about courses? Call us on <span className="explore">8116029289</span></p>
+            <p className="help">Want to know more about courses? Call us on <span className="explore">7406777765</span></p>
         </div>
         </div>
     )

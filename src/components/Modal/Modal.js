@@ -97,6 +97,7 @@ function Modalpop(){
       alert("Email and Phone Number are required fields. Kindly make sure to fill them!")
   }
   else{
+    // console.log(`https://apiace.codeasylums.com/api/saveLead?fname=${fname}&lname=${lname}&email=${email}&phone=${phone}&course=${course}&exp=${exp}`)
       axios.get(`https://apiace.codeasylums.com/api/saveLead?fname=${fname}&lname=${lname}&email=${email}&phone=${phone}&course=${course}&exp=${exp}`)
       .then((response, reject) => {
        // document.getElementById('processing').style.display='block';
