@@ -4,6 +4,8 @@ import Modal from 'react-modal'
 import logo from './illustration.png'
 import axios from 'axios'
 import ReactPixel from 'react-facebook-pixel';
+import {Spinner} from 'react-spinners-css'
+
 const advancedMatching = {}; // optional, more info: https://developers.facebook.com/docs/facebook-pixel/advanced/advanced-matching
 const options = {
 autoConfig: true, // set pixel's autoConfig
@@ -13,6 +15,7 @@ ReactPixel.init('2710640059047495', advancedMatching, options);
 
 function ModalPhone(){
   const [modalIsOpen, setModalIsOpen] = useState(false);
+  const [showLoader, toggleLoader] = useState(false)
   // const [data, setData] = useState({
   //   fname : "",
   //   lname : "",
@@ -106,10 +109,15 @@ function ModalPhone(){
       alert("Email and Phone are required fields. Kindly make sure they are filled!")
   }
   else{
+    toggleLoader({
+      showLoader : true
+    })
     // console.log(`https://apiace.codeasylums.com/api/saveLead?fname=${fname}&lname=${lname}&email=${email}&phone=${phone}&course=${course}&exp=${exp}`)
       axios.get(`https://apiace.codeasylums.com/api/saveLead?fname=${fname}&lname=${lname}&email=${email}&phone=${phone}&course=${course}&exp=${exp}`)
       .then((response, reject) => {
-        
+        toggleLoader({
+          showLoader : false
+        })
         alert("Thanks, Will get back to you soon.");
         ReactPixel.track('SubmitButton', {
           email: email,
@@ -129,6 +137,13 @@ function ModalPhone(){
         <div className = "left">
           <img src = {logo}/>
           </div>
+          {
+            showLoader &&
+            <div className= "CssLoader">
+              <Spinner size="200" color="#fff" />
+            </div>
+          }
+          
           <div className = "right">
             { <p>Request for Callback<br></br>And get reply with in 24 hours!</p> }
             <form>

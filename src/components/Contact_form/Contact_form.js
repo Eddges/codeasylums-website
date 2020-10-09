@@ -2,6 +2,8 @@ import React from 'react';
 import styles from './Contact_form.module.css';
 import axios from 'axios'
 import ReactPixel from 'react-facebook-pixel';
+import {Spinner} from 'react-spinners-css'
+
 const advancedMatching = {}; // optional, more info: https://developers.facebook.com/docs/facebook-pixel/advanced/advanced-matching
 const options = {
 autoConfig: true, // set pixel's autoConfig
@@ -34,7 +36,8 @@ class Contact_form extends React.Component {
         email : "",
         phone : "", 
         course : "query",
-        exp : ""
+        exp : "",
+        showLoader : false
     }
 
     nameChange = (e) => {
@@ -75,12 +78,22 @@ class Contact_form extends React.Component {
         }
 
         else{
+
+            this.setState({
+                ...this.state,
+                showLoader : true
+            })
             // console.log(`https://apiace.codeasylums.com/api/saveLead?fname=${this.state.fname}&lname=${this.state.lname}&email=${this.state.email}&phone=${this.state.phone}&course=${this.state.course}&exp=${this.state.exp}`)
 
             // console.log(`http://localhost:4001/api/saveLead?fname=${this.state.fname}&lname=${this.state.lname}&email=${this.state.email}&phone=${this.state.phone}&course=fullstaack&exp=1-2`)
             // axios.get(`http://localhost:4001/api/saveLead?fname=${this.state.fname}&lname=${this.state.lname}&email=${this.state.email}&phone=${this.state.phone}&course=fullstaack&exp=1-2`)
             axios.get(`https://apiace.codeasylums.com/api/saveLead?fname=${this.state.fname}&lname=${this.state.lname}&email=${this.state.email}&phone=${this.state.phone}&course=${this.state.course}&exp=${this.state.exp}`)
             .then((response, reject) => {
+
+                this.setState({
+                    ...this.state,
+                    showLoader : false
+                })
                 alert("Thanks, Will get back to you soon.");
                
                 ReactPixel.track('SubmitButton', {
@@ -94,6 +107,13 @@ class Contact_form extends React.Component {
 
         return(
             <div id="procallback">
+            {
+                this.state.showLoader &&
+                <div className={styles.CssLoader}>
+                    <Spinner size="200" color="#fff" />
+                </div>
+            }
+                
                 <div className = {styles.contact_container}>
                     <div className = {styles.left_container}>
                         <p className={styles.heading}>Have a query?</p>

@@ -9,6 +9,7 @@ import classes from './Page2Top.module.css'
 // import microsoft from '../../assets/companies/microsoft.png'
 import axios from 'axios'
 import ReactPixel from 'react-facebook-pixel';
+import {Spinner} from 'react-spinners-css'
 const advancedMatching = {}; // optional, more info: https://developers.facebook.com/docs/facebook-pixel/advanced/advanced-matching
 const options = {
 autoConfig: true, // set pixel's autoConfig
@@ -36,7 +37,8 @@ class Page2Top extends React.Component {
         exp : "",
         city : "",
         designation : "",
-        company : ""
+        company : "",
+        showLoader : false
     }
 
     changeExp = (e) => {
@@ -110,9 +112,17 @@ class Page2Top extends React.Component {
             alert("Email and Phone are required. Kindly fill the details!")
         }
         else{
+            this.setState({
+                ...this.state,
+                showLoader : true
+            })
             // console.log(`https://apiace.codeasylums.com/api/saveLead?fname=${this.state.fname}&lname=${this.state.lname}&email=${this.state.email}&phone=${this.state.phone}&course=${this.state.course}&exp=${this.state.exp}&city=${this.state.city}&designation=${this.state.designation}&company=${this.state.company}`)
             axios.get(`https://apiace.codeasylums.com/api/saveLead?fname=${this.state.fname}&lname=${this.state.lname}&email=${this.state.email}&phone=${this.state.phone}&course=${this.state.course}&exp=${this.state.exp}&city=${this.state.city}&designation=${this.state.designation}&company=${this.state.company}`)
             .then((response, reject) => {
+                this.setState({
+                    ...this.state,
+                    showLoader : false
+                })
                 alert("Thanks, Will get back to you soon.");
                 ReactPixel.track('SubmitButton', {
                     email: this.state.email,
@@ -128,6 +138,14 @@ class Page2Top extends React.Component {
     render() {
         return(
             <div className={classes.Wrapper}>
+            {
+                this.state.showLoader 
+                &&
+                <div className={classes.CssLoader}>
+                    <Spinner color="#fff" size="200" />
+                </div>
+            }
+            
             <div className={classes.marginDiv}></div>
                 <div className={classes.Page2Top}>
                     <img src={this.state.illustration} alt="Student Image" />

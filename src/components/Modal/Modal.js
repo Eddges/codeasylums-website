@@ -4,6 +4,8 @@ import Modal from 'react-modal'
 import logo from './illustration.png'
 import axios from 'axios'
 import ReactPixel from 'react-facebook-pixel';
+import {Spinner} from 'react-spinners-css'
+
 const advancedMatching = {}; // optional, more info: https://developers.facebook.com/docs/facebook-pixel/advanced/advanced-matching
 const options = {
 autoConfig: true, // set pixel's autoConfig
@@ -22,6 +24,8 @@ function Modalpop(){
   let city = "";
   let designation = "";
   let company = "";
+
+  const [showLoader, toggleLoader] = useState(false)
 
   const nameChange = (e) =>{
     const name = e.target.value.split(" ")
@@ -97,10 +101,16 @@ function Modalpop(){
       alert("Email and Phone Number are required fields. Kindly make sure to fill them!")
   }
   else{
+    toggleLoader({
+      showLoader : true
+    })
     // console.log(`https://apiace.codeasylums.com/api/saveLead?fname=${fname}&lname=${lname}&email=${email}&phone=${phone}&course=${course}&exp=${exp}`)
       axios.get(`https://apiace.codeasylums.com/api/saveLead?fname=${fname}&lname=${lname}&email=${email}&phone=${phone}&course=${course}&exp=${exp}`)
       .then((response, reject) => {
        // document.getElementById('processing').style.display='block';
+       toggleLoader({
+         showLoader : false
+       })
         alert("Thanks, Will get back to you soon.");
         ReactPixel.track('SubmitButton', {
           email: email,
@@ -117,12 +127,19 @@ function Modalpop(){
   const [modalIsOpen, setModalIsOpen] = useState(false);
   return(
     <div className = 'modal-root'>
+    {showLoader ? 
+            <div className="CssLoader">
+              <Spinner color="#fff" size={200} />
+            </div> : null
+          }
       <button className = "btnModal" onClick={() => setModalIsOpen(true)}>Request Callback</button>
       <Modal isOpen = {modalIsOpen} onRequestClose={()=>setModalIsOpen(true)} className = "wrapper_modal">
         {/* <div className = "wrapper_modal"> */}
         <div className = "desktop-left">
           <img src = {logo}/>
           </div>
+          
+          
           <div className = "desktop-right">
             {/* { <p>Contact us today <br></br>and get reply with in 24 hours!</p> } */}
             <form>
