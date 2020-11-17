@@ -38,18 +38,18 @@ const FeedbackSliderDataScience= (props) => {
             {/* <div class ="headertestimonial">
                 <p>OUR TESTIMONIALS</p>
             </div> */}
-            <div class="testimonials_section" id="testimonials">
+            <div className="testimonials_section" id="testimonials">
 
-        <div class="containerSlider">
-            <div class="carouselSlider">
-              <div class="sliderMain">
+        <div className="containerSlider">
+            <div className="carouselSlider">
+              <div className="sliderMain">
               {cards}
               </div>
-              <div class="controls">
-                <button class="next"><i class="material-icons">
+              <div className="controls">
+                <button className="next"><i className="material-icons">
           keyboard_arrow_right
           </i></button>
-                <button class="prev"><i class="material-icons">
+                <button className="prev"><i className="material-icons">
           {/* keyboard_arrow_left */}
           </i></button>
               </div>

@@ -6,12 +6,12 @@ class Curriculum2Item extends React.Component{
 
     render() {
 
-    let links = this.props.section.map(iterator => {
+    let links = this.props.section.map((iterator, index) => {
         return(
-                <div className={classes.expand1}>
+                <div key={index} className={classes.expand1}>
                         <div className="CurriculumLink">
                             <span>{iterator.link}</span>
-                            <span class="accRotate">+</span>
+                            <span className="accRotate">+</span>
                         </div>
                         <div className="CurriculumAnswer">{iterator.details}</div>
                     </div>

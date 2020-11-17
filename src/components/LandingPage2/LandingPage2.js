@@ -22,7 +22,7 @@ const LandingPage2 = () => (
                 <div className="introSS"></div>
             </div>
             <div className={classes.gradient}></div>
-            <video className={classes.bg} preload="auto" autobuffer="autobuffer" autoplay="autoplay" loop="loop" muted >
+            <video className={classes.bg} preload="auto" autobuffer="autobuffer" autoPlay="autoplay" loop="loop" muted >
                 {/* <source src={video2} type="video/mp4" /> */}
                 <source src={video1} type="video/webm" />
                 

@@ -5,9 +5,9 @@ import styles from './Banner.module.css';
 const Banner = (props) =>{
     return(
         <div>
-        <div class={styles.wrapper}>
-        <div class={styles.banner}>
-            <div class={styles.left}>
+        <div className={styles.wrapper}>
+        <div className={styles.banner}>
+            <div className={styles.left}>
                <h2> We'd love to hear from you info@codeasylums.com</h2>
                <p>
                    <span>
@@ -19,13 +19,13 @@ const Banner = (props) =>{
                
                </p>
             </div>
-            <div class={styles.right}>
+            <div className={styles.right}>
                 <a href="/#procallback">
-                    <button class={styles.button}>Talk to us</button>
+                    <button className={styles.button}>Talk to us</button>
                 </a>
                 
                 <a href = "mailto: info@codeasylums.com">
-                <button class={styles.button}>Explore more</button>
+                <button className={styles.button}>Explore more</button>
                 </a>
                 
             </div>

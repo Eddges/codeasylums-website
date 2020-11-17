@@ -8,8 +8,8 @@ import logo from './medium.png'
 const Footer = () => {
     return(
         <>
-        <div class={styles.footer_section}>
-        <div class={styles.col}>
+        <div className={styles.footer_section}>
+        <div className={styles.col}>
             <h1>COURSES</h1>
             <a href="/fullstack"><p>Full Stack Web Development</p></a>
             {/* <a href="/fullstackadvanced"><p>Advanced Full Stack Development</p></a> */}
@@ -17,23 +17,22 @@ const Footer = () => {
             <a href="/danalytics"><p>Data Analytics</p></a>
             <a href="/datascience"><p>Data Science with Machine Learning</p></a>
         </div>
-        <div class={styles.col}>
+        <div className={styles.col}>
             <h1>ABOUT US</h1>
             <p><a href="/about">About CodeAsylums</a></p>
             <p><a href="/team">Meet the Team</a></p>
             <p>Jobs</p>
             <p><a href="mailto:saurav@codeasylums.com">Become a Mentor</a></p>
         </div>
-        <div class={styles.col}>
+        <div className={styles.col}>
             <h1>CONTACT</h1>
             <p>Email us:</p>
             <p>info@codeasylums.com</p>
             <p>Call us:</p>
-            <p>+917406777765</p>
             <p>+917651973038</p>
             
         </div>
-        <div class={styles.col}>
+        <div className={styles.col}>
             <h1>FOLLOW US</h1>
             <div className = {styles.col_facebook}>
             <img src="https://img.icons8.com/offices/30/000000/facebook-new.png"/>
@@ -58,9 +57,9 @@ const Footer = () => {
            
         </div>
     </div>
-    <div class={styles.footer_down}>
+    <div className={styles.footer_down}>
        
-        <div class={styles.col2}>
+        <div className={styles.col2}>
             <p>CodeAsylums 2020</p>
         </div>
        

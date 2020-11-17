@@ -141,7 +141,7 @@ class Contact_form extends React.Component {
                                 </div>
                                 <div className = {styles.phonearea}>
                                     <label>Phone</label>
-                                    <input type = "text" placeholder="+91 7406777765" onChange={(e)=> this.phoneChange(e)} />
+                                    <input type = "text" placeholder="+91 9988776655" onChange={(e)=> this.phoneChange(e)} />
                                 </div>
                             </div>
                             <button type="button" className={styles.time} onClick={this.handleClick}>Submit</button>
