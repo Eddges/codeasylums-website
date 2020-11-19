@@ -13,13 +13,13 @@ const BatchdetailsDSA = () => {
             <div className={styles.wrapper}>
         
         
-        {/* <Box date = "16"  month = "May"  coursename = "Data Science and Machine Learning" status = "Seats Filling" count = "12/15 students"/> */}
+        {/* <Box date = "16"  month = "May"  coursename = "Data Structures and Algorithms" status = "Seats Filling" count = "12/15 students"/> */}
         {/* <!-- 2 --> */}
-        <Box date = "05" month = "Sept"  coursename = "Data Science and Machine Learning" status = "Seats Filling" count = "13/15 students"/>
+        <Box date = "05" month = "Dec"  coursename = "Data Structures and Algorithms" status = "Seats Filling" count = "13/15 students"/>
         {/* <!-- 3 --> */}
-        <Box date = "05" month = "Oct"  coursename = "Data Science and Machine Learning" status = "Open" count = "7/15 students"/>
+        <Box date = "05" month = "Jan"  coursename = "Data Structures and Algorithms" status = "Open" count = "7/15 students"/>
         {/* <!-- 4 --> */}
-        <Box date = "05" month = "Nov"  coursename = "Data Science and Machine Learning" status = "Open" count = "5/15 students"/>
+        <Box date = "05" month = "Feb"  coursename = "Data Structures and Algorithms" status = "Open" count = "5/15 students"/>
         {/* <Box date = "19" month = "February"  coursename = "Machine Learning Lessson #43" status = "Booking Ended" count = "200/200tickets sold"/> */}
 
 

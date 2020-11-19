@@ -26,6 +26,7 @@ import TagManager from 'react-gtm-module'
 
 import ReactGA from 'react-ga';
 import PhoneBottom from '../../components/PhoneBottom/PhoneBottom'
+import BatchdetailsDataScience from '../../components/Batchdetails/BatchDetailsDataScience/BatchdetailsDataScience'
 ReactGA.initialize('UA-135901251-2');
 ReactGA.pageview(window.location.pathname + window.location.search);
 
@@ -60,7 +61,7 @@ const CourseDataScience = (props) => {
             <CurriculumDSAdvanced />
             {/*  <StudentCarouselDSA />*/}
             
-            <BatchdetailsDSA/>
+            <BatchdetailsDataScience/>
             {/* <CourseTestimonials /> */}
             
             {/* <BubblesDSA /> */}
