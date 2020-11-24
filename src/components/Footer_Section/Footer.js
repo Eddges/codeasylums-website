@@ -30,6 +30,7 @@ const Footer = () => {
             <p>info@codeasylums.com</p>
             <p>Call us:</p>
             <p>+917651973038</p>
+            <p>+919971947591</p>
             
         </div>
         <div className={styles.col}>
