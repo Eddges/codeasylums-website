@@ -99,24 +99,25 @@ function Modalpop(){
   const handleClick = () => {
     if(phone===""){
       alert("Email and Phone Number are required fields. Kindly make sure to fill them!")
-  }
-  else{
-    toggleLoader({
-      showLoader : true
-    })
-    // console.log(`https://apiace.codeasylums.com/api/saveLead?fname=${fname}&lname=${lname}&email=${email}&phone=${phone}&course=${course}&exp=${exp}`)
+    }
+    else{
+      setModalIsOpen(false);
+      toggleLoader(true)
+
+      // console.log(`https://apiace.codeasylums.com/api/saveLead?fname=${fname}&lname=${lname}&email=${email}&phone=${phone}&course=${course}&exp=${exp}`)
       axios.get(`https://apiace.codeasylums.com/api/saveLead?fname=${fname}&lname=${lname}&email=${email}&phone=${phone}&course=${course}&exp=${exp}`)
       .then((response, reject) => {
-       // document.getElementById('processing').style.display='block';
-       toggleLoader({
-         showLoader : false
-       })
-        alert("Thanks, Will get back to you soon.");
+        
+        toggleLoader(false)
+        console.log('response : ', response.data)
         ReactPixel.track('SubmitButton', {
           email: email,
         });
-        setModalIsOpen(false);
-       
+        alert("Thanks, Will get back to you soon.");
+                
+      })
+      .catch(err => {
+        console.log('Error : ', err)
       })
   }
   }
@@ -127,11 +128,11 @@ function Modalpop(){
   const [modalIsOpen, setModalIsOpen] = useState(false);
   return(
     <div className = 'modal-root'>
-    {showLoader ? 
-            <div className="CssLoader">
-              <Spinner color="#fff" size={200} />
-            </div> : null
-          }
+      {showLoader ? 
+        <div className="CssLoader">
+          <Spinner color="#fff" size={200} />
+        </div> : null
+      }
       <button className = "btnModal" onClick={() => setModalIsOpen(true)}>Request Callback</button>
       <Modal isOpen = {modalIsOpen} onRequestClose={()=>setModalIsOpen(true)} className = "wrapper_modal">
         {/* <div className = "wrapper_modal"> */}
@@ -151,7 +152,7 @@ function Modalpop(){
               <input type="text" placeholder="Phone" onChange={(e)=> phoneChange(e)} />
               <label>Company</label>
               <input type="text" placeholder="Company" onChange={(e)=> companyChange(e)} />
-              <div class="modalRow">
+              <div className="modalRow">
                 <section>
                   <label>City</label>
                   <input type="text" placeholder="City" onChange={(e)=> cityChange(e)} />
@@ -182,7 +183,7 @@ function Modalpop(){
                   <option>3-5 Years</option>
                   <option>More than 5 Years</option>
               </select>
-              <div id="processing" class="process">processing..</div>
+              <div id="processing" className="process">processing..</div>
               <button type="button" className = "btn" onClick={handleClick} >Request Callback</button>
             </form>
             <button className = "btnClose" onClick={() => setModalIsOpen(false)}>

@@ -119,6 +119,7 @@ class Page2Top extends React.Component {
             // console.log(`https://apiace.codeasylums.com/api/saveLead?fname=${this.state.fname}&lname=${this.state.lname}&email=${this.state.email}&phone=${this.state.phone}&course=${this.state.course}&exp=${this.state.exp}&city=${this.state.city}&designation=${this.state.designation}&company=${this.state.company}`)
             axios.get(`https://apiace.codeasylums.com/api/saveLead?fname=${this.state.fname}&lname=${this.state.lname}&email=${this.state.email}&phone=${this.state.phone}&course=${this.state.course}&exp=${this.state.exp}&city=${this.state.city}&designation=${this.state.designation}&company=${this.state.company}`)
             .then((response, reject) => {
+                console.log('Response', response.data)
                 this.setState({
                     ...this.state,
                     showLoader : false
