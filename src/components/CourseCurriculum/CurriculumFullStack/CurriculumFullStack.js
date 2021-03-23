@@ -9,7 +9,7 @@ class CurriculumFullStack extends React.Component{
         const section1 = [
             {
                 link : "Very basic starting implementation of HTML, CSS, JavaScript, Nodejs",
-                details : "Progate Subscription (3 Months)"
+                details : "Get started with the fundamentals of how the web and the Internet works."
             },
             {
                 link : "HTML, CSS, Bootstrap - 5 Sessions",
@@ -33,10 +33,18 @@ class CurriculumFullStack extends React.Component{
             {
                 link : "AdvanceJS - 5 Sessions",
                 details : "Closures, Promises, Bind, Call, Apply, Async, Await, Classes, Destructuring, the Spread operator"
+            },
+            {
+                link: "ReactJS",
+                details: "ReactJS is a powerful JavaScript library that makes writing and maintaining dynamic applications much easier"
             }
         ]
 
         const section4 = [
+            {
+                link: "ReactJS (contd)",
+                details: "Dive deeper into the world o"
+            },
             {
                 link : "NodeJs & MongoDB- 5 Sessions",
                 details : "Error handling, node, npm, webpack implementation, CRUD operation, APIs, Integration of Javascript with nodejs, Postman, Queries, DB integrations in NodeJS, DataBase Design"
