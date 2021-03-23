@@ -9,6 +9,7 @@ import BGClick from '../BGClick/BGClick'
 import closeBtn from '../../assets/close.svg'
 import Modalpop from '../Modal/Modal'
 import ModalPhone from '../ModalPhone/ModalPhone'
+import { homeURL } from '../../config/urls'
 
 
 class Navbar extends React.Component {
@@ -21,16 +22,16 @@ class Navbar extends React.Component {
                     <div className="Items">
                         <ul className="NavItems">
                             <li className="CloseNavMobile"><img src={closeBtn} alt="Close"/></li>
-                            <li><a href="/">HOME</a></li>
+                            <li><a href={ homeURL }>HOME</a></li>
                             <div className="navLine"></div>
-                            <li><a href="/#CoursesSection">COURSES</a></li>
+                            <li><a href={ homeURL + '#offlineBootcampsContainer'}>COURSES</a></li>
                             <div className="navLine"></div>
-                            <li><a href="/#proplacements">PLACEMENTS</a></li>
+                            <li><a href={ homeURL + '#placements'}>PLACEMENTS</a></li>
                             <div className="navLine"></div>
                             <li><a href="/about">ABOUT US</a></li>
-                            <div className="navLine"></div>
-                            <li><a href="/#procallback">CONTACT</a></li>
-                            <div className="navLine"></div>
+                            {/* <div className="navLine"></div> */}
+                            {/* <li><a href="/#procallback">CONTACT</a></li> */}
+                            {/* <div className="navLine"></div> */}
                             {/* <li><a className="linkApply" href="#procallback">APPLY</a></li> */}
                             <li><a className="linkApply" href="mailto:saurav@codeasylums.com">APPLY AS MENTOR</a></li>
 
@@ -42,21 +43,21 @@ class Navbar extends React.Component {
             <nav className="Navbar nav-scrolled">
                 
                 <div className="imageDiv">
-                    <a href="/"><img src={LogoWhite} alt="Logo" /></a>
+                    <a href={ homeURL }><img src={LogoWhite} alt="Logo" /></a>
                 </div>
                 <div className="imageDiv1">
-                    <a href="/"><img src={Logo} alt="Logo" /></a>
+                    <a href={ homeURL }><img src={Logo} alt="Logo" /></a>
                 </div>
     
                 <ul>
-                    <li><a href="/">HOME</a></li>
+                    <li><a href={ homeURL }>HOME</a></li>
 
-                    <li className="onlineCourses"><a>COURSES</a></li>
+                    <li className="onlineCourses"><a href={ homeURL + '#offlineBootcampsContainer'}>COURSES</a></li>
                     {/* <li className="onlineCourses"><NavLink to="/fullstack">ONLINE COURSES</NavLink></li> */}
                     {/* <li><a>OFFLINE COURSES</a></li> */}
-                    <li><a href="/#proplacements">PLACEMENTS</a></li>
+                    <li><a href={ homeURL + '#placements'}>PLACEMENTS</a></li>
                     <li><a href="#">ABOUT US</a></li>
-                    <li><a href="/#procallback">CONTACT</a></li>
+                    {/* <li><a href="#procallback">CONTACT</a></li> */}
 
                     
                 </ul>
