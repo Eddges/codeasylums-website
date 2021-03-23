@@ -9,6 +9,7 @@ import BGClick from '../BGClick/BGClick'
 import closeBtn from '../../assets/close.svg'
 import Modalpop from '../Modal/Modal'
 import ModalPhone from '../ModalPhone/ModalPhone'
+import { homeURL } from '../../config/urls'
 
 
 class Navbar extends React.Component {
@@ -21,7 +22,7 @@ class Navbar extends React.Component {
                     <div className="Items">
                         <ul className="NavItems">
                             <li className="CloseNavMobile"><img src={closeBtn} alt="Close"/></li>
-                            <li><a href="/">HOME</a></li>
+                            <li><a href={homeURL}>HOME</a></li>
                             <div className="navLine"></div>
                             <li><a href="#CoursesSection">COURSES</a></li>
                             <div className="navLine"></div>
@@ -42,14 +43,14 @@ class Navbar extends React.Component {
             <nav className="Navbar">
                 
                 <div className="imageDiv">
-                    <a href="/"><img src={LogoWhite} alt="Logo" /></a>
+                    <a href={ homeURL }><img src={LogoWhite} alt="Logo" /></a>
                 </div>
                 <div className="imageDiv1">
-                    <a href="/"><img src={Logo} alt="Logo" /></a>
+                    <a href={ homeURL }><img src={Logo} alt="Logo" /></a>
                 </div>
     
                 <ul>
-                    <li><a href="/">HOME</a></li>
+                    <li><a href={ homeURL }>HOME</a></li>
 
                     <li className="onlineCourses"><a>COURSES</a></li>
                     {/* <li className="onlineCourses"><NavLink to="/fullstack">ONLINE COURSES</NavLink></li> */}
