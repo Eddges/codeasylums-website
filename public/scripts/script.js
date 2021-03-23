@@ -55,13 +55,13 @@ $(document).ready(function(){
 
 
     
-    let onlineCounter=false;
-    $(".onlineCourses").click(function() {
-            $(".MenuModal").fadeToggle(300, function(){
-                onlineCounter=true;
-            })
-            $(".BGClick").addClass("showBGClick")
-    })
+    // let onlineCounter=false;
+    // $(".onlineCourses").click(function() {
+    //         $(".MenuModal").fadeToggle(300, function(){
+    //             onlineCounter=true;
+    //         })
+    //         $(".BGClick").addClass("showBGClick")
+    // })
 
 
     $(".BGClick").click(function() {

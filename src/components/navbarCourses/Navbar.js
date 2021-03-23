@@ -22,7 +22,7 @@ class Navbar extends React.Component {
                             <li className="CloseNavMobile"><img src={closeBtn} alt="Close"/></li>
                             <li><a href={ homeURL }>HOME</a></li>
                             <div className="navLine"></div>
-                            <li><a href="/#CoursesSection">COURSES</a></li>
+                            <li><a href={ homeURL + '#offlineBootcampsContainer'}>COURSES</a></li>
                             <div className="navLine"></div>
                             <li><a href="/about">ABOUT US</a></li>
                             <div className="navLine"></div>
@@ -50,7 +50,7 @@ class Navbar extends React.Component {
     
                 <ul>
                     <li><a href={ homeURL }>HOME</a></li>
-                    <li className="onlineCourses"><a >COURSES</a></li>
+                    <li className="onlineCourses"><a href={ homeURL + '#offlineBootcampsContainer'} >COURSES</a></li>
                     {/* <li className="onlineCourses"><NavLink to="/fullstack">ONLINE COURSES</NavLink></li> */}
                     {/* <li><a>OFFLINE COURSES</a></li> */}
                     <li><a href="#curriculum">CURRICULUM</a></li>
